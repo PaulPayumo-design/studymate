@@ -102,7 +102,7 @@ export default function SubjectsPage() {
   };
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto text-[#F8FAFC]">
+    <div className="space-y-6 max-w-7xl mx-auto text-[#F8FAFC] min-w-0 w-full overflow-hidden">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-[#26384D]">
         <div>
           <h1 className="text-2xl sm:text-3xl font-black text-[#F8FAFC] tracking-tight">

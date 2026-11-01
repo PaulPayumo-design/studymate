@@ -187,13 +187,13 @@ function FlashcardsStudyContent() {
       </div>
 
       {/* Progress & Mastery Sub-bar */}
-      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs">
-        <div className="flex items-center gap-3">
+      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-3.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs min-w-0 max-w-full overflow-hidden">
+        <div className="flex items-center gap-2.5 sm:gap-3 flex-1 min-w-0">
           <span className="text-xs font-bold text-[#142D4E] shrink-0">
             Card {activeDeck.length > 0 ? currentIndex + 1 : 0} of {activeDeck.length}
           </span>
           {/* Progress bar */}
-          <div className="w-48 sm:w-64 h-2.5 bg-[#EAF3FB] rounded-full overflow-hidden">
+          <div className="flex-1 min-w-[70px] max-w-[240px] h-2.5 bg-[#EAF3FB] rounded-full overflow-hidden">
             <div
               className="h-full bg-[#1685E8] rounded-full transition-all duration-300"
               style={{ width: `${progressPercent}%` }}
@@ -201,7 +201,7 @@ function FlashcardsStudyContent() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2.5 self-end sm:self-auto">
+        <div className="flex items-center gap-2.5 self-end sm:self-auto flex-wrap">
           <span className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
             {knownCount} Known
@@ -215,16 +215,16 @@ function FlashcardsStudyContent() {
 
       {/* 3D Interactive Flip Card */}
       {activeDeck.length === 0 ? (
-        <div className="bg-white rounded-3xl border border-[#DCEEFF] p-16 text-center space-y-3">
+        <div className="bg-white rounded-3xl border border-[#DCEEFF] p-12 sm:p-16 text-center space-y-3 min-w-0 max-w-full overflow-hidden">
           <HelpCircle className="w-12 h-12 text-[#93C5FD] mx-auto" />
           <h3 className="text-base font-bold text-[#142D4E]">No flashcards available in this selection</h3>
           <p className="text-xs text-[#64748B]">Please select a different module or choose &quot;All&quot;.</p>
         </div>
       ) : (
-        <div className="relative">
+        <div className="relative min-w-0 max-w-full overflow-hidden">
           <div
             onClick={() => setIsFlipped(!isFlipped)}
-            className="w-full min-h-[340px] sm:min-h-[380px] bg-white rounded-3xl border border-[#DCEEFF] shadow-lg shadow-[#142D4E]/5 hover:border-[#BFDBFE] hover:shadow-xl transition-all cursor-pointer relative p-8 flex flex-col justify-between select-none"
+            className="w-full min-h-[320px] sm:min-h-[380px] bg-white rounded-3xl border border-[#DCEEFF] shadow-lg shadow-[#142D4E]/5 hover:border-[#BFDBFE] hover:shadow-xl transition-all cursor-pointer relative p-5 sm:p-8 flex flex-col justify-between select-none min-w-0 max-w-full overflow-hidden"
           >
             {/* Peeking Cat Mascot Resting Paws on Card Top Right */}
             <div className="absolute -top-7 right-8 sm:right-12 z-20 pointer-events-none">
@@ -270,22 +270,22 @@ function FlashcardsStudyContent() {
       )}
 
       {/* Bottom Action Bar */}
-      <div className="flex items-center justify-between gap-3 pt-2">
+      <div className="flex flex-wrap items-center justify-between gap-2.5 sm:gap-3 pt-2">
         {/* Previous Button */}
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="py-2.5 px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] shadow-2xs"
+          className="py-2.5 px-4 sm:px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] shadow-2xs"
         >
           <ChevronLeft className="w-4 h-4" />
           <span>Previous</span>
         </button>
 
         {/* Center Mastery Buttons */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3 flex-wrap justify-center order-3 sm:order-none w-full sm:w-auto">
           <button
             onClick={() => currentCard && handleSetStatus(currentCard.id, 'need_review')}
-            className={`py-2.5 px-4 rounded-xl text-xs font-bold flex items-center gap-1.5 border transition-all duration-150 active:scale-[0.98] ${
+            className={`py-2 px-3 sm:py-2.5 sm:px-4 rounded-xl text-xs font-bold flex items-center gap-1.5 border transition-all duration-150 active:scale-[0.98] ${
               currentStatus === 'need_review'
                 ? 'bg-amber-100 text-amber-900 border-amber-300'
                 : 'bg-white hover:bg-[#FFFBEB] text-[#142D4E] border-[#BFDBFE]'
@@ -297,7 +297,7 @@ function FlashcardsStudyContent() {
 
           <button
             onClick={() => currentCard && handleSetStatus(currentCard.id, 'known')}
-            className={`py-2.5 px-5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all duration-150 active:scale-[0.98] shadow-sm ${
+            className={`py-2 px-3 sm:py-2.5 sm:px-4 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all duration-150 active:scale-[0.98] shadow-sm ${
               currentStatus === 'known'
                 ? 'bg-emerald-600 text-white'
                 : 'bg-[#1685E8] hover:bg-[#126ec2] text-white shadow-[#1685E8]/25'
@@ -312,7 +312,7 @@ function FlashcardsStudyContent() {
         <button
           onClick={handleNext}
           disabled={currentIndex >= activeDeck.length - 1}
-          className="py-2.5 px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] shadow-2xs"
+          className="py-2.5 px-4 sm:px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] shadow-2xs"
         >
           <span>Next</span>
           <ChevronRight className="w-4 h-4" />

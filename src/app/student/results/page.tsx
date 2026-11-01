@@ -170,7 +170,7 @@ export default function StudentResultsHistoryPage() {
   }, [user]);
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto pb-12">
+    <div className="space-y-6 max-w-6xl mx-auto pb-12 min-w-0 w-full overflow-hidden">
       {/* Header Bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2">
         <div className="flex items-center gap-3">
@@ -196,7 +196,7 @@ export default function StudentResultsHistoryPage() {
       </div>
 
       {/* History Card with Cat 2 in bottom right */}
-      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-6 shadow-xs space-y-4 overflow-hidden relative">
+      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 sm:p-6 shadow-xs space-y-4 overflow-hidden relative min-w-0 max-w-full">
         <div className="flex items-center justify-between border-b border-[#F0F6FD] pb-3">
           <h3 className="text-base font-black text-[#142D4E]">
             Completed Attempts ({attempts.length})
@@ -216,7 +216,7 @@ export default function StudentResultsHistoryPage() {
           </div>
         ) : (
           <div className="space-y-4">
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto w-full min-w-0">
               <table className="w-full text-left text-xs">
                 <thead>
                   <tr className="border-b border-[#DCEEFF] text-[#64748B] uppercase tracking-wider font-bold">

@@ -59,7 +59,7 @@ export default function ExaminationsAdminPage() {
   };
 
   return (
-    <div className="space-y-8 max-w-7xl mx-auto pb-12">
+    <div className="space-y-8 max-w-7xl mx-auto pb-12 min-w-0 w-full overflow-hidden">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-[#26384D]">
         <div>

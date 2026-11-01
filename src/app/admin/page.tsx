@@ -55,7 +55,7 @@ export default function AdminDashboardPage() {
   ];
 
   return (
-    <div className="space-y-8 max-w-7xl mx-auto text-[#F8FAFC]">
+    <div className="space-y-6 sm:space-y-8 max-w-7xl mx-auto text-[#F8FAFC] min-w-0 w-full overflow-hidden">
       {/* Top Banner & Quick Actions */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-[#26384D]">
         <div>
@@ -90,7 +90,7 @@ export default function AdminDashboardPage() {
       </div>
 
       {/* KPI Cards Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3.5">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-3.5">
         {kpis.map((kpi, idx) => {
           const Icon = kpi.icon;
           return (

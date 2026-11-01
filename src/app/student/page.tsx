@@ -197,7 +197,7 @@ export default function StudentDashboardPage() {
       : 90; // Default illustrative or calculated
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto pb-12 relative">
+    <div className="space-y-6 max-w-7xl mx-auto pb-12 relative min-w-0 w-full overflow-hidden">
       {/* Decorative paw prints in corner */}
       <div className="absolute -bottom-6 right-6 pointer-events-none select-none flex flex-col items-end gap-2">
         <CatMascot variant="paw" size={32} className="text-[#3B82C4]/25" />
@@ -205,7 +205,7 @@ export default function StudentDashboardPage() {
       </div>
 
       {/* 1. Welcome Hero Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#0F4C81] via-[#1660A5] to-[#1E74C4] text-white p-6 sm:p-8 shadow-xl shadow-[#0F4C81]/15">
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#0F4C81] via-[#1660A5] to-[#1E74C4] text-white p-5 sm:p-8 shadow-xl shadow-[#0F4C81]/15">
         {/* Subtle floating paw prints in banner background */}
         <div className="absolute right-48 sm:right-60 top-7 hidden lg:flex items-center gap-2 select-none pointer-events-none opacity-20">
           <CatMascot variant="paw" size={26} className="text-white rotate-12" />
@@ -327,7 +327,7 @@ export default function StudentDashboardPage() {
           return (
             <div
               key={subject.id}
-              className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-8 shadow-xs hover:border-[#BFDBFE] transition-all space-y-6 relative overflow-hidden"
+              className="bg-white rounded-3xl border border-[#DCEEFF] p-4 sm:p-6 lg:p-8 shadow-xs hover:border-[#BFDBFE] transition-all space-y-6 relative overflow-hidden"
             >
               {/* Subtle bottom wave & paw accent */}
               <div className="absolute -bottom-10 -right-10 w-64 h-32 bg-[#F0F7FD] rounded-full blur-2xl pointer-events-none -z-0" />
@@ -432,7 +432,7 @@ export default function StudentDashboardPage() {
       </div>
 
       {/* 4. My Examination History */}
-      <div className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-7 shadow-xs hover:border-[#BFDBFE] transition-all space-y-4">
+      <div className="bg-white rounded-3xl border border-[#DCEEFF] p-4 sm:p-6 lg:p-7 shadow-xs hover:border-[#BFDBFE] transition-all space-y-4 min-w-0 max-w-full overflow-hidden">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#F0F6FD] pb-4">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/70 flex items-center justify-center text-[#1685E8] shadow-2xs">
@@ -452,7 +452,7 @@ export default function StudentDashboardPage() {
           </Link>
         </div>
 
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto w-full min-w-0">
           <table className="w-full text-left text-xs">
             <thead>
               <tr className="border-b border-[#E2EEFC] text-[#64748B] uppercase tracking-wider font-extrabold text-[10px] sm:text-[11px]">

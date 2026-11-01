@@ -231,7 +231,7 @@ function ExamRoomContent() {
   }
 
   return (
-    <div className="space-y-6 max-w-4xl mx-auto flex flex-col min-h-[calc(100vh-8rem)] pb-12 relative">
+    <div className="space-y-6 max-w-4xl mx-auto flex flex-col min-h-[calc(100vh-8rem)] pb-12 relative min-w-0 w-full overflow-hidden">
       {/* Sticky Top Bar: Exam Title, Progress, Timer, Submit */}
       <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md rounded-2xl border border-[#DCEEFF] p-4 shadow-xs flex items-center justify-between gap-4">
         <div className="space-y-0.5 min-w-0">

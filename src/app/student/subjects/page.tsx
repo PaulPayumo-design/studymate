@@ -92,7 +92,7 @@ export default function StudentSubjectsPage() {
   }, []);
 
   return (
-    <div className="space-y-8 max-w-7xl mx-auto pb-14 relative">
+    <div className="space-y-8 max-w-7xl mx-auto pb-14 relative min-w-0 w-full overflow-hidden">
       {/* Decorative paw prints in corner of page */}
       <div className="absolute -bottom-6 right-6 pointer-events-none select-none flex flex-col items-end gap-2">
         <CatMascot variant="paw" size={32} className="text-[#3B82C4]/20" />
@@ -117,7 +117,7 @@ export default function StudentSubjectsPage() {
           return (
             <div
               key={subject.id}
-              className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-8 shadow-xs hover:border-[#BFDBFE] transition-all relative overflow-visible"
+              className="bg-white rounded-3xl border border-[#DCEEFF] p-4 sm:p-6 lg:p-8 shadow-xs hover:border-[#BFDBFE] transition-all relative overflow-visible min-w-0 max-w-full"
             >
               {/* Corner paw print decoration on each subject container */}
               <div className="absolute top-5 right-6 pointer-events-none select-none hidden sm:flex items-center gap-1.5 opacity-35">

@@ -48,7 +48,7 @@ export default function StudentsManagerPage() {
   };
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto">
+    <div className="space-y-6 max-w-7xl mx-auto min-w-0 w-full overflow-hidden">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-[#26384D]">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-[#F8FAFC] tracking-tight flex items-center gap-2.5">
@@ -86,7 +86,7 @@ export default function StudentsManagerPage() {
           </p>
         </CardHeader>
         <CardContent className="pt-4">
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto w-full min-w-0">
             <table className="w-full text-left text-xs">
               <thead>
                 <tr className="border-b border-[#26384D] text-[#38BDF8] uppercase tracking-wider font-semibold">

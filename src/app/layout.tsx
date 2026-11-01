@@ -33,7 +33,7 @@ export default function RootLayout({
           <Suspense fallback={<div className="h-16 bg-white border-b border-[#E2EEFC]" />}>
             <Header />
           </Suspense>
-          <main className="flex-1 flex">{children}</main>
+          <main className="flex-1 flex min-w-0 w-full overflow-x-hidden">{children}</main>
         </AuthProvider>
       </body>
     </html>

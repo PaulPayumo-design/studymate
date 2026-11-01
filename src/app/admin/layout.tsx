@@ -18,11 +18,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const isRestrictedStudent = mounted && role === 'student';
 
   return (
-    <div className="flex-1 flex min-h-[calc(100vh-4rem)] bg-[#080D16]">
+    <div className="flex-1 flex min-h-[calc(100vh-4rem)] min-w-0 w-full overflow-x-hidden bg-[#080D16]">
       <Suspense fallback={<aside className="w-64 bg-[#0B1420] border-r border-[#26384D]" />}>
         <AdminSidebar />
       </Suspense>
-      <div className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8 bg-[#080D16] text-[#F8FAFC]">
+      <div className="flex-1 min-w-0 max-w-full overflow-x-hidden overflow-y-auto p-3.5 sm:p-5 lg:p-8 bg-[#080D16] text-[#F8FAFC]">
         {isRestrictedStudent ? (
           <div className="flex-1 flex items-center justify-center py-16">
             <div className="max-w-md w-full bg-[#111C2A] p-8 rounded-3xl border border-[#26384D] shadow-xl text-center space-y-4">
