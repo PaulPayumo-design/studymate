@@ -49,43 +49,47 @@ export default function StudentsManagerPage() {
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-purple-100">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-[#26384D]">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-purple-950 tracking-tight flex items-center gap-2.5">
-            <Users className="w-7 h-7 text-purple-600" />
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[#F8FAFC] tracking-tight flex items-center gap-2.5">
+            <Users className="w-7 h-7 text-[#38BDF8]" />
             Authorized Student Accounts
           </h1>
-          <p className="text-xs sm:text-sm text-purple-600/80 mt-1">
+          <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
             Private system access control. Only the administrator may authorize and issue student credentials. Public registration is permanently closed.
           </p>
         </div>
 
-        <Button variant="primary" onClick={() => setIsCreateOpen(true)} className="gap-2">
+        <Button
+          variant="primary"
+          onClick={() => setIsCreateOpen(true)}
+          className="gap-2 bg-[#1685E8] hover:bg-[#1170c4] text-white border-0"
+        >
           <UserPlus className="w-4 h-4" />
           Authorize New Student
         </Button>
       </div>
 
       {success && (
-        <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-2xl text-emerald-800 text-xs flex items-center gap-2">
-          <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+        <div className="p-4 bg-[#10B981]/15 border border-[#10B981]/30 rounded-2xl text-[#10B981] text-xs flex items-center gap-2">
+          <CheckCircle2 className="w-4 h-4 text-[#10B981] shrink-0" />
           <span>{success}</span>
         </div>
       )}
 
       {/* Students List */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Enrolled Student Directory ({students.length})</CardTitle>
-          <p className="text-xs text-purple-600 mt-0.5">
-            Students authorized to study flashcards and take module & comprehensive examinations.
+      <Card className="bg-[#111C2A] border-[#26384D]">
+        <CardHeader className="border-b border-[#26384D]">
+          <CardTitle className="text-[#F8FAFC]">Enrolled Student Directory ({students.length})</CardTitle>
+          <p className="text-xs text-[#94A3B8] mt-0.5">
+            Students authorized to study flashcards and take weekly examinations across all 4 modes.
           </p>
         </CardHeader>
-        <CardContent>
+        <CardContent className="pt-4">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
               <thead>
-                <tr className="border-b border-purple-100 text-purple-600 uppercase tracking-wider font-semibold">
+                <tr className="border-b border-[#26384D] text-[#38BDF8] uppercase tracking-wider font-semibold">
                   <th className="pb-3 px-3">Student Name</th>
                   <th className="pb-3 px-3">Email Address</th>
                   <th className="pb-3 px-3">Role</th>
@@ -95,7 +99,7 @@ export default function StudentsManagerPage() {
                   <th className="pb-3 px-3 text-right">Actions</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-purple-50">
+              <tbody className="divide-y divide-[#26384D]">
                 {students.map(student => {
                   const studentAttempts = attempts.filter(a => a.student_id === student.id);
                   const avgScore =
@@ -107,37 +111,41 @@ export default function StudentsManagerPage() {
                       : 'None';
 
                   return (
-                    <tr key={student.id} className="hover:bg-purple-50/40 transition-colors">
-                      <td className="py-3.5 px-3 font-bold text-purple-950 flex items-center gap-2.5">
-                        <div className="w-7 h-7 rounded-full bg-purple-100 text-purple-800 font-bold flex items-center justify-center text-xs">
+                    <tr key={student.id} className="hover:bg-[#101A27] transition-colors">
+                      <td className="py-3.5 px-3 font-bold text-[#F8FAFC] flex items-center gap-2.5">
+                        <div className="w-7 h-7 rounded-full bg-[#1685E8]/20 text-[#38BDF8] border border-[#1685E8]/30 font-bold flex items-center justify-center text-xs">
                           {student.full_name.charAt(0)}
                         </div>
                         {student.full_name}
                       </td>
-                      <td className="py-3.5 px-3 text-purple-700 font-mono">
+                      <td className="py-3.5 px-3 text-[#38BDF8] font-mono">
                         {student.email}
                       </td>
                       <td className="py-3.5 px-3">
-                        <span className="font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                        <span className="font-semibold text-[#10B981] bg-[#10B981]/15 px-2 py-0.5 rounded-full border border-[#10B981]/30 text-[11px]">
                           Authorized Student
                         </span>
                       </td>
-                      <td className="py-3.5 px-3 text-purple-500">
+                      <td className="py-3.5 px-3 text-[#94A3B8]">
                         {formatDate(student.created_at)}
                       </td>
-                      <td className="py-3.5 px-3 font-semibold text-purple-900">
+                      <td className="py-3.5 px-3 font-semibold text-[#F8FAFC]">
                         {studentAttempts.length} Attempts
                       </td>
                       <td className="py-3.5 px-3">
                         {avgScore !== 'None' ? (
-                          <span className="font-bold text-purple-950">{avgScore}%</span>
+                          <span className="font-bold text-[#F8FAFC]">{avgScore}%</span>
                         ) : (
-                          <span className="text-purple-400">No attempts yet</span>
+                          <span className="text-[#94A3B8]/60">No attempts yet</span>
                         )}
                       </td>
                       <td className="py-3.5 px-3 text-right">
                         <Link href={`/admin/results?studentId=${student.id}`}>
-                          <Button variant="outline" size="sm" className="text-xs py-1 h-7">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs py-1 h-7 border-[#26384D] text-[#38BDF8] hover:bg-[#1685E8]/10"
+                          >
                             View History
                           </Button>
                         </Link>
@@ -163,7 +171,7 @@ export default function StudentsManagerPage() {
       >
         <form onSubmit={handleCreateStudent} className="space-y-4">
           {error && (
-            <div className="p-3 bg-rose-50 border border-rose-200 rounded-xl text-rose-700 text-xs flex items-center gap-2">
+            <div className="p-3 bg-[#EF4444]/15 border border-[#EF4444]/30 rounded-xl text-[#EF4444] text-xs flex items-center gap-2">
               <AlertCircle className="w-4 h-4 shrink-0" />
               <span>{error}</span>
             </div>
@@ -187,19 +195,28 @@ export default function StudentsManagerPage() {
             helperText="The student will sign in using this authorized email."
           />
 
-          <div className="p-3 bg-purple-50 rounded-xl border border-purple-200 text-xs text-purple-800 space-y-1">
-            <p className="font-semibold text-purple-950">Role Permissions:</p>
+          <div className="p-3 bg-[#101A27] rounded-xl border border-[#26384D] text-xs text-[#94A3B8] space-y-1">
+            <p className="font-semibold text-[#F8FAFC]">Role Permissions:</p>
             <p>• Access assigned subjects and modules</p>
             <p>• Interactive flashcard flip study</p>
-            <p>• Sit for 30-item module exams & 60-item Comprehensive Exam</p>
+            <p>• Sit for 60-item weekly module exams across 4 modes</p>
             <p>• No access to admin management console or question keys</p>
           </div>
 
           <div className="flex justify-end gap-2 pt-2">
-            <Button type="button" variant="ghost" onClick={() => setIsCreateOpen(false)}>
+            <Button
+              type="button"
+              variant="ghost"
+              onClick={() => setIsCreateOpen(false)}
+              className="text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27]"
+            >
               Cancel
             </Button>
-            <Button type="submit" variant="primary">
+            <Button
+              type="submit"
+              variant="primary"
+              className="bg-[#1685E8] hover:bg-[#1170c4] text-white border-0"
+            >
               Authorize Account
             </Button>
           </div>

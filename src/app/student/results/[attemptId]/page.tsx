@@ -72,7 +72,7 @@ function DetailedResultReportContent() {
         </p>
         <div className="pt-2">
           <Link href="/student/results">
-            <Button variant="primary" size="sm" className="bg-[#1565C0] hover:bg-[#142D4E]">
+            <Button variant="primary" size="sm" className="bg-[#1685E8] hover:bg-[#126ec2] transition-all duration-150 active:scale-[0.98]">
               Return to My Results
             </Button>
           </Link>
@@ -94,22 +94,22 @@ function DetailedResultReportContent() {
       {/* Top Navigation */}
       <div className="flex items-center justify-between">
         <Link href="/student/results">
-          <Button variant="ghost" size="sm" className="gap-2 text-xs text-[#1565C0] font-bold hover:bg-[#EAF3FB]">
+          <Button variant="ghost" size="sm" className="gap-2 text-xs text-[#1685E8] font-bold hover:bg-[#EAF3FB] transition-all duration-150 active:scale-[0.98]">
             <ArrowLeft className="w-4 h-4" />
             Back to All Results
           </Button>
         </Link>
 
-        <Link href={attempt.is_comprehensive ? '/student/comprehensive' : `/student/exams?moduleId=${attempt.module_id}`}>
-          <Button variant="outline" size="sm" className="gap-2 text-xs font-bold border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB]">
-            <RotateCcw className="w-3.5 h-3.5 text-[#1565C0]" />
-            Retake Examination
+        <Link href={attempt.module_id ? `/student/exams?moduleId=${attempt.module_id}` : '/student/exams'}>
+          <Button variant="outline" size="sm" className="gap-2 text-xs font-bold border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB] transition-all duration-150 active:scale-[0.98]">
+            <RotateCcw className="w-3.5 h-3.5 text-[#1685E8]" />
+            Take Weekly Examination
           </Button>
         </Link>
       </div>
 
       {/* Main Score Hero Card */}
-      <div className="p-8 rounded-3xl border border-[#BFDBFE] shadow-xl shadow-[#142D4E]/10 flex flex-col md:flex-row md:items-center justify-between gap-6 bg-gradient-to-r from-[#142D4E] via-[#1565C0] to-[#1E4E8C] text-white">
+      <div className="p-8 rounded-3xl border border-[#BFDBFE] shadow-xl shadow-[#0F4C81]/15 flex flex-col md:flex-row md:items-center justify-between gap-6 bg-gradient-to-r from-[#0F4C81] via-[#1660A5] to-[#1E74C4] text-white">
         <div className="space-y-2">
           <div className="flex items-center gap-2">
             <span className="text-[11px] font-bold uppercase tracking-wider bg-white/15 px-2.5 py-0.5 rounded-full text-blue-100 border border-white/20">
@@ -151,25 +151,25 @@ function DetailedResultReportContent() {
 
       {/* KPI Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 text-center space-y-1 shadow-xs">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 text-center space-y-1 shadow-xs">
           <span className="text-[10px] font-bold uppercase tracking-wider text-[#64748B]">Correct Answers</span>
           <div className="text-2xl font-black text-emerald-600">{attempt.correct_count}</div>
           <div className="text-[11px] text-[#64748B]">Earned Points</div>
         </div>
 
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 text-center space-y-1 shadow-xs">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 text-center space-y-1 shadow-xs">
           <span className="text-[10px] font-bold uppercase tracking-wider text-[#64748B]">Incorrect Answers</span>
           <div className="text-2xl font-black text-rose-600">{attempt.incorrect_count}</div>
           <div className="text-[11px] text-[#64748B]">To Review</div>
         </div>
 
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 text-center space-y-1 shadow-xs">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 text-center space-y-1 shadow-xs">
           <span className="text-[10px] font-bold uppercase tracking-wider text-[#64748B]">Examination Mode</span>
           <div className="text-sm font-black text-[#142D4E] capitalize pt-1.5">{attempt.exam_mode.replace('_', ' ')}</div>
           <div className="text-[11px] text-[#64748B]">Format</div>
         </div>
 
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 text-center space-y-1 shadow-xs">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 text-center space-y-1 shadow-xs">
           <span className="text-[10px] font-bold uppercase tracking-wider text-[#64748B]">Time Elapsed</span>
           <div className="text-2xl font-black text-[#142D4E]">{formatSeconds(attempt.time_spent_seconds)}</div>
           <div className="text-[11px] text-[#64748B]">Total Duration</div>
@@ -178,23 +178,23 @@ function DetailedResultReportContent() {
 
       {/* Performance by Weekly Breakdown */}
       {attempt.module_breakdown && attempt.module_breakdown.length > 0 && (
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-6 shadow-xs space-y-4">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-6 shadow-xs space-y-4">
           <div className="border-b border-[#F0F6FD] pb-3">
             <h3 className="text-base font-black text-[#142D4E] flex items-center gap-2">
-              <BarChart3 className="w-5 h-5 text-[#1565C0]" />
+              <BarChart3 className="w-5 h-5 text-[#1685E8]" />
               Performance by Curriculum Week
             </h3>
             <p className="text-xs text-[#64748B]">Weekly score and accuracy analysis.</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
             {attempt.module_breakdown.map(mb => (
-              <div key={mb.module_id} className="p-4 rounded-2xl bg-[#F8FAFD] border border-[#E2EEFC] space-y-2">
+              <div key={mb.module_id} className="p-4 rounded-2xl bg-[#F8FAFD] border border-[#DCEEFF] space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="font-black text-xs text-[#142D4E]">Week {mb.module_number}</span>
-                  <span className="text-[11px] font-bold text-[#1565C0]">{mb.score_percentage}%</span>
+                  <span className="text-[11px] font-bold text-[#1685E8]">{mb.score_percentage}%</span>
                 </div>
                 <p className="text-[11px] text-[#64748B] line-clamp-1">{mb.module_title?.replace('Module', 'Week')}</p>
-                <div className="flex items-center justify-between text-xs pt-2 border-t border-[#E2EEFC]">
+                <div className="flex items-center justify-between text-xs pt-2 border-t border-[#DCEEFF]">
                   <span className="text-[#64748B]">Correct:</span>
                   <span className="font-bold text-[#142D4E]">{mb.correct_count} / {mb.total_questions}</span>
                 </div>
@@ -206,17 +206,17 @@ function DetailedResultReportContent() {
 
       {/* Performance by Question Type Breakdown */}
       {attempt.type_breakdown && (
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-6 shadow-xs space-y-4">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-6 shadow-xs space-y-4">
           <div className="border-b border-[#F0F6FD] pb-3">
             <h3 className="text-base font-black text-[#142D4E]">Performance by Question Type</h3>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {attempt.type_breakdown.map(tb => (
-              <div key={tb.question_type} className="p-4 rounded-2xl bg-[#F8FAFD] border border-[#E2EEFC] space-y-1.5">
+              <div key={tb.question_type} className="p-4 rounded-2xl bg-[#F8FAFD] border border-[#DCEEFF] space-y-1.5">
                 <span className="font-black text-xs text-[#142D4E] capitalize">{tb.question_type.replace('_', ' ')}</span>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-[#64748B]">Score: {tb.correct_count} / {tb.total_questions}</span>
-                  <span className="font-bold text-[#1565C0]">{tb.score_percentage}%</span>
+                  <span className="font-bold text-[#1685E8]">{tb.score_percentage}%</span>
                 </div>
               </div>
             ))}
@@ -225,10 +225,10 @@ function DetailedResultReportContent() {
       )}
 
       {/* Detailed Question Review with Answers & Explanations */}
-      <div className="bg-white rounded-2xl border border-[#E2EEFC] p-6 shadow-xs space-y-4">
+      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-6 shadow-xs space-y-4">
         <div className="border-b border-[#F0F6FD] pb-3">
           <h3 className="text-base font-black text-[#142D4E]">
-            Comprehensive Question & Answer Review ({attempt.answers.length} Items)
+            Detailed Question & Answer Review ({attempt.answers.length} Items)
           </h3>
           <p className="text-xs text-[#64748B]">
             Answers and source citations from the PDF reviewer are now revealed for study purposes.
@@ -268,14 +268,14 @@ function DetailedResultReportContent() {
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">
-                  <div className="p-3 bg-white rounded-xl border border-[#E2EEFC]">
+                  <div className="p-3 bg-white rounded-xl border border-[#DCEEFF]">
                     <span className="text-[10px] uppercase font-bold text-[#64748B]">Your Answer:</span>
                     <p className={`font-semibold mt-0.5 ${ans.is_correct ? 'text-emerald-800' : 'text-rose-700 font-bold'}`}>
                       {ans.student_answer || '<No Answer Provided>'}
                     </p>
                   </div>
 
-                  <div className="p-3 bg-white rounded-xl border border-[#E2EEFC]">
+                  <div className="p-3 bg-white rounded-xl border border-[#DCEEFF]">
                     <span className="text-[10px] uppercase font-bold text-emerald-600">Correct Answer:</span>
                     <p className="font-bold text-emerald-950 mt-0.5">
                       {ans.correct_answer_snapshot}

@@ -144,7 +144,7 @@ function FlashcardsStudyContent() {
 
         <button
           onClick={handleShuffle}
-          className="py-2.5 px-4 rounded-xl bg-[#EAF3FB] hover:bg-[#D5E8F8] text-[#1565C0] font-bold text-xs flex items-center gap-2 border border-[#BFDBFE] transition-colors self-start sm:self-auto shrink-0 shadow-2xs"
+          className="py-2.5 px-4 rounded-xl bg-[#EAF3FB] hover:bg-[#D8EBFB] text-[#1685E8] font-bold text-xs flex items-center gap-2 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] self-start sm:self-auto shrink-0 shadow-2xs"
         >
           <Shuffle className="w-3.5 h-3.5" />
           <span>Shuffle Deck</span>
@@ -158,8 +158,8 @@ function FlashcardsStudyContent() {
           onClick={() => setSelectedModuleId('all')}
           className={`px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 ${
             selectedModuleId === 'all'
-              ? 'bg-[#1565C0] text-white shadow-sm shadow-[#1565C0]/25'
-              : 'bg-white text-[#142D4E] border border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
+              ? 'bg-[#1685E8] text-white shadow-sm shadow-[#1685E8]/25'
+              : 'bg-white text-[#142D4E] border border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
           }`}
         >
           All ({allFlashcards.length || 180})
@@ -176,8 +176,8 @@ function FlashcardsStudyContent() {
               onClick={() => setSelectedModuleId(mod.id)}
               className={`px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 ${
                 isSelected
-                  ? 'bg-[#1565C0] text-white shadow-sm shadow-[#1565C0]/25'
-                  : 'bg-white text-[#142D4E] border border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
+                  ? 'bg-[#1685E8] text-white shadow-sm shadow-[#1685E8]/25'
+                  : 'bg-white text-[#142D4E] border border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
               }`}
             >
               {mod.title} ({modCards.length || 60})
@@ -187,7 +187,7 @@ function FlashcardsStudyContent() {
       </div>
 
       {/* Progress & Mastery Sub-bar */}
-      <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs">
+      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs">
         <div className="flex items-center gap-3">
           <span className="text-xs font-bold text-[#142D4E] shrink-0">
             Card {activeDeck.length > 0 ? currentIndex + 1 : 0} of {activeDeck.length}
@@ -195,7 +195,7 @@ function FlashcardsStudyContent() {
           {/* Progress bar */}
           <div className="w-48 sm:w-64 h-2.5 bg-[#EAF3FB] rounded-full overflow-hidden">
             <div
-              className="h-full bg-[#1565C0] rounded-full transition-all duration-300"
+              className="h-full bg-[#1685E8] rounded-full transition-all duration-300"
               style={{ width: `${progressPercent}%` }}
             />
           </div>
@@ -215,7 +215,7 @@ function FlashcardsStudyContent() {
 
       {/* 3D Interactive Flip Card */}
       {activeDeck.length === 0 ? (
-        <div className="bg-white rounded-3xl border border-[#E2EEFC] p-16 text-center space-y-3">
+        <div className="bg-white rounded-3xl border border-[#DCEEFF] p-16 text-center space-y-3">
           <HelpCircle className="w-12 h-12 text-[#93C5FD] mx-auto" />
           <h3 className="text-base font-bold text-[#142D4E]">No flashcards available in this selection</h3>
           <p className="text-xs text-[#64748B]">Please select a different module or choose &quot;All&quot;.</p>
@@ -224,7 +224,7 @@ function FlashcardsStudyContent() {
         <div className="relative">
           <div
             onClick={() => setIsFlipped(!isFlipped)}
-            className="w-full min-h-[340px] sm:min-h-[380px] bg-white rounded-3xl border border-[#E2EEFC] shadow-lg shadow-[#142D4E]/5 hover:border-[#BFDBFE] hover:shadow-xl transition-all cursor-pointer relative p-8 flex flex-col justify-between select-none"
+            className="w-full min-h-[340px] sm:min-h-[380px] bg-white rounded-3xl border border-[#DCEEFF] shadow-lg shadow-[#142D4E]/5 hover:border-[#BFDBFE] hover:shadow-xl transition-all cursor-pointer relative p-8 flex flex-col justify-between select-none"
           >
             {/* Peeking Cat Mascot Resting Paws on Card Top Right */}
             <div className="absolute -top-7 right-8 sm:right-12 z-20 pointer-events-none">
@@ -233,7 +233,7 @@ function FlashcardsStudyContent() {
 
             {/* Card Header Pill */}
             <div className="flex items-center justify-between">
-              <span className="inline-block text-[11px] font-black uppercase tracking-wider text-[#1565C0] bg-[#EAF3FB] px-3.5 py-1.5 rounded-lg border border-[#BFDBFE]/80">
+              <span className="inline-block text-[11px] font-black uppercase tracking-wider text-[#1685E8] bg-[#EAF3FB] px-3.5 py-1.5 rounded-lg border border-[#BFDBFE]/80">
                 {isFlipped ? 'ANSWER / EXPLANATION' : 'TERM / QUESTION'}
               </span>
             </div>
@@ -248,7 +248,7 @@ function FlashcardsStudyContent() {
                 </div>
               ) : (
                 <div className="space-y-4 max-w-2xl mx-auto">
-                  <p className="text-lg sm:text-2xl font-bold text-[#1565C0] leading-relaxed">
+                  <p className="text-lg sm:text-2xl font-bold text-[#1685E8] leading-relaxed">
                     {currentCard?.back_text}
                   </p>
                 </div>
@@ -258,10 +258,10 @@ function FlashcardsStudyContent() {
             {/* Card Bottom Bar */}
             <div className="flex items-center justify-between text-xs text-[#64748B] pt-4 border-t border-[#F0F6FD]">
               <span className="flex items-center gap-1.5">
-                <RotateCw className="w-3.5 h-3.5 text-[#1565C0]" />
+                <RotateCw className="w-3.5 h-3.5 text-[#1685E8]" />
                 Click or press Space to reveal answer
               </span>
-              <span className="font-semibold text-[#1565C0]">
+              <span className="font-semibold text-[#1685E8]">
                 {currentCard?.source_ref || 'Midterm Reviewer'}
               </span>
             </div>
@@ -275,7 +275,7 @@ function FlashcardsStudyContent() {
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="py-2.5 px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-colors shadow-2xs"
+          className="py-2.5 px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] shadow-2xs"
         >
           <ChevronLeft className="w-4 h-4" />
           <span>Previous</span>
@@ -285,7 +285,7 @@ function FlashcardsStudyContent() {
         <div className="flex items-center gap-3">
           <button
             onClick={() => currentCard && handleSetStatus(currentCard.id, 'need_review')}
-            className={`py-2.5 px-4 rounded-xl text-xs font-bold flex items-center gap-1.5 border transition-all ${
+            className={`py-2.5 px-4 rounded-xl text-xs font-bold flex items-center gap-1.5 border transition-all duration-150 active:scale-[0.98] ${
               currentStatus === 'need_review'
                 ? 'bg-amber-100 text-amber-900 border-amber-300'
                 : 'bg-white hover:bg-[#FFFBEB] text-[#142D4E] border-[#BFDBFE]'
@@ -297,10 +297,10 @@ function FlashcardsStudyContent() {
 
           <button
             onClick={() => currentCard && handleSetStatus(currentCard.id, 'known')}
-            className={`py-2.5 px-5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all shadow-sm ${
+            className={`py-2.5 px-5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all duration-150 active:scale-[0.98] shadow-sm ${
               currentStatus === 'known'
                 ? 'bg-emerald-600 text-white'
-                : 'bg-[#1565C0] hover:bg-[#142D4E] text-white shadow-[#1565C0]/20'
+                : 'bg-[#1685E8] hover:bg-[#126ec2] text-white shadow-[#1685E8]/25'
             }`}
           >
             <CheckCircle2 className="w-4 h-4" />
@@ -312,7 +312,7 @@ function FlashcardsStudyContent() {
         <button
           onClick={handleNext}
           disabled={currentIndex >= activeDeck.length - 1}
-          className="py-2.5 px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-colors shadow-2xs"
+          className="py-2.5 px-5 rounded-xl bg-white hover:bg-[#F4F9FD] disabled:opacity-40 disabled:cursor-not-allowed text-[#142D4E] font-bold text-xs flex items-center gap-1.5 border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] shadow-2xs"
         >
           <span>Next</span>
           <ChevronRight className="w-4 h-4" />

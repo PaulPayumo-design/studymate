@@ -16,13 +16,10 @@ import {
   ChevronDown,
   ChevronRight,
   Sliders,
-  CheckCircle2,
 } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Input, Textarea } from '@/components/ui/Input';
 import { Modal } from '@/components/ui/Modal';
-import { Badge } from '@/components/ui/Badge';
 
 export default function SubjectsPage() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
@@ -105,21 +102,24 @@ export default function SubjectsPage() {
   };
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-purple-100">
+    <div className="space-y-6 max-w-7xl mx-auto text-[#F8FAFC]">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-[#26384D]">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-purple-950 tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-black text-[#F8FAFC] tracking-tight">
             Subjects & Weeks Management
           </h1>
-          <p className="text-xs sm:text-sm text-purple-600/80 mt-1">
+          <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
             Organize academic subjects. Each subject provisions up to 10 weeks with individual reviewers, flashcards, and 30-item question targets.
           </p>
         </div>
 
-        <Button variant="primary" onClick={() => setIsCreateOpen(true)} className="gap-2">
+        <button
+          onClick={() => setIsCreateOpen(true)}
+          className="inline-flex items-center gap-2 bg-[#1685E8] hover:bg-[#1270c7] text-white px-4 py-2.5 rounded-xl text-xs font-semibold shadow-xs transition-all active:scale-95 cursor-pointer"
+        >
           <Plus className="w-4 h-4" />
-          Add New Subject
-        </Button>
+          <span>Add New Subject</span>
+        </button>
       </div>
 
       {/* Subjects List */}
@@ -129,64 +129,60 @@ export default function SubjectsPage() {
           const isExpanded = Boolean(expandedSubjects[subject.id]);
 
           return (
-            <Card key={subject.id} className="border-purple-200">
-              <div className="p-5 flex items-center justify-between bg-white hover:bg-purple-50/30 transition-colors">
+            <div key={subject.id} className="rounded-2xl border border-[#26384D] bg-[#111C2A] overflow-hidden">
+              <div className="p-5 flex items-center justify-between bg-[#101A27] hover:bg-[#1685E8]/10 transition-colors">
                 <div
                   className="flex items-center gap-3.5 cursor-pointer flex-1"
                   onClick={() => toggleExpand(subject.id)}
                 >
-                  <button className="text-purple-400 hover:text-purple-700">
+                  <button className="text-[#94A3B8] hover:text-[#F8FAFC]">
                     {isExpanded ? <ChevronDown className="w-5 h-5" /> : <ChevronRight className="w-5 h-5" />}
                   </button>
-                  <div className="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-xs">
+                  <div className="w-10 h-10 rounded-xl bg-[#1685E8]/20 text-[#38BDF8] flex items-center justify-center font-bold text-xs">
                     <BookOpen className="w-5 h-5" />
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
-                      <span className="font-mono text-xs font-bold bg-purple-100 text-purple-800 px-2 py-0.5 rounded">
+                      <span className="font-mono text-xs font-bold bg-[#1685E8]/20 text-[#38BDF8] border border-[#1685E8]/40 px-2 py-0.5 rounded">
                         {subject.code}
                       </span>
-                      <h3 className="font-bold text-base text-purple-950">{subject.title}</h3>
+                      <h3 className="font-bold text-base text-[#F8FAFC]">{subject.title}</h3>
                     </div>
-                    <p className="text-xs text-purple-600/90 mt-0.5 line-clamp-1">
+                    <p className="text-xs text-[#94A3B8] mt-0.5 line-clamp-1">
                       {subject.description || 'No description provided.'}
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2 pl-4">
-                  <span className="text-xs font-semibold text-purple-600 bg-purple-50 px-2.5 py-1 rounded-lg hidden sm:inline">
+                  <span className="text-xs font-semibold text-[#38BDF8] bg-[#111C2A] border border-[#26384D] px-2.5 py-1 rounded-lg hidden sm:inline">
                     {subModules.length} Weeks (Max 10)
                   </span>
-                  <Button
-                    variant="ghost"
-                    size="icon"
+                  <button
                     onClick={() => setEditingSubject(subject)}
-                    className="text-purple-600 hover:text-purple-900"
+                    className="p-2 text-[#94A3B8] hover:text-[#38BDF8] hover:bg-[#111C2A] rounded-lg transition-colors cursor-pointer"
                     title="Edit Subject Details"
                   >
                     <Edit className="w-4 h-4" />
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    size="icon"
+                  </button>
+                  <button
                     onClick={() => handleDeleteSubject(subject.id, subject.title)}
-                    className="text-rose-500 hover:text-rose-700 hover:bg-rose-50"
+                    className="p-2 text-rose-400 hover:text-rose-300 hover:bg-rose-950/40 rounded-lg transition-colors cursor-pointer"
                     title="Delete Subject"
                   >
                     <Trash2 className="w-4 h-4" />
-                  </Button>
+                  </button>
                 </div>
               </div>
 
               {/* Weeks List inside Subject */}
               {isExpanded && (
-                <div className="p-5 pt-0 border-t border-purple-50 bg-[#fdfcff] space-y-3">
+                <div className="p-5 pt-0 border-t border-[#26384D] bg-[#0B1420] space-y-3">
                   <div className="flex items-center justify-between pt-3 pb-1">
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-purple-800">
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-[#38BDF8]">
                       Standard Curriculum Weeks (1 to {subModules.length})
                     </h4>
-                    <span className="text-[11px] text-purple-500">
+                    <span className="text-[11px] text-[#94A3B8]">
                       Target: 30 Questions Per Week (Allowance up to Week 10)
                     </span>
                   </div>
@@ -195,31 +191,31 @@ export default function SubjectsPage() {
                     {subModules.map(mod => (
                       <div
                         key={mod.id}
-                        className="p-4 bg-white rounded-2xl border border-purple-100/90 flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-2xs hover:border-purple-200 transition-all"
+                        className="p-4 bg-[#111C2A] rounded-2xl border border-[#26384D] flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-2xs hover:border-[#38BDF8]/50 transition-all"
                       >
                         <div className="space-y-1 flex-1">
                           <div className="flex items-center gap-2">
-                            <span className="font-bold text-xs bg-purple-600 text-white px-2 py-0.5 rounded-md">
+                            <span className="font-bold text-xs bg-[#1685E8] text-white px-2 py-0.5 rounded-md">
                               Week {mod.module_number}
                             </span>
-                            <h5 className="font-bold text-sm text-purple-950">{mod.title}</h5>
+                            <h5 className="font-bold text-sm text-[#F8FAFC]">{mod.title}</h5>
                           </div>
-                          <p className="text-xs text-purple-600/80 line-clamp-1">{mod.description}</p>
-                          <div className="flex items-center gap-4 text-[11px] text-purple-500 pt-1">
-                            <span className="flex items-center gap-1 font-medium">
-                              <HelpCircle className="w-3 h-3 text-purple-600" />
+                          <p className="text-xs text-[#94A3B8] line-clamp-1">{mod.description}</p>
+                          <div className="flex items-center gap-4 text-[11px] text-[#94A3B8] pt-1">
+                            <span className="flex items-center gap-1 font-medium text-[#38BDF8]">
+                              <HelpCircle className="w-3 h-3 text-[#38BDF8]" />
                               Approved: {mod.approved_question_count || 0} / 30 Qs
                             </span>
                             <span className="flex items-center gap-1">
-                              <Layers className="w-3 h-3 text-violet-600" />
+                              <Layers className="w-3 h-3 text-[#38BDF8]" />
                               {mod.flashcard_count || 0} Flashcards
                             </span>
                             <span className="flex items-center gap-1">
-                              <Clock className="w-3 h-3 text-amber-600" />
+                              <Clock className="w-3 h-3 text-[#F59E0B]" />
                               {mod.exam_time_limit_minutes} Min Exam
                             </span>
                             <span className="flex items-center gap-1">
-                              <FileText className="w-3 h-3 text-blue-600" />
+                              <FileText className="w-3 h-3 text-[#38BDF8]" />
                               {mod.pdf_reviewer ? 'PDF Attached' : 'No PDF'}
                             </span>
                           </div>
@@ -228,39 +224,37 @@ export default function SubjectsPage() {
                         {/* Week Actions */}
                         <div className="flex items-center gap-2 shrink-0 flex-wrap">
                           <Link href={`/admin/modules?moduleId=${mod.id}`}>
-                            <Button variant="secondary" size="sm" className="text-xs gap-1.5">
-                              <Sliders className="w-3.5 h-3.5" />
+                            <button className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer">
+                              <Sliders className="w-3.5 h-3.5 text-[#38BDF8]" />
                               Configure 30-Item Distribution
-                            </Button>
+                            </button>
                           </Link>
                           <Link href={`/admin/reviewers?moduleId=${mod.id}&subjectId=${subject.id}`}>
-                            <Button variant="outline" size="sm" className="text-xs gap-1.5">
-                              <FileText className="w-3.5 h-3.5" />
+                            <button className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer">
+                              <FileText className="w-3.5 h-3.5 text-[#38BDF8]" />
                               Reviewer
-                            </Button>
+                            </button>
                           </Link>
                           <Link href={`/admin/questions?moduleId=${mod.id}&subjectId=${subject.id}`}>
-                            <Button variant="outline" size="sm" className="text-xs gap-1.5">
-                              <HelpCircle className="w-3.5 h-3.5" />
+                            <button className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer">
+                              <HelpCircle className="w-3.5 h-3.5 text-[#38BDF8]" />
                               Questions
-                            </Button>
+                            </button>
                           </Link>
-                          <Button
-                            variant="ghost"
-                            size="icon"
+                          <button
                             onClick={() => setEditingModule(mod)}
                             title="Edit Week Info"
-                            className="text-purple-500 hover:text-purple-800"
+                            className="p-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] rounded-lg transition-colors cursor-pointer"
                           >
                             <Edit className="w-4 h-4" />
-                          </Button>
+                          </button>
                         </div>
                       </div>
                     ))}
                   </div>
                 </div>
               )}
-            </Card>
+            </div>
           );
         })}
       </div>
@@ -294,16 +288,23 @@ export default function SubjectsPage() {
             value={newDescription}
             onChange={e => setNewDescription(e.target.value)}
           />
-          <div className="p-3 bg-purple-50 rounded-xl border border-purple-200 text-xs text-purple-700">
+          <div className="p-3 bg-[#101A27] rounded-xl border border-[#26384D] text-xs text-[#94A3B8]">
             Note: StudyMate will automatically provision curriculum weeks (with an allowance up to Week 10) ready for Topic AI Generation and PDF uploads.
           </div>
           <div className="flex justify-end gap-2 pt-2">
-            <Button type="button" variant="ghost" onClick={() => setIsCreateOpen(false)}>
+            <button
+              type="button"
+              onClick={() => setIsCreateOpen(false)}
+              className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+            >
               Cancel
-            </Button>
-            <Button type="submit" variant="primary">
+            </button>
+            <button
+              type="submit"
+              className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+            >
               Create Subject & Provision Weeks
-            </Button>
+            </button>
           </div>
         </form>
       </Modal>
@@ -336,12 +337,19 @@ export default function SubjectsPage() {
               onChange={e => setEditingSubject({ ...editingSubject, description: e.target.value })}
             />
             <div className="flex justify-end gap-2 pt-2">
-              <Button type="button" variant="ghost" onClick={() => setEditingSubject(null)}>
+              <button
+                type="button"
+                onClick={() => setEditingSubject(null)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+              >
                 Cancel
-              </Button>
-              <Button type="submit" variant="primary">
+              </button>
+              <button
+                type="submit"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+              >
                 Save Changes
-              </Button>
+              </button>
             </div>
           </form>
         </Modal>
@@ -378,12 +386,19 @@ export default function SubjectsPage() {
               onChange={e => setEditingModule({ ...editingModule, exam_time_limit_minutes: parseInt(e.target.value) || 30 })}
             />
             <div className="flex justify-end gap-2 pt-2">
-              <Button type="button" variant="ghost" onClick={() => setEditingModule(null)}>
+              <button
+                type="button"
+                onClick={() => setEditingModule(null)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+              >
                 Cancel
-              </Button>
-              <Button type="submit" variant="primary">
+              </button>
+              <button
+                type="submit"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+              >
                 Save Week
-              </Button>
+              </button>
             </div>
           </form>
         </Modal>

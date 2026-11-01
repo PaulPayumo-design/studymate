@@ -102,10 +102,10 @@ function HeaderLyingCat() {
 // Cat 2 – Module Card Peeking Cat (Peeking over bottom-right border of module card)
 function BottomRightCardCat() {
   return (
-    <div className="absolute -bottom-3 sm:-bottom-4 right-1 sm:right-2 flex items-end select-none pointer-events-none z-10">
+    <div className="absolute -bottom-2.5 sm:-bottom-3 right-2 sm:right-3 flex items-end select-none pointer-events-none z-10">
       <svg
-        width="56"
-        height="40"
+        width="54"
+        height="38"
         viewBox="0 0 72 52"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -205,16 +205,32 @@ export default function StudentDashboardPage() {
       </div>
 
       {/* 1. Welcome Hero Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#142D4E] via-[#1565C0] to-[#1E4E8C] text-white p-6 sm:p-8 shadow-xl shadow-[#142D4E]/10">
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#0F4C81] via-[#1660A5] to-[#1E74C4] text-white p-6 sm:p-8 shadow-xl shadow-[#0F4C81]/15">
+        {/* Subtle floating paw prints in banner background */}
+        <div className="absolute right-48 sm:right-60 top-7 hidden lg:flex items-center gap-2 select-none pointer-events-none opacity-20">
+          <CatMascot variant="paw" size={26} className="text-white rotate-12" />
+          <CatMascot variant="paw" size={20} className="text-white -rotate-15 -mb-2" />
+          <CatMascot variant="paw" size={15} className="text-white rotate-45 mb-2" />
+        </div>
+
+        {/* Subtle wave curve at bottom of banner */}
+        <div className="absolute -bottom-6 left-0 right-0 h-14 bg-gradient-to-t from-white/10 to-transparent pointer-events-none -z-0" />
+
         <div className="relative z-10 max-w-xl space-y-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-xs font-semibold text-blue-100 border border-white/20">
-            <span>🎓</span> StudyMate Student Learning Portal
+          {/* Heading with 3 Radiant Sparkles */}
+          <div className="flex items-center gap-2">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white">
+              Hi, {user?.full_name || 'Shaina'}!
+            </h1>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="shrink-0 -mt-2">
+              <line x1="6" y1="6" x2="16" y2="4" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+              <line x1="5" y1="12" x2="17" y2="12" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+              <line x1="6" y1="18" x2="16" y2="20" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+            </svg>
           </div>
-          <h1 className="text-2xl sm:text-4xl font-black tracking-tight">
-            Welcome back, <span className="underline decoration-[#93C5FD] decoration-2 underline-offset-4">{user?.full_name || 'Shaina'}</span>!
-          </h1>
+
           <p className="text-xs sm:text-sm text-blue-100/90 leading-relaxed font-medium">
-            Continue your learning journey. Review your modules, practice with flashcards, or take exams to track your progress.
+            Small and consistent study efforts today can lead to big achievements tomorrow.
           </p>
 
           <div className="flex items-center gap-3 pt-3 flex-wrap">
@@ -222,9 +238,9 @@ export default function StudentDashboardPage() {
               <Button
                 variant="secondary"
                 size="sm"
-                className="gap-2 font-bold bg-white text-[#142D4E] hover:bg-[#F0F7FD] border-none shadow-md shadow-black/10 py-2.5 px-4 rounded-xl"
+                className="gap-2 font-bold bg-white text-[#142D4E] hover:bg-[#F0F7FD] border-none shadow-md shadow-black/10 py-2.5 px-4 rounded-xl transition-all duration-150 hover:scale-[1.02] active:scale-[0.98]"
               >
-                <Layers className="w-4 h-4 text-[#1565C0]" />
+                <Layers className="w-4 h-4 text-[#1685E8]" />
                 Study Flashcards
               </Button>
             </Link>
@@ -232,7 +248,7 @@ export default function StudentDashboardPage() {
               <Button
                 variant="outline"
                 size="sm"
-                className="gap-2 text-white border-white/40 hover:bg-white/10 hover:border-white py-2.5 px-4 rounded-xl font-bold bg-transparent"
+                className="gap-2 text-white border-white/40 hover:bg-white/15 hover:border-white py-2.5 px-4 rounded-xl font-bold bg-transparent transition-all duration-150 hover:scale-[1.02] active:scale-[0.98]"
               >
                 <Play className="w-3.5 h-3.5 fill-white text-white" />
                 Take an Exam
@@ -248,59 +264,58 @@ export default function StudentDashboardPage() {
       </div>
 
       {/* 2. Quick Access KPIs (Custom Mascot Illustrations) */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
         {/* Assigned Subjects */}
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 flex items-center gap-3.5 shadow-xs">
-          <div className="w-12 h-12 rounded-2xl bg-[#EAF3FB] border border-[#BFDBFE]/80 flex items-center justify-center shrink-0">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 sm:p-5 flex items-center gap-3.5 shadow-2xs hover:shadow-md hover:border-[#BFDBFE] transition-all duration-200 group">
+          <div className="w-12 h-12 rounded-2xl bg-[#EAF3FB] border border-[#BFDBFE]/80 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-200">
             <CatMascot variant="kpi-reading" size={42} />
           </div>
           <div>
-            <div className="text-xs text-[#64748B] font-semibold">Assigned Subjects</div>
-            <div className="text-xl sm:text-2xl font-black text-[#142D4E]">{subjects.length || 3}</div>
+            <div className="text-xs text-[#64748B] font-semibold mb-0.5">Assigned Subjects</div>
+            <div className="text-2xl sm:text-[26px] font-black text-[#142D4E] tracking-tight">{subjects.length || 3}</div>
           </div>
         </div>
 
         {/* Flashcard Mastery */}
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 flex items-center gap-3.5 shadow-xs">
-          <div className="w-12 h-12 rounded-2xl bg-[#EAF3FB] border border-[#BFDBFE]/80 flex items-center justify-center shrink-0">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 sm:p-5 flex items-center gap-3.5 shadow-2xs hover:shadow-md hover:border-[#BFDBFE] transition-all duration-200 group">
+          <div className="w-12 h-12 rounded-2xl bg-[#EAF3FB] border border-[#BFDBFE]/80 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-200">
             <CatMascot variant="kpi-cards" size={42} />
           </div>
-          <div>
-            <div className="text-xs text-[#64748B] font-semibold">Flashcard Mastery</div>
-            <div className="text-xl sm:text-2xl font-black text-[#142D4E]">
-              {masteryPercentage}% <span className="text-xs font-semibold text-[#64748B]">({knownCards}/{totalCards || 180})</span>
+          <div className="flex-1 min-w-0">
+            <div className="text-xs text-[#64748B] font-semibold mb-0.5">Flashcard Mastery</div>
+            <div className="text-xl sm:text-2xl font-black text-[#142D4E] tracking-tight flex items-baseline gap-1.5">
+              <span>{masteryPercentage}%</span>
+              <span className="text-xs font-semibold text-[#64748B]">({knownCards}/{totalCards || 180})</span>
+            </div>
+            {/* Sleek Progress Bar Track matching reference image */}
+            <div className="w-full bg-[#E2EEFC] h-1.5 rounded-full mt-1.5 overflow-hidden">
+              <div
+                className="bg-[#1685E8] h-full rounded-full transition-all duration-500"
+                style={{ width: `${Math.min(100, Math.max(0, masteryPercentage))}%` }}
+              />
             </div>
           </div>
         </div>
 
         {/* Exams Completed */}
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 flex items-center gap-3.5 shadow-xs">
-          <div className="w-12 h-12 rounded-2xl bg-[#ECFDF5] border border-emerald-200 flex items-center justify-center shrink-0">
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 sm:p-5 flex items-center gap-3.5 shadow-2xs hover:shadow-md hover:border-[#BFDBFE] transition-all duration-200 group">
+          <div className="w-12 h-12 rounded-2xl bg-[#ECFDF5] border border-emerald-200 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-200">
             <CatMascot variant="kpi-clipboard" size={42} />
           </div>
           <div>
-            <div className="text-xs text-[#64748B] font-semibold">Exams Completed</div>
-            <div className="text-xl sm:text-2xl font-black text-[#142D4E]">{attempts.length || 1}</div>
+            <div className="text-xs text-[#64748B] font-semibold mb-0.5">Exams Completed</div>
+            <div className="text-2xl sm:text-[26px] font-black text-[#142D4E] tracking-tight">{attempts.length || 1}</div>
           </div>
         </div>
 
-        {/* Average Score with Peeking Cat & Paw Prints */}
-        <div className="bg-white rounded-2xl border border-[#E2EEFC] p-4 flex items-center gap-3.5 shadow-xs relative overflow-hidden">
-          <div className="w-12 h-12 rounded-2xl bg-[#FFFBEB] border border-amber-200 flex items-center justify-center shrink-0">
+        {/* Average Score */}
+        <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 sm:p-5 flex items-center gap-3.5 shadow-2xs hover:shadow-md hover:border-[#BFDBFE] transition-all duration-200 group">
+          <div className="w-12 h-12 rounded-2xl bg-[#FFFBEB] border border-amber-200 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-200">
             <CatMascot variant="kpi-medal" size={42} />
           </div>
           <div>
-            <div className="text-xs text-[#64748B] font-semibold">Average Score</div>
-            <div className="text-xl sm:text-2xl font-black text-[#142D4E]">{avgScore}%</div>
-          </div>
-
-          {/* Paw Prints and Peeking Cat in Bottom-Right Corner */}
-          <div className="absolute right-1.5 bottom-0 flex items-end gap-1 select-none pointer-events-none">
-            <div className="flex items-center gap-1 mb-1.5 opacity-60">
-              <CatMascot variant="paw" size={12} className="text-[#3B82C4]" />
-              <CatMascot variant="paw" size={15} className="text-[#3B82C4] -mb-1" />
-            </div>
-            <CatMascot variant="kpi-peek" size={54} />
+            <div className="text-xs text-[#64748B] font-semibold mb-0.5">Average Score</div>
+            <div className="text-2xl sm:text-[26px] font-black text-[#142D4E] tracking-tight">{avgScore}%</div>
           </div>
         </div>
       </div>
@@ -312,15 +327,22 @@ export default function StudentDashboardPage() {
           return (
             <div
               key={subject.id}
-              className="bg-white rounded-3xl border border-[#D6E9FF] p-6 sm:p-8 shadow-xs hover:border-[#BFDBFE] transition-all space-y-6 relative overflow-visible"
+              className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-8 shadow-xs hover:border-[#BFDBFE] transition-all space-y-6 relative overflow-hidden"
             >
+              {/* Subtle bottom wave & paw accent */}
+              <div className="absolute -bottom-10 -right-10 w-64 h-32 bg-[#F0F7FD] rounded-full blur-2xl pointer-events-none -z-0" />
+              <div className="absolute bottom-4 right-6 hidden sm:flex items-center gap-1.5 select-none pointer-events-none opacity-40">
+                <CatMascot variant="paw" size={18} className="text-[#38BDF8]" />
+                <CatMascot variant="paw" size={24} className="text-[#38BDF8] -mb-1" />
+              </div>
+
               {/* Subject Header */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#F0F6FD] pb-5">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#F0F6FD] pb-5 relative z-10">
                 <div>
-                  <div className="inline-block font-mono text-xs font-bold text-[#1565C0] bg-[#EAF3FB] px-3 py-1 rounded-full border border-[#BFDBFE] mb-2">
+                  <div className="inline-block font-mono text-xs font-bold text-[#1685E8] bg-[#EAF3FB] px-3 py-1 rounded-full border border-[#BFDBFE] mb-2">
                     {subject.code}
                   </div>
-                  <h3 className="text-xl font-black text-[#142D4E] tracking-tight">{subject.title}</h3>
+                  <h3 className="text-xl sm:text-2xl font-black text-[#142D4E] tracking-tight">{subject.title}</h3>
                   <p className="text-xs text-[#64748B] mt-1 max-w-2xl leading-relaxed">{subject.description}</p>
                 </div>
 
@@ -329,43 +351,45 @@ export default function StudentDashboardPage() {
                   <HeaderLyingCat />
                   <Link
                     href="/student/subjects"
-                    className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#1565C0] hover:text-[#142D4E] transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#1685E8] hover:text-[#0F4C81] transition-colors group"
                   >
                     <span>All Subjects</span>
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-150" />
                   </Link>
                 </div>
               </div>
 
               {/* Modules list */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 relative z-10">
                 {subModules.map(mod => {
                   const modCards = flashcards.filter(f => f.module_id === mod.id);
                   return (
                     <div
                       key={mod.id}
-                      className="bg-white rounded-3xl border border-[#D6E9FF] p-5 sm:p-6 flex flex-col justify-between space-y-4 shadow-xs hover:border-[#BFDBFE] hover:shadow-md transition-all relative overflow-visible"
+                      className="bg-white rounded-2xl border border-[#DCEEFF] p-5 sm:p-6 flex flex-col justify-between space-y-4 shadow-2xs hover:border-[#BFDBFE] hover:shadow-md transition-all duration-200 relative group"
                     >
                       {/* Top Info */}
                       <div className="space-y-3">
                         <div className="flex items-center justify-between">
-                          <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/60 flex items-center justify-center text-[#1565C0] shadow-2xs">
+                          <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/60 flex items-center justify-center text-[#1685E8] shadow-2xs">
                             <Layers className="w-5 h-5 stroke-[2.2]" />
                           </div>
-                          <span className="text-xs font-bold text-[#1565C0] bg-[#EAF3FB] px-2.5 py-0.5 rounded-full border border-[#BFDBFE]/70">
+                          <span className="text-xs font-bold text-[#1685E8] bg-[#EAF3FB] px-2.5 py-0.5 rounded-full border border-[#BFDBFE]/70">
                             {mod.exam_question_count || 60} Qs
                           </span>
                         </div>
-                        <h4 className="font-black text-sm sm:text-base text-[#142D4E] tracking-tight line-clamp-1">{mod.title}</h4>
+                        <h4 className="font-black text-sm sm:text-base text-[#142D4E] tracking-tight line-clamp-1 group-hover:text-[#1685E8] transition-colors">
+                          {mod.title}
+                        </h4>
                         <p className="text-xs text-[#64748B] line-clamp-2 leading-relaxed">{mod.description}</p>
                       </div>
 
                       {/* Bottom Info: Stats & Buttons + Cat 2 Decor */}
                       <div className="space-y-3 pt-2 relative">
-                        {/* 2-3 tiny blue paw prints near bottom-left corner */}
-                        <div className="absolute -bottom-2 sm:-bottom-2.5 -left-1 flex items-center gap-1 select-none pointer-events-none opacity-60">
-                          <CatMascot variant="paw" size={11} className="text-[#3B82C4]" />
-                          <CatMascot variant="paw" size={13} className="text-[#3B82C4] -mb-1" />
+                        {/* 2 tiny blue paw prints near bottom-left corner */}
+                        <div className="absolute -bottom-2 -left-1 flex items-center gap-1 select-none pointer-events-none opacity-50">
+                          <CatMascot variant="paw" size={11} className="text-[#38BDF8]" />
+                          <CatMascot variant="paw" size={13} className="text-[#38BDF8] -mb-1" />
                         </div>
 
                         {/* Cat 2: Peeking cat on bottom-right corner */}
@@ -374,11 +398,11 @@ export default function StudentDashboardPage() {
                         {/* Stats */}
                         <div className="flex items-center justify-between text-xs font-bold text-[#142D4E]">
                           <span className="flex items-center gap-1.5">
-                            <Layers className="w-3.5 h-3.5 text-[#1565C0]" />
+                            <Layers className="w-3.5 h-3.5 text-[#1685E8]" />
                             {modCards.length || 60} Flashcards
                           </span>
                           <span className="flex items-center gap-1.5">
-                            <Clock className="w-3.5 h-3.5 text-[#1565C0]" />
+                            <Clock className="w-3.5 h-3.5 text-[#1685E8]" />
                             {mod.exam_time_limit_minutes || 60} Min Exam
                           </span>
                         </div>
@@ -386,12 +410,12 @@ export default function StudentDashboardPage() {
                         {/* Buttons */}
                         <div className="grid grid-cols-2 gap-3 pt-1">
                           <Link href={`/student/flashcards?moduleId=${mod.id}`} className="w-full">
-                            <button className="w-full py-2.5 px-4 rounded-xl bg-[#EAF3FB] hover:bg-[#D5E8F8] text-[#1565C0] font-black text-xs flex items-center justify-center border border-[#BFDBFE] transition-colors shadow-2xs">
+                            <button className="w-full py-2.5 px-4 rounded-xl bg-[#EAF3FB] hover:bg-[#D5E8F8] text-[#1685E8] font-black text-xs flex items-center justify-center border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] cursor-pointer">
                               Cards
                             </button>
                           </Link>
                           <Link href={`/student/exams?moduleId=${mod.id}`} className="w-full">
-                            <button className="w-full py-2.5 px-4 rounded-xl bg-[#1565C0] hover:bg-[#142D4E] text-white font-black text-xs flex items-center justify-center gap-1.5 transition-colors shadow-xs shadow-[#1565C0]/20">
+                            <button className="w-full py-2.5 px-4 rounded-xl bg-[#1685E8] hover:bg-[#126ec2] text-white font-black text-xs flex items-center justify-center gap-1.5 transition-all duration-150 shadow-xs shadow-[#1685E8]/25 active:scale-[0.98] cursor-pointer">
                               <Play className="w-3 h-3 fill-current" />
                               <span>Exam</span>
                             </button>
@@ -407,63 +431,31 @@ export default function StudentDashboardPage() {
         })}
       </div>
 
-      {/* 4. Comprehensive Examination Banner (with Peeking Cat & Paw Prints) */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#142D4E] via-[#1565C0] to-[#1E4E8C] text-white p-6 sm:p-7 shadow-lg shadow-[#1565C0]/15 flex flex-col sm:flex-row items-center justify-between gap-6">
-        <div className="space-y-2 max-w-xl z-10">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wide">
-            <Sparkles className="w-3 h-3" />
-            Comprehensive Mock Assessment
-          </div>
-          <h3 className="text-xl sm:text-2xl font-black tracking-tight">
-            60-Item Comprehensive Examination
-          </h3>
-          <p className="text-xs text-blue-100 leading-relaxed font-medium">
-            Tests your mastery across all curriculum weeks without repetition. Choose between Multiple Choice, Identification, True/False, or Mixed mode.
-          </p>
-        </div>
-
-        {/* Cute Peeking Cat Mascot & Paw Prints resting on the bottom edge */}
-        <div className="absolute right-52 sm:right-64 bottom-0 hidden sm:flex items-end gap-2.5 pointer-events-none select-none z-10">
-          <div className="flex items-center gap-1.5 mb-3">
-            <CatMascot variant="paw" size={16} className="text-white/60" />
-            <CatMascot variant="paw" size={20} className="text-white/70 -mb-1" />
-          </div>
-          <CatMascot variant="kpi-peek" size={82} />
-        </div>
-
-        <div className="flex items-center gap-4 z-10 shrink-0">
-          <Link href="/student/comprehensive">
-            <button className="py-3 px-5 rounded-xl bg-white hover:bg-[#F0F7FD] text-[#1565C0] font-black text-sm flex items-center gap-2 transition-all shadow-md shadow-black/10 hover:shadow-lg">
-              <span>Begin 60-Item Exam</span>
-              <ArrowRight className="w-4 h-4 text-[#1565C0]" />
-            </button>
-          </Link>
-        </div>
-      </div>
-
-      {/* 5. My Examination History */}
-      <div className="bg-white rounded-2xl border border-[#E2EEFC] p-6 shadow-xs space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#F0F6FD] pb-3">
-          <div className="flex items-center gap-2.5">
-            <Clock className="w-5 h-5 text-[#1565C0]" />
+      {/* 4. My Examination History */}
+      <div className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-7 shadow-xs hover:border-[#BFDBFE] transition-all space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#F0F6FD] pb-4">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/70 flex items-center justify-center text-[#1685E8] shadow-2xs">
+              <Clock className="w-5 h-5 stroke-[2.2]" />
+            </div>
             <div>
-              <h3 className="text-base font-black text-[#142D4E]">My Examination History</h3>
+              <h3 className="text-base sm:text-lg font-black text-[#142D4E] tracking-tight">My Examination History</h3>
               <p className="text-xs text-[#64748B]">Review your past test scores, time spent, and answer explanations.</p>
             </div>
           </div>
           <Link
             href="/student/results"
-            className="text-xs font-bold text-[#1565C0] hover:text-[#142D4E] inline-flex items-center gap-1"
+            className="text-xs sm:text-sm font-bold text-[#1685E8] hover:text-[#0F4C81] inline-flex items-center gap-1.5 transition-colors group"
           >
-            View All History
-            <ArrowRight className="w-3.5 h-3.5" />
+            <span>View All History</span>
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-150" />
           </Link>
         </div>
 
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs">
             <thead>
-              <tr className="border-b border-[#E2EEFC] text-[#64748B] uppercase tracking-wider font-bold">
+              <tr className="border-b border-[#E2EEFC] text-[#64748B] uppercase tracking-wider font-extrabold text-[10px] sm:text-[11px]">
                 <th className="py-3 px-3">Examination</th>
                 <th className="py-3 px-3">Mode</th>
                 <th className="py-3 px-3">Score</th>
@@ -476,24 +468,28 @@ export default function StudentDashboardPage() {
             <tbody className="divide-y divide-[#F0F6FD]">
               {attempts.length === 0 ? (
                 // Sample row matching screenshot if no completed attempts in storage yet
-                <tr className="hover:bg-[#F8FAFD] transition-colors">
+                <tr className="hover:bg-[#F8FBFE] transition-colors duration-150">
                   <td className="py-3.5 px-3">
                     <div className="font-black text-sm text-[#142D4E]">CMPA_W6-10_MIDTERMS</div>
                     <div className="text-[11px] text-[#64748B]">Community & Maternal-Child Health Nursing (CMPA)</div>
                   </td>
                   <td className="py-3.5 px-3">
-                    <span className="font-bold text-[11px] bg-[#EAF3FB] text-[#1565C0] px-2.5 py-1 rounded-md border border-[#BFDBFE]">
+                    <span className="font-bold text-[11px] bg-[#EAF3FB] text-[#1685E8] px-2.5 py-1 rounded-full border border-[#BFDBFE]">
                       Mixed
                     </span>
                   </td>
                   <td className="py-3.5 px-3 font-bold text-[#142D4E]">54 / 60</td>
-                  <td className="py-3.5 px-3 font-black text-emerald-700">90%</td>
+                  <td className="py-3.5 px-3 font-black text-emerald-600">90%</td>
                   <td className="py-3.5 px-3 text-[#64748B] font-medium">45:00</td>
                   <td className="py-3.5 px-3 text-[#64748B]">Jan 18, 2026, 10:45 PM</td>
                   <td className="py-3.5 px-3 text-right">
                     <Link href="/student/results">
-                      <Button variant="outline" size="sm" className="text-xs font-bold gap-1 rounded-lg py-1 px-2.5 border-[#BFDBFE]">
-                        <FileText className="w-3.5 h-3.5 text-[#1565C0]" />
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="text-xs font-bold gap-1.5 rounded-xl py-1 px-3 border-[#BFDBFE] hover:bg-[#EAF3FB] hover:border-[#1685E8] text-[#1685E8] transition-all active:scale-[0.98]"
+                      >
+                        <FileText className="w-3.5 h-3.5" />
                         View Report
                       </Button>
                     </Link>
@@ -508,24 +504,28 @@ export default function StudentDashboardPage() {
                     : mod?.title || 'Weekly Mock Exam';
 
                   return (
-                    <tr key={att.id} className="hover:bg-[#F8FAFD] transition-colors">
+                    <tr key={att.id} className="hover:bg-[#F8FBFE] transition-colors duration-150">
                       <td className="py-3.5 px-3">
                         <div className="font-black text-sm text-[#142D4E]">{title}</div>
                         <div className="text-[11px] text-[#64748B]">{sub?.title || 'Midterm Assessment'}</div>
                       </td>
                       <td className="py-3.5 px-3">
-                        <span className="font-bold text-[11px] bg-[#EAF3FB] text-[#1565C0] px-2.5 py-1 rounded-md border border-[#BFDBFE] capitalize">
+                        <span className="font-bold text-[11px] bg-[#EAF3FB] text-[#1685E8] px-2.5 py-1 rounded-full border border-[#BFDBFE] capitalize">
                           {att.exam_mode.replace('_', ' ')}
                         </span>
                       </td>
                       <td className="py-3.5 px-3 font-bold text-[#142D4E]">{att.score} / {att.total_items}</td>
-                      <td className="py-3.5 px-3 font-black text-emerald-700">{att.percentage}%</td>
+                      <td className="py-3.5 px-3 font-black text-emerald-600">{att.percentage}%</td>
                       <td className="py-3.5 px-3 text-[#64748B] font-medium">{formatSeconds(att.time_spent_seconds)}</td>
                       <td className="py-3.5 px-3 text-[#64748B]">{formatDate(att.submitted_at)}</td>
                       <td className="py-3.5 px-3 text-right">
                         <Link href={`/student/results/${att.id}`}>
-                          <Button variant="outline" size="sm" className="text-xs font-bold gap-1 rounded-lg py-1 px-2.5 border-[#BFDBFE]">
-                            <FileText className="w-3.5 h-3.5 text-[#1565C0]" />
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs font-bold gap-1.5 rounded-xl py-1 px-3 border-[#BFDBFE] hover:bg-[#EAF3FB] hover:border-[#1685E8] text-[#1685E8] transition-all active:scale-[0.98]"
+                          >
+                            <FileText className="w-3.5 h-3.5" />
                             View Report
                           </Button>
                         </Link>

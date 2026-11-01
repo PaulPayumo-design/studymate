@@ -12,21 +12,15 @@ import {
   Eye,
   Sparkles,
   HelpCircle,
-  Layers,
   Trash2,
-  RefreshCw,
   Search,
   Check,
   X,
-  Edit,
-  Save,
   Info,
 } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
 import { Badge, QuestionTypeBadge, DifficultyBadge } from '@/components/ui/Badge';
 import { Modal } from '@/components/ui/Modal';
-import { Input, Textarea } from '@/components/ui/Input';
+import { Input } from '@/components/ui/Input';
 
 function ReviewersManagerContent() {
   const searchParams = useSearchParams();
@@ -120,93 +114,90 @@ function ReviewersManagerContent() {
       const data = await res.json();
 
       if (!res.ok) {
-        throw new Error(data.error || 'Failed to extract PDF text.');
+        throw new Error(data.error || 'Failed to parse PDF document.');
       }
 
-      // Save reviewer to store
-      const newReviewer: UploadedReviewer = {
+      setSuggestedQuestions(data.questions || []);
+      setSuggestedFlashcards(data.flashcards || []);
+      setSourceWarnings(data.warnings || []);
+      setSufficientContent(data.sufficient_content ?? true);
+
+      // Create reviewer record locally in StudyMate Store
+      const reviewerRecord: UploadedReviewer = {
         id: `rev-${Date.now()}`,
         subject_id: currentSubject.id,
         module_id: currentModule.id,
-        file_name: data.fileName,
-        file_size_bytes: data.fileSize,
-        extracted_text: data.extractedText,
+        file_name: data.reviewer.file_name,
+        file_size_bytes: data.reviewer.file_size_bytes,
+        extracted_text: data.reviewer.extracted_text,
         extracted_at: new Date().toISOString(),
         status: 'processed',
-        summary: `Extracted ${data.wordCount} words across ${data.pageCount} pages.`,
+        summary: data.reviewer.summary,
         created_at: new Date().toISOString(),
       };
+      StudyMateStore.saveReviewer(reviewerRecord);
 
-      StudyMateStore.saveReviewer(newReviewer);
-      setActiveReviewer(newReviewer);
-      setSuggestedQuestions(data.suggestedQuestions || []);
-      setSuggestedFlashcards(data.suggestedFlashcards || []);
-      setSourceWarnings(data.sourceWarnings || []);
-      setSufficientContent(data.sufficientContent);
-      setFile(null);
       loadData();
-
-      // Open suggested questions review modal
       setReviewModalOpen(true);
     } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Error processing PDF';
-      setExtractError(msg);
+      setExtractError((err as Error).message);
     } finally {
       setIsExtracting(false);
     }
   };
 
-  const handleApproveQuestion = (index: number) => {
+  const handleApproveQuestion = (idx: number) => {
     setSuggestedQuestions(prev => {
       const updated = [...prev];
-      updated[index] = { ...updated[index], approval_status: 'approved' };
+      updated[idx] = { ...updated[idx], approval_status: 'approved' };
       return updated;
     });
   };
 
-  const handleRejectQuestion = (index: number) => {
+  const handleRejectQuestion = (idx: number) => {
     setSuggestedQuestions(prev => {
       const updated = [...prev];
-      updated[index] = { ...updated[index], approval_status: 'rejected' };
+      updated[idx] = { ...updated[idx], approval_status: 'rejected' };
       return updated;
     });
   };
 
   const handleSaveReviewedContent = () => {
-    // Only save approved or reviewed items into question bank
-    const approvedOnly = suggestedQuestions.filter(q => q.approval_status === 'approved');
-    if (approvedOnly.length > 0) {
-      StudyMateStore.saveQuestionsBulk(approvedOnly);
-    }
+    const approvedQ = suggestedQuestions.filter(q => q.approval_status === 'approved');
 
-    // Save flashcards
-    if (suggestedFlashcards.length > 0) {
-      StudyMateStore.saveFlashcardsBulk(suggestedFlashcards);
-    }
+    // Add approved questions to store
+    approvedQ.forEach(q => {
+      StudyMateStore.saveQuestion(q);
+    });
+
+    // Add generated flashcards
+    suggestedFlashcards.forEach(f => {
+      StudyMateStore.saveFlashcard(f);
+    });
 
     setReviewModalOpen(false);
+    setFile(null);
     loadData();
-    alert(`Saved ${approvedOnly.length} approved questions and ${suggestedFlashcards.length} flashcards to the database.`);
   };
 
   const handleDeleteReviewer = () => {
-    if (!currentModule) return;
-    if (confirm(`Remove PDF reviewer for ${currentModule.title}?`)) {
-      StudyMateStore.removeReviewer(currentModule.id);
+    if (!currentReviewer) return;
+    if (confirm(`Remove reviewer "${currentReviewer.file_name}"?`)) {
+      StudyMateStore.removeReviewer(currentReviewer.module_id);
       loadData();
     }
   };
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto">
+    <div className="space-y-6 max-w-7xl mx-auto text-[#F8FAFC]">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-purple-100">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-[#26384D]">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-purple-950 tracking-tight flex items-center gap-2.5">
-            <FileText className="w-7 h-7 text-purple-600" />
+          <h1 className="text-2xl sm:text-3xl font-black text-[#F8FAFC] tracking-tight flex items-center gap-2.5">
+            <FileText className="w-7 h-7 text-[#1685E8]" />
             PDF Reviewer Management
           </h1>
-          <p className="text-xs sm:text-sm text-purple-600/80 mt-1">
+          <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
             Upload PDF reviewers per week. Strictly extract readable text, preview content, and review candidate questions before approval.
           </p>
         </div>
@@ -215,16 +206,16 @@ function ReviewersManagerContent() {
       {/* Selectors */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-xs font-semibold uppercase tracking-wider text-purple-900/80 mb-1.5">
+          <label className="block text-xs font-semibold uppercase tracking-wider text-[#94A3B8] mb-1.5">
             Subject
           </label>
           <select
-            className="w-full px-4 py-2.5 rounded-xl border border-purple-200 bg-white text-purple-950 text-sm font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
+            className="w-full px-4 py-2.5 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-sm font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
             value={selectedSubjectId}
             onChange={e => handleSubjectChange(e.target.value)}
           >
             {subjects.map(s => (
-              <option key={s.id} value={s.id}>
+              <option key={s.id} value={s.id} className="bg-[#101A27] text-[#F8FAFC]">
                 {s.code} - {s.title}
               </option>
             ))}
@@ -232,18 +223,18 @@ function ReviewersManagerContent() {
         </div>
 
         <div>
-          <label className="block text-xs font-semibold uppercase tracking-wider text-purple-900/80 mb-1.5">
+          <label className="block text-xs font-semibold uppercase tracking-wider text-[#94A3B8] mb-1.5">
             Week (1 to 10)
           </label>
           <select
-            className="w-full px-4 py-2.5 rounded-xl border border-purple-200 bg-white text-purple-950 text-sm font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
+            className="w-full px-4 py-2.5 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-sm font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
             value={selectedModuleId}
             onChange={e => setSelectedModuleId(e.target.value)}
           >
             {modules
               .filter(m => m.subject_id === selectedSubjectId)
               .map(m => (
-                <option key={m.id} value={m.id}>
+                <option key={m.id} value={m.id} className="bg-[#101A27] text-[#F8FAFC]">
                   Week {m.module_number}: {m.title}
                 </option>
               ))}
@@ -256,83 +247,79 @@ function ReviewersManagerContent() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           {/* Upload / Current Status Card */}
           <div className="lg:col-span-5 space-y-4">
-            <Card className="border-purple-200">
-              <CardHeader>
+            <div className="rounded-2xl border border-[#26384D] bg-[#111C2A] overflow-hidden">
+              <div className="p-5 border-b border-[#26384D]">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-purple-600 uppercase">
+                  <span className="text-xs font-bold text-[#38BDF8] uppercase">
                     Week {currentModule.module_number}
                   </span>
                   {currentReviewer ? (
-                    <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200 flex items-center gap-1">
-                      <CheckCircle2 className="w-3 h-3" /> Processed
+                    <span className="text-[11px] font-bold text-[#10B981] bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/30 flex items-center gap-1">
+                      <CheckCircle2 className="w-3 h-3 text-[#10B981]" /> Processed
                     </span>
                   ) : (
-                    <span className="text-[11px] font-semibold text-purple-600 bg-purple-100 px-2 py-0.5 rounded-full">
+                    <span className="text-[11px] font-semibold text-[#94A3B8] bg-[#101A27] border border-[#26384D] px-2 py-0.5 rounded-full">
                       No Reviewer Attached
                     </span>
                   )}
                 </div>
-                <CardTitle className="text-lg mt-1">{currentModule.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
+                <h3 className="text-lg font-bold text-[#F8FAFC] mt-1">{currentModule.title}</h3>
+              </div>
+              <div className="p-6 space-y-4">
                 {currentReviewer ? (
-                  <div className="p-4 rounded-2xl bg-purple-50/70 border border-purple-100 space-y-3">
+                  <div className="p-4 rounded-2xl bg-[#101A27] border border-[#26384D] space-y-3">
                     <div className="flex items-start justify-between">
                       <div className="flex items-center gap-2.5">
-                        <div className="w-9 h-9 rounded-xl bg-purple-600 text-white flex items-center justify-center">
+                        <div className="w-9 h-9 rounded-xl bg-[#1685E8] text-white flex items-center justify-center">
                           <FileText className="w-5 h-5" />
                         </div>
                         <div>
-                          <p className="text-xs font-bold text-purple-950 line-clamp-1">{currentReviewer.file_name}</p>
-                          <p className="text-[11px] text-purple-600">
+                          <p className="text-xs font-bold text-[#F8FAFC] line-clamp-1">{currentReviewer.file_name}</p>
+                          <p className="text-[11px] text-[#94A3B8]">
                             {(currentReviewer.file_size_bytes / (1024 * 1024)).toFixed(2)} MB • {currentReviewer.extracted_text.split(/\s+/).length} Words
                           </p>
                         </div>
                       </div>
-                      <Button
-                        variant="ghost"
-                        size="icon"
+                      <button
                         onClick={handleDeleteReviewer}
-                        className="text-rose-500 hover:text-rose-700 hover:bg-rose-50"
+                        className="p-1.5 text-rose-400 hover:text-rose-300 hover:bg-rose-950/40 rounded-lg transition-colors cursor-pointer"
                         title="Delete Reviewer"
                       >
                         <Trash2 className="w-4 h-4" />
-                      </Button>
+                      </button>
                     </div>
 
-                    <p className="text-xs text-purple-700/90 leading-relaxed bg-white p-3 rounded-xl border border-purple-100">
+                    <p className="text-xs text-[#94A3B8] leading-relaxed bg-[#111C2A] p-3 rounded-xl border border-[#26384D]">
                       {currentReviewer.summary || 'PDF text parsed and ready for question generation and student flashcards.'}
                     </p>
 
                     <div className="flex items-center gap-2 pt-1">
-                      <Button
-                        variant="outline"
-                        size="sm"
+                      <button
                         onClick={() => {
                           setActiveReviewer(currentReviewer);
                           setPreviewTextModalOpen(true);
                         }}
-                        className="w-full text-xs gap-1.5"
+                        className="w-full inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-semibold bg-[#111C2A] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer"
                       >
-                        <Eye className="w-3.5 h-3.5 text-purple-600" />
+                        <Eye className="w-3.5 h-3.5 text-[#38BDF8]" />
                         Preview Extracted Text
-                      </Button>
+                      </button>
                     </div>
                   </div>
                 ) : (
-                  <p className="text-xs text-purple-600/80">
+                  <p className="text-xs text-[#94A3B8]">
                     Upload a PDF reviewer document (e.g. lecture notes, syllabus chapter) for Week {currentModule.module_number}.
                   </p>
                 )}
 
                 {/* Upload Form */}
-                <form onSubmit={handleFileUploadAndExtract} className="space-y-4 pt-2 border-t border-purple-50">
+                <form onSubmit={handleFileUploadAndExtract} className="space-y-4 pt-2 border-t border-[#26384D]">
                   <div>
-                    <label className="block text-xs font-semibold uppercase tracking-wider text-purple-900/80 mb-1.5">
+                    <label className="block text-xs font-semibold uppercase tracking-wider text-[#94A3B8] mb-1.5">
                       {currentReviewer ? 'Replace / Re-upload PDF' : 'Upload PDF Document'}
                     </label>
-                    <div className="border-2 border-dashed border-purple-200 hover:border-purple-400 rounded-2xl p-6 text-center bg-purple-50/30 transition-colors">
-                      <UploadCloud className="w-8 h-8 text-purple-500 mx-auto mb-2" />
+                    <div className="border-2 border-dashed border-[#26384D] hover:border-[#1685E8] rounded-2xl p-6 text-center bg-[#101A27] transition-colors">
+                      <UploadCloud className="w-8 h-8 text-[#38BDF8] mx-auto mb-2" />
                       <input
                         type="file"
                         accept=".pdf"
@@ -341,42 +328,40 @@ function ReviewersManagerContent() {
                         id="pdf-upload-input"
                       />
                       <label htmlFor="pdf-upload-input" className="cursor-pointer">
-                        <span className="text-xs font-bold text-purple-700 hover:underline">
+                        <span className="text-xs font-bold text-[#38BDF8] hover:underline">
                           {file ? file.name : 'Choose PDF File'}
                         </span>
-                        <p className="text-[11px] text-purple-500 mt-1">Searchable PDF format recommended</p>
+                        <p className="text-[11px] text-[#94A3B8] mt-1">Searchable PDF format recommended</p>
                       </label>
                     </div>
                   </div>
 
                   {extractError && (
-                    <div className="p-3 bg-rose-50 border border-rose-200 rounded-xl text-rose-700 text-xs flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
+                    <div className="p-3 bg-rose-950/50 border border-rose-500/40 rounded-xl text-rose-300 text-xs flex items-start gap-2">
+                      <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-rose-400" />
                       <span>{extractError}</span>
                     </div>
                   )}
 
-                  <Button
+                  <button
                     type="submit"
-                    variant="primary"
-                    disabled={!file}
-                    isLoading={isExtracting}
-                    className="w-full gap-2"
+                    disabled={!file || isExtracting}
+                    className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white disabled:opacity-40 transition-all cursor-pointer"
                   >
                     <Sparkles className="w-4 h-4" />
-                    Extract Text & Generate Suggestions
-                  </Button>
+                    {isExtracting ? 'Extracting Text & Generating...' : 'Extract Text & Generate Suggestions'}
+                  </button>
                 </form>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
 
             {/* Strict Source Grounding Notice */}
-            <div className="p-4 bg-purple-100/70 rounded-2xl border border-purple-200 text-xs text-purple-950 space-y-2">
-              <div className="flex items-center gap-2 font-bold text-purple-900">
-                <Info className="w-4 h-4 text-purple-700" />
+            <div className="p-4 bg-[#101A27] rounded-2xl border border-[#26384D] text-xs text-[#F8FAFC] space-y-2">
+              <div className="flex items-center gap-2 font-bold text-[#38BDF8]">
+                <Info className="w-4 h-4 text-[#38BDF8]" />
                 Strict Source Requirement
               </div>
-              <p className="text-[11px] text-purple-800 leading-relaxed">
+              <p className="text-[11px] text-[#94A3B8] leading-relaxed">
                 All generated questions, answers, and explanations are derived strictly from the text of the uploaded PDF reviewer.
                 Nothing is invented from external sources. The administrator must review and approve questions before they are committed to the question bank.
               </p>
@@ -385,14 +370,14 @@ function ReviewersManagerContent() {
 
           {/* Weeks Overview & Question Counts */}
           <div className="lg:col-span-7 space-y-4">
-            <Card>
-              <CardHeader>
-                <CardTitle>Weekly Reviewer Overview across Subject</CardTitle>
-                <p className="text-xs text-purple-600 mt-0.5">
+            <div className="rounded-2xl border border-[#26384D] bg-[#111C2A] p-6 space-y-4">
+              <div>
+                <h3 className="text-lg font-bold text-[#F8FAFC]">Weekly Reviewer Overview across Subject</h3>
+                <p className="text-xs text-[#94A3B8] mt-0.5">
                   Curriculum weeks of {currentSubject?.title}. Ensure each week has its dedicated PDF reviewer attached.
                 </p>
-              </CardHeader>
-              <CardContent className="space-y-3">
+              </div>
+              <div className="space-y-3">
                 {modules
                   .filter(m => m.subject_id === selectedSubjectId)
                   .map(mod => {
@@ -403,44 +388,42 @@ function ReviewersManagerContent() {
                       <div
                         key={mod.id}
                         onClick={() => setSelectedModuleId(mod.id)}
-                        className={`p-4 rounded-2xl border transition-all cursor-pointer flex items-center justify-between gap-4 ${
-                          isSelected
-                            ? 'bg-purple-100/70 border-purple-400 shadow-xs'
-                            : 'bg-white border-purple-100 hover:border-purple-300'
-                        }`}
+                        className={`p-4 rounded-2xl border transition-all cursor-pointer flex items-center justify-between gap-4 ${isSelected
+                            ? 'bg-[#1685E8]/15 border-[#1685E8] shadow-xs'
+                            : 'bg-[#101A27] border-[#26384D] hover:border-[#38BDF8]/60'
+                          }`}
                       >
                         <div className="flex items-center gap-3">
-                          <div className={`w-9 h-9 rounded-xl flex items-center justify-center font-bold text-xs ${
-                            r ? 'bg-purple-600 text-white' : 'bg-purple-100 text-purple-700'
-                          }`}>
+                          <div className={`w-9 h-9 rounded-xl flex items-center justify-center font-bold text-xs ${r ? 'bg-[#1685E8] text-white' : 'bg-[#111C2A] text-[#94A3B8] border border-[#26384D]'
+                            }`}>
                             {mod.module_number}
                           </div>
                           <div>
                             <div className="flex items-center gap-2">
-                              <h5 className="font-bold text-xs text-purple-950">Week {mod.module_number}: {mod.title}</h5>
+                              <h5 className="font-bold text-xs text-[#F8FAFC]">Week {mod.module_number}: {mod.title}</h5>
                               {r ? (
                                 <Badge variant="success" size="sm">PDF Attached</Badge>
                               ) : (
                                 <Badge variant="warning" size="sm">Missing PDF</Badge>
                               )}
                             </div>
-                            <p className="text-[11px] text-purple-600 line-clamp-1 mt-0.5">
+                            <p className="text-[11px] text-[#94A3B8] line-clamp-1 mt-0.5">
                               {r ? r.file_name : 'No reviewer uploaded yet.'}
                             </p>
                           </div>
                         </div>
 
                         <div className="flex items-center gap-3 text-right">
-                          <div className="text-xs text-purple-700 font-semibold">
+                          <div className="text-xs text-[#38BDF8] font-semibold">
                             {r ? `${r.extracted_text.split(/\s+/).length} words` : '0 words'}
                           </div>
-                          <span className="text-purple-400">→</span>
+                          <span className="text-[#94A3B8]">→</span>
                         </div>
                       </div>
                     );
                   })}
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           </div>
         </div>
       )}
@@ -456,7 +439,7 @@ function ReviewersManagerContent() {
         >
           <div className="space-y-4">
             <div className="relative">
-              <Search className="w-4 h-4 text-purple-400 absolute left-3 top-3" />
+              <Search className="w-4 h-4 text-[#94A3B8] absolute left-3 top-3" />
               <Input
                 placeholder="Search extracted keywords..."
                 value={searchTerm}
@@ -465,17 +448,20 @@ function ReviewersManagerContent() {
               />
             </div>
 
-            <div className="p-4 bg-purple-50/50 rounded-2xl border border-purple-100 font-mono text-xs text-purple-950 max-h-[55vh] overflow-y-auto leading-relaxed whitespace-pre-wrap select-text">
+            <div className="p-4 bg-[#101A27] rounded-2xl border border-[#26384D] font-mono text-xs text-[#F8FAFC] max-h-[55vh] overflow-y-auto leading-relaxed whitespace-pre-wrap select-text">
               {activeReviewer.extracted_text}
             </div>
 
             <div className="flex justify-between items-center pt-2">
-              <span className="text-xs text-purple-500">
+              <span className="text-xs text-[#94A3B8]">
                 Audited: Extracted on {new Date(activeReviewer.extracted_at).toLocaleDateString()}
               </span>
-              <Button variant="primary" onClick={() => setPreviewTextModalOpen(false)}>
+              <button
+                onClick={() => setPreviewTextModalOpen(false)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white transition-all cursor-pointer"
+              >
                 Done
-              </Button>
+              </button>
             </div>
           </div>
         </Modal>
@@ -492,10 +478,10 @@ function ReviewersManagerContent() {
         >
           <div className="space-y-6">
             {sourceWarnings.length > 0 && (
-              <div className="p-3 bg-amber-50 border border-amber-200 rounded-xl text-amber-800 text-xs space-y-1">
+              <div className="p-3 bg-amber-950/50 border border-amber-500/40 rounded-xl text-amber-300 text-xs space-y-1">
                 {sourceWarnings.map((w, idx) => (
                   <div key={idx} className="flex items-start gap-2">
-                    <AlertTriangle className="w-3.5 h-3.5 shrink-0 mt-0.5 text-amber-600" />
+                    <AlertTriangle className="w-3.5 h-3.5 shrink-0 mt-0.5 text-amber-400" />
                     <span>{w}</span>
                   </div>
                 ))}
@@ -503,20 +489,18 @@ function ReviewersManagerContent() {
             )}
 
             <div className="flex items-center justify-between">
-              <div className="text-xs text-purple-700">
-                Approved: <strong className="text-purple-950 font-bold">{suggestedQuestions.filter(q => q.approval_status === 'approved').length}</strong> / {suggestedQuestions.length} Questions
+              <div className="text-xs text-[#38BDF8]">
+                Approved: <strong className="text-[#F8FAFC] font-bold">{suggestedQuestions.filter(q => q.approval_status === 'approved').length}</strong> / {suggestedQuestions.length} Questions
               </div>
               <div className="flex items-center gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
+                <button
                   onClick={() => {
                     setSuggestedQuestions(prev => prev.map(q => ({ ...q, approval_status: 'approved' })));
                   }}
-                  className="text-xs text-purple-700"
+                  className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#1685E8]/20 text-[#38BDF8] border border-[#26384D] transition-colors cursor-pointer"
                 >
                   Approve All
-                </Button>
+                </button>
               </div>
             </div>
 
@@ -525,22 +509,21 @@ function ReviewersManagerContent() {
               {suggestedQuestions.map((q, idx) => (
                 <div
                   key={q.id}
-                  className={`p-4 rounded-2xl border transition-all space-y-2 ${
-                    q.approval_status === 'approved'
-                      ? 'bg-emerald-50/50 border-emerald-300'
+                  className={`p-4 rounded-2xl border transition-all space-y-2 ${q.approval_status === 'approved'
+                      ? 'bg-emerald-950/30 border-emerald-500/40'
                       : q.approval_status === 'rejected'
-                      ? 'bg-rose-50/40 border-rose-200 opacity-60'
-                      : 'bg-white border-purple-200 shadow-2xs'
-                  }`}
+                        ? 'bg-rose-950/30 border-rose-500/40 opacity-60'
+                        : 'bg-[#101A27] border-[#26384D]'
+                    }`}
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex items-center gap-2 flex-wrap">
-                      <span className="text-xs font-bold text-purple-950">Q{idx + 1}.</span>
+                      <span className="text-xs font-bold text-[#F8FAFC]">Q{idx + 1}.</span>
                       <QuestionTypeBadge type={q.question_type} />
                       <DifficultyBadge difficulty={q.difficulty} />
                       {q.manual_verification_flag && (
-                        <span className="text-[10px] font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full flex items-center gap-1">
-                          <AlertTriangle className="w-2.5 h-2.5" /> Verify Manually
+                        <span className="text-[10px] font-bold text-amber-400 bg-amber-950/80 px-2 py-0.5 rounded-full border border-amber-500/30 flex items-center gap-1">
+                          <AlertTriangle className="w-2.5 h-2.5 text-amber-400" /> Verify Manually
                         </span>
                       )}
                     </div>
@@ -548,11 +531,10 @@ function ReviewersManagerContent() {
                     <div className="flex items-center gap-1.5 shrink-0">
                       <button
                         onClick={() => handleApproveQuestion(idx)}
-                        className={`p-1.5 rounded-lg border text-xs font-semibold flex items-center gap-1 transition-colors ${
-                          q.approval_status === 'approved'
-                            ? 'bg-emerald-600 text-white border-emerald-600'
-                            : 'bg-white text-emerald-700 border-emerald-200 hover:bg-emerald-50'
-                        }`}
+                        className={`p-1.5 rounded-lg border text-xs font-semibold flex items-center gap-1 transition-colors cursor-pointer ${q.approval_status === 'approved'
+                            ? 'bg-[#10B981] text-white border-[#10B981]'
+                            : 'bg-[#111C2A] text-[#10B981] border-[#26384D] hover:bg-[#1685E8]/20'
+                          }`}
                         title="Approve Question"
                       >
                         <Check className="w-3.5 h-3.5" />
@@ -561,11 +543,10 @@ function ReviewersManagerContent() {
 
                       <button
                         onClick={() => handleRejectQuestion(idx)}
-                        className={`p-1.5 rounded-lg border text-xs font-semibold flex items-center gap-1 transition-colors ${
-                          q.approval_status === 'rejected'
-                            ? 'bg-rose-600 text-white border-rose-600'
-                            : 'bg-white text-rose-700 border-rose-200 hover:bg-rose-50'
-                        }`}
+                        className={`p-1.5 rounded-lg border text-xs font-semibold flex items-center gap-1 transition-colors cursor-pointer ${q.approval_status === 'rejected'
+                            ? 'bg-[#EF4444] text-white border-[#EF4444]'
+                            : 'bg-[#111C2A] text-rose-400 border-[#26384D] hover:bg-rose-950/40'
+                          }`}
                         title="Reject Question"
                       >
                         <X className="w-3.5 h-3.5" />
@@ -574,18 +555,17 @@ function ReviewersManagerContent() {
                     </div>
                   </div>
 
-                  <p className="text-xs font-bold text-purple-950">{q.question_text}</p>
+                  <p className="text-xs font-bold text-[#F8FAFC]">{q.question_text}</p>
 
                   {q.choices && (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-xs">
                       {q.choices.map((c, cIdx) => (
                         <div
                           key={cIdx}
-                          className={`p-2 rounded-lg border ${
-                            c === q.correct_answer
-                              ? 'bg-emerald-100/70 border-emerald-300 font-bold text-emerald-950'
-                              : 'bg-purple-50/40 border-purple-100 text-purple-800'
-                          }`}
+                          className={`p-2 rounded-lg border ${c === q.correct_answer
+                              ? 'bg-emerald-950/60 border-emerald-500/40 font-bold text-emerald-300'
+                              : 'bg-[#111C2A] border-[#26384D] text-[#94A3B8]'
+                            }`}
                         >
                           {String.fromCharCode(65 + cIdx)}. {c}
                         </div>
@@ -594,30 +574,38 @@ function ReviewersManagerContent() {
                   )}
 
                   {q.question_type !== 'multiple_choice' && (
-                    <div className="p-2 rounded-lg bg-emerald-50/80 border border-emerald-200 text-xs">
-                      <span className="font-bold text-emerald-900">Correct Answer:</span>{' '}
-                      <span className="text-emerald-950 font-semibold">{q.correct_answer}</span>
+                    <div className="p-2 rounded-lg bg-[#111C2A] border border-[#26384D] text-xs">
+                      <span className="font-bold text-[#10B981]">Correct Answer:</span>{' '}
+                      <span className="text-[#F8FAFC] font-semibold">{q.correct_answer}</span>
                     </div>
                   )}
 
-                  <div className="text-[11px] text-purple-600 bg-purple-50/60 p-2 rounded-lg">
-                    <strong>Source Excerpt:</strong> {q.explanation}
+                  <div className="text-[11px] text-[#94A3B8] bg-[#111C2A] p-2 rounded-lg border border-[#26384D]">
+                    <strong className="text-[#38BDF8]">Source Excerpt:</strong> {q.explanation}
                   </div>
                 </div>
               ))}
             </div>
 
-            <div className="flex items-center justify-between pt-3 border-t border-purple-100">
-              <span className="text-xs text-purple-600">
-                Only questions marked as <strong>Approved</strong> will be added to the Question Bank.
+            <div className="flex items-center justify-between pt-3 border-t border-[#26384D]">
+              <span className="text-xs text-[#94A3B8]">
+                Only questions marked as <strong className="text-[#F8FAFC]">Approved</strong> will be added to the Question Bank.
               </span>
               <div className="flex gap-2">
-                <Button variant="ghost" onClick={() => setReviewModalOpen(false)}>
+                <button
+                  type="button"
+                  onClick={() => setReviewModalOpen(false)}
+                  className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+                >
                   Cancel
-                </Button>
-                <Button variant="primary" onClick={handleSaveReviewedContent}>
+                </button>
+                <button
+                  type="button"
+                  onClick={handleSaveReviewedContent}
+                  className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+                >
                   Commit Approved to Question Bank
-                </Button>
+                </button>
               </div>
             </div>
           </div>
@@ -629,7 +617,7 @@ function ReviewersManagerContent() {
 
 export default function ReviewersPage() {
   return (
-    <Suspense fallback={<div className="p-8 text-center text-purple-600">Loading reviewer workspace...</div>}>
+    <Suspense fallback={<div className="p-8 text-center text-[#94A3B8]">Loading reviewer workspace...</div>}>
       <ReviewersManagerContent />
     </Suspense>
   );

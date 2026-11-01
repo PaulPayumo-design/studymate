@@ -70,14 +70,14 @@ export function AdminSidebar() {
 
   const navContent = (
     <>
-      <div className="p-4 border-b border-purple-50 flex items-center justify-between">
-        <span className="text-[11px] font-bold tracking-wider uppercase text-purple-600 bg-purple-50 px-2.5 py-1 rounded-lg">
+      <div className="p-4 border-b border-[#26384D] flex items-center justify-between">
+        <span className="text-[11px] font-bold tracking-wider uppercase text-[#38BDF8] bg-[#111C2A] border border-[#26384D] px-2.5 py-1 rounded-lg">
           Administrator Console
         </span>
         {mobileOpen && (
           <button
             onClick={() => setMobileOpen(false)}
-            className="md:hidden p-1.5 rounded-lg text-purple-600 hover:bg-purple-50"
+            className="md:hidden p-1.5 rounded-lg text-[#94A3B8] hover:bg-[#111C2A] hover:text-[#F8FAFC]"
           >
             <X className="w-5 h-5" />
           </button>
@@ -88,7 +88,7 @@ export function AdminSidebar() {
         {ADMIN_NAV_ITEMS.map((section, sIdx) => (
           <div key={sIdx} className="space-y-1">
             {section.category && (
-              <p className="px-3.5 text-[10px] font-extrabold uppercase tracking-wider text-purple-400 mb-1.5">
+              <p className="px-3.5 text-[10px] font-extrabold uppercase tracking-wider text-[#38BDF8] mb-1.5">
                 {section.category}
               </p>
             )}
@@ -108,11 +108,11 @@ export function AdminSidebar() {
                     'flex items-center gap-2.5 px-3 py-2 rounded-xl text-sm font-medium transition-all duration-150',
                     item.isSubItem && 'ml-3 text-xs py-1.5',
                     isActive
-                      ? 'bg-purple-600 text-white shadow-xs font-semibold'
-                      : 'text-purple-800 hover:bg-purple-50/80 hover:text-purple-950'
+                      ? 'bg-[#1685E8] text-white shadow-xs font-semibold'
+                      : 'text-[#94A3B8] hover:bg-[#111C2A] hover:text-[#F8FAFC]'
                   )}
                 >
-                  <Icon className={cn('shrink-0', item.isSubItem ? 'w-3.5 h-3.5' : 'w-4 h-4', isActive ? 'text-white' : 'text-purple-500')} />
+                  <Icon className={cn('shrink-0', item.isSubItem ? 'w-3.5 h-3.5' : 'w-4 h-4', isActive ? 'text-white' : 'text-[#94A3B8]')} />
                   <span>{item.label}</span>
                 </Link>
               );
@@ -121,9 +121,19 @@ export function AdminSidebar() {
         ))}
       </nav>
 
-      <div className="p-4 border-t border-purple-50 bg-purple-50/40 m-3 rounded-2xl">
-        <p className="text-xs font-semibold text-purple-900">StudyMate Control Center</p>
-        <p className="text-[11px] text-purple-600 mt-0.5">Strict PDF-sourced question banking & student authorization</p>
+      <div className="p-3.5 border-t border-[#26384D] bg-[#111C2A] m-3 rounded-2xl relative overflow-hidden">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="w-5 h-5 rounded-md bg-[#1685E8] text-white flex items-center justify-center font-bold text-[10px]">
+              N
+            </span>
+            <span className="text-xs font-semibold text-[#F8FAFC]">1 Insight</span>
+          </div>
+          <span className="text-xs text-[#94A3B8] hover:text-[#F8FAFC] cursor-pointer">✕</span>
+        </div>
+        <p className="text-[10px] text-[#94A3B8] mt-1.5">
+          Strict PDF-sourced question banking & student authorization
+        </p>
       </div>
     </>
   );
@@ -131,7 +141,7 @@ export function AdminSidebar() {
   return (
     <>
       {/* Desktop & Tablet Landscape Persistent Sidebar */}
-      <aside className="hidden md:flex w-64 bg-white border-r border-purple-100 flex-col shrink-0 min-h-[calc(100vh-4rem)]">
+      <aside className="hidden md:flex w-64 bg-[#0B1420] border-r border-[#26384D] flex-col shrink-0 min-h-[calc(100vh-4rem)]">
         {navContent}
       </aside>
 
@@ -139,7 +149,7 @@ export function AdminSidebar() {
       <div className="md:hidden fixed bottom-4 right-4 z-40">
         <button
           onClick={() => setMobileOpen(true)}
-          className="flex items-center gap-2 bg-purple-600 hover:bg-purple-800 text-white px-4 py-3 rounded-full shadow-lg shadow-purple-600/35 font-bold text-xs transition-all active:scale-95"
+          className="flex items-center gap-2 bg-[#1685E8] hover:bg-[#1270c7] text-white px-4 py-3 rounded-full shadow-lg shadow-[#1685E8]/35 font-bold text-xs transition-all active:scale-95"
         >
           <Menu className="w-4 h-4" />
           <span>Admin Menu</span>
@@ -150,10 +160,10 @@ export function AdminSidebar() {
       {mobileOpen && (
         <div className="md:hidden fixed inset-0 z-50 flex">
           <div
-            className="fixed inset-0 bg-slate-900/50 backdrop-blur-xs transition-opacity animate-fade-in"
+            className="fixed inset-0 bg-slate-950/70 backdrop-blur-xs transition-opacity animate-fade-in"
             onClick={() => setMobileOpen(false)}
           />
-          <aside className="relative w-72 max-w-[80vw] bg-white h-full flex flex-col shadow-2xl z-10 animate-slide-right">
+          <aside className="relative w-72 max-w-[80vw] bg-[#0B1420] border-r border-[#26384D] h-full flex flex-col shadow-2xl z-10 animate-slide-right">
             {navContent}
           </aside>
         </div>

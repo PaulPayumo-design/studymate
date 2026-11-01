@@ -9,27 +9,21 @@ import {
   HelpCircle,
   Plus,
   Search,
-  Filter,
   Download,
   Upload,
   Edit,
   Trash2,
   CheckCircle2,
   XCircle,
-  Clock,
   Sparkles,
-  BookOpen,
   ArrowRight,
   Sliders,
   ListChecks,
   PenTool,
   ToggleLeft,
-  FileCheck2,
   FileText,
 } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
-import { Badge, QuestionTypeBadge, DifficultyBadge, ApprovalStatusBadge } from '@/components/ui/Badge';
+import { QuestionTypeBadge, DifficultyBadge, ApprovalStatusBadge } from '@/components/ui/Badge';
 import { Modal } from '@/components/ui/Modal';
 import { Input, Textarea } from '@/components/ui/Input';
 import { TopicQuestionGeneratorModal } from '@/components/admin/TopicQuestionGeneratorModal';
@@ -257,41 +251,48 @@ function QuestionsManagerContent() {
   };
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto">
+    <div className="space-y-6 max-w-7xl mx-auto text-[#F8FAFC]">
       {/* Header & Actions */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-purple-100">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-[#26384D]">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-purple-950 tracking-tight flex items-center gap-2.5">
-            <HelpCircle className="w-7 h-7 text-purple-600" />
+          <h1 className="text-2xl sm:text-3xl font-black text-[#F8FAFC] tracking-tight flex items-center gap-2.5">
+            <HelpCircle className="w-7 h-7 text-[#1685E8]" />
             Question Bank Management
           </h1>
-          <p className="text-xs sm:text-sm text-purple-600/80 mt-1">
+          <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
             Target 30 questions per module across Multiple Choice, Identification, and True/False. Manual authoring, JSON import/export, and PDF generation.
           </p>
         </div>
 
         <div className="flex items-center gap-2 flex-wrap">
-          <Button
-            variant="primary"
-            size="sm"
+          <button
             onClick={() => setIsGeneratorOpen(true)}
-            className="gap-1.5 text-xs bg-gradient-to-r from-purple-600 to-indigo-600 shadow-md shadow-purple-500/20"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all active:scale-95 cursor-pointer"
           >
-            <Sparkles className="w-4 h-4 text-lavender-200" />
+            <Sparkles className="w-4 h-4 text-[#38BDF8]" />
             AI Generator from Topics
-          </Button>
-          <Button variant="outline" size="sm" onClick={handleExportJson} className="gap-1.5 text-xs">
-            <Download className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={handleExportJson}
+            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#111C2A] text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer"
+          >
+            <Download className="w-3.5 h-3.5 text-[#38BDF8]" />
             Export JSON
-          </Button>
-          <Button variant="outline" size="sm" onClick={() => setIsImportModalOpen(true)} className="gap-1.5 text-xs">
-            <Upload className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={() => setIsImportModalOpen(true)}
+            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#111C2A] text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer"
+          >
+            <Upload className="w-3.5 h-3.5 text-[#38BDF8]" />
             Import JSON
-          </Button>
-          <Button variant="secondary" size="sm" onClick={() => setIsCreateModalOpen(true)} className="gap-1.5 text-xs">
-            <Plus className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => setIsCreateModalOpen(true)}
+            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#111C2A] text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer"
+          >
+            <Plus className="w-4 h-4 text-[#38BDF8]" />
             Add Question
-          </Button>
+          </button>
         </div>
       </div>
 
@@ -299,289 +300,280 @@ function QuestionsManagerContent() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         <Link
           href={`/admin/questions/multiple-choice${selectedSubjectId ? `?subjectId=${selectedSubjectId}` : ''}${selectedModuleId ? `&moduleId=${selectedModuleId}` : ''}`}
-          className="group p-4 rounded-2xl bg-white border border-purple-100 hover:border-purple-300 shadow-xs hover:shadow-md transition-all flex items-center justify-between"
+          className="group p-4 rounded-2xl bg-[#101A27] border border-[#26384D] hover:border-[#1685E8] shadow-xs transition-all flex items-center justify-between"
         >
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-[#1685E8]/20 text-[#38BDF8] flex items-center justify-center group-hover:bg-[#1685E8] group-hover:text-white transition-colors">
               <ListChecks className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-purple-950 group-hover:text-purple-700 transition-colors">
+              <h4 className="text-sm font-bold text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors">
                 Multiple Choice
               </h4>
-              <p className="text-[11px] text-purple-600">
+              <p className="text-[11px] text-[#94A3B8]">
                 {questions.filter(q => q.question_type === 'multiple_choice' && (!selectedModuleId || q.module_id === selectedModuleId)).length} items • 4 options
               </p>
             </div>
           </div>
-          <ArrowRight className="w-4 h-4 text-purple-400 group-hover:text-purple-700 group-hover:translate-x-0.5 transition-all" />
+          <ArrowRight className="w-4 h-4 text-[#94A3B8] group-hover:text-[#38BDF8] group-hover:translate-x-0.5 transition-all" />
         </Link>
 
         <Link
           href={`/admin/questions/identification${selectedSubjectId ? `?subjectId=${selectedSubjectId}` : ''}${selectedModuleId ? `&moduleId=${selectedModuleId}` : ''}`}
-          className="group p-4 rounded-2xl bg-white border border-purple-100 hover:border-purple-300 shadow-xs hover:shadow-md transition-all flex items-center justify-between"
+          className="group p-4 rounded-2xl bg-[#101A27] border border-[#26384D] hover:border-[#1685E8] shadow-xs transition-all flex items-center justify-between"
         >
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-[#1685E8]/20 text-[#38BDF8] flex items-center justify-center group-hover:bg-[#1685E8] group-hover:text-white transition-colors">
               <PenTool className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-purple-950 group-hover:text-purple-700 transition-colors">
+              <h4 className="text-sm font-bold text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors">
                 Identification
               </h4>
-              <p className="text-[11px] text-purple-600">
+              <p className="text-[11px] text-[#94A3B8]">
                 {questions.filter(q => q.question_type === 'identification' && (!selectedModuleId || q.module_id === selectedModuleId)).length} items • Normalized terms
               </p>
             </div>
           </div>
-          <ArrowRight className="w-4 h-4 text-purple-400 group-hover:text-purple-700 group-hover:translate-x-0.5 transition-all" />
+          <ArrowRight className="w-4 h-4 text-[#94A3B8] group-hover:text-[#38BDF8] group-hover:translate-x-0.5 transition-all" />
         </Link>
 
         <Link
           href={`/admin/questions/true-false${selectedSubjectId ? `?subjectId=${selectedSubjectId}` : ''}${selectedModuleId ? `&moduleId=${selectedModuleId}` : ''}`}
-          className="group p-4 rounded-2xl bg-white border border-purple-100 hover:border-purple-300 shadow-xs hover:shadow-md transition-all flex items-center justify-between"
+          className="group p-4 rounded-2xl bg-[#101A27] border border-[#26384D] hover:border-[#1685E8] shadow-xs transition-all flex items-center justify-between"
         >
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-[#1685E8]/20 text-[#38BDF8] flex items-center justify-center group-hover:bg-[#1685E8] group-hover:text-white transition-colors">
               <ToggleLeft className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-purple-950 group-hover:text-purple-700 transition-colors">
+              <h4 className="text-sm font-bold text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors">
                 True or False
               </h4>
-              <p className="text-[11px] text-purple-600">
+              <p className="text-[11px] text-[#94A3B8]">
                 {questions.filter(q => q.question_type === 'true_false' && (!selectedModuleId || q.module_id === selectedModuleId)).length} items • Binary check
               </p>
             </div>
           </div>
-          <ArrowRight className="w-4 h-4 text-purple-400 group-hover:text-purple-700 group-hover:translate-x-0.5 transition-all" />
+          <ArrowRight className="w-4 h-4 text-[#94A3B8] group-hover:text-[#38BDF8] group-hover:translate-x-0.5 transition-all" />
         </Link>
       </div>
 
       {/* Target Progress Meter for Selected Module */}
       {selectedModuleId && activeModule && (
-        <Card className="border-purple-200 bg-gradient-to-r from-purple-50 via-white to-lavender-50">
-          <CardContent className="p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div className="space-y-1">
-              <div className="flex items-center gap-2">
-                <span className="font-bold text-xs bg-purple-600 text-white px-2 py-0.5 rounded-md">
-                  Module {activeModule.module_number}
-                </span>
-                <h4 className="font-bold text-sm text-purple-950">{activeModule.title}</h4>
-              </div>
-              <p className="text-xs text-purple-600">
-                Target Question Bank: <strong>30 Questions</strong>. Current approved:{' '}
-                <strong className={moduleApprovedCount >= 30 ? 'text-emerald-700' : 'text-purple-900'}>
-                  {moduleApprovedCount} / 30
-                </strong>
-              </p>
+        <div className="rounded-2xl border border-[#26384D] bg-[#111C2A] p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <span className="font-bold text-xs bg-[#1685E8] text-white px-2 py-0.5 rounded-md">
+                Module {activeModule.module_number}
+              </span>
+              <h4 className="font-bold text-sm text-[#F8FAFC]">{activeModule.title}</h4>
             </div>
+            <p className="text-xs text-[#94A3B8]">
+              Target Question Bank: <strong>30 Questions</strong>. Current approved:{' '}
+              <strong className={moduleApprovedCount >= 30 ? 'text-[#10B981]' : 'text-[#38BDF8]'}>
+                {moduleApprovedCount} / 30
+              </strong>
+            </p>
+          </div>
 
-            <div className="flex items-center gap-3">
-              <div className="w-44 bg-purple-200 rounded-full h-2.5 overflow-hidden">
-                <div
-                  className="bg-purple-600 h-2.5 rounded-full transition-all duration-500"
-                  style={{ width: `${Math.min(100, (moduleApprovedCount / 30) * 100)}%` }}
-                />
-              </div>
-              <Link href={`/admin/modules?moduleId=${activeModule.id}`}>
-                <Button variant="secondary" size="sm" className="text-xs gap-1">
-                  <Sliders className="w-3 h-3" />
-                  Distribution
-                </Button>
-              </Link>
+          <div className="flex items-center gap-3">
+            <div className="w-44 bg-[#101A27] border border-[#26384D] rounded-full h-2.5 overflow-hidden">
+              <div
+                className="bg-[#1685E8] h-2.5 rounded-full transition-all duration-500"
+                style={{ width: `${Math.min(100, (moduleApprovedCount / 30) * 100)}%` }}
+              />
             </div>
-          </CardContent>
-        </Card>
+            <Link href={`/admin/modules?moduleId=${activeModule.id}`}>
+              <button className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer">
+                <Sliders className="w-3 h-3 text-[#38BDF8]" />
+                Distribution
+              </button>
+            </Link>
+          </div>
+        </div>
       )}
 
       {/* Filters Bar */}
-      <Card>
-        <CardContent className="p-4 space-y-3">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
-                Subject
-              </label>
-              <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
-                value={selectedSubjectId}
-                onChange={e => handleSubjectFilterChange(e.target.value)}
-              >
-                {subjects.map(s => (
-                  <option key={s.id} value={s.id}>
-                    {s.code} - {s.title}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
-                Module
-              </label>
-              <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
-                value={selectedModuleId}
-                onChange={e => setSelectedModuleId(e.target.value)}
-              >
-                <option value="">All Modules (1-5)</option>
-                {modules
-                  .filter(m => !selectedSubjectId || m.subject_id === selectedSubjectId)
-                  .map(m => (
-                    <option key={m.id} value={m.id}>
-                      Module {m.module_number}: {m.title}
-                    </option>
-                  ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
-                Question Type
-              </label>
-              <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
-                value={selectedType}
-                onChange={e => setSelectedType(e.target.value)}
-              >
-                <option value="all">All Types</option>
-                <option value="multiple_choice">Multiple Choice</option>
-                <option value="identification">Identification</option>
-                <option value="true_false">True or False</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
-                Topic
-              </label>
-              <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
-                value={selectedTopic}
-                onChange={e => setSelectedTopic(e.target.value)}
-              >
-                <option value="all">All Topics</option>
-                {availableTopics.map(t => (
-                  <option key={t} value={t}>
-                    {t}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
-                Approval Status
-              </label>
-              <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium focus:ring-2 focus:ring-purple-400 focus:outline-none"
-                value={selectedStatus}
-                onChange={e => setSelectedStatus(e.target.value)}
-              >
-                <option value="all">All Statuses</option>
-                <option value="approved">Approved Only</option>
-                <option value="pending">Pending Review Only</option>
-                <option value="rejected">Rejected Only</option>
-              </select>
-            </div>
+      <div className="rounded-2xl border border-[#26384D] bg-[#111C2A] p-4 space-y-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
+              Subject
+            </label>
+            <select
+              className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
+              value={selectedSubjectId}
+              onChange={e => handleSubjectFilterChange(e.target.value)}
+            >
+              {subjects.map(s => (
+                <option key={s.id} value={s.id} className="bg-[#101A27] text-[#F8FAFC]">
+                  {s.code} - {s.title}
+                </option>
+              ))}
+            </select>
           </div>
 
-          <div className="relative">
-            <Search className="w-4 h-4 text-purple-400 absolute left-3 top-3" />
-            <Input
-              placeholder="Search question text, correct answers, or explanation excerpts..."
-              value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
-              className="pl-9 text-xs"
-            />
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
+              Module
+            </label>
+            <select
+              className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
+              value={selectedModuleId}
+              onChange={e => setSelectedModuleId(e.target.value)}
+            >
+              <option value="" className="bg-[#101A27] text-[#F8FAFC]">All Modules (1-10)</option>
+              {modules
+                .filter(m => !selectedSubjectId || m.subject_id === selectedSubjectId)
+                .map(m => (
+                  <option key={m.id} value={m.id} className="bg-[#101A27] text-[#F8FAFC]">
+                    Module {m.module_number}: {m.title}
+                  </option>
+                ))}
+            </select>
           </div>
-        </CardContent>
-      </Card>
+
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
+              Question Type
+            </label>
+            <select
+              className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
+              value={selectedType}
+              onChange={e => setSelectedType(e.target.value)}
+            >
+              <option value="all" className="bg-[#101A27] text-[#F8FAFC]">All Types</option>
+              <option value="multiple_choice" className="bg-[#101A27] text-[#F8FAFC]">Multiple Choice</option>
+              <option value="identification" className="bg-[#101A27] text-[#F8FAFC]">Identification</option>
+              <option value="true_false" className="bg-[#101A27] text-[#F8FAFC]">True or False</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
+              Topic
+            </label>
+            <select
+              className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
+              value={selectedTopic}
+              onChange={e => setSelectedTopic(e.target.value)}
+            >
+              <option value="all" className="bg-[#101A27] text-[#F8FAFC]">All Topics</option>
+              {availableTopics.map(t => (
+                <option key={t} value={t} className="bg-[#101A27] text-[#F8FAFC]">
+                  {t}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
+              Approval Status
+            </label>
+            <select
+              className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:ring-2 focus:ring-[#1685E8] focus:outline-none"
+              value={selectedStatus}
+              onChange={e => setSelectedStatus(e.target.value)}
+            >
+              <option value="all" className="bg-[#101A27] text-[#F8FAFC]">All Statuses</option>
+              <option value="approved" className="bg-[#101A27] text-[#F8FAFC]">Approved Only</option>
+              <option value="pending" className="bg-[#101A27] text-[#F8FAFC]">Pending Review Only</option>
+              <option value="rejected" className="bg-[#101A27] text-[#F8FAFC]">Rejected Only</option>
+            </select>
+          </div>
+        </div>
+
+        <div className="relative">
+          <Search className="w-4 h-4 text-[#94A3B8] absolute left-3 top-3" />
+          <Input
+            placeholder="Search question text, correct answers, or explanation excerpts..."
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            className="pl-9 text-xs"
+          />
+        </div>
+      </div>
 
       {/* Questions List */}
       <div className="space-y-3">
-        <div className="flex items-center justify-between text-xs text-purple-600 px-1">
-          <span>Showing <strong>{filteredQuestions.length}</strong> matching questions</span>
+        <div className="flex items-center justify-between text-xs text-[#94A3B8] px-1">
+          <span>Showing <strong className="text-[#F8FAFC]">{filteredQuestions.length}</strong> matching questions</span>
           <span>Target per week: 30 Questions</span>
         </div>
 
         {filteredQuestions.length === 0 ? (
-          <Card className="p-8 text-center text-xs text-purple-500 space-y-2">
-            <HelpCircle className="w-8 h-8 text-purple-400 mx-auto" />
+          <div className="rounded-2xl border border-[#26384D] bg-[#111C2A] p-8 text-center text-xs text-[#94A3B8] space-y-2">
+            <HelpCircle className="w-8 h-8 text-[#94A3B8] mx-auto" />
             <p>No questions matched the selected filters.</p>
-            <Button variant="outline" size="sm" onClick={() => setIsCreateModalOpen(true)}>
+            <button
+              onClick={() => setIsCreateModalOpen(true)}
+              className="inline-flex items-center px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#101A27] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer"
+            >
               Add Question
-            </Button>
-          </Card>
+            </button>
+          </div>
         ) : (
           filteredQuestions.map((q, idx) => (
-            <Card key={q.id} className="p-5 border-purple-100 hover:border-purple-300 transition-all space-y-3">
+            <div key={q.id} className="rounded-2xl border border-[#26384D] bg-[#111C2A] hover:border-[#38BDF8]/50 transition-all p-5 space-y-3">
               <div className="flex items-start justify-between gap-3">
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="font-bold text-xs text-purple-950">#{idx + 1}</span>
+                  <span className="font-bold text-xs text-[#F8FAFC]">#{idx + 1}</span>
                   <QuestionTypeBadge type={q.question_type} />
                   <DifficultyBadge difficulty={q.difficulty} />
                   <ApprovalStatusBadge status={q.approval_status} />
                   {q.topic && (
-                    <span className="px-2 py-0.5 rounded-md bg-purple-50 text-[11px] font-bold text-purple-700 border border-purple-100">
+                    <span className="px-2 py-0.5 rounded-md bg-[#1685E8]/20 text-[11px] font-bold text-[#38BDF8] border border-[#1685E8]/40">
                       {q.topic}
                     </span>
                   )}
                   {q.exam_set && (
-                    <span className="px-2 py-0.5 rounded-md bg-indigo-50 text-[11px] font-bold text-indigo-700 border border-indigo-200">
+                    <span className="px-2 py-0.5 rounded-md bg-[#101A27] text-[11px] font-bold text-[#38BDF8] border border-[#26384D]">
                       Set: {q.exam_set.replace('_', ' ')}
                     </span>
                   )}
-                  <span className="text-[11px] text-purple-500 font-mono">
+                  <span className="text-[11px] text-[#94A3B8] font-mono">
                     Week {modules.find(m => m.id === q.module_id)?.module_number || '?'}
                   </span>
                 </div>
 
                 <div className="flex items-center gap-1.5 shrink-0">
                   {q.approval_status !== 'approved' && (
-                    <Button
-                      variant="ghost"
-                      size="sm"
+                    <button
                       onClick={() => handleStatusChange(q.id, 'approved')}
-                      className="text-emerald-700 hover:bg-emerald-50 text-xs py-1 px-2 h-7"
+                      className="inline-flex items-center text-[#10B981] hover:bg-emerald-950/40 text-xs py-1 px-2 rounded-lg transition-colors cursor-pointer"
                     >
                       <CheckCircle2 className="w-3.5 h-3.5 mr-1" /> Approve
-                    </Button>
+                    </button>
                   )}
                   {q.approval_status !== 'rejected' && (
-                    <Button
-                      variant="ghost"
-                      size="sm"
+                    <button
                       onClick={() => handleStatusChange(q.id, 'rejected')}
-                      className="text-rose-600 hover:bg-rose-50 text-xs py-1 px-2 h-7"
+                      className="inline-flex items-center text-rose-400 hover:bg-rose-950/40 text-xs py-1 px-2 rounded-lg transition-colors cursor-pointer"
                     >
                       <XCircle className="w-3.5 h-3.5 mr-1" /> Reject
-                    </Button>
+                    </button>
                   )}
-                  <Button
-                    variant="ghost"
-                    size="icon"
+                  <button
                     onClick={() => setEditingQuestion(q)}
-                    className="text-purple-600 hover:text-purple-900"
+                    className="p-1.5 text-[#94A3B8] hover:text-[#38BDF8] hover:bg-[#101A27] rounded-lg transition-colors cursor-pointer"
                     title="Edit Question"
                   >
                     <Edit className="w-4 h-4" />
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    size="icon"
+                  </button>
+                  <button
                     onClick={() => handleDelete(q.id)}
-                    className="text-rose-500 hover:text-rose-700 hover:bg-rose-50"
+                    className="p-1.5 text-rose-400 hover:text-rose-300 hover:bg-rose-950/40 rounded-lg transition-colors cursor-pointer"
                     title="Delete Question"
                   >
                     <Trash2 className="w-4 h-4" />
-                  </Button>
+                  </button>
                 </div>
               </div>
 
               {/* Question Text */}
-              <p className="text-sm font-bold text-purple-950 leading-snug">{q.question_text}</p>
+              <p className="text-sm font-bold text-[#F8FAFC] leading-snug">{q.question_text}</p>
 
               {/* Answer Choices / Correct Display */}
               {q.question_type === 'multiple_choice' && q.choices && (
@@ -591,14 +583,14 @@ function QuestionsManagerContent() {
                       key={cIdx}
                       className={`p-2.5 rounded-xl border text-xs ${
                         choice === q.correct_answer
-                          ? 'bg-emerald-50 border-emerald-300 font-bold text-emerald-950'
-                          : 'bg-purple-50/30 border-purple-100 text-purple-900'
+                          ? 'bg-emerald-950/60 border-emerald-500/40 font-bold text-emerald-300'
+                          : 'bg-[#101A27] border-[#26384D] text-[#94A3B8]'
                       }`}
                     >
-                      <span className="font-bold mr-1.5 text-purple-600">{String.fromCharCode(65 + cIdx)}.</span>
+                      <span className="font-bold mr-1.5 text-[#38BDF8]">{String.fromCharCode(65 + cIdx)}.</span>
                       {choice}
                       {choice === q.correct_answer && (
-                        <span className="ml-2 text-[10px] bg-emerald-200 text-emerald-900 font-extrabold px-1.5 py-0.2 rounded-full">
+                        <span className="ml-2 text-[10px] bg-emerald-950 text-emerald-300 font-extrabold px-1.5 py-0.2 rounded-full border border-emerald-500/30">
                           Correct
                         </span>
                       )}
@@ -608,13 +600,13 @@ function QuestionsManagerContent() {
               )}
 
               {q.question_type === 'identification' && (
-                <div className="p-3 bg-purple-50/60 rounded-xl border border-purple-100 text-xs space-y-1">
+                <div className="p-3 bg-[#101A27] rounded-xl border border-[#26384D] text-xs space-y-1">
                   <div>
-                    <span className="font-bold text-purple-900">Correct Answer:</span>{' '}
-                    <span className="font-semibold text-emerald-700">{q.correct_answer}</span>
+                    <span className="font-bold text-[#94A3B8]">Correct Answer:</span>{' '}
+                    <span className="font-semibold text-[#10B981]">{q.correct_answer}</span>
                   </div>
                   {q.alternative_answers && q.alternative_answers.length > 0 && (
-                    <div className="text-[11px] text-purple-600">
+                    <div className="text-[11px] text-[#94A3B8]">
                       <strong>Alternative Accepted Answers:</strong> {q.alternative_answers.join(', ')}
                     </div>
                   )}
@@ -622,23 +614,23 @@ function QuestionsManagerContent() {
               )}
 
               {q.question_type === 'true_false' && (
-                <div className="p-2.5 bg-purple-50/60 rounded-xl border border-purple-100 text-xs">
-                  <span className="font-bold text-purple-900">Correct Answer:</span>{' '}
-                  <span className="font-bold text-emerald-700">{q.correct_answer}</span>
+                <div className="p-2.5 bg-[#101A27] rounded-xl border border-[#26384D] text-xs">
+                  <span className="font-bold text-[#94A3B8]">Correct Answer:</span>{' '}
+                  <span className="font-bold text-[#10B981]">{q.correct_answer}</span>
                 </div>
               )}
 
               {/* Explanation & Source PDF Ref */}
-              <div className="pt-2.5 border-t border-purple-100/80 flex flex-col md:flex-row md:items-start justify-between gap-2.5 text-xs">
-                <div className="text-purple-800 leading-relaxed flex-1">
-                  <strong className="text-purple-950 font-bold">Explanation:</strong> {q.explanation}
+              <div className="pt-2.5 border-t border-[#26384D] flex flex-col md:flex-row md:items-start justify-between gap-2.5 text-xs">
+                <div className="text-[#94A3B8] leading-relaxed flex-1">
+                  <strong className="text-[#F8FAFC] font-bold">Explanation:</strong> {q.explanation}
                 </div>
-                <div className="shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-900 font-medium text-[11px]">
-                  <FileText className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+                <div className="shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-[#101A27] border border-[#26384D] text-[#38BDF8] font-medium text-[11px]">
+                  <FileText className="w-3.5 h-3.5 text-[#38BDF8] shrink-0" />
                   <span><strong>Source:</strong> {q.source_pdf_ref}</span>
                 </div>
               </div>
-            </Card>
+            </div>
           ))
         )}
       </div>
@@ -654,32 +646,32 @@ function QuestionsManagerContent() {
         <form onSubmit={handleCreateSubmit} className="space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
-              <label className="block text-xs font-semibold uppercase text-purple-900/80 mb-1">
+              <label className="block text-xs font-semibold uppercase text-[#94A3B8] mb-1">
                 Question Type
               </label>
               <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs"
+                className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs"
                 value={formType}
                 onChange={e => setFormType(e.target.value as QuestionType)}
               >
-                <option value="multiple_choice">Multiple Choice</option>
-                <option value="identification">Identification</option>
-                <option value="true_false">True or False</option>
+                <option value="multiple_choice" className="bg-[#101A27]">Multiple Choice</option>
+                <option value="identification" className="bg-[#101A27]">Identification</option>
+                <option value="true_false" className="bg-[#101A27]">True or False</option>
               </select>
             </div>
 
             <div>
-              <label className="block text-xs font-semibold uppercase text-purple-900/80 mb-1">
+              <label className="block text-xs font-semibold uppercase text-[#94A3B8] mb-1">
                 Difficulty
               </label>
               <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs"
+                className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs"
                 value={formDifficulty}
                 onChange={e => setFormDifficulty(e.target.value as QuestionDifficulty)}
               >
-                <option value="easy">Easy</option>
-                <option value="medium">Medium</option>
-                <option value="hard">Hard</option>
+                <option value="easy" className="bg-[#101A27]">Easy</option>
+                <option value="medium" className="bg-[#101A27]">Medium</option>
+                <option value="hard" className="bg-[#101A27]">Hard</option>
               </select>
             </div>
           </div>
@@ -703,7 +695,7 @@ function QuestionsManagerContent() {
           {/* Type-specific inputs */}
           {formType === 'multiple_choice' && (
             <div className="space-y-2">
-              <label className="block text-xs font-semibold uppercase text-purple-900/80">
+              <label className="block text-xs font-semibold uppercase text-[#94A3B8]">
                 Answer Choices (Select the correct option)
               </label>
               <div className="space-y-2">
@@ -714,7 +706,7 @@ function QuestionsManagerContent() {
                       name="correct-mc"
                       checked={formCorrectAnswer === c && c.length > 0}
                       onChange={() => setFormCorrectAnswer(c)}
-                      className="text-purple-600 focus:ring-purple-400"
+                      className="accent-[#1685E8]"
                     />
                     <Input
                       placeholder={`Choice ${String.fromCharCode(65 + i)}`}
@@ -755,16 +747,16 @@ function QuestionsManagerContent() {
 
           {formType === 'true_false' && (
             <div>
-              <label className="block text-xs font-semibold uppercase text-purple-900/80 mb-1">
+              <label className="block text-xs font-semibold uppercase text-[#94A3B8] mb-1">
                 Correct Answer
               </label>
               <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs"
+                className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs"
                 value={formCorrectAnswer || 'True'}
                 onChange={e => setFormCorrectAnswer(e.target.value)}
               >
-                <option value="True">True</option>
-                <option value="False">False</option>
+                <option value="True" className="bg-[#101A27]">True</option>
+                <option value="False" className="bg-[#101A27]">False</option>
               </select>
             </div>
           )}
@@ -786,12 +778,19 @@ function QuestionsManagerContent() {
           />
 
           <div className="flex justify-end gap-2 pt-2">
-            <Button type="button" variant="ghost" onClick={() => setIsCreateModalOpen(false)}>
+            <button
+              type="button"
+              onClick={() => setIsCreateModalOpen(false)}
+              className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+            >
               Cancel
-            </Button>
-            <Button type="submit" variant="primary">
+            </button>
+            <button
+              type="submit"
+              className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+            >
               Save Question
-            </Button>
+            </button>
           </div>
         </form>
       </Modal>
@@ -822,7 +821,7 @@ function QuestionsManagerContent() {
 
             {editingQuestion.question_type === 'multiple_choice' && editingQuestion.choices && (
               <div className="space-y-2">
-                <label className="block text-xs font-semibold uppercase text-purple-900/80">
+                <label className="block text-xs font-semibold uppercase text-[#94A3B8]">
                   Choices (Select correct)
                 </label>
                 {editingQuestion.choices.map((c, i) => (
@@ -832,6 +831,7 @@ function QuestionsManagerContent() {
                       name="edit-mc-correct"
                       checked={editingQuestion.correct_answer === c}
                       onChange={() => setEditingQuestion({ ...editingQuestion, correct_answer: c })}
+                      className="accent-[#1685E8]"
                     />
                     <Input
                       value={c}
@@ -869,12 +869,19 @@ function QuestionsManagerContent() {
             />
 
             <div className="flex justify-end gap-2 pt-2">
-              <Button type="button" variant="ghost" onClick={() => setEditingQuestion(null)}>
+              <button
+                type="button"
+                onClick={() => setEditingQuestion(null)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+              >
                 Cancel
-              </Button>
-              <Button type="submit" variant="primary">
+              </button>
+              <button
+                type="submit"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+              >
                 Save Updates
-              </Button>
+              </button>
             </div>
           </form>
         </Modal>
@@ -901,16 +908,23 @@ function QuestionsManagerContent() {
             />
 
             {importError && (
-              <p className="text-xs text-rose-600 font-semibold">{importError}</p>
+              <p className="text-xs text-rose-400 font-semibold">{importError}</p>
             )}
 
             <div className="flex justify-end gap-2 pt-2">
-              <Button type="button" variant="ghost" onClick={() => setIsImportModalOpen(false)}>
+              <button
+                type="button"
+                onClick={() => setIsImportModalOpen(false)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+              >
                 Cancel
-              </Button>
-              <Button type="submit" variant="primary">
+              </button>
+              <button
+                type="submit"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white shadow-xs transition-all cursor-pointer"
+              >
                 Import Questions
-              </Button>
+              </button>
             </div>
           </form>
         </Modal>
@@ -930,7 +944,7 @@ function QuestionsManagerContent() {
 
 export default function QuestionsPage() {
   return (
-    <Suspense fallback={<div className="p-8 text-center text-purple-600">Loading questions...</div>}>
+    <Suspense fallback={<div className="p-8 text-center text-[#94A3B8]">Loading questions...</div>}>
       <QuestionsManagerContent />
     </Suspense>
   );

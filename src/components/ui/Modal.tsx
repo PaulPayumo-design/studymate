@@ -1,4 +1,7 @@
+'use client';
+
 import React, { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { X } from 'lucide-react';
 import { Button } from './Button';
 import { cn } from '@/lib/utils';
@@ -20,6 +23,9 @@ export function Modal({
   children,
   maxWidth = 'md',
 }: ModalProps) {
+  const pathname = usePathname();
+  const isAdmin = pathname?.startsWith('/admin');
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
@@ -51,25 +57,41 @@ export function Modal({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-purple-950/40 backdrop-blur-sm transition-opacity"
+        className={cn(
+          "fixed inset-0 backdrop-blur-sm transition-opacity",
+          isAdmin ? "bg-black/75" : "bg-purple-950/40"
+        )}
         onClick={onClose}
       />
 
       {/* Modal Dialog */}
       <div
         className={cn(
-          'relative w-full bg-white rounded-3xl border border-purple-100 shadow-2xl shadow-purple-900/20 p-6 sm:p-8 z-10 my-8 transition-all transform scale-100 max-h-[90vh] flex flex-col',
+          'relative w-full rounded-3xl z-10 my-8 transition-all transform scale-100 max-h-[90vh] flex flex-col',
+          isAdmin
+            ? 'bg-[#111C2A] border border-[#26384D] shadow-2xl shadow-black/60 p-6 sm:p-8 text-[#F8FAFC]'
+            : 'bg-white border border-purple-100 shadow-2xl shadow-purple-900/20 p-6 sm:p-8',
           widthClasses[maxWidth]
         )}
       >
-        <div className="flex items-start justify-between pb-4 border-b border-purple-50">
+        <div className={cn("flex items-start justify-between pb-4 border-b", isAdmin ? "border-[#26384D]" : "border-purple-50")}>
           <div>
-            <h3 className="text-xl font-bold text-purple-950">{title}</h3>
-            {description && <p className="text-sm text-purple-600/80 mt-1">{description}</p>}
+            <h3 className={cn("text-xl font-bold", isAdmin ? "text-[#F8FAFC]" : "text-purple-950")}>{title}</h3>
+            {description && (
+              <p className={cn("text-sm mt-1", isAdmin ? "text-[#94A3B8]" : "text-purple-600/80")}>{description}</p>
+            )}
           </div>
-          <Button variant="ghost" size="icon" onClick={onClose} className="rounded-full -mr-2 text-purple-400 hover:text-purple-700">
+          <button
+            onClick={onClose}
+            className={cn(
+              "rounded-full p-1.5 transition-colors -mr-2",
+              isAdmin
+                ? "text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27]"
+                : "text-purple-400 hover:text-purple-700 hover:bg-purple-50"
+            )}
+          >
             <X className="w-5 h-5" />
-          </Button>
+          </button>
         </div>
 
         <div className="mt-4 overflow-y-auto pr-1 flex-1">{children}</div>

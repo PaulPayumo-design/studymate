@@ -91,7 +91,13 @@ function setLocal<T>(key: string, value: T): void {
 export class StudyMateStore {
   // Profiles
   static getProfiles(): UserProfile[] {
-    return getLocal<UserProfile[]>(STORAGE_KEYS.PROFILES, INITIAL_PROFILES);
+    let list = getLocal<UserProfile[]>(STORAGE_KEYS.PROFILES, INITIAL_PROFILES);
+    const hasSarah = list.some(p => p.full_name === 'Prof. Sarah Connor');
+    if (hasSarah) {
+      list = list.map(p => p.full_name === 'Prof. Sarah Connor' ? { ...p, full_name: 'Paul' } : p);
+      setLocal(STORAGE_KEYS.PROFILES, list);
+    }
+    return list;
   }
 
   static getStudents(): UserProfile[] {
@@ -121,6 +127,10 @@ export class StudyMateStore {
     const profiles = this.getProfiles();
     const stored = getLocal<UserProfile | null>(STORAGE_KEYS.CURRENT_USER, null);
     if (stored) {
+      if (stored.full_name === 'Prof. Sarah Connor') {
+        stored.full_name = 'Paul';
+        setLocal(STORAGE_KEYS.CURRENT_USER, stored);
+      }
       const match = profiles.find(p => p.id === stored.id);
       if (match) return match;
     }

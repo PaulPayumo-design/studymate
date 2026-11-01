@@ -5,7 +5,7 @@ import { StudyMateStore } from '@/lib/store';
 import { Subject, Module, QuestionType, Question, GeneratedQuestionItem, QuestionExamSet } from '@/lib/types';
 import { Modal } from '@/components/ui/Modal';
 import { Button } from '@/components/ui/Button';
-import { Badge, QuestionTypeBadge } from '@/components/ui/Badge';
+import { QuestionTypeBadge } from '@/components/ui/Badge';
 import { Input, Textarea } from '@/components/ui/Input';
 import {
   Sparkles,
@@ -15,13 +15,8 @@ import {
   Edit3,
   Trash2,
   AlertTriangle,
-  Info,
   Check,
   Save,
-  ArrowRight,
-  Sliders,
-  HelpCircle,
-  Layers,
   KeyRound,
   FileCheck2,
 } from 'lucide-react';
@@ -33,7 +28,7 @@ interface ReviewItem extends GeneratedQuestionItem {
 interface TopicQuestionGeneratorModalProps {
   isOpen: boolean;
   onClose: () => void;
-  targetType?: QuestionType; // If specified, generates only this type
+  targetType?: QuestionType;
   initialExamSet?: QuestionExamSet;
   initialSubjectId?: string;
   initialModuleId?: string;
@@ -100,46 +95,65 @@ export function TopicQuestionGeneratorModal({
       setTopicsText('');
     }
 
-    // Configure 60-item defaults based on initialExamSet or targetType
-    const mode = initialExamSet || (targetType === 'identification' ? 'identification' : targetType === 'true_false' ? 'true_false' : targetType === 'multiple_choice' ? 'multiple_choice' : 'multiple_choice');
-    setSelectedExamMode(mode);
-
-    if (mode === 'multiple_choice') {
+    // Set presets based on targetType
+    if (targetType === 'multiple_choice') {
+      setSelectedExamMode('multiple_choice');
       setMcCount(60);
       setIdCount(0);
       setTfCount(0);
-    } else if (mode === 'identification') {
+    } else if (targetType === 'identification') {
+      setSelectedExamMode('identification');
       setMcCount(0);
       setIdCount(60);
       setTfCount(0);
-    } else if (mode === 'true_false') {
+    } else if (targetType === 'true_false') {
+      setSelectedExamMode('true_false');
       setMcCount(0);
       setIdCount(0);
       setTfCount(60);
-    } else if (mode === 'mixed') {
-      setMcCount(20);
-      setIdCount(20);
-      setTfCount(20);
+    } else if (initialExamSet) {
+      setSelectedExamMode(initialExamSet);
+      if (initialExamSet === 'mixed') {
+        setMcCount(20);
+        setIdCount(20);
+        setTfCount(20);
+      } else if (initialExamSet === 'identification') {
+        setMcCount(0);
+        setIdCount(60);
+        setTfCount(0);
+      } else if (initialExamSet === 'true_false') {
+        setMcCount(0);
+        setIdCount(0);
+        setTfCount(60);
+      } else {
+        setMcCount(60);
+        setIdCount(0);
+        setTfCount(0);
+      }
     }
 
     setStep('config');
     setApiError(null);
     setSaveSuccessMsg(null);
-  }, [isOpen, initialSubjectId, initialModuleId, targetType, initialExamSet]);
+  }, [isOpen, targetType, initialExamSet, initialSubjectId, initialModuleId]);
 
   const handleSubjectChange = (subId: string) => {
     setSelectedSubjectId(subId);
     const subMods = modules.filter(m => m.subject_id === subId);
-    const firstModId = subMods[0]?.id || '';
-    setSelectedModuleId(firstModId);
-    const mod = modules.find(m => m.id === firstModId);
-    if (mod?.topics) setTopicsText(mod.topics);
+    const modId = subMods[0]?.id || '';
+    setSelectedModuleId(modId);
+    const activeMod = subMods[0];
+    if (activeMod?.topics) {
+      setTopicsText(activeMod.topics);
+    }
   };
 
   const handleModuleChange = (modId: string) => {
     setSelectedModuleId(modId);
-    const mod = modules.find(m => m.id === modId);
-    if (mod?.topics) setTopicsText(mod.topics);
+    const activeMod = modules.find(m => m.id === modId);
+    if (activeMod?.topics) {
+      setTopicsText(activeMod.topics);
+    }
   };
 
   const handleApplyPreset = (mode: QuestionExamSet) => {
@@ -163,25 +177,24 @@ export function TopicQuestionGeneratorModal({
     }
   };
 
-  const totalSelected = mcCount + idCount + tfCount;
+  const filteredModules = modules.filter(m => m.subject_id === selectedSubjectId);
   const currentSubject = subjects.find(s => s.id === selectedSubjectId);
   const currentModule = modules.find(m => m.id === selectedModuleId);
-  const filteredModules = modules.filter(m => m.subject_id === selectedSubjectId);
+  const totalSelected = mcCount + idCount + tfCount;
 
-  // Generate Questions via Server-side AI API
+  // Generate Questions via backend API route
   const handleGenerate = async () => {
     if (!topicsText.trim()) {
-      setApiError('Please enter or paste curriculum topics for the selected week.');
+      alert('Please enter or paste at least one curriculum topic.');
       return;
     }
     if (totalSelected <= 0) {
-      setApiError('Total question count must be at least 1.');
+      alert('Total item count must be greater than zero.');
       return;
     }
 
     setIsLoading(true);
     setApiError(null);
-    setIsConfigured(null);
 
     try {
       const res = await fetch('/api/ai/generate-questions', {
@@ -189,11 +202,9 @@ export function TopicQuestionGeneratorModal({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           subjectTitle: currentSubject?.title || 'Subject',
-          moduleTitle: currentModule?.title || 'Week',
-          moduleNumber: currentModule?.module_number,
+          moduleTitle: currentModule?.title || 'Module',
           topics: topicsText.trim(),
-          examSet: selectedExamMode,
-          targetType,
+          examMode: selectedExamMode,
           counts: {
             multiple_choice: mcCount,
             identification: idCount,
@@ -373,34 +384,34 @@ export function TopicQuestionGeneratorModal({
     >
       {/* Save Success Banner */}
       {saveSuccessMsg && (
-        <div className="mb-4 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 flex items-center gap-3 animate-in fade-in">
-          <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+        <div className="mb-4 p-4 rounded-2xl bg-emerald-950/60 border border-emerald-500/40 text-[#10B981] flex items-center gap-3">
+          <CheckCircle2 className="w-5 h-5 text-[#10B981] shrink-0" />
           <p className="text-sm font-semibold">{saveSuccessMsg}</p>
         </div>
       )}
 
       {/* Unconfigured API Key Alert */}
       {isConfigured === false && (
-        <div className="mb-4 p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-950 space-y-2">
+        <div className="mb-4 p-4 rounded-2xl bg-amber-950/50 border border-amber-500/40 text-amber-200 space-y-2">
           <div className="flex items-center gap-2">
-            <KeyRound className="w-5 h-5 text-amber-600 shrink-0" />
-            <h4 className="text-sm font-bold">AI API Key Required</h4>
+            <KeyRound className="w-5 h-5 text-amber-400 shrink-0" />
+            <h4 className="text-sm font-bold text-amber-300">AI API Key Required</h4>
           </div>
-          <p className="text-xs text-amber-900 leading-relaxed">
+          <p className="text-xs text-amber-200/90 leading-relaxed">
             To generate questions directly from topics, add your API key in{' '}
-            <code className="bg-amber-100 text-amber-950 px-1.5 py-0.5 rounded font-mono font-bold">.env.local</code>{' '}
+            <code className="bg-amber-900/60 text-amber-200 px-1.5 py-0.5 rounded font-mono font-bold">.env.local</code>{' '}
             in your project folder:
           </p>
-          <div className="p-2.5 bg-purple-950 text-purple-100 rounded-xl font-mono text-xs overflow-x-auto">
+          <div className="p-2.5 bg-[#080D16] border border-[#26384D] text-[#38BDF8] rounded-xl font-mono text-xs overflow-x-auto">
             <code>GEMINI_API_KEY=your_google_gemini_api_key_here</code>
           </div>
-          <p className="text-[11px] text-amber-800">
+          <p className="text-[11px] text-amber-300/80">
             You can get a free Google Gemini API key at{' '}
             <a
               href="https://aistudio.google.com"
               target="_blank"
               rel="noreferrer"
-              className="underline font-semibold hover:text-amber-950"
+              className="underline font-semibold hover:text-amber-100"
             >
               aistudio.google.com
             </a>
@@ -411,8 +422,8 @@ export function TopicQuestionGeneratorModal({
 
       {/* General API Error Alert */}
       {apiError && isConfigured !== false && (
-        <div className="mb-4 p-3.5 rounded-2xl bg-red-50 border border-red-200 text-red-900 text-xs flex items-center gap-2.5">
-          <AlertTriangle className="w-4 h-4 text-red-600 shrink-0" />
+        <div className="mb-4 p-3.5 rounded-2xl bg-rose-950/50 border border-rose-500/40 text-rose-300 text-xs flex items-center gap-2.5">
+          <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0" />
           <p className="font-medium">{apiError}</p>
         </div>
       )}
@@ -423,16 +434,16 @@ export function TopicQuestionGeneratorModal({
           {/* Subject & Module Selection */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-bold text-purple-900 mb-1.5">
-                Target Subject <span className="text-red-500">*</span>
+              <label className="block text-xs font-bold text-[#94A3B8] mb-1.5">
+                Target Subject <span className="text-rose-400">*</span>
               </label>
               <select
                 value={selectedSubjectId}
                 onChange={e => handleSubjectChange(e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-white border border-purple-200 rounded-xl text-sm font-medium text-purple-950 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full px-3.5 py-2.5 bg-[#101A27] border border-[#26384D] rounded-xl text-sm font-medium text-[#F8FAFC] focus:outline-none focus:ring-2 focus:ring-[#1685E8]"
               >
                 {subjects.map(s => (
-                  <option key={s.id} value={s.id}>
+                  <option key={s.id} value={s.id} className="bg-[#101A27] text-[#F8FAFC]">
                     {s.code} – {s.title}
                   </option>
                 ))}
@@ -440,16 +451,16 @@ export function TopicQuestionGeneratorModal({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-purple-900 mb-1.5">
-                Target Week <span className="text-red-500">*</span>
+              <label className="block text-xs font-bold text-[#94A3B8] mb-1.5">
+                Target Week <span className="text-rose-400">*</span>
               </label>
               <select
                 value={selectedModuleId}
                 onChange={e => handleModuleChange(e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-white border border-purple-200 rounded-xl text-sm font-medium text-purple-950 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full px-3.5 py-2.5 bg-[#101A27] border border-[#26384D] rounded-xl text-sm font-medium text-[#F8FAFC] focus:outline-none focus:ring-2 focus:ring-[#1685E8]"
               >
                 {filteredModules.map(m => (
-                  <option key={m.id} value={m.id}>
+                  <option key={m.id} value={m.id} className="bg-[#101A27] text-[#F8FAFC]">
                     Week {m.module_number}: {m.title}
                   </option>
                 ))}
@@ -460,10 +471,10 @@ export function TopicQuestionGeneratorModal({
           {/* Topics Input */}
           <div>
             <div className="flex items-center justify-between mb-1.5">
-              <label className="block text-xs font-bold text-purple-900">
-                Curriculum Topics to Study <span className="text-red-500">*</span>
+              <label className="block text-xs font-bold text-[#94A3B8]">
+                Curriculum Topics to Study <span className="text-rose-400">*</span>
               </label>
-              <span className="text-[11px] text-purple-600 font-medium">
+              <span className="text-[11px] text-[#38BDF8] font-medium">
                 Assigned topics for this Week Title
               </span>
             </div>
@@ -471,27 +482,27 @@ export function TopicQuestionGeneratorModal({
               rows={5}
               value={topicsText}
               onChange={e => setTopicsText(e.target.value)}
-              placeholder={`Enter or paste curriculum topics for this Week Title...`}
+              placeholder="Enter or paste curriculum topics for this Week Title..."
               className="font-sans text-xs sm:text-sm leading-relaxed"
             />
           </div>
 
           {/* 60 Questions Per Examination Mode Presets */}
-          <div className="p-5 rounded-2xl bg-purple-50/60 border border-purple-100 space-y-4">
+          <div className="p-5 rounded-2xl bg-[#101A27] border border-[#26384D] space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div>
-                <h4 className="text-sm font-bold text-purple-950 flex items-center gap-2">
-                  <FileCheck2 className="w-4 h-4 text-purple-600" />
+                <h4 className="text-sm font-bold text-[#F8FAFC] flex items-center gap-2">
+                  <FileCheck2 className="w-4 h-4 text-[#38BDF8]" />
                   Examination Suite Mode (Target: 60 Items)
                 </h4>
-                <p className="text-xs text-purple-600/80 mt-0.5">
+                <p className="text-xs text-[#94A3B8] mt-0.5">
                   Select which examination mode question set to generate for this Week Title.
                 </p>
               </div>
 
               <div className="text-left sm:text-right">
-                <span className="text-xs font-bold text-purple-900 block">Total Items to Generate</span>
-                <span className={`text-xl font-black ${totalSelected === 60 ? 'text-emerald-700' : 'text-purple-700'}`}>
+                <span className="text-xs font-bold text-[#94A3B8] block">Total Items to Generate</span>
+                <span className={`text-xl font-black ${totalSelected === 60 ? 'text-[#10B981]' : 'text-[#38BDF8]'}`}>
                   {totalSelected} / 60 Items
                 </span>
               </div>
@@ -502,10 +513,10 @@ export function TopicQuestionGeneratorModal({
               <button
                 type="button"
                 onClick={() => handleApplyPreset('multiple_choice')}
-                className={`p-3 rounded-xl border text-left transition-all ${
+                className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
                   selectedExamMode === 'multiple_choice' && mcCount === 60
-                    ? 'bg-purple-600 text-white border-purple-600 shadow-sm'
-                    : 'bg-white border-purple-200 text-purple-950 hover:border-purple-300'
+                    ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
+                    : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 1</span>
@@ -516,10 +527,10 @@ export function TopicQuestionGeneratorModal({
               <button
                 type="button"
                 onClick={() => handleApplyPreset('identification')}
-                className={`p-3 rounded-xl border text-left transition-all ${
+                className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
                   selectedExamMode === 'identification' && idCount === 60
-                    ? 'bg-purple-600 text-white border-purple-600 shadow-sm'
-                    : 'bg-white border-purple-200 text-purple-950 hover:border-purple-300'
+                    ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
+                    : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 2</span>
@@ -530,10 +541,10 @@ export function TopicQuestionGeneratorModal({
               <button
                 type="button"
                 onClick={() => handleApplyPreset('true_false')}
-                className={`p-3 rounded-xl border text-left transition-all ${
+                className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
                   selectedExamMode === 'true_false' && tfCount === 60
-                    ? 'bg-purple-600 text-white border-purple-600 shadow-sm'
-                    : 'bg-white border-purple-200 text-purple-950 hover:border-purple-300'
+                    ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
+                    : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 3</span>
@@ -544,10 +555,10 @@ export function TopicQuestionGeneratorModal({
               <button
                 type="button"
                 onClick={() => handleApplyPreset('mixed')}
-                className={`p-3 rounded-xl border text-left transition-all ${
+                className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
                   selectedExamMode === 'mixed' && mcCount === 20 && idCount === 20 && tfCount === 20
-                    ? 'bg-purple-600 text-white border-purple-600 shadow-sm'
-                    : 'bg-white border-purple-200 text-purple-950 hover:border-purple-300'
+                    ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
+                    : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 4 (Balanced)</span>
@@ -557,9 +568,9 @@ export function TopicQuestionGeneratorModal({
             </div>
 
             {/* Breakdown Inputs */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 border-t border-purple-100">
-              <div className="bg-white p-3 rounded-xl border border-purple-100 shadow-xs">
-                <span className="text-xs font-bold text-purple-900 block mb-1">Multiple Choice Items</span>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 border-t border-[#26384D]">
+              <div className="bg-[#111C2A] p-3 rounded-xl border border-[#26384D] shadow-xs">
+                <span className="text-xs font-bold text-[#F8FAFC] block mb-1">Multiple Choice Items</span>
                 <Input
                   type="number"
                   min={0}
@@ -567,11 +578,11 @@ export function TopicQuestionGeneratorModal({
                   value={mcCount}
                   onChange={e => setMcCount(Math.max(0, parseInt(e.target.value) || 0))}
                 />
-                <span className="text-[10px] text-purple-500 mt-1 block">4 choices per question</span>
+                <span className="text-[10px] text-[#94A3B8] mt-1 block">4 choices per question</span>
               </div>
 
-              <div className="bg-white p-3 rounded-xl border border-purple-100 shadow-xs">
-                <span className="text-xs font-bold text-purple-900 block mb-1">Identification Items</span>
+              <div className="bg-[#111C2A] p-3 rounded-xl border border-[#26384D] shadow-xs">
+                <span className="text-xs font-bold text-[#F8FAFC] block mb-1">Identification Items</span>
                 <Input
                   type="number"
                   min={0}
@@ -579,11 +590,11 @@ export function TopicQuestionGeneratorModal({
                   value={idCount}
                   onChange={e => setIdCount(Math.max(0, parseInt(e.target.value) || 0))}
                 />
-                <span className="text-[10px] text-purple-500 mt-1 block">Concepts with synonyms</span>
+                <span className="text-[10px] text-[#94A3B8] mt-1 block">Concepts with synonyms</span>
               </div>
 
-              <div className="bg-white p-3 rounded-xl border border-purple-100 shadow-xs">
-                <span className="text-xs font-bold text-purple-900 block mb-1">True or False Items</span>
+              <div className="bg-[#111C2A] p-3 rounded-xl border border-[#26384D] shadow-xs">
+                <span className="text-xs font-bold text-[#F8FAFC] block mb-1">True or False Items</span>
                 <Input
                   type="number"
                   min={0}
@@ -591,26 +602,30 @@ export function TopicQuestionGeneratorModal({
                   value={tfCount}
                   onChange={e => setTfCount(Math.max(0, parseInt(e.target.value) || 0))}
                 />
-                <span className="text-[10px] text-purple-500 mt-1 block">Binary statements</span>
+                <span className="text-[10px] text-[#94A3B8] mt-1 block">Binary statements</span>
               </div>
             </div>
           </div>
 
           {/* Action Footer */}
-          <div className="flex items-center justify-end gap-3 pt-3 border-t border-purple-100">
-            <Button variant="ghost" onClick={onClose} disabled={isLoading}>
+          <div className="flex items-center justify-end gap-3 pt-3 border-t border-[#26384D]">
+            <button
+              type="button"
+              onClick={onClose}
+              disabled={isLoading}
+              className="px-4 py-2 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27] transition-colors cursor-pointer"
+            >
               Cancel
-            </Button>
-            <Button
-              variant="primary"
+            </button>
+            <button
+              type="button"
               onClick={handleGenerate}
-              isLoading={isLoading}
               disabled={isLoading || totalSelected <= 0 || !topicsText.trim()}
-              className="gap-2 px-6"
+              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white disabled:opacity-40 transition-all cursor-pointer shadow-xs"
             >
               <Sparkles className="w-4 h-4" />
-              Generate {totalSelected} Questions
-            </Button>
+              {isLoading ? 'Generating Questions...' : `Generate ${totalSelected} Questions`}
+            </button>
           </div>
         </div>
       )}
@@ -619,43 +634,47 @@ export function TopicQuestionGeneratorModal({
       {step === 'review' && (
         <div className="space-y-4">
           {/* Top Review Bar */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-2xl bg-purple-50 border border-purple-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-2xl bg-[#101A27] border border-[#26384D]">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-purple-600">Review Stage</span>
-                <span className="text-xs font-semibold text-purple-900">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#38BDF8]">Review Stage</span>
+                <span className="text-xs font-semibold text-[#F8FAFC]">
                   {currentSubject?.code} – {currentModule?.title}
                 </span>
               </div>
               <div className="flex items-center gap-2 mt-1 text-xs">
-                <span className="font-bold text-purple-950">{reviewItems.length} Total Generated</span>
-                <span>•</span>
-                <span className="text-emerald-700 font-bold">{approvedCount} Approved</span>
-                <span>•</span>
-                <span className="text-amber-700 font-medium">{pendingCount} Pending</span>
-                <span>•</span>
-                <span className="text-red-600 font-medium">{rejectedCount} Rejected</span>
+                <span className="font-bold text-[#F8FAFC]">{reviewItems.length} Total Generated</span>
+                <span className="text-[#94A3B8]">•</span>
+                <span className="text-[#10B981] font-bold">{approvedCount} Approved</span>
+                <span className="text-[#94A3B8]">•</span>
+                <span className="text-amber-400 font-medium">{pendingCount} Pending</span>
+                <span className="text-[#94A3B8]">•</span>
+                <span className="text-rose-400 font-medium">{rejectedCount} Rejected</span>
               </div>
             </div>
 
             <div className="flex items-center gap-2 flex-wrap">
-              <Button variant="outline" size="sm" onClick={() => setStep('config')} className="text-xs">
+              <button
+                onClick={() => setStep('config')}
+                className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#111C2A] hover:bg-[#1685E8]/20 text-[#F8FAFC] border border-[#26384D] transition-colors cursor-pointer"
+              >
                 Back to Topics
-              </Button>
-              <Button variant="outline" size="sm" onClick={handleApproveAll} className="gap-1.5 text-xs text-emerald-700 border-emerald-200 hover:bg-emerald-50">
+              </button>
+              <button
+                onClick={handleApproveAll}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold text-[#10B981] bg-[#111C2A] border border-emerald-500/40 hover:bg-emerald-950/40 transition-colors cursor-pointer"
+              >
                 <Check className="w-3.5 h-3.5" />
                 Approve All
-              </Button>
-              <Button
-                variant="primary"
-                size="sm"
+              </button>
+              <button
                 onClick={handleSaveApproved}
                 disabled={approvedCount === 0}
-                className="gap-1.5 text-xs bg-emerald-600 hover:bg-emerald-700"
+                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-[#10B981] hover:bg-emerald-600 text-white disabled:opacity-40 transition-all cursor-pointer shadow-xs"
               >
                 <Save className="w-3.5 h-3.5" />
                 Save {approvedCount} Approved to Bank
-              </Button>
+              </button>
             </div>
           </div>
 
@@ -674,24 +693,24 @@ export function TopicQuestionGeneratorModal({
                   key={item.id}
                   className={`p-4 rounded-2xl border transition-all duration-150 ${
                     item.reviewStatus === 'approved'
-                      ? 'bg-emerald-50/40 border-emerald-200'
+                      ? 'bg-emerald-950/30 border-emerald-500/40'
                       : item.reviewStatus === 'rejected'
-                      ? 'bg-gray-50 border-gray-200 opacity-60'
-                      : 'bg-white border-purple-100 hover:border-purple-200 shadow-xs'
+                      ? 'bg-[#101A27]/40 border-[#26384D] opacity-60'
+                      : 'bg-[#101A27] border-[#26384D] hover:border-[#38BDF8]/40 shadow-xs'
                   }`}
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex items-center gap-2 flex-wrap">
-                      <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 text-xs font-bold flex items-center justify-center">
+                      <span className="w-6 h-6 rounded-lg bg-[#1685E8]/20 text-[#38BDF8] text-xs font-bold flex items-center justify-center">
                         #{idx + 1}
                       </span>
                       <QuestionTypeBadge type={item.question_type} />
-                      <span className="px-2 py-0.5 rounded-md bg-purple-50 text-[11px] font-semibold text-purple-700 border border-purple-100">
+                      <span className="px-2 py-0.5 rounded-md bg-[#111C2A] text-[11px] font-semibold text-[#38BDF8] border border-[#26384D]">
                         {item.topic}
                       </span>
                       {isDuplicate && (
-                        <span className="px-2 py-0.5 rounded-md bg-amber-50 text-[11px] font-bold text-amber-800 border border-amber-200 flex items-center gap-1">
-                          <AlertTriangle className="w-3 h-3 text-amber-600" />
+                        <span className="px-2 py-0.5 rounded-md bg-amber-950/60 text-[11px] font-bold text-amber-300 border border-amber-500/40 flex items-center gap-1">
+                          <AlertTriangle className="w-3 h-3 text-amber-400" />
                           Similar to existing bank question
                         </span>
                       )}
@@ -699,69 +718,59 @@ export function TopicQuestionGeneratorModal({
 
                     {/* Action Buttons for this item */}
                     <div className="flex items-center gap-1 shrink-0">
-                      <Button
-                        variant="ghost"
-                        size="icon"
+                      <button
                         title="Regenerate this question only"
                         onClick={() => handleRegenerateSingle(item)}
                         disabled={isRegenerating}
-                        className="w-8 h-8 rounded-lg text-purple-600 hover:bg-purple-100"
+                        className="p-1.5 rounded-lg text-[#94A3B8] hover:text-[#38BDF8] hover:bg-[#111C2A] transition-colors cursor-pointer"
                       >
                         <RefreshCw className={`w-3.5 h-3.5 ${isRegenerating ? 'animate-spin' : ''}`} />
-                      </Button>
+                      </button>
 
-                      <Button
-                        variant="ghost"
-                        size="icon"
+                      <button
                         title="Edit question details"
                         onClick={() => setEditingItem(item)}
-                        className="w-8 h-8 rounded-lg text-purple-600 hover:bg-purple-100"
+                        className="p-1.5 rounded-lg text-[#94A3B8] hover:text-[#38BDF8] hover:bg-[#111C2A] transition-colors cursor-pointer"
                       >
                         <Edit3 className="w-3.5 h-3.5" />
-                      </Button>
+                      </button>
 
-                      <Button
-                        variant="ghost"
-                        size="icon"
+                      <button
                         title={item.reviewStatus === 'approved' ? 'Unapprove' : 'Approve question'}
                         onClick={() => handleToggleApprove(item.id)}
-                        className={`w-8 h-8 rounded-lg ${
+                        className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
                           item.reviewStatus === 'approved'
-                            ? 'bg-emerald-600 text-white hover:bg-emerald-700'
-                            : 'text-emerald-600 hover:bg-emerald-50'
+                            ? 'bg-[#10B981] text-white'
+                            : 'text-[#10B981] hover:bg-emerald-950/40'
                         }`}
                       >
                         <CheckCircle2 className="w-4 h-4" />
-                      </Button>
+                      </button>
 
-                      <Button
-                        variant="ghost"
-                        size="icon"
+                      <button
                         title={item.reviewStatus === 'rejected' ? 'Restore' : 'Reject question'}
                         onClick={() => handleToggleReject(item.id)}
-                        className={`w-8 h-8 rounded-lg ${
+                        className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
                           item.reviewStatus === 'rejected'
-                            ? 'bg-red-600 text-white hover:bg-red-700'
-                            : 'text-red-500 hover:bg-red-50'
+                            ? 'bg-rose-600 text-white'
+                            : 'text-rose-400 hover:bg-rose-950/40'
                         }`}
                       >
                         <XCircle className="w-4 h-4" />
-                      </Button>
+                      </button>
 
-                      <Button
-                        variant="ghost"
-                        size="icon"
+                      <button
                         title="Delete from list"
                         onClick={() => handleDeleteItem(item.id)}
-                        className="w-8 h-8 rounded-lg text-gray-400 hover:text-red-600"
+                        className="p-1.5 rounded-lg text-[#94A3B8] hover:text-rose-400 hover:bg-rose-950/40 transition-colors cursor-pointer"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
-                      </Button>
+                      </button>
                     </div>
                   </div>
 
                   {/* Question Text */}
-                  <p className="text-sm font-semibold text-purple-950 mt-2.5 leading-snug">
+                  <p className="text-sm font-semibold text-[#F8FAFC] mt-2.5 leading-snug">
                     {item.question_text}
                   </p>
 
@@ -775,21 +784,21 @@ export function TopicQuestionGeneratorModal({
                             key={cIdx}
                             className={`p-2 rounded-xl text-xs flex items-center gap-2 border ${
                               isCorrect
-                                ? 'bg-emerald-50/80 border-emerald-300 text-emerald-950 font-bold'
-                                : 'bg-gray-50/70 border-gray-100 text-purple-900'
+                                ? 'bg-emerald-950/60 border-emerald-500/40 text-emerald-300 font-bold'
+                                : 'bg-[#111C2A] border-[#26384D] text-[#94A3B8]'
                             }`}
                           >
                             <span
                               className={`w-5 h-5 rounded-md text-[10px] font-bold flex items-center justify-center ${
                                 isCorrect
-                                  ? 'bg-emerald-600 text-white'
-                                  : 'bg-purple-100 text-purple-700'
+                                  ? 'bg-[#10B981] text-white'
+                                  : 'bg-[#101A27] text-[#38BDF8]'
                               }`}
                             >
                               {String.fromCharCode(65 + cIdx)}
                             </span>
                             <span className="flex-1">{choice}</span>
-                            {isCorrect && <Check className="w-3.5 h-3.5 text-emerald-600 shrink-0" />}
+                            {isCorrect && <Check className="w-3.5 h-3.5 text-[#10B981] shrink-0" />}
                           </div>
                         );
                       })}
@@ -799,12 +808,12 @@ export function TopicQuestionGeneratorModal({
                   {/* True / False display */}
                   {item.question_type === 'true_false' && (
                     <div className="mt-2.5 flex items-center gap-2">
-                      <span className="text-xs text-purple-700 font-medium">Correct Answer:</span>
+                      <span className="text-xs text-[#94A3B8] font-medium">Correct Answer:</span>
                       <span
                         className={`px-2.5 py-0.5 rounded-lg text-xs font-black ${
                           item.correct_answer === 'True'
-                            ? 'bg-emerald-100 text-emerald-800'
-                            : 'bg-purple-100 text-purple-800'
+                            ? 'bg-emerald-950 text-emerald-300 border border-emerald-500/40'
+                            : 'bg-[#111C2A] text-[#38BDF8] border border-[#26384D]'
                         }`}
                       >
                         {item.correct_answer}
@@ -816,13 +825,13 @@ export function TopicQuestionGeneratorModal({
                   {item.question_type === 'identification' && (
                     <div className="mt-2.5 space-y-1">
                       <div className="flex items-center gap-2 text-xs">
-                        <span className="text-purple-700 font-medium">Correct Answer:</span>
-                        <span className="font-bold text-emerald-900 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-md">
+                        <span className="text-[#94A3B8] font-medium">Correct Answer:</span>
+                        <span className="font-bold text-[#10B981] bg-emerald-950/60 border border-emerald-500/40 px-2 py-0.5 rounded-md">
                           {item.correct_answer}
                         </span>
                       </div>
                       {item.alternative_answers && item.alternative_answers.length > 0 && (
-                        <div className="text-[11px] text-purple-600">
+                        <div className="text-[11px] text-[#94A3B8]">
                           <span className="font-medium">Accepted alternates: </span>
                           <span>{item.alternative_answers.join(', ')}</span>
                         </div>
@@ -831,8 +840,8 @@ export function TopicQuestionGeneratorModal({
                   )}
 
                   {/* Explanation */}
-                  <div className="mt-2.5 pt-2 border-t border-purple-50 text-xs text-purple-600/90 leading-relaxed">
-                    <span className="font-bold text-purple-900">Explanation: </span>
+                  <div className="mt-2.5 pt-2 border-t border-[#26384D] text-xs text-[#94A3B8] leading-relaxed">
+                    <span className="font-bold text-[#F8FAFC]">Explanation: </span>
                     {item.explanation}
                   </div>
                 </div>
@@ -853,7 +862,7 @@ export function TopicQuestionGeneratorModal({
         >
           <div className="space-y-4">
             <div>
-              <label className="block text-xs font-bold text-purple-900 mb-1">Topic</label>
+              <label className="block text-xs font-bold text-[#94A3B8] mb-1">Topic</label>
               <Input
                 value={editingItem.topic}
                 onChange={e => setEditingItem({ ...editingItem, topic: e.target.value })}
@@ -861,7 +870,7 @@ export function TopicQuestionGeneratorModal({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-purple-900 mb-1">Question Text</label>
+              <label className="block text-xs font-bold text-[#94A3B8] mb-1">Question Text</label>
               <Textarea
                 rows={3}
                 value={editingItem.question_text}
@@ -871,10 +880,10 @@ export function TopicQuestionGeneratorModal({
 
             {editingItem.question_type === 'multiple_choice' && editingItem.choices && (
               <div className="space-y-2">
-                <label className="block text-xs font-bold text-purple-900">Choices & Correct Answer</label>
+                <label className="block text-xs font-bold text-[#94A3B8]">Choices & Correct Answer</label>
                 {editingItem.choices.map((c, i) => (
                   <div key={i} className="flex items-center gap-2">
-                    <span className="w-6 h-6 rounded-md bg-purple-100 text-purple-800 text-xs font-bold flex items-center justify-center">
+                    <span className="w-6 h-6 rounded-md bg-[#111C2A] text-[#38BDF8] text-xs font-bold flex items-center justify-center">
                       {String.fromCharCode(65 + i)}
                     </span>
                     <Input
@@ -897,7 +906,7 @@ export function TopicQuestionGeneratorModal({
                       name="correctChoice"
                       checked={editingItem.correct_answer === c}
                       onChange={() => setEditingItem({ ...editingItem, correct_answer: c })}
-                      className="w-4 h-4 text-purple-600 focus:ring-purple-500"
+                      className="accent-[#1685E8]"
                     />
                   </div>
                 ))}
@@ -906,23 +915,25 @@ export function TopicQuestionGeneratorModal({
 
             {editingItem.question_type === 'true_false' && (
               <div>
-                <label className="block text-xs font-bold text-purple-900 mb-1">Correct Answer</label>
+                <label className="block text-xs font-bold text-[#94A3B8] mb-1">Correct Answer</label>
                 <div className="flex items-center gap-3">
-                  <label className="inline-flex items-center gap-2 text-xs font-semibold cursor-pointer">
+                  <label className="inline-flex items-center gap-2 text-xs font-semibold cursor-pointer text-[#F8FAFC]">
                     <input
                       type="radio"
                       name="tfAnswer"
                       checked={editingItem.correct_answer === 'True'}
                       onChange={() => setEditingItem({ ...editingItem, correct_answer: 'True' })}
+                      className="accent-[#1685E8]"
                     />
                     True
                   </label>
-                  <label className="inline-flex items-center gap-2 text-xs font-semibold cursor-pointer">
+                  <label className="inline-flex items-center gap-2 text-xs font-semibold cursor-pointer text-[#F8FAFC]">
                     <input
                       type="radio"
                       name="tfAnswer"
                       checked={editingItem.correct_answer === 'False'}
                       onChange={() => setEditingItem({ ...editingItem, correct_answer: 'False' })}
+                      className="accent-[#1685E8]"
                     />
                     False
                   </label>
@@ -933,14 +944,14 @@ export function TopicQuestionGeneratorModal({
             {editingItem.question_type === 'identification' && (
               <div className="space-y-3">
                 <div>
-                  <label className="block text-xs font-bold text-purple-900 mb-1">Canonical Correct Answer</label>
+                  <label className="block text-xs font-bold text-[#94A3B8] mb-1">Canonical Correct Answer</label>
                   <Input
                     value={editingItem.correct_answer}
                     onChange={e => setEditingItem({ ...editingItem, correct_answer: e.target.value })}
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-purple-900 mb-1">
+                  <label className="block text-xs font-bold text-[#94A3B8] mb-1">
                     Accepted Alternate Answers (comma separated)
                   </label>
                   <Input
@@ -960,7 +971,7 @@ export function TopicQuestionGeneratorModal({
             )}
 
             <div>
-              <label className="block text-xs font-bold text-purple-900 mb-1">Explanation</label>
+              <label className="block text-xs font-bold text-[#94A3B8] mb-1">Explanation</label>
               <Textarea
                 rows={2}
                 value={editingItem.explanation}
@@ -968,20 +979,24 @@ export function TopicQuestionGeneratorModal({
               />
             </div>
 
-            <div className="flex justify-end gap-2 pt-2 border-t border-purple-100">
-              <Button variant="ghost" size="sm" onClick={() => setEditingItem(null)}>
+            <div className="flex justify-end gap-2 pt-2 border-t border-[#26384D]">
+              <button
+                type="button"
+                onClick={() => setEditingItem(null)}
+                className="px-3 py-1.5 rounded-xl text-xs font-semibold text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#111C2A] transition-colors cursor-pointer"
+              >
                 Cancel
-              </Button>
-              <Button
-                variant="primary"
-                size="sm"
+              </button>
+              <button
+                type="button"
                 onClick={() => {
                   setReviewItems(prev => prev.map(q => (q.id === editingItem.id ? editingItem : q)));
                   setEditingItem(null);
                 }}
+                className="px-4 py-1.5 rounded-xl text-xs font-semibold bg-[#1685E8] hover:bg-[#1270c7] text-white transition-all cursor-pointer shadow-xs"
               >
                 Apply Changes
-              </Button>
+              </button>
             </div>
           </div>
         </Modal>

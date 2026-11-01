@@ -21,9 +21,9 @@ interface CatMascotProps {
 }
 
 export function CatMascot({ variant = 'header-peek', className = '', size }: CatMascotProps) {
-  // 1. Logo Cat Head (in circular badge)
+  // 1. Logo Cat Head: Circular blue badge with cute white nurse cat holding syringe
   if (variant === 'logo') {
-    const s = size || 40;
+    const s = size || 44;
     return (
       <svg
         width={s}
@@ -31,28 +31,86 @@ export function CatMascot({ variant = 'header-peek', className = '', size }: Cat
         viewBox="0 0 48 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className={className}
+        className={`shrink-0 ${className}`}
       >
-        <circle cx="24" cy="24" r="22" fill="#1565C0" />
-        {/* Cat Ears */}
-        <polygon points="12,14 18,7 23,15" fill="#FFFFFF" stroke="#1565C0" strokeWidth="1.5" strokeLinejoin="round" />
-        <polygon points="14,13 18,9 21,14" fill="#93C5FD" />
-        <polygon points="36,14 30,7 25,15" fill="#FFFFFF" stroke="#1565C0" strokeWidth="1.5" strokeLinejoin="round" />
-        <polygon points="34,13 30,9 27,14" fill="#93C5FD" />
-        {/* Cat Head Base */}
-        <ellipse cx="24" cy="26" rx="14" ry="11" fill="#FFFFFF" />
-        {/* Eyes (happy curved eyes) */}
-        <path d="M17 25 C17 23, 20 23, 20 25" stroke="#142D4E" strokeWidth="1.8" strokeLinecap="round" fill="none" />
-        <path d="M28 25 C28 23, 31 23, 31 25" stroke="#142D4E" strokeWidth="1.8" strokeLinecap="round" fill="none" />
-        {/* Nose & Mouth */}
-        <polygon points="24,28 22.5,26.5 25.5,26.5" fill="#142D4E" />
-        <path d="M24 28 C23 30, 21.5 30, 21 29.5" stroke="#142D4E" strokeWidth="1.3" strokeLinecap="round" fill="none" />
-        <path d="M24 28 C25 30, 26.5 30, 27 29.5" stroke="#142D4E" strokeWidth="1.3" strokeLinecap="round" fill="none" />
-        {/* Whiskers */}
-        <line x1="11" y1="26" x2="15" y2="26.5" stroke="#142D4E" strokeWidth="1" strokeLinecap="round" />
-        <line x1="11" y1="28" x2="15" y2="28" stroke="#142D4E" strokeWidth="1" strokeLinecap="round" />
-        <line x1="33" y1="26.5" x2="37" y2="26" stroke="#142D4E" strokeWidth="1" strokeLinecap="round" />
-        <line x1="33" y1="28" x2="37" y2="28" stroke="#142D4E" strokeWidth="1" strokeLinecap="round" />
+        <defs>
+          <clipPath id="circle_logo_clip">
+            <circle cx="24" cy="24" r="23" />
+          </clipPath>
+        </defs>
+
+        {/* Circular Blue Background Badge */}
+        <circle cx="24" cy="24" r="23" fill="#1565C0" />
+
+        {/* Content clipped to circular badge */}
+        <g clipPath="url(#circle_logo_clip)">
+          {/* 3 Yellow Radiant Sparkles (Bursting from syringe needle top-right) */}
+          <line x1="36" y1="12" x2="41" y2="7" stroke="#F59E0B" strokeWidth="2.2" strokeLinecap="round" />
+          <line x1="39" y1="17" x2="45" y2="17" stroke="#F59E0B" strokeWidth="2.2" strokeLinecap="round" />
+          <line x1="37" y1="22" x2="42" y2="26" stroke="#F59E0B" strokeWidth="2.2" strokeLinecap="round" />
+
+          {/* Cat Left Ear */}
+          <polygon points="12,21 16,9 23,19" fill="#FFFFFF" stroke="#17365D" strokeWidth="1.8" strokeLinejoin="round" />
+          <polygon points="14,20 17,12 21,18" fill="#FBCFE8" />
+
+          {/* Cat Right Ear */}
+          <polygon points="34,21 30,9 23,19" fill="#FFFFFF" stroke="#17365D" strokeWidth="1.8" strokeLinejoin="round" />
+          <polygon points="32,20 29,12 25,18" fill="#FBCFE8" />
+
+          {/* White Nurse Cap with Blue Cross */}
+          <path
+            d="M18 14 C18 9, 28 9, 28 14 L29 19 C29 20, 17 20, 17 19 Z"
+            fill="#FFFFFF"
+            stroke="#17365D"
+            strokeWidth="1.6"
+            strokeLinejoin="round"
+          />
+          <rect x="22" y="11.5" width="2" height="6" rx="0.5" fill="#1565C0" />
+          <rect x="20" y="13.5" width="6" height="2" rx="0.5" fill="#1565C0" />
+
+          {/* Cat Head Base */}
+          <ellipse cx="23" cy="26" rx="14" ry="11.5" fill="#FFFFFF" stroke="#17365D" strokeWidth="1.8" />
+
+          {/* Eyes: Happy Smiling Curves (^ ^) */}
+          <path d="M16 25 C16 22.8, 19.5 22.8, 19.5 25" stroke="#17365D" strokeWidth="1.8" strokeLinecap="round" fill="none" />
+          <path d="M26.5 25 C26.5 22.8, 30 22.8, 30 25" stroke="#17365D" strokeWidth="1.8" strokeLinecap="round" fill="none" />
+
+          {/* Soft Pink Blush Cheeks */}
+          <ellipse cx="14" cy="27" rx="2.5" ry="1.3" fill="#FB7185" opacity="0.65" />
+          <ellipse cx="32" cy="27" rx="2.5" ry="1.3" fill="#FB7185" opacity="0.65" />
+
+          {/* Tiny Navy Nose & Smile Mouth (w) */}
+          <polygon points="23,27.5 22,26.5 24,26.5" fill="#17365D" />
+          <path d="M23 27.5 C22.4 29, 21.2 29, 20.5 28.5" stroke="#17365D" strokeWidth="1.2" strokeLinecap="round" fill="none" />
+          <path d="M23 27.5 C23.6 29, 24.8 29, 25.5 28.5" stroke="#17365D" strokeWidth="1.2" strokeLinecap="round" fill="none" />
+
+          {/* Whiskers */}
+          <line x1="9" y1="26" x2="13" y2="26.5" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+          <line x1="9" y1="28" x2="13" y2="28" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+          <line x1="33" y1="26.5" x2="37" y2="26" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+          <line x1="33" y1="28" x2="37" y2="28" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+
+          {/* Medical Syringe held by right paw */}
+          <g transform="rotate(36 34 27)">
+            <rect x="32" y="13" width="4.5" height="1.5" rx="0.5" fill="#17365D" />
+            <rect x="33.5" y="14.5" width="1.5" height="3" fill="#17365D" />
+            <rect x="32.5" y="17.5" width="3.5" height="1" fill="#17365D" />
+            <rect x="32" y="18.5" width="4.5" height="10" rx="1" fill="#FFFFFF" stroke="#17365D" strokeWidth="1.2" />
+            <rect x="32.5" y="21.5" width="3.5" height="6.5" fill="#38BDF8" />
+            <path d="M33.5 28.5 L35 28.5 L34.5 30 L34 30 Z" fill="#17365D" />
+            <line x1="34.2" y1="30" x2="34.2" y2="36" stroke="#94A3B8" strokeWidth="1" strokeLinecap="round" />
+          </g>
+
+          {/* Left Paw resting along bottom rim */}
+          <ellipse cx="17" cy="37" rx="4.5" ry="3.5" fill="#FFFFFF" stroke="#17365D" strokeWidth="1.6" />
+          <line x1="16" y1="36.5" x2="16" y2="39" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+          <line x1="18" y1="36.5" x2="18" y2="39" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+
+          {/* Right Paw holding syringe */}
+          <ellipse cx="29" cy="37" rx="4.5" ry="3.5" fill="#FFFFFF" stroke="#17365D" strokeWidth="1.6" />
+          <line x1="28" y1="36.5" x2="28" y2="39" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+          <line x1="30" y1="36.5" x2="30" y2="39" stroke="#17365D" strokeWidth="1" strokeLinecap="round" />
+        </g>
       </svg>
     );
   }

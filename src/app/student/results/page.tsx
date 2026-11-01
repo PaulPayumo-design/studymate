@@ -108,7 +108,7 @@ function ResultsContainerSleepingCat() {
       >
         {/* Floating 'z Z z' in blue */}
         <text x="14" y="22" fill="#3B82C4" fontSize="9" fontWeight="900" fontFamily="sans-serif">z</text>
-        <text x="21" y="15" fill="#1565C0" fontSize="11" fontWeight="900" fontFamily="sans-serif">Z</text>
+        <text x="21" y="15" fill="#1685E8" fontSize="11" fontWeight="900" fontFamily="sans-serif">Z</text>
         <text x="30" y="9" fill="#142D4E" fontSize="13" fontWeight="900" fontFamily="sans-serif">z</text>
 
         {/* Cat Tail curled around the body */}
@@ -187,7 +187,7 @@ export default function StudentResultsHistoryPage() {
           <Button
             variant="primary"
             size="sm"
-            className="gap-2 text-xs font-bold py-2.5 px-4 rounded-xl bg-[#1565C0] hover:bg-[#142D4E] text-white shadow-2xs"
+            className="gap-2 text-xs font-bold py-2.5 px-4 rounded-xl bg-[#1685E8] hover:bg-[#126ec2] text-white shadow-xs shadow-[#1685E8]/25 transition-all duration-150 active:scale-[0.98]"
           >
             <FileCheck2 className="w-4 h-4" />
             Take New Examination
@@ -196,7 +196,7 @@ export default function StudentResultsHistoryPage() {
       </div>
 
       {/* History Card with Cat 2 in bottom right */}
-      <div className="bg-white rounded-2xl border border-[#D6E9FF] p-6 shadow-xs space-y-4 overflow-hidden relative">
+      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-6 shadow-xs space-y-4 overflow-hidden relative">
         <div className="flex items-center justify-between border-b border-[#F0F6FD] pb-3">
           <h3 className="text-base font-black text-[#142D4E]">
             Completed Attempts ({attempts.length})
@@ -207,9 +207,9 @@ export default function StudentResultsHistoryPage() {
           <div className="text-center py-16 text-xs text-[#64748B] space-y-3">
             <Award className="w-12 h-12 text-[#93C5FD] mx-auto" />
             <p className="font-bold text-sm text-[#142D4E]">You have not completed any examinations yet.</p>
-            <p>Select a midterm suite or the comprehensive exam to test your knowledge.</p>
+            <p>Select a weekly exam suite to test your knowledge.</p>
             <Link href="/student/exams">
-              <Button variant="primary" size="sm" className="mt-2 text-xs font-bold py-2 px-4 rounded-xl bg-[#1565C0]">
+              <Button variant="primary" size="sm" className="mt-2 text-xs font-bold py-2 px-4 rounded-xl bg-[#1685E8] hover:bg-[#126ec2] transition-all duration-150 active:scale-[0.98]">
                 Start Examination
               </Button>
             </Link>
@@ -219,7 +219,7 @@ export default function StudentResultsHistoryPage() {
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs">
                 <thead>
-                  <tr className="border-b border-[#E2EEFC] text-[#64748B] uppercase tracking-wider font-bold">
+                  <tr className="border-b border-[#DCEEFF] text-[#64748B] uppercase tracking-wider font-bold">
                     <th className="py-3 px-3">Examination</th>
                     <th className="py-3 px-3">Subject</th>
                     <th className="py-3 px-3">Mode</th>
@@ -236,7 +236,7 @@ export default function StudentResultsHistoryPage() {
                       <td className="py-3.5 px-3">
                         <div className="font-black text-sm text-[#142D4E]">
                           {att.is_comprehensive ? (
-                            <span className="flex items-center gap-1.5 text-[#1565C0]">
+                            <span className="flex items-center gap-1.5 text-[#1685E8]">
                               <Sparkles className="w-3.5 h-3.5" />
                               60-Item Comprehensive Examination
                             </span>
@@ -249,7 +249,7 @@ export default function StudentResultsHistoryPage() {
                         {att.subject_title || 'Midterm Assessment'}
                       </td>
                       <td className="py-3.5 px-3">
-                        <span className="font-bold text-[11px] bg-[#EAF3FB] text-[#1565C0] px-2.5 py-1 rounded-md border border-[#BFDBFE] capitalize">
+                        <span className="font-bold text-[11px] bg-[#EAF3FB] text-[#1685E8] px-2.5 py-1 rounded-md border border-[#BFDBFE] capitalize">
                           {att.exam_mode.replace('_', ' ')}
                         </span>
                       </td>
@@ -278,9 +278,9 @@ export default function StudentResultsHistoryPage() {
                           <Button
                             variant="outline"
                             size="sm"
-                            className="text-xs font-bold gap-1 rounded-lg py-1 px-3 border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB]"
+                            className="text-xs font-bold gap-1 rounded-lg py-1 px-3 border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB] transition-all duration-150 active:scale-[0.98]"
                           >
-                            <FileText className="w-3.5 h-3.5 text-[#1565C0]" />
+                            <FileText className="w-3.5 h-3.5 text-[#1685E8]" />
                             Review Report
                           </Button>
                         </Link>

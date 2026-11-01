@@ -100,7 +100,7 @@ export default function StudentSubjectsPage() {
       </div>
 
       {/* Page Header with Cat Mascot */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-3 border-b border-[#E2EEFC]">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-3 border-b border-[#DCEEFF]">
         <div className="flex items-center gap-3">
           <CatMascot variant="header-peek" size={40} />
           <h1 className="text-2xl sm:text-3xl font-black text-[#142D4E] tracking-tight">
@@ -117,7 +117,7 @@ export default function StudentSubjectsPage() {
           return (
             <div
               key={subject.id}
-              className="bg-white rounded-3xl border border-[#D6E9FF] p-6 sm:p-8 shadow-xs hover:border-[#BFDBFE] transition-all relative overflow-visible"
+              className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-8 shadow-xs hover:border-[#BFDBFE] transition-all relative overflow-visible"
             >
               {/* Corner paw print decoration on each subject container */}
               <div className="absolute top-5 right-6 pointer-events-none select-none hidden sm:flex items-center gap-1.5 opacity-35">
@@ -129,7 +129,7 @@ export default function StudentSubjectsPage() {
               <div className="space-y-2 pb-6 border-b border-[#F0F6FD]">
                 {/* Code Pill: e.g. CMPA - 301 */}
                 <div>
-                  <span className="inline-block text-xs font-bold text-[#1565C0] bg-[#EAF3FB] px-3 py-1 rounded-full border border-[#BFDBFE]">
+                  <span className="inline-block text-xs font-bold text-[#1685E8] bg-[#EAF3FB] px-3 py-1 rounded-full border border-[#BFDBFE]">
                     {subject.code}
                   </span>
                 </div>
@@ -140,12 +140,12 @@ export default function StudentSubjectsPage() {
                     {subject.title}
                   </h2>
                   <Link
-                    href={`/student/comprehensive?subjectId=${subject.id}`}
-                    className="text-xs sm:text-sm font-bold text-[#1565C0] hover:text-[#142D4E] flex items-center gap-1.5 transition-colors shrink-0 group self-start sm:self-auto"
-                    title="View all subject modules & take comprehensive exam"
+                    href={`/student/exams?subjectId=${subject.id}`}
+                    className="text-xs sm:text-sm font-bold text-[#1685E8] hover:text-[#0F4C81] flex items-center gap-1.5 transition-colors shrink-0 group self-start sm:self-auto"
+                    title="View weekly exams for this subject"
                   >
                     <span>All Subjects</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-150" />
                   </Link>
                 </div>
 
@@ -166,14 +166,14 @@ export default function StudentSubjectsPage() {
                       <PeekingCardCat />
 
                       {/* Week / Module Examination Card */}
-                      <div className="bg-white rounded-3xl border border-[#D6E9FF] p-5 sm:p-6 shadow-xs hover:border-[#1565C0]/40 hover:shadow-md transition-all flex flex-col justify-between space-y-4 h-full">
+                      <div className="bg-white rounded-3xl border border-[#DCEEFF] p-5 sm:p-6 shadow-xs hover:border-[#BFDBFE] hover:shadow-md transition-all flex flex-col justify-between space-y-4 h-full">
                         <div className="space-y-3">
                           {/* Card Top Row: Stack icon on left, 60 Qs on right */}
                           <div className="flex items-center justify-between gap-2">
-                            <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/60 flex items-center justify-center text-[#1565C0] shadow-2xs">
+                            <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/60 flex items-center justify-center text-[#1685E8] shadow-2xs">
                               <Layers className="w-5 h-5 stroke-[2.2]" />
                             </div>
-                            <span className="text-xs font-bold text-[#1565C0] bg-[#EAF3FB] px-2.5 py-0.5 rounded-full border border-[#BFDBFE]/70">
+                            <span className="text-xs font-bold text-[#1685E8] bg-[#EAF3FB] px-2.5 py-0.5 rounded-full border border-[#BFDBFE]/70">
                               {mod.exam_question_count || 60} Qs
                             </span>
                           </div>
@@ -194,24 +194,24 @@ export default function StudentSubjectsPage() {
                           {/* Stats Row */}
                           <div className="flex items-center justify-between text-xs font-bold text-[#142D4E]">
                             <span className="flex items-center gap-1.5">
-                              <Layers className="w-3.5 h-3.5 text-[#1565C0]" />
+                              <Layers className="w-3.5 h-3.5 text-[#1685E8]" />
                               <span>{modCards.length || 60} Flashcards</span>
                             </span>
                             <span className="flex items-center gap-1.5">
-                              <Clock className="w-3.5 h-3.5 text-[#1565C0]" />
+                              <Clock className="w-3.5 h-3.5 text-[#1685E8]" />
                               <span>{mod.exam_time_limit_minutes || 60} Min Exam</span>
                             </span>
                           </div>
 
-                          {/* Action Buttons: Cards (Secondary Light Blue) & Exam (Primary Blue) */}
+                            {/* Action Buttons: Cards (Secondary Light Blue) & Exam (Primary Blue) */}
                           <div className="grid grid-cols-2 gap-3 pt-1">
                             <Link href={`/student/flashcards?moduleId=${mod.id}`} className="w-full">
-                              <button className="w-full py-2.5 px-4 rounded-xl bg-[#EAF3FB] hover:bg-[#D5E8F8] text-[#1565C0] font-black text-xs flex items-center justify-center border border-[#BFDBFE] transition-colors shadow-2xs">
+                              <button className="w-full py-2.5 px-4 rounded-xl bg-[#EAF3FB] hover:bg-[#D5E8F8] text-[#1685E8] font-black text-xs flex items-center justify-center border border-[#BFDBFE] transition-all duration-150 active:scale-[0.98] cursor-pointer shadow-2xs">
                                 Cards
                               </button>
                             </Link>
                             <Link href={`/student/exams?moduleId=${mod.id}`} className="w-full">
-                              <button className="w-full py-2.5 px-4 rounded-xl bg-[#1565C0] hover:bg-[#142D4E] text-white font-black text-xs flex items-center justify-center gap-1.5 transition-colors shadow-xs shadow-[#1565C0]/20">
+                              <button className="w-full py-2.5 px-4 rounded-xl bg-[#1685E8] hover:bg-[#126ec2] text-white font-black text-xs flex items-center justify-center gap-1.5 transition-all duration-150 shadow-xs shadow-[#1685E8]/25 active:scale-[0.98] cursor-pointer">
                                 <Play className="w-3 h-3 fill-current" />
                                 <span>Exam</span>
                               </button>

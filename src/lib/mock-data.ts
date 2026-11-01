@@ -14,7 +14,7 @@ export const INITIAL_PROFILES: UserProfile[] = [
   {
     id: 'user-admin-01',
     email: 'admin@studymate.local',
-    full_name: 'Prof. Sarah Connor',
+    full_name: 'Paul',
     role: 'admin',
     avatar_url: '',
     created_at: '2026-01-10T08:00:00Z',

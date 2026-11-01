@@ -39,9 +39,7 @@ function ExamRoomContent() {
   const { user } = useAuth();
 
   const moduleId = searchParams.get('moduleId');
-  const isComprehensive = searchParams.get('comprehensive') === 'true';
   const examMode = (searchParams.get('mode') as ExamMode) || 'mixed';
-  const paramSubjectId = searchParams.get('subjectId');
 
   const [subject, setSubject] = useState<Subject | null>(null);
   const [moduleItem, setModuleItem] = useState<Module | null>(null);
@@ -60,76 +58,39 @@ function ExamRoomContent() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number | null>(null);
 
-  // 1. Prepare Question Pool
+  // 1. Prepare Question Pool for Weekly Examination
   useEffect(() => {
     const allSubjects = StudyMateStore.getSubjects();
     const allModules = StudyMateStore.getModules();
-    const allQuestions = StudyMateStore.getQuestions({ status: 'approved' });
 
-    let sub: Subject | undefined;
-    let pool: Question[] = [];
+    const m = allModules.find(mod => mod.id === moduleId);
+    if (!m) {
+      setErrorMessage('Requested curriculum week was not found.');
+      return;
+    }
+    setModuleItem(m);
+    const sub = allSubjects.find(s => s.id === m.subject_id);
+    setSubject(sub || null);
 
-    if (isComprehensive) {
-      sub = allSubjects.find(s => s.id === paramSubjectId) || allSubjects[0];
-      const subModules = allModules.filter(m => m.subject_id === sub?.id);
+    const pool = StudyMateStore.getApprovedQuestionsForExam(m.id, examMode);
 
-      // Sample questions across all configured curriculum weeks = 60 items
-      const nWeeks = subModules.length || 1;
-      const basePerWeek = Math.floor(60 / nWeeks);
-      let remainder = 60 - basePerWeek * nWeeks;
-
-      for (const m of subModules) {
-        const targetForWeek = basePerWeek + (remainder > 0 ? 1 : 0);
-        if (remainder > 0) remainder--;
-
-        let modPool = allQuestions.filter(q => q.module_id === m.id);
-        if (examMode !== 'mixed') {
-          modPool = modPool.filter(q => q.question_type === examMode);
-        }
-        const shuffled = [...modPool].sort(() => Math.random() - 0.5);
-        const selected = shuffled.slice(0, targetForWeek);
-        pool.push(...selected);
-      }
-
-      if (pool.length < 60) {
-        setErrorMessage(
-          `Insufficient approved questions to construct the 60-Item Comprehensive Examination. Found ${pool.length} approved questions across ${subModules.length} curriculum weeks. Exactly 60 approved questions distributed across weeks are required.`
-        );
-        return;
-      }
-
-      setTimeLeftSeconds(3600); // 60 minutes
-    } else {
-      // Individual Week Title 60-Question Examination
-      const m = allModules.find(mod => mod.id === moduleId);
-      if (!m) {
-        setErrorMessage('Requested curriculum week was not found.');
-        return;
-      }
-      setModuleItem(m);
-      sub = allSubjects.find(s => s.id === m.subject_id);
-
-      pool = StudyMateStore.getApprovedQuestionsForExam(m.id, examMode);
-
-      if (pool.length < 60) {
-        setErrorMessage(
-          `Insufficient approved questions in bank: Found ${pool.length} of 60 required approved questions for "${m.title}".`
-        );
-        return;
-      }
-
-      setTimeLeftSeconds(3600); // 60 minutes for 60 questions
+    if (pool.length < 60) {
+      setErrorMessage(
+        `Insufficient approved questions in bank: Found ${pool.length} of 60 required approved questions for "${m.title}".`
+      );
+      return;
     }
 
-    const randomizedQuestions = pool.sort(() => Math.random() - 0.5);
-    setSubject(sub || null);
+    setTimeLeftSeconds(3600); // 60 minutes for 60 questions
+
+    const randomizedQuestions = [...pool].sort(() => Math.random() - 0.5);
     setExamQuestions(randomizedQuestions);
     startTimeRef.current = Date.now();
-  }, [moduleId, isComprehensive, examMode, paramSubjectId]);
+  }, [moduleId, examMode]);
 
   // Final submission logic
   const handleFinalSubmit = useCallback(() => {
-    if (isSubmitting || examQuestions.length === 0 || !user) return;
+    if (isSubmitting || examQuestions.length === 0 || !user || !moduleItem) return;
     setIsSubmitting(true);
 
     const timeSpent = Math.max(1, Math.round((Date.now() - (startTimeRef.current ?? Date.now())) / 1000));
@@ -137,8 +98,8 @@ function ExamRoomContent() {
     const attempt = StudyMateStore.submitExamAttempt({
       studentId: user.id,
       subjectId: subject?.id || '',
-      moduleId: isComprehensive ? null : moduleItem?.id || null,
-      isComprehensive,
+      moduleId: moduleItem.id,
+      isComprehensive: false,
       examMode,
       questions: examQuestions,
       rawAnswers: answers,
@@ -156,7 +117,7 @@ function ExamRoomContent() {
     }
 
     router.replace(`/student/results/${attempt.id}`);
-  }, [answers, examMode, examQuestions, isComprehensive, isSubmitting, moduleItem?.id, router, subject?.id, user]);
+  }, [answers, examMode, examQuestions, isSubmitting, moduleItem, router, subject?.id, user]);
 
   // 2. Countdown Timer
   useEffect(() => {
@@ -272,18 +233,18 @@ function ExamRoomContent() {
   return (
     <div className="space-y-6 max-w-4xl mx-auto flex flex-col min-h-[calc(100vh-8rem)] pb-12 relative">
       {/* Sticky Top Bar: Exam Title, Progress, Timer, Submit */}
-      <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md rounded-2xl border border-[#E2EEFC] p-4 shadow-xs flex items-center justify-between gap-4">
+      <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md rounded-2xl border border-[#DCEEFF] p-4 shadow-xs flex items-center justify-between gap-4">
         <div className="space-y-0.5 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] font-bold uppercase tracking-wider bg-[#EAF3FB] text-[#1565C0] px-2.5 py-0.5 rounded border border-[#BFDBFE]">
-              {isComprehensive ? 'Comprehensive (60-Item)' : `Week ${moduleItem?.module_number || 1}`}
+            <span className="text-[10px] font-bold uppercase tracking-wider bg-[#EAF3FB] text-[#1685E8] px-2.5 py-0.5 rounded border border-[#BFDBFE]">
+              Week {moduleItem?.module_number || 1}
             </span>
             <span className="text-xs font-bold text-[#142D4E] capitalize">
               {examMode.replace('_', ' ')}
             </span>
           </div>
           <h2 className="text-sm sm:text-base font-black text-[#142D4E] truncate">
-            {isComprehensive ? '60-Item Comprehensive Examination' : moduleItem?.title}
+            {moduleItem?.title || 'Weekly Examination'}
           </h2>
         </div>
 
@@ -297,7 +258,7 @@ function ExamRoomContent() {
               : 'bg-[#EAF3FB] text-[#142D4E] border-[#BFDBFE]'
           }`}
         >
-          <Clock className={`w-4 h-4 ${isCriticalTime ? 'text-rose-600' : isLowTime ? 'text-amber-600' : 'text-[#1565C0]'}`} />
+          <Clock className={`w-4 h-4 ${isCriticalTime ? 'text-rose-600' : isLowTime ? 'text-amber-600' : 'text-[#1685E8]'}`} />
           <span>{formatSeconds(timeLeftSeconds)}</span>
         </div>
 
@@ -313,7 +274,7 @@ function ExamRoomContent() {
             variant="primary"
             size="sm"
             onClick={() => setIsSubmitModalOpen(true)}
-            className="gap-1.5 font-bold text-xs py-2 bg-[#1565C0] hover:bg-[#142D4E]"
+            className="gap-1.5 font-bold text-xs py-2 bg-[#1685E8] hover:bg-[#126ec2] transition-all duration-150 active:scale-[0.98]"
           >
             <Send className="w-3.5 h-3.5" />
             <span>Submit Exam</span>
@@ -324,7 +285,7 @@ function ExamRoomContent() {
       {/* Progress Bar across the exam */}
       <div className="w-full bg-[#EAF3FB] rounded-full h-2 overflow-hidden shadow-2xs">
         <div
-          className="bg-[#1565C0] h-2 rounded-full transition-all duration-300"
+          className="bg-[#1685E8] h-2 rounded-full transition-all duration-300"
           style={{ width: `${(confirmedCount / totalQuestions) * 100}%` }}
         />
       </div>
@@ -340,12 +301,12 @@ function ExamRoomContent() {
       )}
 
       {/* Main Spacious Question Workspace (Question Palette completely removed) */}
-      <div className="bg-white rounded-3xl border border-[#E2EEFC] p-6 sm:p-10 shadow-xs flex flex-col justify-between space-y-6 flex-1">
+      <div className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-10 shadow-xs flex flex-col justify-between space-y-6 flex-1">
         <div className="space-y-6">
           {/* Question Header & Counter */}
           <div className="flex items-center justify-between flex-wrap gap-2 border-b border-[#F0F6FD] pb-4">
             <div className="flex items-center gap-2.5">
-              <span className="text-xs font-black text-[#1565C0] bg-[#EAF3FB] px-3.5 py-1.5 rounded-xl border border-[#BFDBFE]">
+              <span className="text-xs font-black text-[#1685E8] bg-[#EAF3FB] px-3.5 py-1.5 rounded-xl border border-[#BFDBFE]">
                 Question {currentIdx + 1} of {totalQuestions}
               </span>
               <QuestionTypeBadge type={currentQ.question_type} />
@@ -387,7 +348,7 @@ function ExamRoomContent() {
                   const isCorrectChoice = choice.trim().toLowerCase() === currentQ.correct_answer.trim().toLowerCase();
 
                   // Feedback border & background classes
-                  let choiceClass = 'bg-white border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]';
+                  let choiceClass = 'bg-white border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]';
 
                   if (isCurrentConfirmed) {
                     if (isSelected && currentConfirmed?.isCorrect) {
@@ -397,10 +358,10 @@ function ExamRoomContent() {
                     } else if (!isSelected && isCorrectChoice) {
                       choiceClass = 'bg-emerald-50/70 border-emerald-500 ring-1 ring-emerald-500/50';
                     } else {
-                      choiceClass = 'bg-white border-[#E2EEFC] opacity-60';
+                      choiceClass = 'bg-white border-[#DCEEFF] opacity-60';
                     }
                   } else if (isSelected) {
-                    choiceClass = 'bg-[#EAF3FB] border-[#1565C0] ring-2 ring-[#1565C0]/20 shadow-xs';
+                    choiceClass = 'bg-[#EAF3FB] border-[#1685E8] ring-2 ring-[#1685E8]/20 shadow-xs';
                   }
 
                   return (
@@ -423,7 +384,7 @@ function ExamRoomContent() {
                                 ? 'bg-emerald-600 text-white border-emerald-600'
                                 : 'border-[#CBD5E1] text-[#64748B] bg-white'
                               : isSelected
-                              ? 'bg-[#1565C0] text-white border-[#1565C0]'
+                              ? 'bg-[#1685E8] text-white border-[#1685E8]'
                               : 'border-[#CBD5E1] text-[#64748B] bg-white'
                           }`}
                         >
@@ -511,7 +472,7 @@ function ExamRoomContent() {
                   const isSelected = currentAnswer.toLowerCase() === option.toLowerCase();
                   const isCorrectOption = currentQ.correct_answer.trim().toLowerCase() === option.toLowerCase();
 
-                  let btnClass = 'bg-white border-[#E2EEFC] text-[#142D4E] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]';
+                  let btnClass = 'bg-white border-[#DCEEFF] text-[#142D4E] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]';
 
                   if (isCurrentConfirmed) {
                     if (isSelected && currentConfirmed?.isCorrect) {
@@ -521,10 +482,10 @@ function ExamRoomContent() {
                     } else if (!isSelected && isCorrectOption) {
                       btnClass = 'bg-emerald-50 text-emerald-800 border-emerald-500 ring-2 ring-emerald-500/40 font-black';
                     } else {
-                      btnClass = 'bg-white border-[#E2EEFC] opacity-40 text-[#64748B]';
+                      btnClass = 'bg-white border-[#DCEEFF] opacity-40 text-[#64748B]';
                     }
                   } else if (isSelected) {
-                    btnClass = 'bg-[#1565C0] text-white border-[#1565C0] shadow-md shadow-[#1565C0]/20';
+                    btnClass = 'bg-[#1685E8] text-white border-[#1685E8] shadow-md shadow-[#1685E8]/20';
                   }
 
                   return (
@@ -583,9 +544,9 @@ function ExamRoomContent() {
 
                 {/* Short Reviewer Explanation */}
                 {currentConfirmed.explanation && (
-                  <div className="p-3.5 bg-white/90 rounded-xl border border-[#E2EEFC] text-xs text-[#142D4E] space-y-1">
-                    <div className="flex items-center gap-1.5 font-bold text-[#1565C0] text-[11px]">
-                      <Lightbulb className="w-3.5 h-3.5 text-[#1565C0]" />
+                  <div className="p-3.5 bg-white/90 rounded-xl border border-[#DCEEFF] text-xs text-[#142D4E] space-y-1">
+                    <div className="flex items-center gap-1.5 font-bold text-[#1685E8] text-[11px]">
+                      <Lightbulb className="w-3.5 h-3.5 text-[#1685E8]" />
                       <span>Explanation:</span>
                     </div>
                     <p className="leading-relaxed text-[#142D4E]/90 pl-5">
@@ -606,7 +567,7 @@ function ExamRoomContent() {
             size="md"
             onClick={() => setCurrentIdx(prev => Math.max(0, prev - 1))}
             disabled={currentIdx === 0}
-            className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB] px-3 sm:px-4 shrink-0"
+            className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB] px-3 sm:px-4 shrink-0 transition-all duration-150 active:scale-[0.98]"
           >
             <ChevronLeft className="w-4 h-4" />
             <span className="hidden sm:inline">Previous Question</span>
@@ -636,7 +597,7 @@ function ExamRoomContent() {
                   size="md"
                   disabled={!currentAnswer.trim()}
                   onClick={handleSubmitIdentification}
-                  className="gap-2 text-xs font-bold bg-[#1565C0] hover:bg-[#142D4E] px-5 sm:px-6 py-2.5 rounded-xl shadow-xs shrink-0"
+                  className="gap-2 text-xs font-bold bg-[#1685E8] hover:bg-[#126ec2] px-5 sm:px-6 py-2.5 rounded-xl shadow-xs shrink-0 transition-all duration-150 active:scale-[0.98]"
                 >
                   <span>Submit Answer</span>
                   <Send className="w-3.5 h-3.5" />
@@ -653,7 +614,7 @@ function ExamRoomContent() {
                 variant="primary"
                 size="md"
                 onClick={() => setCurrentIdx(prev => prev + 1)}
-                className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold bg-[#1565C0] hover:bg-[#142D4E] px-3.5 sm:px-6 py-2.5 rounded-xl shadow-sm shadow-[#1565C0]/20 shrink-0"
+                className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold bg-[#1685E8] hover:bg-[#126ec2] px-3.5 sm:px-6 py-2.5 rounded-xl shadow-sm shadow-[#1685E8]/20 shrink-0 transition-all duration-150 active:scale-[0.98]"
               >
                 <span className="hidden sm:inline">Next Question</span>
                 <span className="sm:hidden">Next</span>
@@ -664,7 +625,7 @@ function ExamRoomContent() {
                 variant="primary"
                 size="md"
                 onClick={() => setIsSubmitModalOpen(true)}
-                className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold bg-emerald-600 hover:bg-emerald-700 shadow-md shadow-emerald-400/20 px-3.5 sm:px-6 py-2.5 rounded-xl shrink-0"
+                className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold bg-emerald-600 hover:bg-emerald-700 shadow-md shadow-emerald-400/20 px-3.5 sm:px-6 py-2.5 rounded-xl shrink-0 transition-all duration-150 active:scale-[0.98]"
               >
                 <Send className="w-4 h-4" />
                 <span className="hidden sm:inline">Finish Examination</span>
@@ -694,7 +655,7 @@ function ExamRoomContent() {
             </div>
             <div className="flex items-center justify-between text-[#142D4E]">
               <span>Unanswered:</span>
-              <span className={`font-bold ${totalQuestions - confirmedCount > 0 ? 'text-rose-600' : 'text-[#1565C0]'}`}>
+              <span className={`font-bold ${totalQuestions - confirmedCount > 0 ? 'text-rose-600' : 'text-[#1685E8]'}`}>
                 {totalQuestions - confirmedCount}
               </span>
             </div>

@@ -99,33 +99,38 @@ function FlashcardsAdminContent() {
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-purple-100">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-[#26384D]">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-purple-950 tracking-tight flex items-center gap-2.5">
-            <Layers className="w-7 h-7 text-purple-600" />
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[#F8FAFC] tracking-tight flex items-center gap-2.5">
+            <Layers className="w-7 h-7 text-[#38BDF8]" />
             Flashcard Collection Management
           </h1>
-          <p className="text-xs sm:text-sm text-purple-600/80 mt-1">
+          <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
             Author and organize interactive study flashcards by subject and module with front terms and back definitions.
           </p>
         </div>
 
-        <Button variant="primary" size="sm" onClick={() => setIsCreateOpen(true)} className="gap-2">
+        <Button
+          variant="primary"
+          size="sm"
+          onClick={() => setIsCreateOpen(true)}
+          className="gap-2 bg-[#1685E8] hover:bg-[#1170c4] text-white border-0"
+        >
           <Plus className="w-4 h-4" />
           Create Flashcard
         </Button>
       </div>
 
       {/* Filters */}
-      <Card>
+      <Card className="bg-[#111C2A] border-[#26384D]">
         <CardContent className="p-4 space-y-3">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
+              <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
                 Subject
               </label>
               <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium"
+                className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:outline-none focus:border-[#38BDF8]"
                 value={selectedSubjectId}
                 onChange={e => {
                   setSelectedSubjectId(e.target.value);
@@ -142,11 +147,11 @@ function FlashcardsAdminContent() {
             </div>
 
             <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-purple-900/80 mb-1">
+              <label className="block text-[11px] font-bold uppercase tracking-wider text-[#94A3B8] mb-1">
                 Week Title
               </label>
               <select
-                className="w-full px-3 py-2 rounded-xl border border-purple-200 bg-white text-purple-950 text-xs font-medium"
+                className="w-full px-3 py-2 rounded-xl border border-[#26384D] bg-[#101A27] text-[#F8FAFC] text-xs font-medium focus:outline-none focus:border-[#38BDF8]"
                 value={selectedModuleId}
                 onChange={e => setSelectedModuleId(e.target.value)}
               >
@@ -162,7 +167,7 @@ function FlashcardsAdminContent() {
             </div>
 
             <div className="relative flex items-end">
-              <Search className="w-4 h-4 text-purple-400 absolute left-3 bottom-3" />
+              <Search className="w-4 h-4 text-[#94A3B8] absolute left-3 bottom-3" />
               <Input
                 placeholder="Search flashcard text..."
                 value={searchQuery}
@@ -177,17 +182,20 @@ function FlashcardsAdminContent() {
       {/* Flashcards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredCards.length === 0 ? (
-          <div className="col-span-full text-center py-12 text-xs text-purple-500">
+          <div className="col-span-full text-center py-12 text-xs text-[#94A3B8]">
             No flashcards found for this selection.
           </div>
         ) : (
           filteredCards.map(c => {
             const mod = modules.find(m => m.id === c.module_id);
             return (
-              <Card key={c.id} className="p-5 border-purple-100 flex flex-col justify-between hover:border-purple-300 transition-all space-y-4">
+              <Card
+                key={c.id}
+                className="p-5 bg-[#111C2A] border-[#26384D] flex flex-col justify-between hover:border-[#38BDF8]/50 transition-all space-y-4"
+              >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-bold bg-purple-100 text-purple-800 px-2 py-0.5 rounded-md">
+                    <span className="text-[10px] font-bold bg-[#1685E8]/20 text-[#38BDF8] border border-[#1685E8]/30 px-2 py-0.5 rounded-md">
                       Module {mod?.module_number || 1}
                     </span>
                     <div className="flex items-center gap-1">
@@ -195,7 +203,7 @@ function FlashcardsAdminContent() {
                         variant="ghost"
                         size="icon"
                         onClick={() => setEditingCard(c)}
-                        className="text-purple-600 hover:text-purple-900 h-7 w-7"
+                        className="text-[#94A3B8] hover:text-[#38BDF8] hover:bg-[#101A27] h-7 w-7"
                       >
                         <Edit className="w-3.5 h-3.5" />
                       </Button>
@@ -203,7 +211,7 @@ function FlashcardsAdminContent() {
                         variant="ghost"
                         size="icon"
                         onClick={() => handleDelete(c.id)}
-                        className="text-rose-500 hover:text-rose-700 h-7 w-7"
+                        className="text-rose-400 hover:text-rose-300 hover:bg-[#101A27] h-7 w-7"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
                       </Button>
@@ -211,17 +219,17 @@ function FlashcardsAdminContent() {
                   </div>
 
                   <div>
-                    <span className="text-[10px] uppercase font-bold text-purple-400">Front (Term / Question)</span>
-                    <h4 className="text-sm font-bold text-purple-950 mt-0.5">{c.front_text}</h4>
+                    <span className="text-[10px] uppercase font-bold text-[#38BDF8]">Front (Term / Question)</span>
+                    <h4 className="text-sm font-bold text-[#F8FAFC] mt-0.5">{c.front_text}</h4>
                   </div>
 
-                  <div className="pt-2 border-t border-purple-50">
-                    <span className="text-[10px] uppercase font-bold text-purple-400">Back (Definition / Answer)</span>
-                    <p className="text-xs text-purple-800 leading-relaxed mt-0.5">{c.back_text}</p>
+                  <div className="pt-2 border-t border-[#26384D]">
+                    <span className="text-[10px] uppercase font-bold text-[#38BDF8]">Back (Definition / Answer)</span>
+                    <p className="text-xs text-[#94A3B8] leading-relaxed mt-0.5">{c.back_text}</p>
                   </div>
                 </div>
 
-                <div className="text-[10px] text-purple-400 pt-2 border-t border-purple-50 truncate">
+                <div className="text-[10px] text-[#94A3B8]/70 pt-2 border-t border-[#26384D] truncate">
                   Source: {c.source_ref}
                 </div>
               </Card>
@@ -260,10 +268,19 @@ function FlashcardsAdminContent() {
             onChange={e => setSourceRef(e.target.value)}
           />
           <div className="flex justify-end gap-2 pt-2">
-            <Button type="button" variant="ghost" onClick={() => setIsCreateOpen(false)}>
+            <Button
+              type="button"
+              variant="ghost"
+              onClick={() => setIsCreateOpen(false)}
+              className="text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27]"
+            >
               Cancel
             </Button>
-            <Button type="submit" variant="primary">
+            <Button
+              type="submit"
+              variant="primary"
+              className="bg-[#1685E8] hover:bg-[#1170c4] text-white border-0"
+            >
               Save Flashcard
             </Button>
           </div>
@@ -298,10 +315,19 @@ function FlashcardsAdminContent() {
               onChange={e => setEditingCard({ ...editingCard, source_ref: e.target.value })}
             />
             <div className="flex justify-end gap-2 pt-2">
-              <Button type="button" variant="ghost" onClick={() => setEditingCard(null)}>
+              <Button
+                type="button"
+                variant="ghost"
+                onClick={() => setEditingCard(null)}
+                className="text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#101A27]"
+              >
                 Cancel
               </Button>
-              <Button type="submit" variant="primary">
+              <Button
+                type="submit"
+                variant="primary"
+                className="bg-[#1685E8] hover:bg-[#1170c4] text-white border-0"
+              >
                 Save Changes
               </Button>
             </div>
@@ -314,7 +340,7 @@ function FlashcardsAdminContent() {
 
 export default function FlashcardsAdminPage() {
   return (
-    <Suspense fallback={<div className="p-8 text-center text-purple-600">Loading flashcards...</div>}>
+    <Suspense fallback={<div className="p-8 text-center text-[#94A3B8]">Loading flashcards...</div>}>
       <FlashcardsAdminContent />
     </Suspense>
   );

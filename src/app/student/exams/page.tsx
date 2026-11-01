@@ -193,7 +193,7 @@ function SleepingExamCat() {
       >
         {/* Floating 'z Z z' in blue */}
         <text x="14" y="22" fill="#3B82C4" fontSize="9" fontWeight="900" fontFamily="sans-serif">z</text>
-        <text x="21" y="15" fill="#1565C0" fontSize="11" fontWeight="900" fontFamily="sans-serif">Z</text>
+        <text x="21" y="15" fill="#1685E8" fontSize="11" fontWeight="900" fontFamily="sans-serif">Z</text>
         <text x="30" y="9" fill="#142D4E" fontSize="13" fontWeight="900" fontFamily="sans-serif">z</text>
 
         {/* 3 Yellow radiant tick marks above rear */}
@@ -343,7 +343,7 @@ function ExamsEntranceContent() {
       {/* Header Bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-[#EAF3FB] border border-[#BFDBFE] text-[#1565C0] flex items-center justify-center shrink-0">
+          <div className="w-10 h-10 rounded-2xl bg-[#EAF3FB] border border-[#BFDBFE] text-[#1685E8] flex items-center justify-center shrink-0">
             <FileText className="w-5 h-5 stroke-[2.2]" />
           </div>
           <div className="flex items-end gap-2 flex-wrap">
@@ -353,20 +353,13 @@ function ExamsEntranceContent() {
             <ExamPortalHeaderCat />
           </div>
         </div>
-
-        <Link href="/student/comprehensive" className="shrink-0 self-start sm:self-auto">
-          <button className="py-2.5 px-4 rounded-xl bg-white hover:bg-[#F4F9FD] text-[#142D4E] font-bold text-xs flex items-center gap-2 border border-[#BFDBFE] transition-colors shadow-2xs">
-            <Sparkles className="w-4 h-4 text-[#1565C0]" />
-            <span>Comprehensive Exam</span>
-          </button>
-        </Link>
       </div>
 
       {/* Step 1: Choose Target Week */}
       <div className="space-y-3.5">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-6 rounded-full bg-[#1565C0] text-white flex items-center justify-center text-xs font-black shrink-0">
+            <div className="w-6 h-6 rounded-full bg-[#1685E8] text-white flex items-center justify-center text-xs font-black shrink-0">
               1
             </div>
             <h2 className="text-base font-black text-[#142D4E]">Choose Target Week</h2>
@@ -378,8 +371,8 @@ function ExamsEntranceContent() {
               onClick={() => setSelectedSubjectId('all')}
               className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all shrink-0 ${
                 selectedSubjectId === 'all'
-                  ? 'bg-[#1565C0] text-white shadow-xs'
-                  : 'bg-white text-[#142D4E] border border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
+                  ? 'bg-[#1685E8] text-white shadow-xs'
+                  : 'bg-white text-[#142D4E] border border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
               }`}
             >
               All Subjects
@@ -392,8 +385,8 @@ function ExamsEntranceContent() {
                   onClick={() => setSelectedSubjectId(s.id)}
                   className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all shrink-0 ${
                     isSelected
-                      ? 'bg-[#1565C0] text-white shadow-xs'
-                      : 'bg-white text-[#142D4E] border border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
+                      ? 'bg-[#1685E8] text-white shadow-xs'
+                      : 'bg-white text-[#142D4E] border border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F4F9FD]'
                   }`}
                 >
                   {s.code}
@@ -415,16 +408,16 @@ function ExamsEntranceContent() {
                 onClick={() => setSelectedModuleId(mod.id)}
                 className={`p-4 rounded-2xl border transition-all cursor-pointer flex items-center justify-between gap-3 ${
                   isSelected
-                    ? 'bg-white border-[#1565C0] ring-2 ring-[#1565C0]/20 shadow-sm'
-                    : 'bg-white border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]'
+                    ? 'bg-white border-[#1685E8] ring-2 ring-[#1685E8]/20 shadow-sm'
+                    : 'bg-white border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]'
                 }`}
               >
                 <div className="flex items-center gap-3 min-w-0">
                   <div
                     className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border ${
                       isSelected
-                        ? 'bg-[#1565C0] text-white border-[#1565C0]'
-                        : 'bg-[#EAF3FB] text-[#1565C0] border-[#BFDBFE]/80'
+                        ? 'bg-[#1685E8] text-white border-[#1685E8]'
+                        : 'bg-[#EAF3FB] text-[#1685E8] border-[#BFDBFE]/80'
                     }`}
                   >
                     <Calendar className="w-5 h-5" />
@@ -438,10 +431,10 @@ function ExamsEntranceContent() {
                 {/* Radio Circle Indicator (Concentric circle when active) */}
                 <div
                   className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${
-                    isSelected ? 'border-[#1565C0] bg-white' : 'border-[#CBD5E1] bg-white'
+                    isSelected ? 'border-[#1685E8] bg-white' : 'border-[#CBD5E1] bg-white'
                   }`}
                 >
-                  {isSelected && <div className="w-2.5 h-2.5 rounded-full bg-[#1565C0]" />}
+                  {isSelected && <div className="w-2.5 h-2.5 rounded-full bg-[#1685E8]" />}
                 </div>
               </div>
             );
@@ -452,7 +445,7 @@ function ExamsEntranceContent() {
       {/* Step 2: Select Examination Mode */}
       <div className="space-y-4 pt-2">
         <div className="flex items-center gap-2.5">
-          <div className="w-6 h-6 rounded-full bg-[#1565C0] text-white flex items-center justify-center text-xs font-black shrink-0">
+          <div className="w-6 h-6 rounded-full bg-[#1685E8] text-white flex items-center justify-center text-xs font-black shrink-0">
             2
           </div>
           <h2 className="text-base font-black text-[#142D4E]">Select Examination Mode</h2>
@@ -471,8 +464,8 @@ function ExamsEntranceContent() {
                 onClick={() => setSelectedMode(mode.id)}
                 className={`relative p-5 rounded-2xl border transition-all cursor-pointer flex flex-col justify-between space-y-3 overflow-visible ${
                   isSelected
-                    ? 'bg-white border-[#1565C0] ring-2 ring-[#1565C0]/20 shadow-sm'
-                    : 'bg-white border-[#E2EEFC] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]'
+                    ? 'bg-white border-[#1685E8] ring-2 ring-[#1685E8]/20 shadow-sm'
+                    : 'bg-white border-[#DCEEFF] hover:border-[#BFDBFE] hover:bg-[#F8FAFD]'
                 }`}
               >
                 {/* Cat 2 – Peeking over the upper-right border of the Identification Only card */}
@@ -483,8 +476,8 @@ function ExamsEntranceContent() {
                     <div
                       className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border ${
                         isSelected
-                          ? 'bg-[#1565C0] text-white border-[#1565C0]'
-                          : 'bg-[#EAF3FB] text-[#1565C0] border-[#BFDBFE]/80'
+                          ? 'bg-[#1685E8] text-white border-[#1685E8]'
+                          : 'bg-[#EAF3FB] text-[#1685E8] border-[#BFDBFE]/80'
                       }`}
                     >
                       <Icon className="w-5 h-5 stroke-[2.2]" />
@@ -497,14 +490,14 @@ function ExamsEntranceContent() {
                   {/* Radio Circle Indicator */}
                   <div
                     className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${
-                      isSelected ? 'border-[#1565C0] bg-white' : 'border-[#CBD5E1] bg-white'
+                      isSelected ? 'border-[#1685E8] bg-white' : 'border-[#CBD5E1] bg-white'
                     }`}
                   >
-                    {isSelected && <div className="w-2.5 h-2.5 rounded-full bg-[#1565C0]" />}
+                    {isSelected && <div className="w-2.5 h-2.5 rounded-full bg-[#1685E8]" />}
                   </div>
                 </div>
 
-                <div className="flex items-center gap-1.5 text-[11px] font-bold text-[#1565C0] pl-13 pt-1">
+                <div className="flex items-center gap-1.5 text-[11px] font-bold text-[#1685E8] pl-13 pt-1">
                   <HelpCircle className="w-3.5 h-3.5 text-[#3B82C4]" />
                   <span>{mode.questionCount} Questions</span>
                 </div>
@@ -515,9 +508,9 @@ function ExamsEntranceContent() {
       </div>
 
       {/* Examination Summary Card with Cat 3 (Sleeping Cat on Wave) */}
-      <div className="bg-white rounded-2xl border border-[#D6E9FF] p-4 sm:p-5 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4 overflow-visible">
+      <div className="bg-white rounded-2xl border border-[#DCEEFF] p-4 sm:p-5 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4 overflow-visible">
         <div className="space-y-1.5">
-          <span className="text-[10px] font-black uppercase tracking-wider text-[#1565C0] bg-[#EAF3FB] px-2.5 py-0.5 rounded border border-[#BFDBFE]/70">
+          <span className="text-[10px] font-black uppercase tracking-wider text-[#1685E8] bg-[#EAF3FB] px-2.5 py-0.5 rounded border border-[#BFDBFE]/70">
             EXAMINATION SUMMARY
           </span>
           <p className="text-xs text-[#64748B] pt-0.5">
@@ -525,8 +518,8 @@ function ExamsEntranceContent() {
               'Please select a Target Week (Step 1) and an Examination Mode (Step 2) to continue.'
             ) : (
               <span className="font-semibold text-[#142D4E]">
-                Target: <span className="text-[#1565C0] font-bold">{activeModule?.title}</span> • Mode:{' '}
-                <span className="text-[#1565C0] font-bold">
+                Target: <span className="text-[#1685E8] font-bold">{activeModule?.title}</span> • Mode:{' '}
+                <span className="text-[#1685E8] font-bold">
                   {EXAMINATION_MODES.find(m => m.id === selectedMode)?.name}
                 </span>{' '}
                 • 60 Questions • 60 Minutes Duration
@@ -542,9 +535,9 @@ function ExamsEntranceContent() {
           <button
             onClick={handleStartExam}
             disabled={!selectedModuleId || !selectedMode}
-            className={`py-3 px-6 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all shrink-0 ${
+            className={`py-3 px-6 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all duration-150 active:scale-[0.98] shrink-0 ${
               selectedModuleId && selectedMode
-                ? 'bg-[#1565C0] hover:bg-[#142D4E] text-white shadow-md shadow-[#1565C0]/25 cursor-pointer'
+                ? 'bg-[#1685E8] hover:bg-[#126ec2] text-white shadow-md shadow-[#1685E8]/25 cursor-pointer'
                 : 'bg-[#E2EEFC] text-[#64748B] cursor-not-allowed opacity-80'
             }`}
           >
