@@ -343,7 +343,6 @@ export default function StudentDashboardPage() {
                     {subject.code}
                   </div>
                   <h3 className="text-xl sm:text-2xl font-black text-[#142D4E] tracking-tight">{subject.title}</h3>
-                  <p className="text-xs text-[#64748B] mt-1 max-w-2xl leading-relaxed">{subject.description}</p>
                 </div>
 
                 {/* Right Header Side: Cat 1 (Lying Cat with wave and paws) + All Subjects Link */}
