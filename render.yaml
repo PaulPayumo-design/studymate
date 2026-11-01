@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: paw-study
+    runtime: node
+    plan: free
+    region: singapore # Closest region to Philippines / Asia
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
