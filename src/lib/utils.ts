@@ -15,6 +15,7 @@ export function formatDate(dateString: string): string {
   try {
     const d = new Date(dateString);
     return d.toLocaleDateString('en-US', {
+      timeZone: 'UTC',
       month: 'short',
       day: 'numeric',
       year: 'numeric',

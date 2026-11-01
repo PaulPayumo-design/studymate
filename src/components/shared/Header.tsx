@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { useAuth } from '@/lib/auth-context';
@@ -13,9 +13,14 @@ export function Header() {
   const router = useRouter();
   const pathname = usePathname();
   const isAdmin = pathname?.startsWith('/admin');
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleRoleToggle = () => {
-    if (role === 'admin') {
+    if (isAdmin) {
       switchRole('student');
       router.push('/student');
     } else {
@@ -40,9 +45,9 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         {/* Brand: Circular PawStudy Cat Nurse Logo Only */}
         <Link
-          href={role === 'admin' ? '/admin' : '/student'}
+          href={isAdmin ? '/admin' : '/student'}
           className="flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1685E8] rounded-full"
-          title="PawStudy Home"
+          title={isAdmin ? 'PawStudy Admin Console' : 'PawStudy Student Portal'}
         >
           <CatMascot variant="logo" size={44} className="group-hover:scale-105 transition-transform shrink-0" />
         </Link>
@@ -59,10 +64,10 @@ export function Header() {
                 ? 'border-[#26384D] text-[#38BDF8] bg-[#101A27] hover:bg-[#1685E8]/10 hover:border-[#1685E8]'
                 : 'border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB] hover:border-[#1565C0]'
             }`}
-            title="Switch between Admin and Student mode for testing"
+            title={`Switch to ${isAdmin ? 'Student View' : 'Admin Console'}`}
           >
             <ArrowRightLeft className={`w-3.5 h-3.5 ${isAdmin ? 'text-[#38BDF8]' : 'text-[#1565C0]'}`} />
-            Switch to {role === 'admin' ? 'Student View' : 'Admin Console'}
+            <span>Switch to {isAdmin ? 'Student View' : 'Admin Console'}</span>
           </Button>
 
           {/* Current User Badge */}
@@ -74,12 +79,18 @@ export function Header() {
                   : 'bg-[#EAF3FB] text-[#1565C0] border-[#BFDBFE]'
               }`}
             >
-              {user?.full_name?.charAt(0) || (role === 'admin' ? 'P' : 'S')}
+              {mounted && user?.full_name
+                ? user.full_name.charAt(0).toUpperCase()
+                : (isAdmin ? 'P' : 'S')}
             </div>
             <div className="hidden md:block text-left">
               <div className={`text-xs font-bold flex items-center gap-1.5 ${isAdmin ? 'text-[#F8FAFC]' : 'text-[#142D4E]'}`}>
-                <span>{user?.full_name || (role === 'admin' ? 'Paul' : 'Shaina')}</span>
-                {role === 'admin' ? (
+                <span>
+                  {mounted && user?.full_name
+                    ? user.full_name
+                    : (isAdmin ? 'Paul' : 'Shaina')}
+                </span>
+                {(mounted ? (role === 'admin' || isAdmin) : isAdmin) ? (
                   <span
                     className={`inline-flex items-center gap-0.5 text-[10px] font-semibold px-1.5 py-0.2 rounded-full border ${
                       isAdmin
