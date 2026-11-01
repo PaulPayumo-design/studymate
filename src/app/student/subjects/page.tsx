@@ -148,11 +148,6 @@ export default function StudentSubjectsPage() {
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-150" />
                   </Link>
                 </div>
-
-                {/* Subject Description */}
-                <p className="text-xs sm:text-sm text-[#64748B] leading-relaxed max-w-3xl">
-                  {subject.description}
-                </p>
               </div>
 
               {/* Module/Examination Cards Grid with Peeking Cat Decorations */}
@@ -178,14 +173,11 @@ export default function StudentSubjectsPage() {
                             </span>
                           </div>
 
-                          {/* Module Title & Description */}
+                          {/* Module Title */}
                           <div>
                             <h4 className="font-black text-sm sm:text-base text-[#142D4E] tracking-tight">
                               {mod.title}
                             </h4>
-                            <p className="text-xs text-[#64748B] leading-relaxed mt-1 line-clamp-2">
-                              {mod.description}
-                            </p>
                           </div>
                         </div>
 

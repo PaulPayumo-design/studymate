@@ -380,7 +380,6 @@ export default function StudentDashboardPage() {
                         <h4 className="font-black text-sm sm:text-base text-[#142D4E] tracking-tight line-clamp-1 group-hover:text-[#1685E8] transition-colors">
                           {mod.title}
                         </h4>
-                        <p className="text-xs text-[#64748B] line-clamp-2 leading-relaxed">{mod.description}</p>
                       </div>
 
                       {/* Bottom Info: Stats & Buttons + Cat 2 Decor */}
