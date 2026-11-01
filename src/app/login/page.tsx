@@ -325,18 +325,18 @@ function PawPrint({
 function RadiantTicks({ direction = 'left' }: { direction?: 'left' | 'right' }) {
   if (direction === 'left') {
     return (
-      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" className="shrink-0">
-        <line x1="16" y1="5" x2="7" y2="3" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round" />
-        <line x1="17" y1="11" x2="6" y2="11" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round" />
-        <line x1="16" y1="17" x2="7" y2="19" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round" />
+      <svg width="24" height="24" viewBox="0 0 22 22" fill="none" className="shrink-0 select-none">
+        <line x1="16" y1="5" x2="6" y2="3" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+        <line x1="17" y1="11" x2="5" y2="11" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+        <line x1="16" y1="17" x2="6" y2="19" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
       </svg>
     );
   }
   return (
-    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" className="shrink-0">
-      <line x1="6" y1="5" x2="15" y2="3" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round" />
-      <line x1="5" y1="11" x2="16" y2="11" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round" />
-      <line x1="6" y1="17" x2="15" y2="19" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round" />
+    <svg width="24" height="24" viewBox="0 0 22 22" fill="none" className="shrink-0 select-none">
+      <line x1="6" y1="5" x2="16" y2="3" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+      <line x1="5" y1="11" x2="17" y2="11" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
+      <line x1="6" y1="17" x2="16" y2="19" stroke="#F59E0B" strokeWidth="2.8" strokeLinecap="round" />
     </svg>
   );
 }
@@ -437,30 +437,23 @@ export default function LoginPage() {
       {/* Centered White Login Card                                            */}
       {/* -------------------------------------------------------------------- */}
       <div className="max-w-[460px] w-full bg-white rounded-[28px] border border-[#D5E5F7] p-7 sm:p-9 shadow-xl shadow-[#17365D]/6 relative my-auto space-y-5 sm:space-y-6">
-        {/* Top Header with Nurse Cat Mascot */}
-        <div className="text-center space-y-1.5 pt-1">
+        {/* Top Header with Nurse Cat Mascot and PAW STUDY Branding */}
+        <div className="text-center pt-1">
           {/* Nurse Cat Mascot with Syringe */}
-          <div className="flex justify-center -mb-2">
+          <div className="flex justify-center -mb-1">
             <NurseCatMascot />
           </div>
 
-          {/* Heading with Radiant Sparkles */}
-          <h1 className="text-2xl sm:text-[26px] font-black text-[#17365D] tracking-tight flex items-center justify-center gap-1.5">
+          {/* PAW STUDY Heading with Radiant Sparkles */}
+          <h1 className="text-[26px] sm:text-[30px] font-black text-[#17365D] tracking-tight flex items-center justify-center gap-2 select-none">
             <RadiantTicks direction="left" />
-            <span className="flex items-center">
-              <span>Sign In to P</span>
-              <PawPrint size={20} className="inline-block text-[#17365D] -mt-1 mx-[-1px]" />
-              <span>W STUDY</span>
+            <span className="flex items-center tracking-tight">
+              <span>P</span>
+              <PawPrint size={24} className="inline-block text-[#17365D] -mt-1 mx-0.5" />
+              <span>W&nbsp;STUDY</span>
             </span>
             <RadiantTicks direction="right" />
           </h1>
-
-          {/* Subtitle Ribbon Banner */}
-          <div className="flex justify-center pt-0.5">
-            <div className="bg-[#DCEEFF] text-[#17365D] text-xs font-bold tracking-wide px-5 py-1 rounded-sm shadow-2xs relative [clip-path:polygon(0%_0%,100%_0%,calc(100%-8px)_50%,100%_100%,0%_100%,8px_50%)]">
-              Flashcards & Examination System
-            </div>
-          </div>
         </div>
 
         {/* Error Alert Message */}
