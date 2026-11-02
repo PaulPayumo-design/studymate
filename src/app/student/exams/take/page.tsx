@@ -7,7 +7,6 @@ import { StudyMateStore } from '@/lib/store';
 import { evaluateAnswer } from '@/lib/scoring';
 import { Question, ExamMode, Subject, Module } from '@/lib/types';
 import {
-  Clock,
   ChevronLeft,
   ChevronRight,
   AlertTriangle,
@@ -22,7 +21,6 @@ import {
 import { Button } from '@/components/ui/Button';
 import { Badge, QuestionTypeBadge } from '@/components/ui/Badge';
 import { Modal } from '@/components/ui/Modal';
-import { formatSeconds } from '@/lib/utils';
 import confetti from 'canvas-confetti';
 import { CatMascot } from '@/components/shared/CatMascot';
 
@@ -48,14 +46,10 @@ function ExamRoomContent() {
   const [confirmedAnswers, setConfirmedAnswers] = useState<Record<string, ConfirmedAnswerState>>({});
   const [currentIdx, setCurrentIdx] = useState(0);
 
-  // Timer State
-  const [timeLeftSeconds, setTimeLeftSeconds] = useState(3600); // 60 mins
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
-  const [timeWarningShown, setTimeWarningShown] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number | null>(null);
 
   // 1. Prepare Question Pool for Weekly Examination
@@ -80,8 +74,6 @@ function ExamRoomContent() {
       );
       return;
     }
-
-    setTimeLeftSeconds(3600); // 60 minutes for 60 questions
 
     const randomizedQuestions = [...pool].sort(() => Math.random() - 0.5);
     setExamQuestions(randomizedQuestions);
@@ -118,29 +110,6 @@ function ExamRoomContent() {
 
     router.replace(`/student/results/${attempt.id}`);
   }, [answers, examMode, examQuestions, isSubmitting, moduleItem, router, subject?.id, user]);
-
-  // 2. Countdown Timer
-  useEffect(() => {
-    if (examQuestions.length === 0) return;
-
-    timerRef.current = setInterval(() => {
-      setTimeLeftSeconds(prev => {
-        if (prev <= 1) {
-          if (timerRef.current) clearInterval(timerRef.current);
-          handleFinalSubmit();
-          return 0;
-        }
-        if (prev === 300 && !timeWarningShown) {
-          setTimeWarningShown(true);
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [examQuestions.length, handleFinalSubmit, timeWarningShown]);
 
   const currentQ = examQuestions[currentIdx];
   const currentAnswer = currentQ ? answers[currentQ.id] || '' : '';
@@ -202,8 +171,6 @@ function ExamRoomContent() {
 
   const confirmedCount = Object.keys(confirmedAnswers).length;
   const totalQuestions = examQuestions.length;
-  const isLowTime = timeLeftSeconds <= 300;
-  const isCriticalTime = timeLeftSeconds <= 60;
 
   if (errorMessage) {
     return (
@@ -232,7 +199,7 @@ function ExamRoomContent() {
 
   return (
     <div className="space-y-6 max-w-4xl mx-auto flex flex-col min-h-[calc(100vh-8rem)] pb-12 relative min-w-0 w-full overflow-hidden">
-      {/* Sticky Top Bar: Exam Title, Progress, Timer, Submit */}
+      {/* Sticky Top Bar: Exam Title, Progress, Submit */}
       <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md rounded-2xl border border-[#DCEEFF] p-4 shadow-xs flex items-center justify-between gap-4">
         <div className="space-y-0.5 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
@@ -246,20 +213,6 @@ function ExamRoomContent() {
           <h2 className="text-sm sm:text-base font-black text-[#142D4E] truncate">
             {moduleItem?.title || 'Weekly Examination'}
           </h2>
-        </div>
-
-        {/* Center: Timer Clock */}
-        <div
-          className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl border font-mono font-bold text-xs sm:text-sm shrink-0 transition-colors ${
-            isCriticalTime
-              ? 'bg-rose-100 text-rose-800 border-rose-300 animate-pulse'
-              : isLowTime
-              ? 'bg-amber-50 text-amber-800 border-amber-300'
-              : 'bg-[#EAF3FB] text-[#142D4E] border-[#BFDBFE]'
-          }`}
-        >
-          <Clock className={`w-4 h-4 ${isCriticalTime ? 'text-rose-600' : isLowTime ? 'text-amber-600' : 'text-[#1685E8]'}`} />
-          <span>{formatSeconds(timeLeftSeconds)}</span>
         </div>
 
         {/* Right: Answered counter & Submit Button */}
@@ -289,16 +242,6 @@ function ExamRoomContent() {
           style={{ width: `${(confirmedCount / totalQuestions) * 100}%` }}
         />
       </div>
-
-      {/* 5-Min Timer Warning Alert Banner */}
-      {isLowTime && (
-        <div className="p-3 bg-amber-50 border border-amber-200 rounded-2xl text-xs text-amber-800 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0" />
-            <span>Time Warning: Less than 5 minutes remaining. Unanswered questions will receive 0 points when the clock expires.</span>
-          </div>
-        </div>
-      )}
 
       {/* Main Spacious Question Workspace (Question Palette completely removed) */}
       <div className="bg-white rounded-3xl border border-[#DCEEFF] p-6 sm:p-10 shadow-xs flex flex-col justify-between space-y-6 flex-1">

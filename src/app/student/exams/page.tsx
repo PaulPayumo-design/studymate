@@ -522,7 +522,7 @@ function ExamsEntranceContent() {
                 <span className="text-[#1685E8] font-bold">
                   {EXAMINATION_MODES.find(m => m.id === selectedMode)?.name}
                 </span>{' '}
-                • 60 Questions • 60 Minutes Duration
+                • 60 Questions • Self-Paced (No Time Limit)
               </span>
             )}
           </p>

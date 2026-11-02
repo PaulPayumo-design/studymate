@@ -191,7 +191,7 @@ export default function StudentSubjectsPage() {
                             </span>
                             <span className="flex items-center gap-1.5">
                               <Clock className="w-3.5 h-3.5 text-[#1685E8]" />
-                              <span>{mod.exam_time_limit_minutes || 60} Min Exam</span>
+                              <span>No Time Limit</span>
                             </span>
                           </div>
 
