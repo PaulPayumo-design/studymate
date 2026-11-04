@@ -162,7 +162,28 @@ export function generateQuestionsAndFlashcardsStrict(
       distractors.push(`A deprecated legacy convention not supported in this architecture`);
     }
 
-    const choices = [fact.definition, ...distractors.slice(0, 3)].sort(() => Math.random() - 0.5);
+    // Balanced distribution of the correct answer across Option A, B, C, D (0, 1, 2, 3)
+    const targetIdx = mcCount % 4;
+
+    // Shuffle distractors using Fisher-Yates
+    const candidateDistractors = [...distractors.slice(0, 3)];
+    while (candidateDistractors.length < 3) {
+      candidateDistractors.push(`Alternative clinical standard ${candidateDistractors.length + 1}`);
+    }
+    for (let d = candidateDistractors.length - 1; d > 0; d--) {
+      const rand = Math.floor(Math.random() * (d + 1));
+      [candidateDistractors[d], candidateDistractors[rand]] = [candidateDistractors[rand], candidateDistractors[d]];
+    }
+
+    const choices: string[] = [];
+    let dPtr = 0;
+    for (let pos = 0; pos < 4; pos++) {
+      if (pos === targetIdx) {
+        choices.push(fact.definition);
+      } else {
+        choices.push(candidateDistractors[dPtr++]);
+      }
+    }
 
     questions.push({
       id: `gen-q-mc-${Date.now()}-${mcCount}`,

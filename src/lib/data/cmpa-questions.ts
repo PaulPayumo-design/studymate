@@ -11,8 +11,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Obstetrix",
       "Obstaculum",
-      "Parturitio",
-      "Graviditas"
+      "Graviditas",
+      "Parturitio"
     ],
     "correct_answer": "Obstetrix",
     "explanation": "Obstetrics is derived from the Latin word \"Obstetrix\", which means midwife.",
@@ -30,8 +30,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Suspensory ligament",
       "Ovarian ligament",
-      "Broad ligament",
-      "Mesovarium"
+      "Mesovarium",
+      "Broad ligament"
     ],
     "correct_answer": "Suspensory ligament",
     "explanation": "The suspensory ligament extends from each ovary to the lateral body wall.",
@@ -47,10 +47,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In oogenesis, what is an oogonium called when it has stopped in prophase I?",
     "choices": [
+      "Graafian oocyte",
       "Primary oocyte",
       "Secondary oocyte",
-      "Zygote",
-      "Graafian oocyte"
+      "Zygote"
     ],
     "correct_answer": "Primary oocyte",
     "explanation": "A primary oocyte is an oogonium that has stopped in prophase I.",
@@ -66,9 +66,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the layer of clear material that is deposited around the primary oocyte during follicle development?",
     "choices": [
-      "Zona pellucida",
-      "Theca folliculi",
       "Corona radiata",
+      "Theca folliculi",
+      "Zona pellucida",
       "Perimetrium"
     ],
     "correct_answer": "Zona pellucida",
@@ -85,10 +85,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In which anatomical segment of the uterine tube does fertilization usually take place?",
     "choices": [
-      "Ampulla",
+      "Infundibulum",
       "Isthmus",
       "Fimbriae",
-      "Infundibulum"
+      "Ampulla"
     ],
     "correct_answer": "Ampulla",
     "explanation": "Fertilization usually occurs in the ampullae of the fallopian tube.",
@@ -104,10 +104,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which uterine layer accounts for the bulk of the uterine wall and consists of muscular tissue?",
     "choices": [
-      "Myometrium",
-      "Endometrium",
       "Perimetrium",
-      "Epimetrium"
+      "Epimetrium",
+      "Endometrium",
+      "Myometrium"
     ],
     "correct_answer": "Myometrium",
     "explanation": "The myometrium is the middle muscular layer that accounts for the bulk of the uterine wall.",
@@ -123,10 +123,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "During the menstrual cycle, what hormone experiences a sudden surge around day 14 to trigger ovulation?",
     "choices": [
-      "Luteinizing Hormone (LH)",
       "Follicle-Stimulating Hormone (FSH)",
+      "Prolactin",
       "Human Chorionic Gonadotropin (hCG)",
-      "Prolactin"
+      "Luteinizing Hormone (LH)"
     ],
     "correct_answer": "Luteinizing Hormone (LH)",
     "explanation": "A sudden surge of Luteinizing Hormone (LH) triggers the dominant follicle to release its mature egg.",
@@ -142,10 +142,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "For how long can an ovum be fertilized after its release from the ovary?",
     "choices": [
+      "Up to 5 days",
       "Up to 72 hours",
-      "Up to 12 hours",
       "Up to 7 days",
-      "Up to 5 days"
+      "Up to 12 hours"
     ],
     "correct_answer": "Up to 72 hours",
     "explanation": "An ovum can be fertilized up to 72 hours after its release.",
@@ -161,10 +161,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "How many days after ovulation does the fertilized egg (zygote) typically implant in the uterine wall?",
     "choices": [
-      "6 to 10 days",
       "1 to 3 days",
+      "20 to 24 days",
       "14 to 16 days",
-      "20 to 24 days"
+      "6 to 10 days"
     ],
     "correct_answer": "6 to 10 days",
     "explanation": "The zygote is propelled toward the uterus and implants 6 to 10 days after ovulation.",
@@ -180,10 +180,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What developmental stage designates the developing human from implantation to 5–8 weeks of gestation?",
     "choices": [
-      "Embryo",
-      "Ovum",
       "Zygote",
-      "Fetus"
+      "Fetus",
+      "Embryo",
+      "Ovum"
     ],
     "correct_answer": "Embryo",
     "explanation": "The embryo stage lasts from implantation to 5-8 weeks of gestation.",
@@ -199,10 +199,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the generally accepted earliest age of viability and fetal weight threshold for survival?",
     "choices": [
-      "24 weeks or more than 500–600g",
-      "20 weeks or more than 300g",
       "28 weeks or more than 1000g",
-      "32 weeks or more than 1500g"
+      "32 weeks or more than 1500g",
+      "24 weeks or more than 500–600g",
+      "20 weeks or more than 300g"
     ],
     "correct_answer": "24 weeks or more than 500–600g",
     "explanation": "The age of viability is generally accepted as 24 weeks or at the point a fetus weighs more than 500-600g.",
@@ -218,10 +218,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "By the end of pregnancy, what is the normal expected volume of amniotic fluid?",
     "choices": [
-      "800 to 1200 mL",
+      "300 to 500 mL",
       "200 to 400 mL",
-      "1500 to 2000 mL",
-      "300 to 500 mL"
+      "800 to 1200 mL",
+      "1500 to 2000 mL"
     ],
     "correct_answer": "800 to 1200 mL",
     "explanation": "Amniotic fluid consists of 800 to 1200 mL by the end of pregnancy.",
@@ -256,10 +256,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What vessels are normally present in the umbilical cord?",
     "choices": [
-      "Two arteries and one vein",
       "Two veins and one artery",
-      "One artery and one vein",
-      "Three arteries and two veins"
+      "Three arteries and two veins",
+      "Two arteries and one vein",
+      "One artery and one vein"
     ],
     "correct_answer": "Two arteries and one vein",
     "explanation": "The umbilical cord contains two arteries carrying deoxygenated blood and one vein carrying oxygenated blood.",
@@ -276,9 +276,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which fetal vascular shunt connects the umbilical vein directly to the inferior vena cava to bypass the liver?",
     "choices": [
       "Ductus Venosus",
+      "Ligamentum Venosum",
       "Foramen Ovale",
-      "Ductus Arteriosus",
-      "Ligamentum Venosum"
+      "Ductus Arteriosus"
     ],
     "correct_answer": "Ductus Venosus",
     "explanation": "Ductus Venosus connects the umbilical vein to the inferior vena cava, bypassing the liver.",
@@ -294,10 +294,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which fetal shunt is a small hole between the right atrium and left atrium that bypasses the non-functioning lungs?",
     "choices": [
-      "Foramen Ovale",
-      "Ductus Venosus",
       "Ductus Arteriosus",
-      "Fossa Ovalis"
+      "Fossa Ovalis",
+      "Ductus Venosus",
+      "Foramen Ovale"
     ],
     "correct_answer": "Foramen Ovale",
     "explanation": "Foramen Ovale is a small hole between the right atrium and left atrium, bypassing the lungs to supply the brain and heart.",
@@ -313,10 +313,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following is categorized as a Positive sign of pregnancy?",
     "choices": [
+      "Amenorrhea and nausea",
       "Visualizing the fetus on an ultrasound",
       "Chadwick’s sign (bluish cervix)",
-      "Positive urine/blood pregnancy test",
-      "Amenorrhea and nausea"
+      "Positive urine/blood pregnancy test"
     ],
     "correct_answer": "Visualizing the fetus on an ultrasound",
     "explanation": "Visualizing the fetus on ultrasound is a positive, objective sign of pregnancy.",
@@ -332,10 +332,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "At what gestational age is the uterine fundus normally expected to reach the level of the umbilicus?",
     "choices": [
-      "20th or 22nd week",
-      "12th week",
+      "36th week",
       "16th week",
-      "36th week"
+      "12th week",
+      "20th or 22nd week"
     ],
     "correct_answer": "20th or 22nd week",
     "explanation": "At the 20th or 22nd week of pregnancy, the uterus reaches the level of the umbilicus.",
@@ -351,10 +351,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "By which week of gestation is colostrum, the high-protein precursor of breast milk, present?",
     "choices": [
-      "16th week",
-      "8th week",
+      "36th week",
       "28th week",
-      "36th week"
+      "8th week",
+      "16th week"
     ],
     "correct_answer": "16th week",
     "explanation": "By the 16th week, colostrum, the thin, watery, high-protein fluid precursor of milk, is present.",
@@ -370,10 +370,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What hyperpigmentation condition on the face is commonly referred to as the \"mask of pregnancy\"?",
     "choices": [
-      "Melasma (Chloasma)",
-      "Striae gravidarum",
       "Linea nigra",
-      "Vascular spiders"
+      "Vascular spiders",
+      "Melasma (Chloasma)",
+      "Striae gravidarum"
     ],
     "correct_answer": "Melasma (Chloasma)",
     "explanation": "Melasma (chloasma) is termed the \"mask of pregnancy\", appearing on the cheeks and nose.",
@@ -389,10 +389,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What hormone produced by the placenta increases maternal glucose levels to supplement the growing fetus?",
     "choices": [
-      "Human Placental Lactogen (hPL)",
-      "Prolactin",
       "Relaxin",
-      "Oxytocin"
+      "Prolactin",
+      "Oxytocin",
+      "Human Placental Lactogen (hPL)"
     ],
     "correct_answer": "Human Placental Lactogen (hPL)",
     "explanation": "Human Placental Lactogen increases glucose levels to supplement the growing fetus.",
@@ -408,10 +408,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "By how much does the total cardiac volume increase during normal pregnancy?",
     "choices": [
-      "30–50%",
       "10–15%",
-      "60–75%",
-      "5–10%"
+      "30–50%",
+      "5–10%",
+      "60–75%"
     ],
     "correct_answer": "30–50%",
     "explanation": "A 30–50% increase in total cardiac volume occurs during pregnancy.",
@@ -427,10 +427,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "By how many millimeters does the symphysis pubis widen during pregnancy to facilitate passage of the baby at birth?",
     "choices": [
-      "3 to 4 mm",
-      "8 to 10 mm",
       "1 to 2 mm",
-      "12 to 15 mm"
+      "8 to 10 mm",
+      "12 to 15 mm",
+      "3 to 4 mm"
     ],
     "correct_answer": "3 to 4 mm",
     "explanation": "The symphysis pubis widens for 3 to 4 mm during pregnancy.",
@@ -447,9 +447,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What percentage of fetuses assume a longitudinal lie parallel to the mother’s spine?",
     "choices": [
       "Approximately 96%",
-      "Approximately 75%",
       "Approximately 50%",
-      "Approximately 82%"
+      "Approximately 82%",
+      "Approximately 75%"
     ],
     "correct_answer": "Approximately 96%",
     "explanation": "Approximately 96% of fetuses assume a longitudinal lie parallel to the woman’s body.",
@@ -466,8 +466,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which pelvic type is the typical female pelvis and the most favorable type for a vaginal birth?",
     "choices": [
       "Gynecoid",
-      "Android",
       "Anthropoid",
+      "Android",
       "Platypelloid"
     ],
     "correct_answer": "Gynecoid",
@@ -484,10 +484,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "At what anatomical landmark does fetal engagement occur?",
     "choices": [
-      "Level of the ischial spines",
-      "Pelvic brim entrance",
       "Iliac crest margin",
-      "Vaginal introitus"
+      "Vaginal introitus",
+      "Pelvic brim entrance",
+      "Level of the ischial spines"
     ],
     "correct_answer": "Level of the ischial spines",
     "explanation": "Engagement occurs when the presenting part reaches the level of the ischial spines.",
@@ -503,9 +503,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the correct sequence of the cardinal movements of labor according to the EDFIEREE mnemonic?",
     "choices": [
-      "Engagement, Descent, Flexion, Internal Rotation, Extension, Restitution, External Rotation, Expulsion",
       "Descent, Engagement, Internal Rotation, Flexion, Extension, External Rotation, Restitution, Expulsion",
       "Engagement, Flexion, Descent, Extension, Internal Rotation, Restitution, External Rotation, Expulsion",
+      "Engagement, Descent, Flexion, Internal Rotation, Extension, Restitution, External Rotation, Expulsion",
       "Descent, Flexion, Engagement, Extension, Internal Rotation, Restitution, Expulsion, External Rotation"
     ],
     "correct_answer": "Engagement, Descent, Flexion, Internal Rotation, Extension, Restitution, External Rotation, Expulsion",
@@ -522,10 +522,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What phase of uterine contraction represents the peak when the contraction is at its strongest intensity?",
     "choices": [
-      "Acme",
-      "Increment",
       "Decrement",
-      "Interval"
+      "Increment",
+      "Interval",
+      "Acme"
     ],
     "correct_answer": "Acme",
     "explanation": "Acme is the phase when the contraction is at its strongest.",
@@ -541,10 +541,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the direct cause of Early Decelerations observed on a fetal monitor tracing?",
     "choices": [
-      "Pressure on the fetal head during contractions",
       "Uteroplacental insufficiency",
-      "Umbilical cord compression",
-      "Maternal vena cava syndrome"
+      "Maternal vena cava syndrome",
+      "Pressure on the fetal head during contractions",
+      "Umbilical cord compression"
     ],
     "correct_answer": "Pressure on the fetal head during contractions",
     "explanation": "Early decelerations result from pressure of the fetal head during contractions and are a mirror image.",
@@ -560,10 +560,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the underlying cause of Variable Decelerations displaying U, V, or W-shaped waves on FHR tracing?",
     "choices": [
-      "Cord compression",
-      "Head compression",
+      "Fetal metabolic alkalosis",
       "Placental insufficiency",
-      "Fetal metabolic alkalosis"
+      "Cord compression",
+      "Head compression"
     ],
     "correct_answer": "Cord compression",
     "explanation": "Variable decelerations indicate compression of the umbilical cord.",
@@ -579,10 +579,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What cervical dilatation characterizes the Transition Phase of the first stage of labor?",
     "choices": [
-      "8 to 10 cm",
-      "0 to 3 cm",
       "4 to 6 cm",
-      "Full dilatation to 12 cm"
+      "Full dilatation to 12 cm",
+      "8 to 10 cm",
+      "0 to 3 cm"
     ],
     "correct_answer": "8 to 10 cm",
     "explanation": "Transition phase is characterized by 8 to 10 cm of cervical dilatation and contractions lasting 60-90 seconds.",
@@ -598,10 +598,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What instruction should the nurse give the laboring mother as soon as the fetal head crowns?",
     "choices": [
-      "Instruct not to push but to pant",
-      "Bear down forcefully with abdominal muscles",
       "Hold breath for prolonged Valsalva",
-      "Push continuously through the contraction"
+      "Push continuously through the contraction",
+      "Instruct not to push but to pant",
+      "Bear down forcefully with abdominal muscles"
     ],
     "correct_answer": "Instruct not to push but to pant",
     "explanation": "As soon as the head crowns, instruct the mother not to push but to pant.",
@@ -617,10 +617,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What shape does the uterus assume once the placenta has separated approximately 5 minutes after birth?",
     "choices": [
+      "Hourglass shape",
       "Discoid shape",
       "Spherical shape",
-      "Cylindrical shape",
-      "Hourglass shape"
+      "Cylindrical shape"
     ],
     "correct_answer": "Discoid shape",
     "explanation": "After birth, contractions begin again and the uterus assumes a discoid shape until placental separation.",
@@ -636,10 +636,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "A transvaginal ultrasound reveals a cervical length of <25 mm before 24 weeks. This finding is concerning for which condition?",
     "choices": [
+      "Hydatidiform mole",
       "Cervical insufficiency (Incompetent cervix)",
-      "Placenta previa",
       "Abruptio placentae",
-      "Hydatidiform mole"
+      "Placenta previa"
     ],
     "correct_answer": "Cervical insufficiency (Incompetent cervix)",
     "explanation": "Cervical length <25 mm before 24 weeks is concerning for incompetent cervix.",
@@ -675,9 +675,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What classic finding on ultrasound is diagnostic of a Hydatidiform Mole?",
     "choices": [
       "\"Snowstorm\" or \"cluster of grapes\" appearance",
-      "Target lesion appearance",
+      "Overlapping skull bones",
       "Double bubble sign",
-      "Overlapping skull bones"
+      "Target lesion appearance"
     ],
     "correct_answer": "\"Snowstorm\" or \"cluster of grapes\" appearance",
     "explanation": "Ultrasound shows a classic \"snowstorm\" or \"cluster of grapes\" appearance in hydatidiform mole.",
@@ -694,8 +694,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Following evacuation of a hydatidiform mole, how long must the patient use reliable contraception and avoid pregnancy?",
     "choices": [
       "1 year",
-      "3 months",
       "6 weeks",
+      "3 months",
       "5 years"
     ],
     "correct_answer": "1 year",
@@ -712,10 +712,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When is Rho(D) immune globulin (RhoGAM) routinely administered to an Rh-negative pregnant client?",
     "choices": [
-      "At 28 weeks gestation and within 72 hours postpartum if infant is Rh-positive",
-      "At 12 weeks gestation and during active labor",
+      "At 36 weeks gestation and 1 week postpartum",
       "Only after delivery regardless of newborn blood type",
-      "At 36 weeks gestation and 1 week postpartum"
+      "At 12 weeks gestation and during active labor",
+      "At 28 weeks gestation and within 72 hours postpartum if infant is Rh-positive"
     ],
     "correct_answer": "At 28 weeks gestation and within 72 hours postpartum if infant is Rh-positive",
     "explanation": "RhoGAM is given at 28 weeks gestation and within 72 hours postpartum if the infant is Rh-positive.",
@@ -731,10 +731,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What distinguishes Eclampsia from severe Preeclampsia?",
     "choices": [
-      "Preeclampsia with seizures",
-      "Proteinuria greater than 3+",
       "Elevated liver enzymes",
-      "Blood pressure above 160/110 mmHg"
+      "Blood pressure above 160/110 mmHg",
+      "Preeclampsia with seizures",
+      "Proteinuria greater than 3+"
     ],
     "correct_answer": "Preeclampsia with seizures",
     "explanation": "Eclampsia is defined as preeclampsia with the occurrence of seizures.",
@@ -750,10 +750,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the drug of choice for the prevention and control of seizures in preeclampsia/eclampsia?",
     "choices": [
-      "Magnesium sulfate",
-      "Diazepam",
+      "Hydralazine",
       "Phenobarbital",
-      "Hydralazine"
+      "Diazepam",
+      "Magnesium sulfate"
     ],
     "correct_answer": "Magnesium sulfate",
     "explanation": "Magnesium sulfate is the drug of choice for seizure prevention in preeclampsia/eclampsia.",
@@ -769,10 +769,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the antidote for Magnesium Sulfate toxicity?",
     "choices": [
+      "Vitamin K",
       "Calcium gluconate",
-      "Protamine sulfate",
       "Naloxone",
-      "Vitamin K"
+      "Protamine sulfate"
     ],
     "correct_answer": "Calcium gluconate",
     "explanation": "Calcium gluconate is the specific antidote for magnesium sulfate toxicity.",
@@ -788,10 +788,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Why is thiamine supplementation given before intravenous glucose in patients with severe Hyperemesis Gravidarum?",
     "choices": [
-      "To prevent Wernicke encephalopathy",
       "To accelerate glucose clearance",
-      "To prevent metabolic alkalosis",
-      "To treat severe hyperemesis"
+      "To treat severe hyperemesis",
+      "To prevent Wernicke encephalopathy",
+      "To prevent metabolic alkalosis"
     ],
     "correct_answer": "To prevent Wernicke encephalopathy",
     "explanation": "Thiamine is given before IV dextrose to prevent Wernicke encephalopathy from thiamine deficiency.",
@@ -807,10 +807,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the hallmark symptom of Placenta Previa in the second or third trimester?",
     "choices": [
+      "Watery brown foul-smelling vaginal discharge",
       "Sudden, painless, bright-red vaginal bleeding",
-      "Painful dark red vaginal bleeding with rigid abdomen",
       "Severe abdominal cramping without bleeding",
-      "Watery brown foul-smelling vaginal discharge"
+      "Painful dark red vaginal bleeding with rigid abdomen"
     ],
     "correct_answer": "Sudden, painless, bright-red vaginal bleeding",
     "explanation": "Placenta previa results in sudden, painless, bright-red vaginal bleeding.",
@@ -827,9 +827,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which procedure is strictly contraindicated in a patient presenting with suspected Placenta Previa?",
     "choices": [
       "Vaginal examination",
-      "Abdominal ultrasound",
       "External fetal monitoring",
-      "Intravenous catheter insertion"
+      "Intravenous catheter insertion",
+      "Abdominal ultrasound"
     ],
     "correct_answer": "Vaginal examination",
     "explanation": "In placenta previa, avoid vaginal examinations to prevent catastrophic hemorrhage.",
@@ -845,10 +845,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What classic physical finding is present in Abruptio Placentae?",
     "choices": [
+      "Soft uterus with intermittent painless tightening",
       "Painful vaginal bleeding with a rigid, board-like uterus",
       "Painless bright-red vaginal bleeding with a soft uterus",
-      "Leakage of clear fluid with uterine relaxation",
-      "Soft uterus with intermittent painless tightening"
+      "Leakage of clear fluid with uterine relaxation"
     ],
     "correct_answer": "Painful vaginal bleeding with a rigid, board-like uterus",
     "explanation": "Abruptio placentae presents with painful vaginal bleeding and a rigid, board-like uterus.",
@@ -864,10 +864,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What emergency positioning should the nurse immediately implement for a patient with a prolapsed umbilical cord?",
     "choices": [
-      "Knee-chest or Trendelenburg position",
+      "Right lateral Sim’s position",
       "High Fowler’s position",
-      "Supine position with legs extended",
-      "Right lateral Sim’s position"
+      "Knee-chest or Trendelenburg position",
+      "Supine position with legs extended"
     ],
     "correct_answer": "Knee-chest or Trendelenburg position",
     "explanation": "Position the mother in knee-chest or Trendelenburg position to relieve cord compression.",
@@ -903,9 +903,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In what type of spontaneous abortion is there spotting and cramping with a closed cervix, allowing the pregnancy to potentially continue?",
     "choices": [
       "Threatened abortion",
-      "Inevitable abortion",
+      "Missed abortion",
       "Incomplete abortion",
-      "Missed abortion"
+      "Inevitable abortion"
     ],
     "correct_answer": "Threatened abortion",
     "explanation": "In threatened abortion, spotting and cramping occur but the cervix is closed and pregnancy may continue.",
@@ -921,9 +921,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating blood loss by weighing perineal pads, what is the exact conversion ratio?",
     "choices": [
-      "1 gram = 1 mL blood loss",
-      "1 gram = 5 mL blood loss",
       "1 gram = 10 mL blood loss",
+      "1 gram = 5 mL blood loss",
+      "1 gram = 1 mL blood loss",
       "1 gram = 0.5 mL blood loss"
     ],
     "correct_answer": "1 gram = 1 mL blood loss",
@@ -941,9 +941,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What radiological sign on ultrasound indicates intrauterine fetal demise through overlapping fetal skull bones?",
     "choices": [
       "Spalding sign",
-      "Goodell’s sign",
+      "Chadwick’s sign",
       "Hegar’s sign",
-      "Chadwick’s sign"
+      "Goodell’s sign"
     ],
     "correct_answer": "Spalding sign",
     "explanation": "Overlapping fetal skull bones on ultrasound is known as Spalding sign, indicating fetal demise.",
@@ -959,10 +959,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the most common primary cause of Postpartum Hemorrhage (PPH)?",
     "choices": [
-      "Uterine atony",
+      "Retained placental fragments",
       "Cervical laceration",
-      "Perineal hematoma",
-      "Retained placental fragments"
+      "Uterine atony",
+      "Perineal hematoma"
     ],
     "correct_answer": "Uterine atony",
     "explanation": "Uterine atony is the most common primary cause of postpartum hemorrhage.",
@@ -979,9 +979,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which uterotonic medication used in PPH is strictly contraindicated in hypertensive clients?",
     "choices": [
       "Methylergonovine (Methergine)",
-      "Oxytocin (Pitocin)",
+      "Tranexamic acid (TXA)",
       "Misoprostol (Cytotec)",
-      "Tranexamic acid (TXA)"
+      "Oxytocin (Pitocin)"
     ],
     "correct_answer": "Methylergonovine (Methergine)",
     "explanation": "Methylergonovine (Methergine) is contraindicated in hypertension because it causes arterial vasoconstriction.",
@@ -997,10 +997,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the initial care of the newborn using a bulb syringe, which sequence must be followed?",
     "choices": [
-      "Suction the mouth first, then the nares",
-      "Suction the nares first, then the mouth",
       "Suction the stomach before suctioning the mouth",
-      "Suction the nares only, avoiding the mouth"
+      "Suction the nares only, avoiding the mouth",
+      "Suction the mouth first, then the nares",
+      "Suction the nares first, then the mouth"
     ],
     "correct_answer": "Suction the mouth first, then the nares",
     "explanation": "Suction the mouth first and then the nares if needed with a bulb syringe.",
@@ -1016,10 +1016,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What scalp condition from birth trauma is characterized by edema of soft tissue that crosses over cranial suture lines and subsides in a few days?",
     "choices": [
-      "Caput succedaneum",
       "Cephalhematoma",
       "Subdural hematoma",
-      "Hydrocephalus"
+      "Hydrocephalus",
+      "Caput succedaneum"
     ],
     "correct_answer": "Caput succedaneum",
     "explanation": "Caput succedaneum is edema of the soft tissue over bone that crosses over suture lines and subsides within a few days.",
@@ -1035,10 +1035,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the prescribed dose and route of Phytonadione (Vitamin K) administered to a newborn to prevent hemorrhagic disorders?",
     "choices": [
-      "0.5 to 1 mg IM in the vastus lateralis muscle",
-      "2 mg oral suspension within 24 hours",
       "5 mg SC in the deltoid muscle",
-      "0.1 mL intradermal injection on forearm"
+      "2 mg oral suspension within 24 hours",
+      "0.1 mL intradermal injection on forearm",
+      "0.5 to 1 mg IM in the vastus lateralis muscle"
     ],
     "correct_answer": "0.5 to 1 mg IM in the vastus lateralis muscle",
     "explanation": "Administer intramuscular dose of phytonadione 0.5 to 1 mg in the lateral aspect of the middle third of the vastus lateralis muscle on the left leg.",
@@ -1054,8 +1054,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the priority nursing action during a hypercyanotic \"tet spell\" in an infant with Tetralogy of Fallot?",
     "choices": [
-      "Place the infant in a knee-chest position",
       "Place the infant in high Fowler’s position",
+      "Place the infant in a knee-chest position",
       "Administer oral glucose water",
       "Perform rapid tracheal suctioning"
     ],
@@ -1074,8 +1074,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What critical nursing precaution must be maintained when assessing a child with Wilms tumor (nephroblastoma)?",
     "choices": [
       "Do not repeatedly palpate the abdominal mass",
-      "Administer aspirin for pain management",
       "Keep the child in prone position",
+      "Administer aspirin for pain management",
       "Perform deep manual palpation every shift"
     ],
     "correct_answer": "Do not repeatedly palpate the abdominal mass",
@@ -1092,10 +1092,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Under IMCI triage classification, what level of management corresponds to a Yellow presentation?",
     "choices": [
-      "Specific medical treatment and advice at the RHU",
-      "Urgent pre-referral treatment and referral to hospital",
       "Simple advice on home care",
-      "Direct discharge without treatment"
+      "Direct discharge without treatment",
+      "Urgent pre-referral treatment and referral to hospital",
+      "Specific medical treatment and advice at the RHU"
     ],
     "correct_answer": "Specific medical treatment and advice at the RHU",
     "explanation": "Yellow classification corresponds to moderate disease requiring specific medical treatment and advice at the RHU.",
@@ -1111,10 +1111,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the first-line Directly Observed Therapy Short-course (DOTS) regimen for Tuberculosis?",
     "choices": [
-      "2 months of RHZE followed by 4 months of RH",
+      "1 year of Pyrazinamide monotherapy",
       "6 months of Rifampicin and Isoniazid",
       "3 months of Streptomycin and Ethambutol",
-      "1 year of Pyrazinamide monotherapy"
+      "2 months of RHZE followed by 4 months of RH"
     ],
     "correct_answer": "2 months of RHZE followed by 4 months of RH",
     "explanation": "First-line DOTS for TB is 2 months of Rifampicin, Isoniazid, Pyrazinamide, Ethambutol (RHZE), followed by 4 months of RH.",
@@ -2921,9 +2921,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the normal resting respiratory rate range for a term newborn?",
     "choices": [
       "30 to 60 breaths per minute",
-      "12 to 20 breaths per minute",
+      "20 to 30 breaths per minute",
       "60 to 90 breaths per minute",
-      "20 to 30 breaths per minute"
+      "12 to 20 breaths per minute"
     ],
     "correct_answer": "30 to 60 breaths per minute",
     "explanation": "Newborn normal respirations are 30 to 60 breaths per minute assessed for 1 full minute.",
@@ -2939,8 +2939,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What normal percentage weight loss occurs during the newborn’s first week of life due to water loss and limited intake?",
     "choices": [
-      "5% to 10%",
       "1% to 2%",
+      "5% to 10%",
       "15% to 20%",
       "10% to 15%"
     ],
@@ -2958,9 +2958,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "How many wet diapers by the fourth day of life indicate that the newborn is receiving adequate fluid intake?",
     "choices": [
-      "Six wet diapers",
       "Two wet diapers",
       "Twelve wet diapers",
+      "Six wet diapers",
       "Twenty wet diapers"
     ],
     "correct_answer": "Six wet diapers",
@@ -2977,10 +2977,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Within how many hours after birth should prophylactic eye medication be administered to prevent ophthalmia neonatorum?",
     "choices": [
-      "Within 1 hour",
       "Within 12 hours",
-      "Within 24 hours",
-      "Within 48 hours"
+      "Within 1 hour",
+      "Within 48 hours",
+      "Within 24 hours"
     ],
     "correct_answer": "Within 1 hour",
     "explanation": "Administer eye medication within 1 hour after birth to prevent ophthalmia neonatorum.",
@@ -2996,10 +2996,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Within how many hours after circumcision should the newborn void to rule out urinary retention?",
     "choices": [
-      "Within 24 hours",
       "Within 2 hours",
-      "Within 48 hours",
-      "Within 72 hours"
+      "Within 24 hours",
+      "Within 72 hours",
+      "Within 48 hours"
     ],
     "correct_answer": "Within 24 hours",
     "explanation": "Newborn should void within 24 hours after circumcision; monitor for urinary retention.",
@@ -3015,10 +3015,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the anatomical capacity of a newborn stomach at birth compared to Day 10?",
     "choices": [
-      "<10 mL at birth to ~90 mL by Day 10",
+      "<5 mL at birth to 30 mL by Day 10",
       "30 mL at birth to 150 mL by Day 10",
-      "50 mL at birth to 200 mL by Day 10",
-      "<5 mL at birth to 30 mL by Day 10"
+      "<10 mL at birth to ~90 mL by Day 10",
+      "50 mL at birth to 200 mL by Day 10"
     ],
     "correct_answer": "<10 mL at birth to ~90 mL by Day 10",
     "explanation": "Stomach capacity is <10 mL at birth and increases to ~90 mL by Day 10.",
@@ -3034,10 +3034,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "How long should a newborn receive formula or human milk before undergoing screening for phenylketonuria (PKU)?",
     "choices": [
-      "24 hours",
       "1 hour",
       "7 days",
-      "48 hours"
+      "48 hours",
+      "24 hours"
     ],
     "correct_answer": "24 hours",
     "explanation": "Newborn should receive formula or human milk for 24 hours before screening to ensure sufficient protein intake.",
@@ -3053,10 +3053,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which mechanism of neonatal heat loss is prevented by keeping the newborn dry and wrapped in a warm blanket?",
     "choices": [
-      "Evaporation",
+      "Conduction",
       "Radiation",
-      "Convection",
-      "Conduction"
+      "Evaporation",
+      "Convection"
     ],
     "correct_answer": "Evaporation",
     "explanation": "Prevent heat loss resulting from evaporation by keeping the newborn dry and well wrapped with a blanket.",
@@ -3072,10 +3072,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "By what age does the primitive Moro reflex normally disappear?",
     "choices": [
-      "By 6 months",
-      "By 1 month",
       "By 12 months",
-      "By 2 years"
+      "By 6 months",
+      "By 2 years",
+      "By 1 month"
     ],
     "correct_answer": "By 6 months",
     "explanation": "Moro reflex disappears by 6 months; delayed disappearance may indicate neurological issues.",
@@ -3091,10 +3091,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "At what age does the Babinski reflex (dorsiflexion of big toe and fanning of toes) normally disappear in an infant?",
     "choices": [
+      "After 2 years",
       "After 1 year",
-      "After 3 months",
       "After 6 weeks",
-      "After 2 years"
+      "After 3 months"
     ],
     "correct_answer": "After 1 year",
     "explanation": "Babinski sign disappears after 1 year; absence may indicate neurological issues.",
@@ -3110,10 +3110,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "By what age is natural separation of the foreskin from the glans penis normally complete in an uncircumcised boy?",
     "choices": [
-      "By 3 to 6 years of age",
+      "Only during puberty",
       "At birth",
       "By 6 months",
-      "Only during puberty"
+      "By 3 to 6 years of age"
     ],
     "correct_answer": "By 3 to 6 years of age",
     "explanation": "The separation process normally is complete by 3 to 6 years of age; parents should not forcibly retract.",
@@ -3129,10 +3129,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "According to infant growth patterns, by what age should an infant’s birth weight double?",
     "choices": [
-      "5–6 months",
       "1–2 months",
+      "2–2½ years",
       "1 year",
-      "2–2½ years"
+      "5–6 months"
     ],
     "correct_answer": "5–6 months",
     "explanation": "Weight gain pattern: 2x birth weight by 5-6 months, 3x by 1 year, 4x by 2-2.5 years.",
@@ -3148,10 +3148,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "According to Erik Erikson’s psychosocial theory, what crisis corresponds to infancy (0–18 months)?",
     "choices": [
-      "Trust vs. Mistrust",
-      "Autonomy vs. Shame & Doubt",
       "Initiative vs. Guilt",
-      "Industry vs. Inferiority"
+      "Autonomy vs. Shame & Doubt",
+      "Industry vs. Inferiority",
+      "Trust vs. Mistrust"
     ],
     "correct_answer": "Trust vs. Mistrust",
     "explanation": "Infancy (0-18 months) corresponds to Trust vs. Mistrust, with the outcome of hope.",
@@ -3167,9 +3167,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In pediatric emergency assessment, what vital sign alteration is recognized as a LATE sign of shock?",
     "choices": [
-      "Hypotension",
       "Tachycardia",
       "Prolonged capillary refill",
+      "Hypotension",
       "Cool extremities"
     ],
     "correct_answer": "Hypotension",
@@ -3186,10 +3186,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the priority intervention for a newborn born through meconium-stained amniotic fluid?",
     "choices": [
-      "Effective ventilation when indicated",
-      "Routine tracheal suctioning of every infant",
       "Immediate gastric lavage",
-      "Immediate administration of prophylactic antibiotics"
+      "Immediate administration of prophylactic antibiotics",
+      "Routine tracheal suctioning of every infant",
+      "Effective ventilation when indicated"
     ],
     "correct_answer": "Effective ventilation when indicated",
     "explanation": "Neonatal resuscitation guidance: the priority is effective ventilation, not routine suctioning of every meconium-exposed newborn.",
@@ -3205,10 +3205,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the preferred nonsurgical initial treatment for idiopathic congenital clubfoot (talipes equinovarus)?",
     "choices": [
-      "Ponseti method (manipulation-casting-bracing)",
-      "Immediate tendon lengthening surgery",
       "Continuous passive motion machine",
-      "High-dose systemic steroids"
+      "Immediate tendon lengthening surgery",
+      "High-dose systemic steroids",
+      "Ponseti method (manipulation-casting-bracing)"
     ],
     "correct_answer": "Ponseti method (manipulation-casting-bracing)",
     "explanation": "The Ponseti method is the preferred initial treatment for most infants with idiopathic clubfoot; surgery is not first-line.",
@@ -3224,8 +3224,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the underlying pathophysiology of Hirschsprung disease in infants?",
     "choices": [
-      "A segment of bowel lacks ganglion cells, preventing peristalsis",
       "Hypertrophy of the pyloric circular muscle",
+      "A segment of bowel lacks ganglion cells, preventing peristalsis",
       "Invagination of one bowel segment into another",
       "Failure of the omphalomesenteric duct to close"
     ],
@@ -3243,10 +3243,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the initial nursing assessment rule for an unknown chemical ingestion in a symptomatic toddler?",
     "choices": [
-      "Assess first; do not induce vomiting",
-      "Induce vomiting immediately using syrup of ipecac",
       "Administer large volumes of milk immediately",
-      "Neutralize with vinegar or dilute alkali"
+      "Induce vomiting immediately using syrup of ipecac",
+      "Neutralize with vinegar or dilute alkali",
+      "Assess first; do not induce vomiting"
     ],
     "correct_answer": "Assess first; do not induce vomiting",
     "explanation": "Unknown substance + toddler + symptoms = assess first, do not induce vomiting.",
@@ -3262,10 +3262,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Why is a child with Acute Lymphoblastic Leukemia (ALL) vulnerable to serious infection despite having a high total WBC count?",
     "choices": [
-      "Leukemic cells are immature and dysfunctional",
+      "Eosinophils consume normal complement factors",
       "Platelets destroy circulating antibodies",
-      "Bone marrow is depleted of red blood cells",
-      "Eosinophils consume normal complement factors"
+      "Leukemic cells are immature and dysfunctional",
+      "Bone marrow is depleted of red blood cells"
     ],
     "correct_answer": "Leukemic cells are immature and dysfunctional",
     "explanation": "Even if total WBC count is high, cells are immature leukemic cells that cannot adequately fight infection.",
@@ -3283,8 +3283,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "As the fever subsides (defervescence)",
       "At the initial onset of high fever",
-      "During the prodromal headache phase",
-      "Two weeks after complete recovery"
+      "Two weeks after complete recovery",
+      "During the prodromal headache phase"
     ],
     "correct_answer": "As the fever subsides (defervescence)",
     "explanation": "Defervescence does not always mean recovery; the danger period can begin as the fever subsides.",
@@ -3902,10 +3902,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Obstetrics?",
     "choices": [
-      "Fetal Circulation & Shunts",
-      "Menstrual Cycle Phases",
+      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Obstetrics"
+      "Fetal Circulation & Shunts",
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Obstetrics",
     "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -3921,10 +3921,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Oogenesis & Follicle Development?",
     "choices": [
-      "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Menstrual Cycle Phases",
-      "Fetal Circulation & Shunts"
+      "Fetal Circulation & Shunts",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Oogenesis & Follicle Development",
     "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -3940,8 +3940,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Menstrual Cycle Phases?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
       "Fetal Circulation & Shunts"
     ],
@@ -3959,10 +3959,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Fetal Circulation & Shunts?",
     "choices": [
-      "Fetal Circulation & Shunts",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Fetal Circulation & Shunts"
     ],
     "correct_answer": "Fetal Circulation & Shunts",
     "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -3978,10 +3978,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Gravidity & Parity?",
     "choices": [
-      "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Gravidity & Parity"
+      "Gravidity & Parity",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Gravidity & Parity",
     "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -3997,10 +3997,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Signs of Pregnancy?",
     "choices": [
-      "Signs of Pregnancy",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Signs of Pregnancy",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Signs of Pregnancy",
     "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4016,10 +4016,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Cardinal Movements?",
     "choices": [
-      "Cardinal Movements",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Cardinal Movements",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Cardinal Movements",
     "explanation": "Correct: \"Cardinal Movements\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4035,10 +4035,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Ps of Labor?",
     "choices": [
-      "Ps of Labor",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Ps of Labor",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Ps of Labor",
     "explanation": "Correct: \"Ps of Labor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4054,10 +4054,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Incompetent Cervix & Cerclage?",
     "choices": [
-      "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Incompetent Cervix & Cerclage"
+      "Menstrual Cycle Phases",
+      "Incompetent Cervix & Cerclage",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Incompetent Cervix & Cerclage",
     "explanation": "Correct: \"Incompetent Cervix & Cerclage\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4073,10 +4073,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Hydatidiform Mole?",
     "choices": [
+      "Menstrual Cycle Phases",
       "Hydatidiform Mole",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "Hydatidiform Mole",
     "explanation": "Correct: \"Hydatidiform Mole\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4092,10 +4092,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Rh Incompatibility & RhoGAM?",
     "choices": [
+      "Menstrual Cycle Phases",
       "Rh Incompatibility & RhoGAM",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Rh Incompatibility & RhoGAM",
     "explanation": "Correct: \"Rh Incompatibility & RhoGAM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4112,9 +4112,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to PIH & Magnesium Sulfate?",
     "choices": [
       "PIH & Magnesium Sulfate",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "PIH & Magnesium Sulfate",
     "explanation": "Correct: \"PIH & Magnesium Sulfate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4131,8 +4131,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to GDM?",
     "choices": [
       "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
+      "Oogenesis & Follicle Development",
       "GDM"
     ],
     "correct_answer": "GDM",
@@ -4149,10 +4149,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Hyperemesis Gravidarum?",
     "choices": [
+      "Menstrual Cycle Phases",
       "Hyperemesis Gravidarum",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "Hyperemesis Gravidarum",
     "explanation": "Correct: \"Hyperemesis Gravidarum\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4168,8 +4168,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Placenta Previa?",
     "choices": [
-      "Placenta Previa",
       "Obstetrics",
+      "Placenta Previa",
       "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
@@ -4188,9 +4188,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Abruptio Placentae?",
     "choices": [
       "Abruptio Placentae",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "Abruptio Placentae",
     "explanation": "Correct: \"Abruptio Placentae\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4206,10 +4206,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Umbilical Cord Prolapse?",
     "choices": [
+      "Umbilical Cord Prolapse",
       "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Umbilical Cord Prolapse"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Umbilical Cord Prolapse",
     "explanation": "Correct: \"Umbilical Cord Prolapse\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4226,9 +4226,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to PPH & Uterotonic Drugs?",
     "choices": [
       "PPH & Uterotonic Drugs",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "PPH & Uterotonic Drugs",
     "explanation": "Correct: \"PPH & Uterotonic Drugs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4244,10 +4244,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Newborn Care & APGAR?",
     "choices": [
-      "Newborn Care & APGAR",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Newborn Care & APGAR",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Newborn Care & APGAR",
     "explanation": "Correct: \"Newborn Care & APGAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4264,9 +4264,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Vitamin K & Eye Prophylaxis?",
     "choices": [
       "Vitamin K & Eye Prophylaxis",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "Vitamin K & Eye Prophylaxis",
     "explanation": "Correct: \"Vitamin K & Eye Prophylaxis\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4282,10 +4282,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Heat Loss & Primitive Reflexes?",
     "choices": [
-      "Menstrual Cycle Phases",
+      "Heat Loss & Primitive Reflexes",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Heat Loss & Primitive Reflexes"
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "Heat Loss & Primitive Reflexes",
     "explanation": "Correct: \"Heat Loss & Primitive Reflexes\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4301,9 +4301,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Growth & Development Theories?",
     "choices": [
-      "Growth & Development Theories",
       "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Growth & Development Theories",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Growth & Development Theories",
@@ -4320,10 +4320,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Tetralogy of Fallot?",
     "choices": [
-      "Tetralogy of Fallot",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Tetralogy of Fallot",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Tetralogy of Fallot",
     "explanation": "Correct: \"Tetralogy of Fallot\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4339,10 +4339,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Clubfoot Ponseti?",
     "choices": [
-      "Clubfoot Ponseti",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Clubfoot Ponseti",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Clubfoot Ponseti",
     "explanation": "Correct: \"Clubfoot Ponseti\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4358,10 +4358,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Cleft Lip/Palate?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Cleft Lip/Palate"
+      "Menstrual Cycle Phases",
+      "Cleft Lip/Palate",
+      "Obstetrics"
     ],
     "correct_answer": "Cleft Lip/Palate",
     "explanation": "Correct: \"Cleft Lip/Palate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4377,8 +4377,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Hirschsprung?",
     "choices": [
-      "Hirschsprung",
       "Obstetrics",
+      "Hirschsprung",
       "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
@@ -4396,8 +4396,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Wilms Tumor?",
     "choices": [
-      "Wilms Tumor",
       "Obstetrics",
+      "Wilms Tumor",
       "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
@@ -4415,10 +4415,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Asthma?",
     "choices": [
-      "Asthma",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics",
+      "Asthma"
     ],
     "correct_answer": "Asthma",
     "explanation": "Correct: \"Asthma\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4434,9 +4434,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to ALL?",
     "choices": [
+      "Obstetrics",
       "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
       "ALL"
     ],
     "correct_answer": "ALL",
@@ -4453,10 +4453,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to DKA?",
     "choices": [
-      "DKA",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "DKA",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "DKA",
     "explanation": "Correct: \"DKA\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4473,8 +4473,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Rheumatic Fever?",
     "choices": [
       "Rheumatic Fever",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Rheumatic Fever",
@@ -4491,10 +4491,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Dengue Defervescence Warning Signs?",
     "choices": [
-      "Dengue Defervescence Warning Signs",
       "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Dengue Defervescence Warning Signs"
     ],
     "correct_answer": "Dengue Defervescence Warning Signs",
     "explanation": "Correct: \"Dengue Defervescence Warning Signs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4512,8 +4512,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "STIs & HPV Vaccine"
+      "STIs & HPV Vaccine",
+      "Obstetrics"
     ],
     "correct_answer": "STIs & HPV Vaccine",
     "explanation": "Correct: \"STIs & HPV Vaccine\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4529,10 +4529,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to IMCI Color Coding?",
     "choices": [
-      "IMCI Color Coding",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "IMCI Color Coding",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "IMCI Color Coding",
     "explanation": "Correct: \"IMCI Color Coding\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4548,10 +4548,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Communicable Diseases & DOTS?",
     "choices": [
-      "Communicable Diseases & DOTS",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Communicable Diseases & DOTS"
     ],
     "correct_answer": "Communicable Diseases & DOTS",
     "explanation": "Correct: \"Communicable Diseases & DOTS\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4567,10 +4567,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to COPAR?",
     "choices": [
-      "COPAR",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics",
+      "Menstrual Cycle Phases",
+      "COPAR"
     ],
     "correct_answer": "COPAR",
     "explanation": "Correct: \"COPAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4587,8 +4587,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Phases?",
     "choices": [
       "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
+      "Oogenesis & Follicle Development",
       "Phases"
     ],
     "correct_answer": "Phases",
@@ -4605,10 +4605,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Vaccine Procurement Formula?",
     "choices": [
+      "Menstrual Cycle Phases",
       "Vaccine Procurement Formula",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "Vaccine Procurement Formula",
     "explanation": "Correct: \"Vaccine Procurement Formula\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4624,10 +4624,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Obstetrics\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Obstetrics",
-      "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases",
-      "Fetal Circulation & Shunts"
+      "Oogenesis & Follicle Development",
+      "Fetal Circulation & Shunts",
+      "Obstetrics"
     ],
     "correct_answer": "Obstetrics",
     "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4643,10 +4643,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Oogenesis & Follicle Development\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Oogenesis & Follicle Development",
-      "Obstetrics",
+      "Fetal Circulation & Shunts",
       "Menstrual Cycle Phases",
-      "Fetal Circulation & Shunts"
+      "Obstetrics",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Oogenesis & Follicle Development",
     "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4663,9 +4663,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Menstrual Cycle Phases\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
       "Fetal Circulation & Shunts",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "Menstrual Cycle Phases",
     "explanation": "Correct: \"Menstrual Cycle Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4681,10 +4681,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Fetal Circulation & Shunts\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Fetal Circulation & Shunts",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Fetal Circulation & Shunts",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Fetal Circulation & Shunts",
     "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4701,9 +4701,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Gravidity & Parity\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
       "Gravidity & Parity",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Gravidity & Parity",
     "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4719,10 +4719,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Signs of Pregnancy\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Signs of Pregnancy",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Signs of Pregnancy",
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "Signs of Pregnancy",
     "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4738,10 +4738,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cardinal Movements\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Cardinal Movements"
+      "Menstrual Cycle Phases",
+      "Cardinal Movements",
+      "Obstetrics"
     ],
     "correct_answer": "Cardinal Movements",
     "explanation": "Correct: \"Cardinal Movements\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4757,8 +4757,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Ps of Labor\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Ps of Labor",
       "Obstetrics",
+      "Ps of Labor",
       "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
@@ -4776,8 +4776,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Incompetent Cervix & Cerclage\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Incompetent Cervix & Cerclage",
       "Obstetrics",
+      "Incompetent Cervix & Cerclage",
       "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
@@ -4795,10 +4795,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Hydatidiform Mole\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Hydatidiform Mole",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Hydatidiform Mole",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Hydatidiform Mole",
     "explanation": "Correct: \"Hydatidiform Mole\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4814,10 +4814,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Rh Incompatibility & RhoGAM\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
+      "Rh Incompatibility & RhoGAM",
       "Obstetrics",
-      "Rh Incompatibility & RhoGAM"
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Rh Incompatibility & RhoGAM",
     "explanation": "Correct: \"Rh Incompatibility & RhoGAM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4833,10 +4833,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"PIH & Magnesium Sulfate\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "PIH & Magnesium Sulfate",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "PIH & Magnesium Sulfate",
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "PIH & Magnesium Sulfate",
     "explanation": "Correct: \"PIH & Magnesium Sulfate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4852,10 +4852,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"GDM\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
+      "Menstrual Cycle Phases",
       "GDM",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "GDM",
     "explanation": "Correct: \"GDM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4871,10 +4871,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Hyperemesis Gravidarum\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Hyperemesis Gravidarum",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Hyperemesis Gravidarum"
     ],
     "correct_answer": "Hyperemesis Gravidarum",
     "explanation": "Correct: \"Hyperemesis Gravidarum\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4890,10 +4890,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Placenta Previa\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Placenta Previa"
+      "Placenta Previa",
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "Placenta Previa",
     "explanation": "Correct: \"Placenta Previa\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4910,9 +4910,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Abruptio Placentae\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
       "Abruptio Placentae",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "Abruptio Placentae",
     "explanation": "Correct: \"Abruptio Placentae\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4928,9 +4928,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Umbilical Cord Prolapse\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
+      "Oogenesis & Follicle Development",
       "Umbilical Cord Prolapse",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Umbilical Cord Prolapse",
@@ -4947,10 +4947,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"PPH & Uterotonic Drugs\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "PPH & Uterotonic Drugs",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "PPH & Uterotonic Drugs",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "PPH & Uterotonic Drugs",
     "explanation": "Correct: \"PPH & Uterotonic Drugs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4966,10 +4966,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Newborn Care & APGAR\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Newborn Care & APGAR"
+      "Newborn Care & APGAR",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Newborn Care & APGAR",
     "explanation": "Correct: \"Newborn Care & APGAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -4985,10 +4985,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Vitamin K & Eye Prophylaxis\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
+      "Menstrual Cycle Phases",
       "Vitamin K & Eye Prophylaxis",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Vitamin K & Eye Prophylaxis",
     "explanation": "Correct: \"Vitamin K & Eye Prophylaxis\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5004,10 +5004,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Heat Loss & Primitive Reflexes\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Heat Loss & Primitive Reflexes",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics",
+      "Heat Loss & Primitive Reflexes"
     ],
     "correct_answer": "Heat Loss & Primitive Reflexes",
     "explanation": "Correct: \"Heat Loss & Primitive Reflexes\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5023,9 +5023,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Growth & Development Theories\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Growth & Development Theories",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Growth & Development Theories",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Growth & Development Theories",
@@ -5042,10 +5042,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Tetralogy of Fallot\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
+      "Tetralogy of Fallot",
       "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Tetralogy of Fallot"
+      "Obstetrics"
     ],
     "correct_answer": "Tetralogy of Fallot",
     "explanation": "Correct: \"Tetralogy of Fallot\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5061,10 +5061,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Clubfoot Ponseti\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Clubfoot Ponseti",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Clubfoot Ponseti",
+      "Obstetrics"
     ],
     "correct_answer": "Clubfoot Ponseti",
     "explanation": "Correct: \"Clubfoot Ponseti\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5080,10 +5080,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cleft Lip/Palate\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Cleft Lip/Palate",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Cleft Lip/Palate",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Cleft Lip/Palate",
     "explanation": "Correct: \"Cleft Lip/Palate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5100,9 +5100,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Hirschsprung\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
       "Hirschsprung",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics"
     ],
     "correct_answer": "Hirschsprung",
     "explanation": "Correct: \"Hirschsprung\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5118,9 +5118,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Wilms Tumor\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases",
       "Wilms Tumor"
     ],
     "correct_answer": "Wilms Tumor",
@@ -5137,9 +5137,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Asthma\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Asthma",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Asthma",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Asthma",
@@ -5156,9 +5156,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"ALL\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "ALL",
       "Obstetrics",
       "Oogenesis & Follicle Development",
+      "ALL",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "ALL",
@@ -5175,10 +5175,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"DKA\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "DKA",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "DKA",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "DKA",
     "explanation": "Correct: \"DKA\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5194,10 +5194,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Rheumatic Fever\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Menstrual Cycle Phases",
+      "Rheumatic Fever",
       "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Rheumatic Fever"
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Rheumatic Fever",
     "explanation": "Correct: \"Rheumatic Fever\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5214,8 +5214,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Dengue Defervescence Warning Signs\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
       "Dengue Defervescence Warning Signs",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Dengue Defervescence Warning Signs",
@@ -5232,10 +5232,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"STIs & HPV Vaccine\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "STIs & HPV Vaccine",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "STIs & HPV Vaccine",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "STIs & HPV Vaccine",
     "explanation": "Correct: \"STIs & HPV Vaccine\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5251,10 +5251,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"IMCI Color Coding\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "IMCI Color Coding",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "IMCI Color Coding",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "IMCI Color Coding",
     "explanation": "Correct: \"IMCI Color Coding\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5270,9 +5270,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Communicable Diseases & DOTS\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
+      "Obstetrics",
       "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
       "Communicable Diseases & DOTS"
     ],
     "correct_answer": "Communicable Diseases & DOTS",
@@ -5308,10 +5308,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Phases\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Phases",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics",
+      "Phases"
     ],
     "correct_answer": "Phases",
     "explanation": "Correct: \"Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5327,10 +5327,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Vaccine Procurement Formula\" in CMPA_W6-10_MIDTERMS?",
     "choices": [
-      "Vaccine Procurement Formula",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Vaccine Procurement Formula",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Vaccine Procurement Formula",
     "explanation": "Correct: \"Vaccine Procurement Formula\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5346,10 +5346,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Obstetrics\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Fetal Circulation & Shunts",
+      "Obstetrics",
       "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics"
+      "Fetal Circulation & Shunts"
     ],
     "correct_answer": "Obstetrics",
     "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5365,8 +5365,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Oogenesis & Follicle Development\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Oogenesis & Follicle Development",
       "Obstetrics",
+      "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases",
       "Fetal Circulation & Shunts"
     ],
@@ -5384,10 +5384,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Menstrual Cycle Phases\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Fetal Circulation & Shunts",
       "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Fetal Circulation & Shunts"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Menstrual Cycle Phases",
     "explanation": "Correct: \"Menstrual Cycle Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5403,10 +5403,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Fetal Circulation & Shunts\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Fetal Circulation & Shunts",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Fetal Circulation & Shunts"
     ],
     "correct_answer": "Fetal Circulation & Shunts",
     "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5423,9 +5423,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Gravidity & Parity\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Menstrual Cycle Phases",
-      "Oogenesis & Follicle Development",
+      "Gravidity & Parity",
       "Obstetrics",
-      "Gravidity & Parity"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Gravidity & Parity",
     "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5442,9 +5442,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Signs of Pregnancy\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Signs of Pregnancy",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Signs of Pregnancy",
     "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5461,9 +5461,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Cardinal Movements\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Cardinal Movements",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Cardinal Movements",
     "explanation": "Correct: \"Cardinal Movements\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5498,10 +5498,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Incompetent Cervix & Cerclage\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Incompetent Cervix & Cerclage"
+      "Incompetent Cervix & Cerclage",
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Incompetent Cervix & Cerclage",
     "explanation": "Correct: \"Incompetent Cervix & Cerclage\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5517,10 +5517,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Hydatidiform Mole\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Menstrual Cycle Phases",
       "Hydatidiform Mole",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics"
     ],
     "correct_answer": "Hydatidiform Mole",
     "explanation": "Correct: \"Hydatidiform Mole\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5536,9 +5536,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Rh Incompatibility & RhoGAM\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Oogenesis & Follicle Development",
       "Rh Incompatibility & RhoGAM",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Rh Incompatibility & RhoGAM",
@@ -5555,9 +5555,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"PIH & Magnesium Sulfate\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "PIH & Magnesium Sulfate",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "PIH & Magnesium Sulfate",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "PIH & Magnesium Sulfate",
@@ -5574,10 +5574,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"GDM\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "GDM"
+      "Menstrual Cycle Phases",
+      "GDM",
+      "Obstetrics"
     ],
     "correct_answer": "GDM",
     "explanation": "Correct: \"GDM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5594,8 +5594,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Hyperemesis Gravidarum\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Hyperemesis Gravidarum",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Hyperemesis Gravidarum",
@@ -5614,8 +5614,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Placenta Previa",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Placenta Previa",
     "explanation": "Correct: \"Placenta Previa\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5632,8 +5632,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Abruptio Placentae\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Abruptio Placentae",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Abruptio Placentae",
@@ -5650,10 +5650,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Umbilical Cord Prolapse\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Umbilical Cord Prolapse"
+      "Menstrual Cycle Phases",
+      "Umbilical Cord Prolapse",
+      "Obstetrics"
     ],
     "correct_answer": "Umbilical Cord Prolapse",
     "explanation": "Correct: \"Umbilical Cord Prolapse\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5669,10 +5669,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"PPH & Uterotonic Drugs\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "PPH & Uterotonic Drugs",
+      "Menstrual Cycle Phases",
       "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "PPH & Uterotonic Drugs"
     ],
     "correct_answer": "PPH & Uterotonic Drugs",
     "explanation": "Correct: \"PPH & Uterotonic Drugs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5689,8 +5689,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Newborn Care & APGAR\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Newborn Care & APGAR",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Newborn Care & APGAR",
@@ -5707,9 +5707,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Vitamin K & Eye Prophylaxis\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Vitamin K & Eye Prophylaxis",
       "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Vitamin K & Eye Prophylaxis",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Vitamin K & Eye Prophylaxis",
@@ -5726,10 +5726,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Heat Loss & Primitive Reflexes\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Heat Loss & Primitive Reflexes"
+      "Menstrual Cycle Phases",
+      "Heat Loss & Primitive Reflexes",
+      "Obstetrics"
     ],
     "correct_answer": "Heat Loss & Primitive Reflexes",
     "explanation": "Correct: \"Heat Loss & Primitive Reflexes\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5745,10 +5745,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Growth & Development Theories\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Growth & Development Theories",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Growth & Development Theories"
     ],
     "correct_answer": "Growth & Development Theories",
     "explanation": "Correct: \"Growth & Development Theories\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5764,10 +5764,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Tetralogy of Fallot\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Tetralogy of Fallot",
+      "Menstrual Cycle Phases",
       "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Tetralogy of Fallot"
     ],
     "correct_answer": "Tetralogy of Fallot",
     "explanation": "Correct: \"Tetralogy of Fallot\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5784,8 +5784,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Clubfoot Ponseti\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Clubfoot Ponseti",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Clubfoot Ponseti",
@@ -5802,10 +5802,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Cleft Lip/Palate\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Obstetrics",
-      "Cleft Lip/Palate"
+      "Menstrual Cycle Phases",
+      "Cleft Lip/Palate",
+      "Obstetrics"
     ],
     "correct_answer": "Cleft Lip/Palate",
     "explanation": "Correct: \"Cleft Lip/Palate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5821,10 +5821,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Hirschsprung\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Hirschsprung",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Hirschsprung",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Hirschsprung",
     "explanation": "Correct: \"Hirschsprung\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5840,10 +5840,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Wilms Tumor\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Wilms Tumor",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics",
+      "Wilms Tumor"
     ],
     "correct_answer": "Wilms Tumor",
     "explanation": "Correct: \"Wilms Tumor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5861,8 +5861,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Asthma",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "Asthma",
     "explanation": "Correct: \"Asthma\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5878,9 +5878,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"ALL\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
       "Obstetrics",
+      "Menstrual Cycle Phases",
       "ALL"
     ],
     "correct_answer": "ALL",
@@ -5898,9 +5898,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"DKA\", what primary outcome or criterion is emphasized?",
     "choices": [
       "DKA",
+      "Menstrual Cycle Phases",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "DKA",
     "explanation": "Correct: \"DKA\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5916,10 +5916,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Rheumatic Fever\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Rheumatic Fever",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics",
+      "Rheumatic Fever"
     ],
     "correct_answer": "Rheumatic Fever",
     "explanation": "Correct: \"Rheumatic Fever\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5935,10 +5935,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Dengue Defervescence Warning Signs\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Dengue Defervescence Warning Signs",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Obstetrics",
+      "Dengue Defervescence Warning Signs"
     ],
     "correct_answer": "Dengue Defervescence Warning Signs",
     "explanation": "Correct: \"Dengue Defervescence Warning Signs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5954,10 +5954,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"STIs & HPV Vaccine\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
+      "STIs & HPV Vaccine",
       "Oogenesis & Follicle Development",
       "Obstetrics",
-      "STIs & HPV Vaccine"
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "STIs & HPV Vaccine",
     "explanation": "Correct: \"STIs & HPV Vaccine\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5975,8 +5975,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "IMCI Color Coding",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "IMCI Color Coding",
     "explanation": "Correct: \"IMCI Color Coding\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -5992,10 +5992,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Communicable Diseases & DOTS\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Communicable Diseases & DOTS",
       "Obstetrics",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Menstrual Cycle Phases",
+      "Communicable Diseases & DOTS"
     ],
     "correct_answer": "Communicable Diseases & DOTS",
     "explanation": "Correct: \"Communicable Diseases & DOTS\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -6011,10 +6011,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"COPAR\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Menstrual Cycle Phases",
       "COPAR",
       "Obstetrics",
-      "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Oogenesis & Follicle Development"
     ],
     "correct_answer": "COPAR",
     "explanation": "Correct: \"COPAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -6030,10 +6030,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Phases\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Menstrual Cycle Phases",
+      "Phases",
       "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Phases"
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Phases",
     "explanation": "Correct: \"Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -6050,8 +6050,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Vaccine Procurement Formula\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Vaccine Procurement Formula",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Vaccine Procurement Formula",
@@ -6068,9 +6068,9 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 115: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Obstetrics?",
     "choices": [
-      "Obstetrics",
       "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases",
+      "Obstetrics",
       "Fetal Circulation & Shunts"
     ],
     "correct_answer": "Obstetrics",
@@ -6089,8 +6089,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Oogenesis & Follicle Development",
       "Obstetrics",
-      "Menstrual Cycle Phases",
-      "Fetal Circulation & Shunts"
+      "Fetal Circulation & Shunts",
+      "Menstrual Cycle Phases"
     ],
     "correct_answer": "Oogenesis & Follicle Development",
     "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -6107,8 +6107,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 117: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Menstrual Cycle Phases?",
     "choices": [
       "Fetal Circulation & Shunts",
-      "Oogenesis & Follicle Development",
       "Obstetrics",
+      "Oogenesis & Follicle Development",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Menstrual Cycle Phases",
@@ -6125,10 +6125,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 118: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Fetal Circulation & Shunts?",
     "choices": [
-      "Fetal Circulation & Shunts",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Obstetrics",
+      "Fetal Circulation & Shunts"
     ],
     "correct_answer": "Fetal Circulation & Shunts",
     "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -6144,10 +6144,10 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 119: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Gravidity & Parity?",
     "choices": [
-      "Gravidity & Parity",
-      "Obstetrics",
+      "Menstrual Cycle Phases",
       "Oogenesis & Follicle Development",
-      "Menstrual Cycle Phases"
+      "Gravidity & Parity",
+      "Obstetrics"
     ],
     "correct_answer": "Gravidity & Parity",
     "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
@@ -6164,8 +6164,8 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 120: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Signs of Pregnancy?",
     "choices": [
       "Signs of Pregnancy",
-      "Obstetrics",
       "Oogenesis & Follicle Development",
+      "Obstetrics",
       "Menstrual Cycle Phases"
     ],
     "correct_answer": "Signs of Pregnancy",

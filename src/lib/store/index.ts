@@ -436,6 +436,17 @@ export class StudyMateStore {
         list = [...list, ...missing];
         needsUpdate = true;
       }
+
+      // Sync balanced choices for initial questions if they differ from stored cache
+      for (let i = 0; i < list.length; i++) {
+        const initQ = initialMap.get(list[i].id);
+        if (initQ && initQ.question_type === 'multiple_choice' && initQ.choices) {
+          if (JSON.stringify(list[i].choices) !== JSON.stringify(initQ.choices)) {
+            list[i] = { ...list[i], choices: initQ.choices, correct_answer: initQ.correct_answer };
+            needsUpdate = true;
+          }
+        }
+      }
     }
 
     if (needsUpdate || hasLegacy) {

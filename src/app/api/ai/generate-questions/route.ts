@@ -389,6 +389,32 @@ function parseAndValidateQuestions(
       if (!choices.includes(correctAnswer)) {
         choices[0] = correctAnswer || choices[0];
       }
+
+      // Balance correct answer position across A, B, C, D (0, 1, 2, 3)
+      const correctIdx = choices.findIndex(c => c.trim().toLowerCase() === correctAnswer.trim().toLowerCase());
+      if (correctIdx !== -1) {
+        const correctChoice = choices[correctIdx];
+        const distractors = choices.filter((_, idx) => idx !== correctIdx);
+        while (distractors.length < 3) {
+          distractors.push(`Alternative option ${distractors.length + 1}`);
+        }
+        // Shuffle distractors
+        for (let d = distractors.length - 1; d > 0; d--) {
+          const rand = Math.floor(Math.random() * (d + 1));
+          [distractors[d], distractors[rand]] = [distractors[rand], distractors[d]];
+        }
+        const targetIdx = index % 4;
+        const balancedChoices: string[] = [];
+        let dPtr = 0;
+        for (let pos = 0; pos < 4; pos++) {
+          if (pos === targetIdx) {
+            balancedChoices.push(correctChoice);
+          } else {
+            balancedChoices.push(distractors[dPtr++]);
+          }
+        }
+        choices = balancedChoices;
+      }
     } else if (qType === 'true_false') {
       const lower = correctAnswer.toLowerCase();
       correctAnswer = lower.includes('true') ? 'True' : 'False';

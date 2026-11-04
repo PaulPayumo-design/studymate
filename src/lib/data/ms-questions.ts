@@ -9,10 +9,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the outermost protective tissue layer of the heart called?",
     "choices": [
-      "Endocardium",
-      "Myocardium",
       "Epicardium",
-      "Pericardial cavity"
+      "Pericardial cavity",
+      "Endocardium",
+      "Myocardium"
     ],
     "correct_answer": "Epicardium",
     "explanation": "The heart has three layers of cardiac muscle tissue: Epicardium (outermost layer), Myocardium (middle layer), and Endocardium (innermost layer).",
@@ -28,10 +28,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which heart chamber is characterized as the largest and most muscular chamber?",
     "choices": [
-      "Right Atrium",
+      "Left Ventricle",
       "Right Ventricle",
       "Left Atrium",
-      "Left Ventricle"
+      "Right Atrium"
     ],
     "correct_answer": "Left Ventricle",
     "explanation": "The Left Ventricle is the largest and most muscular chamber of the heart.",
@@ -48,9 +48,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "During which phase of the cardiac cycle do the left coronary arteries receive the majority of their blood flow?",
     "choices": [
       "Systole",
-      "Diastole",
+      "Ejection phase",
       "Isovolumetric contraction",
-      "Ejection phase"
+      "Diastole"
     ],
     "correct_answer": "Diastole",
     "explanation": "The left coronary arteries receive most of their blood flow during diastole, when the myocardium relaxes and coronary vessels are less compressed.",
@@ -66,8 +66,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which electrophysiologic property of the heart describes the ability of cardiac cells to initiate an electrical impulse spontaneously and repetitively?",
     "choices": [
-      "Excitability",
       "Automaticity",
+      "Excitability",
       "Conductivity",
       "Contractility"
     ],
@@ -87,8 +87,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "60-100 beats/min",
       "40-60 beats/min",
-      "20-40 beats/min",
-      "10-20 beats/min"
+      "10-20 beats/min",
+      "20-40 beats/min"
     ],
     "correct_answer": "20-40 beats/min",
     "explanation": "The intrinsic rate of the Purkinje fibers is 20-40 beats/min.",
@@ -104,10 +104,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "If a patient has a heart rate of 75 beats/min and a stroke volume of 70 mL/beat, what is the calculated cardiac output?",
     "choices": [
-      "4.20 L/min",
-      "4.80 L/min",
       "5.25 L/min",
-      "6.10 L/min"
+      "4.20 L/min",
+      "6.10 L/min",
+      "4.80 L/min"
     ],
     "correct_answer": "5.25 L/min",
     "explanation": "Cardiac Output = HR x SV = 75 beats/min x 70 mL/beat = 5,250 mL/min, which is approximately 5.25 L/min.",
@@ -123,10 +123,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "How is preload defined in cardiovascular hemodynamics?",
     "choices": [
-      "Resistance against which the ventricle ejects blood",
       "Ventricular filling and myocardial stretch at the end of diastole",
-      "Strength of myocardial contraction independent of loading conditions",
-      "Volume of blood pumped by one ventricle per minute"
+      "Volume of blood pumped by one ventricle per minute",
+      "Resistance against which the ventricle ejects blood",
+      "Strength of myocardial contraction independent of loading conditions"
     ],
     "correct_answer": "Ventricular filling and myocardial stretch at the end of diastole",
     "explanation": "Preload is defined as ventricular filling and myocardial stretch at the end of diastole.",
@@ -142,10 +142,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following is categorized as a non-modifiable risk factor for coronary artery disease (CAD)?",
     "choices": [
-      "Hypertension",
-      "Dyslipidemia (LDL)",
       "Cigarette smoking",
-      "Increasing age"
+      "Increasing age",
+      "Dyslipidemia (LDL)",
+      "Hypertension"
     ],
     "correct_answer": "Increasing age",
     "explanation": "Non-modifiable factors for CAD include increasing age, family history of premature cardiovascular disease, and inherited predisposition.",
@@ -161,10 +161,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "An elevated serum level of homocysteine (> 15 mmol/L) increases CAD risk by which mechanism?",
     "choices": [
-      "Enhancing myocardial contractility",
-      "Blocking nitric oxide on endothelium, making cell walls less elastic",
       "Accelerating renal clearance of LDL",
-      "Stimulating excessive high-density lipoproteins"
+      "Enhancing myocardial contractility",
+      "Stimulating excessive high-density lipoproteins",
+      "Blocking nitric oxide on endothelium, making cell walls less elastic"
     ],
     "correct_answer": "Blocking nitric oxide on endothelium, making cell walls less elastic",
     "explanation": "Elevated homocysteine blocks nitric oxide on the endothelium, making the cell wall less elastic and permitting plaque to build up.",
@@ -181,9 +181,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which cardiac biomarker rises earliest after a myocardial infarction, typically within 30 minutes to 2 hours?",
     "choices": [
       "Troponin",
+      "LDH1",
       "CK-MB",
-      "Myoglobin",
-      "LDH1"
+      "Myoglobin"
     ],
     "correct_answer": "Myoglobin",
     "explanation": "Myoglobin increases within 30 minutes to 2 hours after myocardial infarction, making it the earliest marker to rise.",
@@ -199,8 +199,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "How long does serum Troponin typically remain elevated following the onset of an acute myocardial infarction?",
     "choices": [
-      "2 to 3 days",
       "7 days",
+      "2 to 3 days",
       "14 days",
       "21 days"
     ],
@@ -218,9 +218,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What type of angina is characterized by chest discomfort occurring at rest secondary to coronary artery spasm?",
     "choices": [
+      "Nocturnal angina",
       "Stable angina",
       "Vasospastic (Prinzmetal) angina",
-      "Nocturnal angina",
       "Post-infarction angina"
     ],
     "correct_answer": "Vasospastic (Prinzmetal) angina",
@@ -237,10 +237,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "According to the functional classification of angina, which class describes angina occurring with marked limitation during walking 1-2 blocks or climbing one flight of stairs?",
     "choices": [
-      "Class I",
-      "Class II",
+      "Class IV",
       "Class III",
-      "Class IV"
+      "Class II",
+      "Class I"
     ],
     "correct_answer": "Class III",
     "explanation": "Class III is marked limitation; angina occurs with walking 1-2 blocks or climbing one flight of stairs at a normal pace.",
@@ -256,10 +256,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the primary surgical purpose of Percutaneous Transluminal Coronary Angioplasty (PTCA)?",
     "choices": [
-      "To remove atherosclerotic plaque completely using a blade",
       "To compress the plaque against the walls of the artery and dilate the vessel",
       "To create a bypass graft around the occluded coronary artery",
-      "To deliver laser energy that vaporizes the thrombus"
+      "To deliver laser energy that vaporizes the thrombus",
+      "To remove atherosclerotic plaque completely using a blade"
     ],
     "correct_answer": "To compress the plaque against the walls of the artery and dilate the vessel",
     "explanation": "PTCA compresses the plaque against the walls of the artery and dilates the vessel.",
@@ -275,10 +275,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the maximum number of sublingual nitroglycerin doses a patient should take for acute chest pain before seeking emergency care?",
     "choices": [
-      "1 dose only",
-      "2 doses at 10-minute intervals",
       "3 doses at 5-minute intervals",
-      "5 doses at 3-minute intervals"
+      "5 doses at 3-minute intervals",
+      "1 dose only",
+      "2 doses at 10-minute intervals"
     ],
     "correct_answer": "3 doses at 5-minute intervals",
     "explanation": "Nitroglycerin sublingual protocol: max of 3 doses at 5-minute intervals.",
@@ -294,10 +294,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Why is Propranolol contraindicated in clients diagnosed with asthma and diabetes mellitus?",
     "choices": [
-      "It causes severe hypokalemia and hypernatremia",
-      "It causes bronchospasm and masks symptoms of hypoglycemia",
+      "It stimulates severe coronary vasospasm and hypertensive crisis",
       "It induces sudden massive fluid retention and acute pulmonary edema",
-      "It stimulates severe coronary vasospasm and hypertensive crisis"
+      "It causes severe hypokalemia and hypernatremia",
+      "It causes bronchospasm and masks symptoms of hypoglycemia"
     ],
     "correct_answer": "It causes bronchospasm and masks symptoms of hypoglycemia",
     "explanation": "Propranolol causes bronchospasm and hypoglycemia/masks hypoglycemic symptoms, so it is contraindicated in asthma and diabetes mellitus.",
@@ -313,8 +313,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When administering Heparin sodium, what is the normal therapeutic target range for PTT?",
     "choices": [
-      "20 - 35 seconds",
       "46 - 70 seconds",
+      "20 - 35 seconds",
       "80 - 110 seconds",
       "120 - 150 seconds"
     ],
@@ -333,9 +333,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the specific antidote that must be kept readily available for a patient receiving Heparin?",
     "choices": [
       "Vitamin K",
-      "Protamine Sulfate",
       "Flumazenil",
-      "Calcium Gluconate"
+      "Calcium Gluconate",
+      "Protamine Sulfate"
     ],
     "correct_answer": "Protamine Sulfate",
     "explanation": "Protamine sulfate is the specific antidote for Heparin; Vitamin K is for Coumadin (Warfarin).",
@@ -351,10 +351,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "A patient taking statin therapy (such as Atorvastatin or Simvastatin) should be instructed to report which symptom as a sign of potential liver toxicity?",
     "choices": [
+      "Hyperactive deep tendon reflexes",
       "Clay-colored stools",
       "Bright red blood in urine",
-      "Persistent dry nonproductive cough",
-      "Hyperactive deep tendon reflexes"
+      "Persistent dry nonproductive cough"
     ],
     "correct_answer": "Clay-colored stools",
     "explanation": "Statins are liver toxic; clients must be taught to report \"clay-colored stools\" and report unexplained muscle pain (rhabdomyolysis risk).",
@@ -370,10 +370,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which acronym outlines the essential immediate nursing management for a client experiencing chest pain during an acute MI?",
     "choices": [
-      "RACE",
       "OMEN",
-      "PASS",
-      "SOAP"
+      "SOAP",
+      "RACE",
+      "PASS"
     ],
     "correct_answer": "OMEN",
     "explanation": "Initial management during MI: OMEN — Oxygen therapy, Morphine via IV, ECG monitoring, Nitroglycerin (sublingual).",
@@ -409,9 +409,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which medication is strictly contraindicated in patients taking nitrates due to the life-threatening risk of profound refractory hypotension and death?",
     "choices": [
       "Metformin",
-      "Sildenafil (Viagra)",
       "Lisinopril",
-      "Aspirin"
+      "Aspirin",
+      "Sildenafil (Viagra)"
     ],
     "correct_answer": "Sildenafil (Viagra)",
     "explanation": "NO viagra Sildenafil = DEATH! Combining nitrates and PDE-5 inhibitors results in catastrophic hypotension.",
@@ -447,9 +447,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "A client recovering from a myocardial infarction asks when sexual activity can be safely resumed. What guideline should the nurse give?",
     "choices": [
       "Resume immediately upon hospital discharge",
+      "Only after discontinuing all prescribed antiplatelet medications",
       "Resume after 4 to 6 weeks, or when able to climb 2 flights of stairs without difficulty",
-      "Wait at least 6 months regardless of physical condition",
-      "Only after discontinuing all prescribed antiplatelet medications"
+      "Wait at least 6 months regardless of physical condition"
     ],
     "correct_answer": "Resume after 4 to 6 weeks, or when able to climb 2 flights of stairs without difficulty",
     "explanation": "Sexual activity may be resumed after 4 - 6 weeks from discharge or when client can go up 2 flights of stairs without difficulty.",
@@ -465,10 +465,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which clinical manifestation is characteristic of right-sided heart failure rather than left-sided heart failure?",
     "choices": [
-      "Crackles in the lungs",
       "Dyspnea and orthopnea",
-      "Dependent edema and jugular venous distention",
-      "Dry, hacking cough and pulmonary congestion"
+      "Dry, hacking cough and pulmonary congestion",
+      "Crackles in the lungs",
+      "Dependent edema and jugular venous distention"
     ],
     "correct_answer": "Dependent edema and jugular venous distention",
     "explanation": "Right-sided HF causes systemic venous congestion: dependent edema (legs and sacrum), JVD, hepatomegaly, and abdominal distention.",
@@ -484,10 +484,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In assessing heart failure severity, what serum B-type Natriuretic Peptide (BNP) value indicates SEVERE heart failure?",
     "choices": [
-      "BNP 100+ pg/mL",
       "BNP 300+ pg/mL",
-      "BNP 600+ pg/mL",
-      "BNP 900+ pg/mL"
+      "BNP 900+ pg/mL",
+      "BNP 100+ pg/mL",
+      "BNP 600+ pg/mL"
     ],
     "correct_answer": "BNP 900+ pg/mL",
     "explanation": "Labs BNP \"Broken Ventricles\": 300+ Mild, 600+ Moderate, 900+ SEVERE HF.",
@@ -503,10 +503,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What echocardiogram Left Ventricular Ejection Fraction (LVEF) value confirms the diagnosis of heart failure?",
     "choices": [
-      "LVEF of 55% to 70%",
-      "LVEF of 40% or LESS",
+      "LVEF greater than 75%",
       "LVEF between 50% and 54%",
-      "LVEF greater than 75%"
+      "LVEF of 40% or LESS",
+      "LVEF of 55% to 70%"
     ],
     "correct_answer": "LVEF of 40% or LESS",
     "explanation": "Echocardiogram: Ejection Fraction 40% or LESS is HF! (Normal is 55-70%).",
@@ -522,9 +522,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the priority nursing action for a client experiencing an acute pulmonary edema crisis according to the HOPE protocol?",
     "choices": [
-      "Elevate head of bed (HOB) to 45 degrees or higher (semi-Fowler's, high-Fowler's, or orthopneic position)",
-      "Administer rapid intravenous normal saline bolus of 1,000 mL",
       "Place the client flat in Trendelenburg position",
+      "Administer rapid intravenous normal saline bolus of 1,000 mL",
+      "Elevate head of bed (HOB) to 45 degrees or higher (semi-Fowler's, high-Fowler's, or orthopneic position)",
       "Encourage deep breathing while drinking cold fluids"
     ],
     "correct_answer": "Elevate head of bed (HOB) to 45 degrees or higher (semi-Fowler's, high-Fowler's, or orthopneic position)",
@@ -541,10 +541,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In educating a heart failure patient on daily weight monitoring, what amount of weight gain indicates worsening fluid retention that must be reported?",
     "choices": [
-      "Over 1 lb in 2 weeks",
-      "Over 3 lbs in a day or 5 lbs in 7 days",
       "Over 0.5 lb overnight",
-      "Exactly 2 lbs over a month"
+      "Over 3 lbs in a day or 5 lbs in 7 days",
+      "Exactly 2 lbs over a month",
+      "Over 1 lb in 2 weeks"
     ],
     "correct_answer": "Over 3 lbs in a day or 5 lbs in 7 days",
     "explanation": "DR. BEDS guidelines: Daily Weights and I&Os — Over 3 lbs/day or 5 lbs in 7 days indicates worsening fluid retention.",
@@ -561,8 +561,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which adverse side effect is uniquely associated with ACE inhibitors (such as Lisinopril) and absent in ARBs (Losartan)?",
     "choices": [
       "Hypokalemia and alkalosis",
-      "Dry, persistent cough and angioedema risk",
       "Sudden bradycardia below 40 bpm",
+      "Dry, persistent cough and angioedema risk",
       "Marked urinary retention"
     ],
     "correct_answer": "Dry, persistent cough and angioedema risk",
@@ -580,9 +580,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What dietary teaching is essential for a client prescribed the potassium-sparing diuretic Spironolactone?",
     "choices": [
       "Increase consumption of bananas, melons, and green leafy vegetables",
-      "Avoid salt substitutes, melons, and green leafy vegetables",
+      "Drink at least 4 liters of water daily",
       "Add table salt generously to daily meals",
-      "Drink at least 4 liters of water daily"
+      "Avoid salt substitutes, melons, and green leafy vegetables"
     ],
     "correct_answer": "Avoid salt substitutes, melons, and green leafy vegetables",
     "explanation": "Spironolactone spares potassium; patients must AVOID salt substitutes (which contain KCl), melons, and green leafy vegetables to prevent hyperkalemia.",
@@ -598,10 +598,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Prior to administering Digoxin, the nurse must assess which parameter for one full minute?",
     "choices": [
-      "Respiratory rate",
-      "Apical pulse",
       "Blood pressure",
-      "Radial pulse bilaterally"
+      "Radial pulse bilaterally",
+      "Apical pulse",
+      "Respiratory rate"
     ],
     "correct_answer": "Apical pulse",
     "explanation": "Nursing priority for Digoxin: Check apical pulse for 1 full minute prior to administration; hold if pulse is below parameter.",
@@ -618,9 +618,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the drug of choice for treating acute symptomatic sinus bradycardia?",
     "choices": [
       "Adenosine",
+      "Lidocaine",
       "Atropine Sulfate",
-      "Amiodarone",
-      "Lidocaine"
+      "Amiodarone"
     ],
     "correct_answer": "Atropine Sulfate",
     "explanation": "For symptomatic sinus bradycardia, the drug of choice is Atropine Sulfate.",
@@ -636,9 +636,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the major long-term clinical complication associated with Atrial Fibrillation due to atrial blood stasis?",
     "choices": [
-      "Thromboembolic stroke",
-      "Spontaneous pneumothorax",
       "Acute pancreatitis",
+      "Spontaneous pneumothorax",
+      "Thromboembolic stroke",
       "Rhabdomyolysis"
     ],
     "correct_answer": "Thromboembolic stroke",
@@ -655,8 +655,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "On an ECG, how is Atrial Flutter typically identified?",
     "choices": [
-      "Absent QRS complexes",
       "Sawtooth flutter waves with regular or irregular ventricular rhythm",
+      "Absent QRS complexes",
       "Widened, bizarre QRS complexes greater than 0.20 sec",
       "Progressive PR lengthening until a beat is dropped"
     ],
@@ -674,10 +674,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the first-line medication administered via rapid IV push for persistent, stable Supraventricular Tachycardia (SVT)?",
     "choices": [
+      "Dopamine",
       "Adenosine",
       "Epinephrine",
-      "Atropine",
-      "Dopamine"
+      "Atropine"
     ],
     "correct_answer": "Adenosine",
     "explanation": "For persistent stable SVT with a regular narrow-complex rhythm, administer IV adenosine (rapid infusion 6mg > 12mg > 12mg) with continuous ECG monitoring.",
@@ -693,9 +693,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "A rhythm strip demonstrates a premature, wide, bizarre QRS complex recurring every second beat (Normal, PVC, Normal, PVC). How is this pattern classified?",
     "choices": [
+      "Ventricular Quadrigeminy",
       "Ventricular Trigeminy",
       "Ventricular Bigeminy",
-      "Ventricular Quadrigeminy",
       "Couplet"
     ],
     "correct_answer": "Ventricular Bigeminy",
@@ -712,9 +712,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which electrolyte imbalances are documented common triggers for Premature Ventricular Contractions (PVCs)?",
     "choices": [
-      "Hypernatremia and hypercalcemia",
       "Hypokalemia and hypomagnesemia",
       "Hyperphosphatemia and hyperchloremia",
+      "Hypernatremia and hypercalcemia",
       "Hyponatremia and hypoglycemia"
     ],
     "correct_answer": "Hypokalemia and hypomagnesemia",
@@ -731,10 +731,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the defining clinical difference between nonsustained and sustained Ventricular Tachycardia (VT)?",
     "choices": [
-      "Nonsustained VT lasts less than 30 seconds, while sustained VT lasts 30 seconds or longer",
-      "Nonsustained VT has narrow QRS complexes, while sustained VT has wide complexes",
+      "Nonsustained VT has no pulse, while sustained always maintains normal blood pressure",
       "Nonsustained VT originates from the atria, while sustained originates from ventricles",
-      "Nonsustained VT has no pulse, while sustained always maintains normal blood pressure"
+      "Nonsustained VT lasts less than 30 seconds, while sustained VT lasts 30 seconds or longer",
+      "Nonsustained VT has narrow QRS complexes, while sustained VT has wide complexes"
     ],
     "correct_answer": "Nonsustained VT lasts less than 30 seconds, while sustained VT lasts 30 seconds or longer",
     "explanation": "Types of VT: Nonsustained VT stops spontaneously and typically lasts within 30 seconds; sustained VT lasts 30 seconds or longer and causes hemodynamic compromise.",
@@ -750,10 +750,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the primary medication indicated for the management of Torsades de Pointes?",
     "choices": [
-      "Intravenous Calcium Chloride",
       "Intravenous Magnesium Sulfate",
-      "Intravenous Sodium Bicarbonate",
-      "Intravenous Potassium Phosphate"
+      "Intravenous Potassium Phosphate",
+      "Intravenous Calcium Chloride",
+      "Intravenous Sodium Bicarbonate"
     ],
     "correct_answer": "Intravenous Magnesium Sulfate",
     "explanation": "Torsades de Pointes management: IV magnesium sulfate for appropriate cases; immediate defibrillation if pulseless.",
@@ -769,10 +769,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the recommended defibrillation energy level for an initial biphasic unsynchronized shock in Ventricular Fibrillation (VF)?",
     "choices": [
-      "50 to 100 J",
-      "120 to 200 J",
       "300 J",
-      "360 J"
+      "120 to 200 J",
+      "360 J",
+      "50 to 100 J"
     ],
     "correct_answer": "120 to 200 J",
     "explanation": "Defibrillation unsynchronized shock energy levels: Biphasic is 120–200 J; Monophasic is 360 J.",
@@ -788,10 +788,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which ECG characteristic identifies a Second-Degree AV Block, Mobitz Type I (Wenckebach)?",
     "choices": [
-      "Constant PR interval greater than 0.20 sec without dropped QRS",
       "PR interval progressively lengthens until a QRS complex is dropped",
-      "Independent firing of P waves and QRS complexes",
-      "Sudden intermittent dropped QRS complexes without progressive PR lengthening"
+      "Sudden intermittent dropped QRS complexes without progressive PR lengthening",
+      "Constant PR interval greater than 0.20 sec without dropped QRS",
+      "Independent firing of P waves and QRS complexes"
     ],
     "correct_answer": "PR interval progressively lengthens until a QRS complex is dropped",
     "explanation": "Mobitz I (Wenckebach) is characterized by PR intervals that progressively lengthen until a QRS complex is dropped (\"Longer, longer, longer, drop! Then you have a Wenckebach\").",
@@ -807,10 +807,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which cardiac dysrhythmias are classified as SHOCKABLE cardiac arrest rhythms?",
     "choices": [
-      "Asystole and Pulseless Electrical Activity (PEA)",
-      "Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (pVT)",
       "Sinus Bradycardia and First-Degree AV Block",
-      "Atrial Fibrillation and Complete Heart Block"
+      "Asystole and Pulseless Electrical Activity (PEA)",
+      "Atrial Fibrillation and Complete Heart Block",
+      "Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (pVT)"
     ],
     "correct_answer": "Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (pVT)",
     "explanation": "Shockable rhythms: Ventricular fibrillation (VF) and Pulseless ventricular tachycardia (pVT). Non-shockable rhythms: Asystole and PEA.",
@@ -826,10 +826,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "During resuscitation of confirmed Asystole, which emergency medication is administered every 3 to 5 minutes?",
     "choices": [
-      "Atropine 0.5 mg IV",
       "Epinephrine 1 mg IV",
-      "Amiodarone 300 mg IV",
-      "Adenosine 6 mg IV"
+      "Adenosine 6 mg IV",
+      "Atropine 0.5 mg IV",
+      "Amiodarone 300 mg IV"
     ],
     "correct_answer": "Epinephrine 1 mg IV",
     "explanation": "Asystole emergency management: Administer epinephrine 1 mg IV every 3–5 minutes according to ACLS adult cardiac arrest algorithm.",
@@ -846,9 +846,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the normal physiologic range for Cardiac Output (CO) in an adult?",
     "choices": [
       "1.0 to 3.0 L/min",
-      "2.5 to 4.0 L/min",
       "4.0 to 8.0 L/min",
-      "8.5 to 12.0 L/min"
+      "8.5 to 12.0 L/min",
+      "2.5 to 4.0 L/min"
     ],
     "correct_answer": "4.0 to 8.0 L/min",
     "explanation": "Cardiac Output normal limits are 4.0 to 8.0 L/min.",
@@ -864,8 +864,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "A Cardiac Index (CI) value below which threshold represents an immediate threat to tissue oxygenation requiring treatment?",
     "choices": [
-      "< 4.0 L/min/m²",
       "< 3.0 L/min/m²",
+      "< 4.0 L/min/m²",
       "< 2.5 L/min/m²",
       "< 2.2 L/min/m²"
     ],
@@ -884,9 +884,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In hemodynamic monitoring, what does Central Venous Pressure (CVP) directly estimate?",
     "choices": [
       "Left Ventricular End-Diastolic Pressure (LVEDP)",
+      "Systemic Vascular Resistance",
       "Right Ventricular End-Diastolic Pressure (RVEDP)",
-      "Mean Pulmonary Artery Pressure",
-      "Systemic Vascular Resistance"
+      "Mean Pulmonary Artery Pressure"
     ],
     "correct_answer": "Right Ventricular End-Diastolic Pressure (RVEDP)",
     "explanation": "Central Venous Pressure (CVP) is an estimate of Right Ventricular End-Diastolic Pressure (RVEDP) and assesses right ventricular performance.",
@@ -902,9 +902,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the normal reference range for Pulmonary Capillary Wedge Pressure (PCWP/PAOP)?",
     "choices": [
-      "2 to 6 mmHg",
       "8 to 12 mmHg",
       "15 to 20 mmHg",
+      "2 to 6 mmHg",
       "25 to 30 mmHg"
     ],
     "correct_answer": "8 to 12 mmHg",
@@ -921,10 +921,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the normal reference range for Systemic Vascular Resistance (SVR)?",
     "choices": [
-      "40 to 150 dynes/sec/cm⁵",
       "400 to 700 dynes/sec/cm⁵",
       "900 to 1300 dynes/sec/cm⁵",
-      "1800 to 2400 dynes/sec/cm⁵"
+      "1800 to 2400 dynes/sec/cm⁵",
+      "40 to 150 dynes/sec/cm⁵"
     ],
     "correct_answer": "900 to 1300 dynes/sec/cm⁵",
     "explanation": "Normal limits for Systemic Vascular Resistance (SVR) are 900 - 1300 dynes/sec/cm⁵ (reflects LV afterload).",
@@ -940,10 +940,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "To ensure accurate hemodynamic pressure readings, where should the external pressure transducer be leveled?",
     "choices": [
-      "Sternal notch at 2nd intercostal space",
-      "Right atrium level at the midaxillary line, 4th intercostal space",
       "Xiphoid process in left lateral position",
-      "Midclavicular line, 5th intercostal space"
+      "Midclavicular line, 5th intercostal space",
+      "Right atrium level at the midaxillary line, 4th intercostal space",
+      "Sternal notch at 2nd intercostal space"
     ],
     "correct_answer": "Right atrium level at the midaxillary line, 4th intercostal space",
     "explanation": "Nursing care: Transducer should be leveled at the Right Atrium level (phlebostatic axis: midaxillary line at the 4th intercostal space).",
@@ -959,10 +959,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "According to ECG territory lead localization, which leads reflect an INFERIOR wall myocardial infarction?",
     "choices": [
-      "Leads V1 and V2",
+      "Leads I, aVL, V5, and V6",
       "Leads V3 and V4",
-      "Leads II, III, and aVF",
-      "Leads I, aVL, V5, and V6"
+      "Leads V1 and V2",
+      "Leads II, III, and aVF"
     ],
     "correct_answer": "Leads II, III, and aVF",
     "explanation": "Twelve-lead ECG territory: Inferior wall is represented by Leads II, III, and aVF.",
@@ -978,10 +978,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the mnemonic \"MARROW\" for Right Bundle Branch Block (RBBB), what ECG appearance is seen in Lead V1?",
     "choices": [
-      "\"W\" appearance in V1",
+      "Flatline with compensatory pause",
       "\"M\" appearance in V1",
       "Inverted T wave with no QRS",
-      "Flatline with compensatory pause"
+      "\"W\" appearance in V1"
     ],
     "correct_answer": "\"M\" appearance in V1",
     "explanation": "MARROW mnemonic for RBBB: \"M\" appearance in V1 and normal appearance or slurred S wave (\"W\") in V6. (WILLIAM is for LBBB).",
@@ -998,8 +998,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the emergency intervention for a tension pneumothorax causing pulseless electrical activity (PEA)?",
     "choices": [
       "Pericardiocentesis",
-      "Needle decompression",
       "Alteplase 50 mg bolus",
+      "Needle decompression",
       "Active warming measures"
     ],
     "correct_answer": "Needle decompression",
@@ -1016,10 +1016,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the anatomical boundary that distinguishes an Upper Gastrointestinal Bleed (UGIB) from a Lower Gastrointestinal Bleed (LGIB)?",
     "choices": [
-      "Pyloric sphincter",
+      "Ileocecal valve",
       "Ligament of Treitz",
-      "Sphincter of Oddi",
-      "Ileocecal valve"
+      "Pyloric sphincter",
+      "Sphincter of Oddi"
     ],
     "correct_answer": "Ligament of Treitz",
     "explanation": "UGIB originates proximal to the ligament of Treitz; LGIB originates distal to the ligament of Treitz.",
@@ -1035,9 +1035,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the primary medication administered to reduce blood ammonia levels in a patient with liver cirrhosis and hepatic encephalopathy?",
     "choices": [
-      "Furosemide",
       "Lactulose",
       "Spironolactone",
+      "Furosemide",
       "Propranolol"
     ],
     "correct_answer": "Lactulose",
@@ -1073,9 +1073,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What are the diagnostic blood glucose, arterial pH, and bicarbonate criteria for Diabetic Ketoacidosis (DKA)?",
     "choices": [
-      "Blood glucose < 140 mg/dL, pH > 7.45, HCO3 > 24 mEq/L",
-      "Blood glucose >= 250 mg/dL, pH < 7.30, HCO3 < 18 mEq/L",
       "Blood glucose >= 600 mg/dL, pH > 7.30, HCO3 > 18 mEq/L",
+      "Blood glucose >= 250 mg/dL, pH < 7.30, HCO3 < 18 mEq/L",
+      "Blood glucose < 140 mg/dL, pH > 7.45, HCO3 > 24 mEq/L",
       "Blood glucose >= 200 mg/dL, pH 7.35-7.45, HCO3 22-26 mEq/L"
     ],
     "correct_answer": "Blood glucose >= 250 mg/dL, pH < 7.30, HCO3 < 18 mEq/L",
@@ -1092,10 +1092,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which laboratory finding is characteristic of the Syndrome of Inappropriate Antidiuretic Hormone (SIADH)?",
     "choices": [
-      "High serum sodium (> 150 mEq/L)",
       "Dilutional hyponatremia (serum Na+ < 135 mEq/L) with concentrated urine (Specific Gravity > 1.030)",
-      "Marked hyperosmolality of serum (> 320 mOsm/kg)",
-      "Massive dilute polyuria with low urine specific gravity"
+      "Massive dilute polyuria with low urine specific gravity",
+      "High serum sodium (> 150 mEq/L)",
+      "Marked hyperosmolality of serum (> 320 mOsm/kg)"
     ],
     "correct_answer": "Dilutional hyponatremia (serum Na+ < 135 mEq/L) with concentrated urine (Specific Gravity > 1.030)",
     "explanation": "SIADH causes fluid retention, dilutional hyponatremia (Na+ < 135 mEq/L), hypoosmolality, and sticky/thick concentrated urine with High Sp. Gravity 1.030+.",
@@ -1111,10 +1111,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which group of potentially nephrotoxic medications should be stopped in Acute Kidney Injury (AKI) according to the \"DAAMN\" acronym?",
     "choices": [
+      "Dexamethasone, Ampicillin, Amoxicillin, Nifedipine",
       "Digoxin, Aspirin, Acetaminophen, Morphine, Naloxone",
-      "Diuretics, ACEi/ARBs, Aminoglycosides, Metformin, NSAIDs",
       "Diltiazem, Atropine, Amiodarone, Metoprolol, Nitroglycerin",
-      "Dexamethasone, Ampicillin, Amoxicillin, Nifedipine"
+      "Diuretics, ACEi/ARBs, Aminoglycosides, Metformin, NSAIDs"
     ],
     "correct_answer": "Diuretics, ACEi/ARBs, Aminoglycosides, Metformin, NSAIDs",
     "explanation": "DAAMN acronym: Diuretics, ACEi/ARBs (pril/sartan), Aminoglycosides (mycins), Metformin, NSAIDs.",
@@ -1130,10 +1130,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the priority nursing action if a patient undergoing hemodialysis develops restlessness, disorientation, headache, and vomiting consistent with Dialysis Disequilibrium Syndrome (DDS)?",
     "choices": [
-      "Increase the blood pump speed to finish dialysis rapidly",
-      "Stop or slow the infusion/dialysis and report to the healthcare provider immediately",
+      "Place the patient in a prone position with head tilted downward",
       "Administer 1,000 mL normal saline bolus under pressure",
-      "Place the patient in a prone position with head tilted downward"
+      "Stop or slow the infusion/dialysis and report to the healthcare provider immediately",
+      "Increase the blood pump speed to finish dialysis rapidly"
     ],
     "correct_answer": "Stop or slow the infusion/dialysis and report to the healthcare provider immediately",
     "explanation": "Dialysis Disequilibrium Syndrome (DDS) priority action: Stop or slow infusion and report to provider immediately.",
@@ -2938,10 +2938,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which coronary artery branch supplies blood to the right atrium, right ventricle, inferior heart, and the SA and AV nodes?",
     "choices": [
-      "Left Anterior Descending (LAD)",
-      "Left Circumflex (LCx)",
       "Right Coronary Artery (RCA)",
-      "Internal Mammary Artery"
+      "Left Anterior Descending (LAD)",
+      "Internal Mammary Artery",
+      "Left Circumflex (LCx)"
     ],
     "correct_answer": "Right Coronary Artery (RCA)",
     "explanation": "The RCA (Right Coronary Artery) primarily supplies the right ventricle, right atrium, inferior heart, and often the SA/AV nodes.",
@@ -2958,9 +2958,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "A patient admitted with an acute coronary syndrome presents with T-wave inversion on the 12-lead ECG. What is the clinical interpretation?",
     "choices": [
       "Myocardial infarction necrosis",
-      "Myocardial ischemia",
+      "Acute pulmonary embolism",
       "Hypercalcemia",
-      "Acute pulmonary embolism"
+      "Myocardial ischemia"
     ],
     "correct_answer": "Myocardial ischemia",
     "explanation": "T-wave inversion occurs with myocardial ischemia or other cardiac conditions.",
@@ -2976,10 +2976,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which pharmacological agent is used in a pharmacologic stress test for patients with bronchospastic pulmonary disease?",
     "choices": [
-      "Adenosine",
-      "Dipyridamole",
       "Dobutamine",
-      "Propranolol"
+      "Adenosine",
+      "Propranolol",
+      "Dipyridamole"
     ],
     "correct_answer": "Dobutamine",
     "explanation": "Dobutamine is used in patients with bronchospastic pulmonary disease because it increases myocardial oxygen demand without bronchospasm.",
@@ -2995,10 +2995,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What initial non-invasive action should the nurse take first when a client in stable supraventricular tachycardia (SVT) is identified?",
     "choices": [
+      "Prepare for emergency transvenous pacing",
       "Perform unsynchronized defibrillation",
-      "Attempt vagal maneuvers if appropriate",
       "Administer 1 mg IV Epinephrine",
-      "Prepare for emergency transvenous pacing"
+      "Attempt vagal maneuvers if appropriate"
     ],
     "correct_answer": "Attempt vagal maneuvers if appropriate",
     "explanation": "Stable SVT initial priority intervention: Vagal maneuvers when appropriate.",
@@ -3014,10 +3014,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In Ventricular Tachycardia, when should unsynchronized defibrillation be selected instead of synchronized cardioversion?",
     "choices": [
+      "When blood pressure is 110/70 mmHg",
       "When the patient has stable VT with a pulse",
-      "When the patient is pulseless",
       "When the patient reports mild palpitations",
-      "When blood pressure is 110/70 mmHg"
+      "When the patient is pulseless"
     ],
     "correct_answer": "When the patient is pulseless",
     "explanation": "Pulseless VT requires immediate CPR and unsynchronized defibrillation; unstable VT with a pulse receives synchronized cardioversion.",
@@ -3034,9 +3034,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which AV block is characterized by constant, unchanging PR intervals with sudden, intermittent dropped QRS complexes?",
     "choices": [
       "First-Degree AV Block",
-      "Second-Degree AV Block Mobitz I",
       "Second-Degree AV Block Mobitz II",
-      "Third-Degree AV Block"
+      "Third-Degree AV Block",
+      "Second-Degree AV Block Mobitz I"
     ],
     "correct_answer": "Second-Degree AV Block Mobitz II",
     "explanation": "Mobitz II features intermittent dropped QRS complexes without progressive PR lengthening; PR intervals are constant.",
@@ -3071,10 +3071,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which clinical parameter reflects Left Ventricular Afterload in derived hemodynamic calculations?",
     "choices": [
+      "Pulmonary Artery Wedge Pressure (PAOP)",
       "Central Venous Pressure (CVP)",
       "Systemic Vascular Resistance (SVR)",
-      "Pulmonary Vascular Resistance (PVR)",
-      "Pulmonary Artery Wedge Pressure (PAOP)"
+      "Pulmonary Vascular Resistance (PVR)"
     ],
     "correct_answer": "Systemic Vascular Resistance (SVR)",
     "explanation": "Systemic Vascular Resistance (SVR) reflects LV afterload; PVR reflects RV afterload.",
@@ -3090,9 +3090,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "A 72-year-old patient with severe heart failure has a Swan-Ganz CVP reading of 12 mmHg (normal 2-8 mmHg). What does this elevated CVP indicate?",
     "choices": [
-      "Severe hypovolemia",
-      "Right ventricular dysfunction or fluid volume excess",
       "Severe dehydration",
+      "Right ventricular dysfunction or fluid volume excess",
+      "Severe hypovolemia",
       "Aortic valve stenosis"
     ],
     "correct_answer": "Right ventricular dysfunction or fluid volume excess",
@@ -3109,10 +3109,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In the gross myocardial tissue timeline following an MI, when does coagulation necrosis begin?",
     "choices": [
-      "0 to 30 minutes",
-      "1 to 2 hours",
       "4 to 12 hours",
-      "3 to 7 days"
+      "0 to 30 minutes",
+      "3 to 7 days",
+      "1 to 2 hours"
     ],
     "correct_answer": "4 to 12 hours",
     "explanation": "Timeline of gross tissue changes: 4-12 hours = Beginning of coagulation necrosis.",
@@ -3128,10 +3128,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which mnemonic summarizes the clinical signs of left-sided heart failure (Fatigue, Orthopnea, Rales/Restlessness, Cyanosis/Confusion, Extreme Weakness, Dyspnea)?",
     "choices": [
-      "BACONED",
-      "FORCED",
+      "EDEMA",
       "HEART",
-      "EDEMA"
+      "FORCED",
+      "BACONED"
     ],
     "correct_answer": "FORCED",
     "explanation": "Congestive Heart Failure Signs: Left Side = FORCED.",
@@ -3148,9 +3148,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In 12-lead ECG localization, which leads reflect the ANTERIOR cardiac wall?",
     "choices": [
       "Leads II, III, aVF",
-      "Leads V1, V2",
+      "Leads I, aVL, V5, V6",
       "Leads V3, V4",
-      "Leads I, aVL, V5, V6"
+      "Leads V1, V2"
     ],
     "correct_answer": "Leads V3, V4",
     "explanation": "Twelve-lead ECG territory: Anterior wall is monitored by Leads V3 and V4.",
@@ -3166,10 +3166,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the treatment for hyperkalemia causing pulseless electrical activity (PEA) arrest?",
     "choices": [
-      "Active warming measures",
+      "Alteplase 50 mg bolus",
       "Needle decompression",
       "Calcium Chloride, Insulin + D50, and Sodium Bicarbonate",
-      "Alteplase 50 mg bolus"
+      "Active warming measures"
     ],
     "correct_answer": "Calcium Chloride, Insulin + D50, and Sodium Bicarbonate",
     "explanation": "PEA arrest reversible causes: Hyperkalemia Rx is CaCl, Insulin + D50, NaHCO3.",
@@ -3185,9 +3185,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the diagnostic value of the FibroScan (Elastography) in hepatobiliary assessment?",
     "choices": [
-      "Detects occult blood in the stool",
-      "Measures liver stiffness to assess fibrosis and cirrhosis",
       "Visualizes active duodenal ulcers",
+      "Measures liver stiffness to assess fibrosis and cirrhosis",
+      "Detects occult blood in the stool",
       "Estimates renal creatinine clearance"
     ],
     "correct_answer": "Measures liver stiffness to assess fibrosis and cirrhosis",
@@ -3223,10 +3223,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which assessment scoring tool is standardly used to evaluate the severity of alcohol withdrawal symptoms and guide treatment?",
     "choices": [
-      "APGAR Scale",
-      "CIWA-AR",
       "Glasgow Coma Scale",
-      "Braden Scale"
+      "Braden Scale",
+      "CIWA-AR",
+      "APGAR Scale"
     ],
     "correct_answer": "CIWA-AR",
     "explanation": "CIWA-AR (Clinical Institute Withdrawal Assessment for Alcohol, Revised) is used to assess withdrawal severity.",
@@ -3242,10 +3242,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which intravenous fluid is recommended for aggressive fluid resuscitation in acute pancreatitis?",
     "choices": [
+      "Sterile Water",
       "0.45% Sodium Chloride",
       "Lactated Ringer's (LR)",
-      "Dextrose 10% in Water",
-      "Sterile Water"
+      "Dextrose 10% in Water"
     ],
     "correct_answer": "Lactated Ringer's (LR)",
     "explanation": "Pharmacologic management of acute pancreatitis: IV fluids — Lactated Ringer's (LR).",
@@ -3261,10 +3261,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which laboratory finding distinguishes Hyperosmolar Hyperglycemic State (HHS) from Diabetic Ketoacidosis (DKA)?",
     "choices": [
-      "Arterial pH < 7.20 and high ketosis",
-      "Severe hyperglycemia (usually >= 600 mg/dL) with minimal or absent ketones and pH > 7.30",
       "Urine specific gravity < 1.005 with hyponatremia",
-      "Rapid onset within 2 hours of missed insulin"
+      "Rapid onset within 2 hours of missed insulin",
+      "Severe hyperglycemia (usually >= 600 mg/dL) with minimal or absent ketones and pH > 7.30",
+      "Arterial pH < 7.20 and high ketosis"
     ],
     "correct_answer": "Severe hyperglycemia (usually >= 600 mg/dL) with minimal or absent ketones and pH > 7.30",
     "explanation": "HHS is characterized by severe hyperglycemia (>= 600 mg/dL), serum osmolality > 320 mOsm/kg, and minimal/absent ketones with pH > 7.30.",
@@ -3280,10 +3280,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the primary medication administered in SIADH to render the renal collecting tubules less sensitive to antidiuretic hormone?",
     "choices": [
-      "Spironolactone",
       "Demeclocycline",
-      "Regular Insulin",
-      "Vasopressin"
+      "Spironolactone",
+      "Vasopressin",
+      "Regular Insulin"
     ],
     "correct_answer": "Demeclocycline",
     "explanation": "Pharmacologic management for SIADH: Demeclocycline (drugs that render the kidneys less sensitive to ADH).",
@@ -3299,10 +3299,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the diagnostic Glomerular Filtration Rate (GFR) criterion for Stage 5 Chronic Kidney Disease (Kidney Failure)?",
     "choices": [
+      "GFR less than 15 mL/min/1.73 m²",
       "GFR 60 to 89 mL/min/1.73 m²",
       "GFR 30 to 59 mL/min/1.73 m²",
-      "GFR 15 to 29 mL/min/1.73 m²",
-      "GFR less than 15 mL/min/1.73 m²"
+      "GFR 15 to 29 mL/min/1.73 m²"
     ],
     "correct_answer": "GFR less than 15 mL/min/1.73 m²",
     "explanation": "GFR categories for CKD: Stage 5 is GFR < 15 mL/min/1.73 m² (Kidney failure).",
@@ -3914,8 +3914,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardiovascular A&P?",
     "choices": [
-      "Electrophysiologic Properties & Conduction System",
       "Heart Valves & Coronary Circulation",
+      "Electrophysiologic Properties & Conduction System",
       "Chambers",
       "Cardiovascular A&P"
     ],
@@ -3933,10 +3933,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Chambers?",
     "choices": [
-      "Chambers",
-      "Cardiovascular A&P",
+      "Electrophysiologic Properties & Conduction System",
       "Heart Valves & Coronary Circulation",
-      "Electrophysiologic Properties & Conduction System"
+      "Cardiovascular A&P",
+      "Chambers"
     ],
     "correct_answer": "Chambers",
     "explanation": "Correct: \"Chambers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -3971,10 +3971,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Electrophysiologic Properties & Conduction System?",
     "choices": [
-      "Electrophysiologic Properties & Conduction System",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Electrophysiologic Properties & Conduction System",
+      "Chambers"
     ],
     "correct_answer": "Electrophysiologic Properties & Conduction System",
     "explanation": "Correct: \"Electrophysiologic Properties & Conduction System\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -3990,10 +3990,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardiac Output & Stroke Volume Factors?",
     "choices": [
+      "Cardiac Output & Stroke Volume Factors",
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Cardiac Output & Stroke Volume Factors"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Cardiac Output & Stroke Volume Factors",
     "explanation": "Correct: \"Cardiac Output & Stroke Volume Factors\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4010,9 +4010,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to CAD & Atherosclerosis Risk Factors & Pathophysiology?",
     "choices": [
       "CAD & Atherosclerosis Risk Factors & Pathophysiology",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
     "explanation": "Correct: \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4028,10 +4028,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardiac Biomarkers (Troponin?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "Cardiac Biomarkers (Troponin",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Cardiac Biomarkers (Troponin",
     "explanation": "Correct: \"Cardiac Biomarkers (Troponin\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4048,8 +4048,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Myoglobin?",
     "choices": [
       "Myoglobin",
-      "Cardiovascular A&P",
       "Chambers",
+      "Cardiovascular A&P",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Myoglobin",
@@ -4066,10 +4066,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to LDH)?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
       "Cardiovascular A&P",
-      "LDH)"
+      "LDH)",
+      "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "LDH)",
     "explanation": "Correct: \"LDH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4085,10 +4085,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Chambers"
     ],
     "correct_answer": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
     "explanation": "Correct: \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4104,10 +4104,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to AFib?",
     "choices": [
-      "AFib",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "AFib"
     ],
     "correct_answer": "AFib",
     "explanation": "Correct: \"AFib\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4124,9 +4124,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to AFlutter?",
     "choices": [
       "AFlutter",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "AFlutter",
     "explanation": "Correct: \"AFlutter\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4142,10 +4142,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SVT?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "SVT"
+      "Heart Valves & Coronary Circulation",
+      "SVT",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "SVT",
     "explanation": "Correct: \"SVT\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4180,10 +4180,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Torsades?",
     "choices": [
-      "Torsades",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Torsades"
     ],
     "correct_answer": "Torsades",
     "explanation": "Correct: \"Torsades\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4199,9 +4199,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Heart Blocks Mobitz I & II?",
     "choices": [
-      "Heart Blocks Mobitz I & II",
       "Cardiovascular A&P",
       "Chambers",
+      "Heart Blocks Mobitz I & II",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Heart Blocks Mobitz I & II",
@@ -4218,10 +4218,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to rd Degree?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
-      "Chambers",
       "Cardiovascular A&P",
-      "rd Degree"
+      "rd Degree",
+      "Heart Valves & Coronary Circulation",
+      "Chambers"
     ],
     "correct_answer": "rd Degree",
     "explanation": "Correct: \"rd Degree\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4237,10 +4237,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Asystole?",
     "choices": [
-      "Asystole",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Asystole",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Asystole",
     "explanation": "Correct: \"Asystole\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4256,10 +4256,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PEA H's & T's)?",
     "choices": [
-      "PEA H's & T's)",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "PEA H's & T's)",
+      "Chambers"
     ],
     "correct_answer": "PEA H's & T's)",
     "explanation": "Correct: \"PEA H's & T's)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4275,10 +4275,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardioversion vs Defibrillation?",
     "choices": [
-      "Cardioversion vs Defibrillation",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "Cardioversion vs Defibrillation"
     ],
     "correct_answer": "Cardioversion vs Defibrillation",
     "explanation": "Correct: \"Cardioversion vs Defibrillation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4294,10 +4294,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Hemodynamic Monitoring (CVP?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
       "Cardiovascular A&P",
-      "Hemodynamic Monitoring (CVP"
+      "Hemodynamic Monitoring (CVP",
+      "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Hemodynamic Monitoring (CVP",
     "explanation": "Correct: \"Hemodynamic Monitoring (CVP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4313,10 +4313,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PCWP?",
     "choices": [
-      "PCWP",
       "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "PCWP"
     ],
     "correct_answer": "PCWP",
     "explanation": "Correct: \"PCWP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4332,10 +4332,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SVR?",
     "choices": [
-      "SVR",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "SVR",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "SVR",
     "explanation": "Correct: \"SVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4351,8 +4351,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PVR?",
     "choices": [
-      "PVR",
       "Cardiovascular A&P",
+      "PVR",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -4370,10 +4370,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PAP?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "PAP"
+      "PAP",
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "PAP",
     "explanation": "Correct: \"PAP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4389,8 +4389,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SvO?",
     "choices": [
-      "SvO",
       "Cardiovascular A&P",
+      "SvO",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -4408,10 +4408,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Normal Values)?",
     "choices": [
-      "Normal Values)",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Normal Values)"
     ],
     "correct_answer": "Normal Values)",
     "explanation": "Correct: \"Normal Values)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4429,8 +4429,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Myocardial Infarction Management (OMEN",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Chambers"
     ],
     "correct_answer": "Myocardial Infarction Management (OMEN",
     "explanation": "Correct: \"Myocardial Infarction Management (OMEN\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4465,8 +4465,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Beta?",
     "choices": [
-      "Beta",
       "Cardiovascular A&P",
+      "Beta",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -4485,9 +4485,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Blockers?",
     "choices": [
       "Blockers",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Blockers",
     "explanation": "Correct: \"Blockers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4504,9 +4504,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Catheterization Care)?",
     "choices": [
       "Catheterization Care)",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Catheterization Care)",
     "explanation": "Correct: \"Catheterization Care)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4524,8 +4524,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Heart Failure (Left vs Right Signs"
+      "Heart Failure (Left vs Right Signs",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Heart Failure (Left vs Right Signs",
     "explanation": "Correct: \"Heart Failure (Left vs Right Signs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4541,8 +4541,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to BNP?",
     "choices": [
-      "BNP",
       "Cardiovascular A&P",
+      "BNP",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -4560,10 +4560,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Pulmonary Edema HOPE?",
     "choices": [
-      "Pulmonary Edema HOPE",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Pulmonary Edema HOPE"
     ],
     "correct_answer": "Pulmonary Edema HOPE",
     "explanation": "Correct: \"Pulmonary Edema HOPE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4579,10 +4579,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to BEDS?",
     "choices": [
-      "BEDS",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P",
+      "BEDS"
     ],
     "correct_answer": "BEDS",
     "explanation": "Correct: \"BEDS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4599,9 +4599,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Digoxin & Diuretics)?",
     "choices": [
       "Heart Valves & Coronary Circulation",
-      "Chambers",
+      "Digoxin & Diuretics)",
       "Cardiovascular A&P",
-      "Digoxin & Diuretics)"
+      "Chambers"
     ],
     "correct_answer": "Digoxin & Diuretics)",
     "explanation": "Correct: \"Digoxin & Diuretics)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4617,10 +4617,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Gastrointestinal Tract A&P & Diagnostics (EGD?",
     "choices": [
-      "Gastrointestinal Tract A&P & Diagnostics (EGD",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Gastrointestinal Tract A&P & Diagnostics (EGD"
     ],
     "correct_answer": "Gastrointestinal Tract A&P & Diagnostics (EGD",
     "explanation": "Correct: \"Gastrointestinal Tract A&P & Diagnostics (EGD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4636,10 +4636,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Colonoscopy?",
     "choices": [
-      "Colonoscopy",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P",
+      "Colonoscopy"
     ],
     "correct_answer": "Colonoscopy",
     "explanation": "Correct: \"Colonoscopy\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4655,9 +4655,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to ERCP?",
     "choices": [
+      "Chambers",
       "ERCP",
       "Cardiovascular A&P",
-      "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "ERCP",
@@ -4676,8 +4676,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Liver Biopsy)"
+      "Liver Biopsy)",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Liver Biopsy)",
     "explanation": "Correct: \"Liver Biopsy)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4713,9 +4713,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PUD?",
     "choices": [
       "PUD",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "PUD",
     "explanation": "Correct: \"PUD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4731,9 +4731,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Varices)?",
     "choices": [
-      "Varices)",
       "Cardiovascular A&P",
       "Chambers",
+      "Varices)",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Varices)",
@@ -4752,8 +4752,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Alcohol Withdrawal Syndrome & CIWA"
+      "Alcohol Withdrawal Syndrome & CIWA",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Alcohol Withdrawal Syndrome & CIWA",
     "explanation": "Correct: \"Alcohol Withdrawal Syndrome & CIWA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4769,10 +4769,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Delirium Tremens?",
     "choices": [
-      "Delirium Tremens",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Delirium Tremens"
     ],
     "correct_answer": "Delirium Tremens",
     "explanation": "Correct: \"Delirium Tremens\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4788,10 +4788,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Liver Cirrhosis & Paracentesis?",
     "choices": [
-      "Liver Cirrhosis & Paracentesis",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Liver Cirrhosis & Paracentesis"
     ],
     "correct_answer": "Liver Cirrhosis & Paracentesis",
     "explanation": "Correct: \"Liver Cirrhosis & Paracentesis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4808,9 +4808,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Pancreatitis (Acute ATTACK vs Chronic CHANGE?",
     "choices": [
       "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Chambers"
     ],
     "correct_answer": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
     "explanation": "Correct: \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4826,10 +4826,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cullen's & Grey Turner's Signs)?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
+      "Cullen's & Grey Turner's Signs)",
       "Chambers",
       "Cardiovascular A&P",
-      "Cullen's & Grey Turner's Signs)"
+      "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Cullen's & Grey Turner's Signs)",
     "explanation": "Correct: \"Cullen's & Grey Turner's Signs)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4845,10 +4845,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Metabolic Emergencies (Diabetes Mellitus Types?",
     "choices": [
-      "Metabolic Emergencies (Diabetes Mellitus Types",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "Metabolic Emergencies (Diabetes Mellitus Types"
     ],
     "correct_answer": "Metabolic Emergencies (Diabetes Mellitus Types",
     "explanation": "Correct: \"Metabolic Emergencies (Diabetes Mellitus Types\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4864,9 +4864,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to DKA?",
     "choices": [
-      "DKA",
       "Cardiovascular A&P",
       "Chambers",
+      "DKA",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "DKA",
@@ -4883,10 +4883,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to HHS?",
     "choices": [
-      "HHS",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "HHS"
     ],
     "correct_answer": "HHS",
     "explanation": "Correct: \"HHS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4903,9 +4903,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SIADH)?",
     "choices": [
       "Heart Valves & Coronary Circulation",
-      "Chambers",
+      "SIADH)",
       "Cardiovascular A&P",
-      "SIADH)"
+      "Chambers"
     ],
     "correct_answer": "SIADH)",
     "explanation": "Correct: \"SIADH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4922,9 +4922,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Renal System Functions & Nephron Structures?",
     "choices": [
       "Renal System Functions & Nephron Structures",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Renal System Functions & Nephron Structures",
     "explanation": "Correct: \"Renal System Functions & Nephron Structures\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4941,9 +4941,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Acute Kidney Injury (DAAMN Nephrotoxic Drugs?",
     "choices": [
       "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
     "explanation": "Correct: \"Acute Kidney Injury (DAAMN Nephrotoxic Drugs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4959,10 +4959,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Phases: Onset?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "Phases: Onset",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Phases: Onset",
     "explanation": "Correct: \"Phases: Onset\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4978,10 +4978,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Oliguric?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Oliguric"
+      "Oliguric",
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Oliguric",
     "explanation": "Correct: \"Oliguric\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -4997,10 +4997,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Diuretic?",
     "choices": [
-      "Diuretic",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Diuretic",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Diuretic",
     "explanation": "Correct: \"Diuretic\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5016,10 +5016,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Recovery)?",
     "choices": [
-      "Recovery)",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Recovery)",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Recovery)",
     "explanation": "Correct: \"Recovery)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5035,10 +5035,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Chronic Kidney Disease (GFR Stages?",
     "choices": [
-      "Chronic Kidney Disease (GFR Stages",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "Chronic Kidney Disease (GFR Stages"
     ],
     "correct_answer": "Chronic Kidney Disease (GFR Stages",
     "explanation": "Correct: \"Chronic Kidney Disease (GFR Stages\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5056,8 +5056,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Uremic Signs"
+      "Uremic Signs",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Uremic Signs",
     "explanation": "Correct: \"Uremic Signs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5073,10 +5073,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Renvela)?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "Renvela)",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Chambers"
     ],
     "correct_answer": "Renvela)",
     "explanation": "Correct: \"Renvela)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5092,9 +5092,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Dialysis (Hemodialysis vs Peritoneal Dialysis?",
     "choices": [
-      "Dialysis (Hemodialysis vs Peritoneal Dialysis",
-      "Cardiovascular A&P",
       "Chambers",
+      "Cardiovascular A&P",
+      "Dialysis (Hemodialysis vs Peritoneal Dialysis",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Dialysis (Hemodialysis vs Peritoneal Dialysis",
@@ -5111,10 +5111,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Peritonitis?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "Peritonitis",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Peritonitis",
     "explanation": "Correct: \"Peritonitis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5130,10 +5130,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Dialysis Disequilibrium Syndrome?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
-      "Chambers",
       "Cardiovascular A&P",
-      "Dialysis Disequilibrium Syndrome"
+      "Dialysis Disequilibrium Syndrome",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Dialysis Disequilibrium Syndrome",
     "explanation": "Correct: \"Dialysis Disequilibrium Syndrome\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5149,10 +5149,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to AV Fistula Care)?",
     "choices": [
-      "AV Fistula Care)",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "AV Fistula Care)",
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "AV Fistula Care)",
     "explanation": "Correct: \"AV Fistula Care)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5169,8 +5169,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Cardiovascular A&P\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Cardiovascular A&P",
-      "Chambers",
       "Heart Valves & Coronary Circulation",
+      "Chambers",
       "Electrophysiologic Properties & Conduction System"
     ],
     "correct_answer": "Cardiovascular A&P",
@@ -5187,9 +5187,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Chambers\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Chambers",
-      "Cardiovascular A&P",
       "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P",
+      "Chambers",
       "Electrophysiologic Properties & Conduction System"
     ],
     "correct_answer": "Chambers",
@@ -5206,10 +5206,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Heart Valves & Coronary Circulation\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Electrophysiologic Properties & Conduction System",
       "Chambers",
-      "Cardiovascular A&P",
-      "Heart Valves & Coronary Circulation"
+      "Electrophysiologic Properties & Conduction System",
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Heart Valves & Coronary Circulation",
     "explanation": "Correct: \"Heart Valves & Coronary Circulation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5225,8 +5225,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Electrophysiologic Properties & Conduction System\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Electrophysiologic Properties & Conduction System",
       "Cardiovascular A&P",
+      "Electrophysiologic Properties & Conduction System",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -5244,10 +5244,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cardiac Output & Stroke Volume Factors\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Cardiac Output & Stroke Volume Factors",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiac Output & Stroke Volume Factors",
+      "Chambers"
     ],
     "correct_answer": "Cardiac Output & Stroke Volume Factors",
     "explanation": "Correct: \"Cardiac Output & Stroke Volume Factors\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5263,10 +5263,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "CAD & Atherosclerosis Risk Factors & Pathophysiology",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
     "explanation": "Correct: \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5282,9 +5282,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cardiac Biomarkers (Troponin\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
-      "Chambers",
       "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation",
       "Cardiac Biomarkers (Troponin"
     ],
     "correct_answer": "Cardiac Biomarkers (Troponin",
@@ -5301,9 +5301,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Myoglobin\" in MS_W7-10_MIDTERMS?",
     "choices": [
+      "Chambers",
       "Myoglobin",
       "Cardiovascular A&P",
-      "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Myoglobin",
@@ -5320,9 +5320,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"LDH)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "LDH)",
       "Cardiovascular A&P",
       "Chambers",
+      "LDH)",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "LDH)",
@@ -5339,10 +5339,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" in MS_W7-10_MIDTERMS?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
     "explanation": "Correct: \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5358,10 +5358,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"AFib\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
-      "Chambers",
+      "AFib",
       "Cardiovascular A&P",
-      "AFib"
+      "Heart Valves & Coronary Circulation",
+      "Chambers"
     ],
     "correct_answer": "AFib",
     "explanation": "Correct: \"AFib\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5377,10 +5377,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"AFlutter\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "AFlutter",
       "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "AFlutter"
     ],
     "correct_answer": "AFlutter",
     "explanation": "Correct: \"AFlutter\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5396,10 +5396,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"SVT\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "SVT",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "SVT",
+      "Chambers"
     ],
     "correct_answer": "SVT",
     "explanation": "Correct: \"SVT\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5416,8 +5416,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"PVCs\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "PVCs",
-      "Cardiovascular A&P",
       "Chambers",
+      "Cardiovascular A&P",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "PVCs",
@@ -5434,10 +5434,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Torsades\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
+      "Torsades",
       "Cardiovascular A&P",
-      "Torsades"
+      "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Torsades",
     "explanation": "Correct: \"Torsades\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5453,10 +5453,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Heart Blocks Mobitz I & II\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Blocks Mobitz I & II",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "Heart Blocks Mobitz I & II"
     ],
     "correct_answer": "Heart Blocks Mobitz I & II",
     "explanation": "Correct: \"Heart Blocks Mobitz I & II\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5473,9 +5473,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"rd Degree\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "rd Degree",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "rd Degree",
     "explanation": "Correct: \"rd Degree\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5491,10 +5491,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Asystole\" in MS_W7-10_MIDTERMS?",
     "choices": [
+      "Heart Valves & Coronary Circulation",
       "Asystole",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Chambers"
     ],
     "correct_answer": "Asystole",
     "explanation": "Correct: \"Asystole\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5510,9 +5510,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"PEA H's & T's)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
-      "Chambers",
       "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation",
       "PEA H's & T's)"
     ],
     "correct_answer": "PEA H's & T's)",
@@ -5529,10 +5529,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cardioversion vs Defibrillation\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Cardioversion vs Defibrillation",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardioversion vs Defibrillation"
     ],
     "correct_answer": "Cardioversion vs Defibrillation",
     "explanation": "Correct: \"Cardioversion vs Defibrillation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5548,10 +5548,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Hemodynamic Monitoring (CVP\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Hemodynamic Monitoring (CVP",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Hemodynamic Monitoring (CVP",
+      "Heart Valves & Coronary Circulation",
+      "Chambers"
     ],
     "correct_answer": "Hemodynamic Monitoring (CVP",
     "explanation": "Correct: \"Hemodynamic Monitoring (CVP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5567,10 +5567,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"PCWP\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "PCWP",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "PCWP"
     ],
     "correct_answer": "PCWP",
     "explanation": "Correct: \"PCWP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5587,9 +5587,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"SVR\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Heart Valves & Coronary Circulation",
+      "SVR",
       "Chambers",
-      "Cardiovascular A&P",
-      "SVR"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "SVR",
     "explanation": "Correct: \"SVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5605,10 +5605,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"PVR\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "PVR",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "PVR",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "PVR",
     "explanation": "Correct: \"PVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5624,10 +5624,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"PAP\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "PAP",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "PAP"
     ],
     "correct_answer": "PAP",
     "explanation": "Correct: \"PAP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5644,9 +5644,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"SvO\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "SvO",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Chambers"
     ],
     "correct_answer": "SvO",
     "explanation": "Correct: \"SvO\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5662,9 +5662,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Normal Values)\" in MS_W7-10_MIDTERMS?",
     "choices": [
+      "Cardiovascular A&P",
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
       "Normal Values)"
     ],
     "correct_answer": "Normal Values)",
@@ -5681,10 +5681,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Myocardial Infarction Management (OMEN\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Myocardial Infarction Management (OMEN",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P",
+      "Myocardial Infarction Management (OMEN"
     ],
     "correct_answer": "Myocardial Infarction Management (OMEN",
     "explanation": "Correct: \"Myocardial Infarction Management (OMEN\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5700,10 +5700,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Thrombolytics\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Thrombolytics",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Thrombolytics",
+      "Chambers"
     ],
     "correct_answer": "Thrombolytics",
     "explanation": "Correct: \"Thrombolytics\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5719,10 +5719,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Beta\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Beta",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Beta"
     ],
     "correct_answer": "Beta",
     "explanation": "Correct: \"Beta\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5738,10 +5738,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Blockers\" in MS_W7-10_MIDTERMS?",
     "choices": [
+      "Blockers",
       "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Cardiovascular A&P",
-      "Blockers"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Blockers",
     "explanation": "Correct: \"Blockers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5758,9 +5758,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Catheterization Care)\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Catheterization Care)",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Catheterization Care)",
     "explanation": "Correct: \"Catheterization Care)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5777,9 +5777,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Heart Failure (Left vs Right Signs\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Heart Failure (Left vs Right Signs",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Heart Failure (Left vs Right Signs",
     "explanation": "Correct: \"Heart Failure (Left vs Right Signs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5795,10 +5795,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"BNP\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "BNP",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "BNP"
     ],
     "correct_answer": "BNP",
     "explanation": "Correct: \"BNP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5814,10 +5814,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Pulmonary Edema HOPE\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
+      "Pulmonary Edema HOPE",
       "Chambers",
-      "Cardiovascular A&P",
-      "Pulmonary Edema HOPE"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Pulmonary Edema HOPE",
     "explanation": "Correct: \"Pulmonary Edema HOPE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5833,10 +5833,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"BEDS\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "BEDS",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "BEDS"
     ],
     "correct_answer": "BEDS",
     "explanation": "Correct: \"BEDS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5852,10 +5852,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Digoxin & Diuretics)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Digoxin & Diuretics)",
       "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Digoxin & Diuretics)"
     ],
     "correct_answer": "Digoxin & Diuretics)",
     "explanation": "Correct: \"Digoxin & Diuretics)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5872,9 +5872,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Gastrointestinal Tract A&P & Diagnostics (EGD\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Gastrointestinal Tract A&P & Diagnostics (EGD",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Gastrointestinal Tract A&P & Diagnostics (EGD",
     "explanation": "Correct: \"Gastrointestinal Tract A&P & Diagnostics (EGD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5890,9 +5890,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Colonoscopy\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
       "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Colonoscopy"
     ],
     "correct_answer": "Colonoscopy",
@@ -5928,10 +5928,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Liver Biopsy)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Liver Biopsy)",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Liver Biopsy)",
+      "Heart Valves & Coronary Circulation",
+      "Chambers"
     ],
     "correct_answer": "Liver Biopsy)",
     "explanation": "Correct: \"Liver Biopsy)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5947,9 +5947,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"GI Bleeding (Upper vs Lower\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "GI Bleeding (Upper vs Lower",
-      "Cardiovascular A&P",
       "Chambers",
+      "Cardiovascular A&P",
+      "GI Bleeding (Upper vs Lower",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "GI Bleeding (Upper vs Lower",
@@ -5967,9 +5967,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"PUD\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Heart Valves & Coronary Circulation",
-      "Chambers",
+      "PUD",
       "Cardiovascular A&P",
-      "PUD"
+      "Chambers"
     ],
     "correct_answer": "PUD",
     "explanation": "Correct: \"PUD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -5985,10 +5985,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Varices)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Varices)",
-      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Varices)",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Varices)",
     "explanation": "Correct: \"Varices)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6006,8 +6006,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Alcohol Withdrawal Syndrome & CIWA",
       "Cardiovascular A&P",
-      "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Chambers"
     ],
     "correct_answer": "Alcohol Withdrawal Syndrome & CIWA",
     "explanation": "Correct: \"Alcohol Withdrawal Syndrome & CIWA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6023,10 +6023,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Delirium Tremens\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Delirium Tremens",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P",
+      "Delirium Tremens"
     ],
     "correct_answer": "Delirium Tremens",
     "explanation": "Correct: \"Delirium Tremens\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6042,10 +6042,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Liver Cirrhosis & Paracentesis\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Heart Valves & Coronary Circulation",
       "Chambers",
       "Cardiovascular A&P",
-      "Liver Cirrhosis & Paracentesis"
+      "Liver Cirrhosis & Paracentesis",
+      "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Liver Cirrhosis & Paracentesis",
     "explanation": "Correct: \"Liver Cirrhosis & Paracentesis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6061,8 +6061,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
       "Cardiovascular A&P",
+      "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -6080,9 +6080,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cullen's & Grey Turner's Signs)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Cullen's & Grey Turner's Signs)",
       "Cardiovascular A&P",
       "Chambers",
+      "Cullen's & Grey Turner's Signs)",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Cullen's & Grey Turner's Signs)",
@@ -6099,10 +6099,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Metabolic Emergencies (Diabetes Mellitus Types\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "Metabolic Emergencies (Diabetes Mellitus Types",
-      "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "Metabolic Emergencies (Diabetes Mellitus Types",
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P"
     ],
     "correct_answer": "Metabolic Emergencies (Diabetes Mellitus Types",
     "explanation": "Correct: \"Metabolic Emergencies (Diabetes Mellitus Types\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6119,9 +6119,9 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"DKA\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Heart Valves & Coronary Circulation",
+      "DKA",
       "Chambers",
-      "Cardiovascular A&P",
-      "DKA"
+      "Cardiovascular A&P"
     ],
     "correct_answer": "DKA",
     "explanation": "Correct: \"DKA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6137,8 +6137,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"HHS\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "HHS",
       "Cardiovascular A&P",
+      "HHS",
       "Chambers",
       "Heart Valves & Coronary Circulation"
     ],
@@ -6156,10 +6156,10 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"SIADH)\" in MS_W7-10_MIDTERMS?",
     "choices": [
-      "SIADH)",
+      "Heart Valves & Coronary Circulation",
       "Cardiovascular A&P",
       "Chambers",
-      "Heart Valves & Coronary Circulation"
+      "SIADH)"
     ],
     "correct_answer": "SIADH)",
     "explanation": "Correct: \"SIADH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
@@ -6176,8 +6176,8 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Renal System Functions & Nephron Structures\" in MS_W7-10_MIDTERMS?",
     "choices": [
       "Renal System Functions & Nephron Structures",
-      "Cardiovascular A&P",
       "Chambers",
+      "Cardiovascular A&P",
       "Heart Valves & Coronary Circulation"
     ],
     "correct_answer": "Renal System Functions & Nephron Structures",

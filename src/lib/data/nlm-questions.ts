@@ -9,10 +9,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the definition of Records Management (RM)?",
     "choices": [
-      "The supervision and administration of digital or paper records, regardless of format",
-      "The archival preservation of historical legal contracts exclusively",
+      "The electronic transmission of medical data to external insurance entities",
       "The destruction of outdated confidential personnel files",
-      "The electronic transmission of medical data to external insurance entities"
+      "The archival preservation of historical legal contracts exclusively",
+      "The supervision and administration of digital or paper records, regardless of format"
     ],
     "correct_answer": "The supervision and administration of digital or paper records, regardless of format",
     "explanation": "Records management is the supervision and administration of digital or paper records, regardless of format.",
@@ -29,9 +29,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "How is an Active Record classified in healthcare administration?",
     "choices": [
       "A record that is regularly referenced or currently required for use",
+      "A record format requiring microfiche technology",
       "A record stored permanently in the hospital basement archive",
-      "A record pending destruction approval from legal counsel",
-      "A record format requiring microfiche technology"
+      "A record pending destruction approval from legal counsel"
     ],
     "correct_answer": "A record that is regularly referenced or currently required for use",
     "explanation": "An active record is a record that is regularly referenced or currently required for use.",
@@ -47,10 +47,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following is classified as an Administrative Record?",
     "choices": [
-      "Facility blueprints and equipment inventory reports",
       "Kardex and patient care plans",
+      "Bedside vital sign sheets and I&O records",
       "Nursing care progress notes and doctor orders",
-      "Bedside vital sign sheets and I&O records"
+      "Facility blueprints and equipment inventory reports"
     ],
     "correct_answer": "Facility blueprints and equipment inventory reports",
     "explanation": "Administrative records include grants/contracts, bid documents, facility blueprints, consent forms, and equipment inventory.",
@@ -66,10 +66,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What individual staff document contains employment information, sickness, absences, and training records?",
     "choices": [
-      "201 File",
-      "Kardex",
+      "Circular Manual",
       "Incident Logbook",
-      "Circular Manual"
+      "201 File",
+      "Kardex"
     ],
     "correct_answer": "201 File",
     "explanation": "A separate personnel record maintained for individual staff is the 201 File, containing employment, sickness, and training records.",
@@ -85,10 +85,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "According to the principles of record writing, documentation must be factual and based on what three elements?",
     "choices": [
-      "Observation, conversation, and action",
-      "Inference, assumption, and hearsay",
+      "Physician opinions, staff discussions, and rumors",
       "Diagnosis, prognosis, and billing status",
-      "Physician opinions, staff discussions, and rumors"
+      "Inference, assumption, and hearsay",
+      "Observation, conversation, and action"
     ],
     "correct_answer": "Observation, conversation, and action",
     "explanation": "Documentation should be factual and based on observation, conversation, and action.",
@@ -104,10 +104,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What Philippine law establishes principles for the proper processing and protection of personal data in healthcare?",
     "choices": [
-      "Data Privacy Act of 2012 (RA 10173)",
+      "Generics Act of 1988 (RA 6675)",
       "Philippine Nursing Act of 2002 (RA 9173)",
       "Hospital Licensure Act (RA 4226)",
-      "Generics Act of 1988 (RA 6675)"
+      "Data Privacy Act of 2012 (RA 10173)"
     ],
     "correct_answer": "Data Privacy Act of 2012 (RA 10173)",
     "explanation": "The Data Privacy Act of 2012 (RA 10173) protects personal information and establishes principles for data processing.",
@@ -124,9 +124,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What data privacy principle dictates that only information necessary for the intended purpose should be collected?",
     "choices": [
       "Proportionality",
-      "Transparency",
       "Legitimate Purpose",
-      "Accountability"
+      "Accountability",
+      "Transparency"
     ],
     "correct_answer": "Proportionality",
     "explanation": "Proportionality requires that only information necessary for the intended purpose should be collected/processed.",
@@ -142,9 +142,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the nurse’s immediate first priority when a sentinel event occurs?",
     "choices": [
-      "Protect the patient",
       "Call the hospital legal attorney",
       "Fill out the incident report",
+      "Protect the patient",
       "Contact the press relations officer"
     ],
     "correct_answer": "Protect the patient",
@@ -161,10 +161,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following is an objective, correct entry for an Anecdotal Record?",
     "choices": [
-      "\"Patient refused medication and stated, 'I don't want to take it.'\"",
-      "\"Patient is extremely rude, difficult, and uncooperative.\"",
+      "\"Patient seemed anxious and probably dislikes the nursing staff.\"",
       "\"Patient acted aggressively without any valid reason.\"",
-      "\"Patient seemed anxious and probably dislikes the nursing staff.\""
+      "\"Patient is extremely rude, difficult, and uncooperative.\"",
+      "\"Patient refused medication and stated, 'I don't want to take it.'\""
     ],
     "correct_answer": "\"Patient refused medication and stated, 'I don't want to take it.'\"",
     "explanation": "Anecdotal records must be objective, factual, and based on direct observation rather than judgmental conclusions.",
@@ -180,9 +180,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the primary function of a nursing Kardex?",
     "choices": [
-      "A quick-reference nursing record containing essential information for current patient care",
       "A permanent legal repository for discharged patient charts",
       "An annual financial balance sheet for unit equipment purchases",
+      "A quick-reference nursing record containing essential information for current patient care",
       "A confidential logbook used exclusively by hospital administrators"
     ],
     "correct_answer": "A quick-reference nursing record containing essential information for current patient care",
@@ -199,10 +199,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Under what condition may patient records be released to outside legal advisors?",
     "choices": [
-      "Only with proper written administrative permission",
       "Whenever requested verbally by the patient’s relative",
-      "Upon informal phone request by a police investigator",
-      "At the discretion of any staff nurse on duty"
+      "At the discretion of any staff nurse on duty",
+      "Only with proper written administrative permission",
+      "Upon informal phone request by a police investigator"
     ],
     "correct_answer": "Only with proper written administrative permission",
     "explanation": "Nurses must avoid releasing records to legal advisors without proper written administrative permission.",
@@ -218,10 +218,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the correct sequential order of the Records Lifecycle?",
     "choices": [
-      "Create/Receive → Active → Inactive → Disposition",
-      "Active → Create/Receive → Disposition → Inactive",
+      "Active → Inactive → Create/Receive → Archiving",
       "Create/Receive → Inactive → Active → Disposition",
-      "Active → Inactive → Create/Receive → Archiving"
+      "Active → Create/Receive → Disposition → Inactive",
+      "Create/Receive → Active → Inactive → Disposition"
     ],
     "correct_answer": "Create/Receive → Active → Inactive → Disposition",
     "explanation": "The records lifecycle progresses through Create/Receive, Active, Inactive, and Disposition.",
@@ -237,10 +237,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What does the term \"Collaboration\" mean in healthcare leadership?",
     "choices": [
-      "\"Work together\"",
       "\"Enforce compliance\"",
-      "\"Direct subordinates\"",
-      "\"Delegate authority\""
+      "\"Delegate authority\"",
+      "\"Work together\"",
+      "\"Direct subordinates\""
     ],
     "correct_answer": "\"Work together\"",
     "explanation": "Collaboration means \"work together\" and involves two or more individuals or disciplines.",
@@ -256,10 +256,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Collaboration occurring within the same discipline (e.g. Nurse Manager and Staff Nurse) is called what?",
     "choices": [
-      "Intra-disciplinary collaboration",
-      "Interdisciplinary collaboration",
       "Transdisciplinary collaboration",
-      "Sectoral collaboration"
+      "Interdisciplinary collaboration",
+      "Sectoral collaboration",
+      "Intra-disciplinary collaboration"
     ],
     "correct_answer": "Intra-disciplinary collaboration",
     "explanation": "Intra-disciplinary collaboration occurs within the same discipline/profession (e.g., Nurse + Nurse).",
@@ -275,10 +275,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What type of collaboration combines two or more disciplines into an integrated care plan?",
     "choices": [
-      "Interdisciplinary collaboration",
-      "Intra-disciplinary collaboration",
       "Intra-agency collaboration",
-      "Dyadic collaboration"
+      "Intra-disciplinary collaboration",
+      "Dyadic collaboration",
+      "Interdisciplinary collaboration"
     ],
     "correct_answer": "Interdisciplinary collaboration",
     "explanation": "Interdisciplinary collaboration combines two or more disciplines into an integrated plan.",
@@ -295,9 +295,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What type of collaboration occurs when multiple disciplines share knowledge and skills across traditional boundaries to accomplish a common goal?",
     "choices": [
       "Transdisciplinary collaboration",
+      "Parallel collaboration",
       "Intra-disciplinary collaboration",
-      "Symmetrical collaboration",
-      "Parallel collaboration"
+      "Symmetrical collaboration"
     ],
     "correct_answer": "Transdisciplinary collaboration",
     "explanation": "Transdisciplinary collaboration involves multiple disciplines sharing knowledge and skills across traditional professional boundaries.",
@@ -313,10 +313,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In Tuckman’s Stages of Team Development, which stage is characterized by conflict, resistance, and competition for influence?",
     "choices": [
-      "Storming",
-      "Forming",
       "Norming",
-      "Performing"
+      "Storming",
+      "Performing",
+      "Forming"
     ],
     "correct_answer": "Storming",
     "explanation": "During storming, resistance may occur, conflict and tension develop, and members may compete for influence.",
@@ -332,10 +332,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In Tuckman’s model, which stage is characterized by established cooperation, clear roles, and members functioning as colleagues?",
     "choices": [
+      "Performing",
       "Norming",
       "Forming",
-      "Storming",
-      "Performing"
+      "Storming"
     ],
     "correct_answer": "Norming",
     "explanation": "In norming, members develop cooperation, roles become clearer, and members begin functioning as colleagues.",
@@ -351,10 +351,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What category of group roles includes behaviors such as initiating, clarifying, coordinating, and information giving?",
     "choices": [
-      "Task roles",
       "Maintenance roles",
-      "Individual roles",
-      "Advisory roles"
+      "Task roles",
+      "Advisory roles",
+      "Individual roles"
     ],
     "correct_answer": "Task roles",
     "explanation": "Task roles help the team accomplish its task (initiating, information giving/seeking, clarifying, coordinating).",
@@ -389,10 +389,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which collaboration model focuses primarily on clinical teaching, orientation, skill development, and evaluation of the learner?",
     "choices": [
-      "Preceptorship model",
-      "Mentorship model",
       "Lecturer-practitioner model",
-      "Shared governance model"
+      "Mentorship model",
+      "Shared governance model",
+      "Preceptorship model"
     ],
     "correct_answer": "Preceptorship model",
     "explanation": "The preceptorship model centers on clinical teaching, orientation, skill development, feedback, and learner evaluation.",
@@ -408,10 +408,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which collaboration model focuses on long-term professional development, career guidance, and counseling?",
     "choices": [
+      "Supervisory model",
       "Mentorship model",
-      "Preceptorship model",
       "Lecturer-practitioner model",
-      "Supervisory model"
+      "Preceptorship model"
     ],
     "correct_answer": "Mentorship model",
     "explanation": "The mentorship model focuses on professional development, career guidance, counseling, and long-term development.",
@@ -427,9 +427,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the simplest form of interpersonal relationship, consisting of direct communication between 2 people?",
     "choices": [
-      "Dyad",
       "Triad",
       "Group",
+      "Dyad",
       "Committee"
     ],
     "correct_answer": "Dyad",
@@ -465,10 +465,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What type of nurse–physician relationship is characterized by equal trust, equal power, and equal respect?",
     "choices": [
-      "Collegial",
-      "Friendly stranger",
       "Complementary",
-      "Hostile/Adversarial"
+      "Hostile/Adversarial",
+      "Collegial",
+      "Friendly stranger"
     ],
     "correct_answer": "Collegial",
     "explanation": "A collegial relationship features equal trust, equal power, and equal respect.",
@@ -484,10 +484,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "According to Hildegard Peplau’s interpersonal phases, in which phase do the nurse and patient first meet and establish trust?",
     "choices": [
-      "Orientation phase",
-      "Pre-orientation phase",
       "Working phase",
-      "Termination phase"
+      "Orientation phase",
+      "Termination phase",
+      "Pre-orientation phase"
     ],
     "correct_answer": "Orientation phase",
     "explanation": "In the orientation phase, the nurse and client meet, establish trust, clarify roles, and identify problems.",
@@ -503,9 +503,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Who is recognized as the father of organizational theory and bureaucracy?",
     "choices": [
-      "Max Weber",
       "Henri Fayol",
       "Kurt Lewin",
+      "Max Weber",
       "Albert Humphrey"
     ],
     "correct_answer": "Max Weber",
@@ -522,10 +522,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "According to Max Weber, on what basis should selection for employment and promotion be made in a bureaucracy?",
     "choices": [
-      "Technical competence",
+      "Political affiliation",
       "Seniority alone",
-      "Personal relationships",
-      "Political affiliation"
+      "Technical competence",
+      "Personal relationships"
     ],
     "correct_answer": "Technical competence",
     "explanation": "Under bureaucracy, selection for employment and promotion is based on technical competence.",
@@ -541,9 +541,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which type of organization is the simplest and most direct, with authority flowing in an unbroken line from top to bottom?",
     "choices": [
+      "Informal organization",
       "Line organization",
       "Staff organization",
-      "Informal organization",
       "Matrix organization"
     ],
     "correct_answer": "Line organization",
@@ -560,10 +560,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the role of a Staff Organization structure?",
     "choices": [
-      "Purely advisory to the structure with no authority to put recommendations into action",
       "Direct commanding authority over clinical units",
-      "Autonomous purchasing and financial control",
-      "Direct supervisory authority over all hospital personnel"
+      "Purely advisory to the structure with no authority to put recommendations into action",
+      "Direct supervisory authority over all hospital personnel",
+      "Autonomous purchasing and financial control"
     ],
     "correct_answer": "Purely advisory to the structure with no authority to put recommendations into action",
     "explanation": "Staff organization is purely advisory with no authority to put recommendations into action.",
@@ -598,10 +598,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What do dotted or broken lines on an organizational chart represent?",
     "choices": [
-      "Staff positions acting in an advisory capacity with limited authority",
-      "The official line chain of command",
       "Communication between department managers of equal rank",
-      "Permanent clinical nursing units"
+      "Permanent clinical nursing units",
+      "Staff positions acting in an advisory capacity with limited authority",
+      "The official line chain of command"
     ],
     "correct_answer": "Staff positions acting in an advisory capacity with limited authority",
     "explanation": "Dotted or broken lines represent staff positions providing assistance/information in an advisory capacity.",
@@ -617,10 +617,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What organizing principle states that an employee should be responsible to only one superior?",
     "choices": [
-      "Unity of Command",
-      "Scalar Principle",
       "Span of Control",
-      "Exception Principle"
+      "Exception Principle",
+      "Scalar Principle",
+      "Unity of Command"
     ],
     "correct_answer": "Unity of Command",
     "explanation": "Unity of command dictates that an employee should be responsible to only one superior.",
@@ -636,10 +636,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What organizing principle states that authority and responsibility should flow in clear unbroken lines from highest executive to lowest?",
     "choices": [
-      "Scalar Principle / Hierarchy",
       "Unity of Command",
-      "Span of Control",
-      "Esprit de Corps"
+      "Esprit de Corps",
+      "Scalar Principle / Hierarchy",
+      "Span of Control"
     ],
     "correct_answer": "Scalar Principle / Hierarchy",
     "explanation": "Scalar principle / hierarchy dictates that authority and responsibility flow in clear unbroken lines.",
@@ -656,9 +656,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What organizing principle states that recurring decisions should be handled routinely by lower-level managers while unusual matters go to higher levels?",
     "choices": [
       "Exception Principle",
-      "Unity of Command",
       "Requisite Authority",
-      "Homogenous Assignment"
+      "Homogenous Assignment",
+      "Unity of Command"
     ],
     "correct_answer": "Exception Principle",
     "explanation": "The exception principle states recurring decisions are handled routinely by lower managers; unusual matters are referred higher.",
@@ -674,9 +674,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What organizing principle refers to the limit on the number of workers that a supervisor can effectively manage?",
     "choices": [
+      "Centrality",
       "Span of Control",
       "Scalar Principle",
-      "Centrality",
       "Decentralization"
     ],
     "correct_answer": "Span of Control",
@@ -693,8 +693,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Why do nursing personnel often become powerful within an organizational structure according to the principle of organizational centrality?",
     "choices": [
-      "They interact with the greatest number of workers and receive the greatest amount of work-related info",
       "They control the hospital capital expenditure budget",
+      "They interact with the greatest number of workers and receive the greatest amount of work-related info",
       "They have direct line authority over all hospital physicians",
       "They exclusively determine institutional legal policies"
     ],
@@ -712,10 +712,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In Philippine specialty hospitals like the Lung Center or NKTI, what title is given to heads of the Nursing Department?",
     "choices": [
-      "Department Managers",
-      "Supervising Nurses",
       "Patient Care Coordinators",
-      "Clinical Specialists"
+      "Department Managers",
+      "Clinical Specialists",
+      "Supervising Nurses"
     ],
     "correct_answer": "Department Managers",
     "explanation": "In specialty hospitals such as Lung Center, NKTI, and PCMC, heads of Nursing are called Department Managers.",
@@ -731,10 +731,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Who is in charge of managing two or more nursing units in a hospital hierarchy?",
     "choices": [
-      "Supervising Nurse",
-      "Head Nurse",
+      "Staff Nurse",
       "Senior Nurse",
-      "Staff Nurse"
+      "Head Nurse",
+      "Supervising Nurse"
     ],
     "correct_answer": "Supervising Nurse",
     "explanation": "A supervising nurse is in charge of two or more nursing units.",
@@ -750,10 +750,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In a Matrix organizational structure, to whom does the manager of a unit report?",
     "choices": [
-      "Both to a functional and a product manager",
       "Strictly to the Chief Nurse only",
       "Exclusively to the Medical Center Chief",
-      "To the ad hoc committee chairperson only"
+      "To the ad hoc committee chairperson only",
+      "Both to a functional and a product manager"
     ],
     "correct_answer": "Both to a functional and a product manager",
     "explanation": "In a matrix structure, the manager responsible for a service reports both to a functional and product manager.",
@@ -769,8 +769,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Who defined planning as the first element of management, stating that a plan of action must have unity, continuity, flexibility, and precision?",
     "choices": [
-      "Henri Fayol (1841–1925)",
       "Max Weber",
+      "Henri Fayol (1841–1925)",
       "Kurt Lewin",
       "Tracey Williamson"
     ],
@@ -788,10 +788,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which management level is responsible for setting the overall goals and broad policies of an organization?",
     "choices": [
-      "Top Management",
       "Middle Management",
+      "Staff Nurses",
       "Lower or First-level Management",
-      "Staff Nurses"
+      "Top Management"
     ],
     "correct_answer": "Top Management",
     "explanation": "Top management sets the overall goals and policies of an organization.",
@@ -807,10 +807,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the definition of an organization’s \"Mission\" statement?",
     "choices": [
-      "A statement outlining the agency's reason for existing, target clients, and services provided",
-      "A statement outlining future roles and functions to strive for",
       "A statement of philosophical values directing individual personal life",
-      "A detailed 1-year work plan for daily nursing assignments"
+      "A statement outlining the agency's reason for existing, target clients, and services provided",
+      "A detailed 1-year work plan for daily nursing assignments",
+      "A statement outlining future roles and functions to strive for"
     ],
     "correct_answer": "A statement outlining the agency's reason for existing, target clients, and services provided",
     "explanation": "A mission statement outlines the agency’s reason for existing, who target clients are, and services provided.",
@@ -826,10 +826,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In modes of planning, what term describes leaders who seek the status quo and spend energy preventing change?",
     "choices": [
-      "Inactivism",
-      "Preactivism",
       "Reactive planning",
-      "Interactive planning"
+      "Interactive planning",
+      "Inactivism",
+      "Preactivism"
     ],
     "correct_answer": "Inactivism",
     "explanation": "Inactivists seek status quo and spend their energy preventing change and maintaining conformity.",
@@ -845,10 +845,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Who developed SWOT analysis at Stanford University in the 1960s and 1970s?",
     "choices": [
-      "Albert Humphrey",
+      "Kurt Lewin",
       "Henri Fayol",
-      "Max Weber",
-      "Kurt Lewin"
+      "Albert Humphrey",
+      "Max Weber"
     ],
     "correct_answer": "Albert Humphrey",
     "explanation": "SWOT analysis was developed by Albert Humphrey at Stanford University in the 1960s and 1970s.",
@@ -865,9 +865,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the very first step in conducting a SWOT analysis?",
     "choices": [
       "Define the desired end state or objective",
-      "List external threats from competing hospitals",
+      "Assign departmental task roles",
       "Calculate the annual nursing personnel budget",
-      "Assign departmental task roles"
+      "List external threats from competing hospitals"
     ],
     "correct_answer": "Define the desired end state or objective",
     "explanation": "The first step in SWOT analysis is to define the desired end state or objective.",
@@ -883,10 +883,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In contrast to Strategic Planning (3–5 years, general plan), what is the typical time frame of an Operational Plan?",
     "choices": [
-      "1 year",
+      "5 years",
       "10 years",
       "6 months",
-      "5 years"
+      "1 year"
     ],
     "correct_answer": "1 year",
     "explanation": "Operational planning has a 1-year time frame with specific, detailed focus.",
@@ -902,10 +902,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In Kurt Lewin’s (1951) Change Theory, what occurs during the \"Unfreezing\" phase?",
     "choices": [
-      "The change agent convinces members of the group to change or elicits guilt/anxiety/concern",
       "Driving forces exceed restraining forces during implementation",
-      "System changes become stabilized and integrated into the status quo",
-      "New routine procedures are published in the unit manual"
+      "New routine procedures are published in the unit manual",
+      "The change agent convinces members of the group to change or elicits guilt/anxiety/concern",
+      "System changes become stabilized and integrated into the status quo"
     ],
     "correct_answer": "The change agent convinces members of the group to change or elicits guilt/anxiety/concern",
     "explanation": "Unfreezing occurs when the change agent convinces members to change or when guilt/anxiety can be elicited.",
@@ -921,10 +921,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What type of budget is affected by personnel policies such as position salary and allowed personal/educational leaves?",
     "choices": [
-      "Personnel budget",
-      "Operating budget",
       "Capital expenditure budget",
-      "Cash budget"
+      "Cash budget",
+      "Operating budget",
+      "Personnel budget"
     ],
     "correct_answer": "Personnel budget",
     "explanation": "Personnel budget is affected by personnel policies such as salary related to position and allowed leaves.",
@@ -940,9 +940,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which budgeting method does NOT automatically claim to be funded and focuses on setting funding priorities from scratch?",
     "choices": [
-      "Zero-Based Budgeting",
       "Incremental Budgeting",
       "Performance Budgeting",
+      "Zero-Based Budgeting",
       "Flexible Budgeting"
     ],
     "correct_answer": "Zero-Based Budgeting",
@@ -960,8 +960,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "According to Patient Care Classification Level I, how many Nursing Care Hours (NCH) per patient per day are required?",
     "choices": [
       "1.5 hours/day",
-      "3.0 hours/day",
       "6.0 hours/day",
+      "3.0 hours/day",
       "9.0 hours/day"
     ],
     "correct_answer": "1.5 hours/day",
@@ -978,10 +978,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What is the required professional to non-professional ratio for Level I (Minimal Care) patients?",
     "choices": [
-      "55:45",
-      "60:40",
+      "70:30",
       "65:35",
-      "70:30"
+      "55:45",
+      "60:40"
     ],
     "correct_answer": "55:45",
     "explanation": "Level I ratio of professional to non-professional is 55:45.",
@@ -997,10 +997,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Under Republic Act 5901 (Forty Hour Week Law), what hospital bed capacity requires employees to work 40 hours per week?",
     "choices": [
-      "Hospital bed capacity >=100 beds",
       "Hospital bed capacity <50 beds",
-      "Hospital bed capacity >=500 beds",
-      "All private clinics regardless of size"
+      "Hospital bed capacity >=100 beds",
+      "All private clinics regardless of size",
+      "Hospital bed capacity >=500 beds"
     ],
     "correct_answer": "Hospital bed capacity >=100 beds",
     "explanation": "Hospital employees working in >=100 bed capacity work 40 hrs/week; if <100 bed capacity, 48 hrs/week.",
@@ -1016,10 +1016,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "How many total working hours per year are rendered by a nurse working a 40-hour work week under RA 5901?",
     "choices": [
+      "2,000 working hours/year",
       "1,704 working hours/year",
-      "2,120 working hours/year",
       "1,500 working hours/year",
-      "2,000 working hours/year"
+      "2,120 working hours/year"
     ],
     "correct_answer": "1,704 working hours/year",
     "explanation": "8 hours/day x 213 working days/year = 1,704 working hours per year.",
@@ -1035,10 +1035,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In computing relievers, what constant number represents the total average days of leave per employee per year?",
     "choices": [
-      "33 days",
       "15 days",
       "45 days",
-      "20 days"
+      "20 days",
+      "33 days"
     ],
     "correct_answer": "33 days",
     "explanation": "Total average leaves = 33 days (15 vacation/sick + 12 holidays + 3 special privileges + 3 continuing education).",
@@ -1054,10 +1054,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What percentage of nursing personnel is required for the Morning shift (6 AM–2 PM)?",
     "choices": [
-      "45–51%",
-      "34–37%",
       "15–18%",
-      "20–25%"
+      "20–25%",
+      "34–37%",
+      "45–51%"
     ],
     "correct_answer": "45–51%",
     "explanation": "Morning shift (6-2) needs 45-51% of nursing personnel.",
@@ -1073,10 +1073,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What type of scheduling system uses a repeating cycle length to assign shifts fairly and minimize favoritism?",
     "choices": [
-      "Cyclical Schedule",
       "Centralized Schedule",
+      "Ad hoc Schedule",
       "Decentralized Schedule",
-      "Ad hoc Schedule"
+      "Cyclical Schedule"
     ],
     "correct_answer": "Cyclical Schedule",
     "explanation": "A cyclical schedule covers a designated cycle length and repeats, minimizing favoritism and improving productivity.",
@@ -1092,10 +1092,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Who defined nursing research as systematic inquiry designed to develop knowledge of importance to nurses in practice, education, and administration?",
     "choices": [
-      "Polit and Beck (2006)",
       "Marquis and Huston (2017)",
       "Tracey Williamson (2005)",
-      "Max Weber (1947)"
+      "Max Weber (1947)",
+      "Polit and Beck (2006)"
     ],
     "correct_answer": "Polit and Beck (2006)",
     "explanation": "Polit and Beck (2006) defined nursing research as systematic inquiry designed to develop knowledge on issues of importance to nurses.",
@@ -1111,10 +1111,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "What study design should be conducted if you want to evaluate the feasibility of planned protocols with participant randomization?",
     "choices": [
-      "Randomized pilot study",
+      "Cross-sectional survey",
       "Nonrandomized pilot study",
       "Feasibility study that is not a pilot study",
-      "Cross-sectional survey"
+      "Randomized pilot study"
     ],
     "correct_answer": "Randomized pilot study",
     "explanation": "If you want to evaluate the feasibility of carrying out planned protocols with randomization, conduct a randomized pilot study.",
@@ -1130,10 +1130,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating evidence-based practice (EBP) research studies, what four criteria must nurses focus on?",
     "choices": [
-      "Validity, Reliability, Relevance, Outcome",
       "Cost, Speed, Popularity, Authority",
+      "Subjectivity, Intuition, Precedent, Tradition",
       "Sample size, Author rank, Journal impact, Volume",
-      "Subjectivity, Intuition, Precedent, Tradition"
+      "Validity, Reliability, Relevance, Outcome"
     ],
     "correct_answer": "Validity, Reliability, Relevance, Outcome",
     "explanation": "When evaluating EBP nursing research studies, focus on: Validity, Reliability, Relevance, and Outcome.",
@@ -2925,9 +2925,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What type of record is recorded or formatted in a manner that requires a computer to process?",
     "choices": [
+      "Inactive record",
       "Electronic record",
       "Active record",
-      "Inactive record",
       "Archival record"
     ],
     "correct_answer": "Electronic record",
@@ -2946,8 +2946,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Transparency",
       "Proportionality",
-      "Legitimate Purpose",
-      "Beneficence"
+      "Beneficence",
+      "Legitimate Purpose"
     ],
     "correct_answer": "Transparency",
     "explanation": "Transparency: The individual should know how and why information is processed.",
@@ -2963,10 +2963,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "Which of the following is classified as a Sentinel Event in a healthcare institution?",
     "choices": [
-      "Wrong-site surgery or serious medication-related event resulting in death or harm",
-      "Routine medication refusal by a competent patient",
       "Scheduled administrative department meeting",
-      "Delayed linen delivery during shift turnover"
+      "Delayed linen delivery during shift turnover",
+      "Routine medication refusal by a competent patient",
+      "Wrong-site surgery or serious medication-related event resulting in death or harm"
     ],
     "correct_answer": "Wrong-site surgery or serious medication-related event resulting in death or harm",
     "explanation": "Sentinel events include wrong-site surgery, wrong-patient procedure, serious medication event, patient suicide, and serious preventable injury.",
@@ -2982,9 +2982,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the simplest form of interpersonal relationship, consisting of direct interaction between two people?",
     "choices": [
-      "Dyad",
-      "Triad",
       "Group",
+      "Triad",
+      "Dyad",
       "Committee"
     ],
     "correct_answer": "Dyad",
@@ -3003,8 +3003,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Help mediate conflict between the other two members",
       "Enforce authoritative punitive disciplinary measures",
-      "Assume all clinical nursing documentation duties",
-      "Eliminate the need for group communication"
+      "Eliminate the need for group communication",
+      "Assume all clinical nursing documentation duties"
     ],
     "correct_answer": "Help mediate conflict between the other two members",
     "explanation": "In a triad (3 people), the third person can help mediate conflict.",
@@ -3020,10 +3020,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In nurse–physician relationship models, what characterizes a \"Friendly Stranger\" relationship?",
     "choices": [
-      "Formal information exchange with a neutral emotional tone",
       "Equal trust, shared power, and joint decision-making",
+      "Instructional dominance of one discipline over another",
       "Anger, verbal abuse, and overt interpersonal conflict",
-      "Instructional dominance of one discipline over another"
+      "Formal information exchange with a neutral emotional tone"
     ],
     "correct_answer": "Formal information exchange with a neutral emotional tone",
     "explanation": "Friendly stranger relationship involves formal information exchange with a neutral emotional tone.",
@@ -3039,10 +3039,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In Peplau's interpersonal model, what occurs during the \"Exploitation\" phase of the working relationship?",
     "choices": [
-      "The patient explores and utilizes available healthcare resources",
       "The nurse conducts self-awareness reflection prior to meeting",
+      "The professional nurse-patient relationship is terminated",
       "The nurse clarifies legal liability and signs admission forms",
-      "The professional nurse-patient relationship is terminated"
+      "The patient explores and utilizes available healthcare resources"
     ],
     "correct_answer": "The patient explores and utilizes available healthcare resources",
     "explanation": "In the working phase (exploitation), the patient explores and uses available resources.",
@@ -3058,10 +3058,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What type of organizational chart specifies the names, positions, and ranks of personnel in the facility?",
     "choices": [
+      "Ad Hoc Chart",
       "Position Chart",
-      "Structural Chart",
       "Functional Chart",
-      "Ad Hoc Chart"
+      "Structural Chart"
     ],
     "correct_answer": "Position Chart",
     "explanation": "A position chart specifies the names, positions, and titles or ranks of the personnel.",
@@ -3078,9 +3078,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What type of organizational chart reflects the functions, duties, and interrelationships of components?",
     "choices": [
       "Functional Chart",
+      "Scalar Chart",
       "Structural Chart",
-      "Position Chart",
-      "Scalar Chart"
+      "Position Chart"
     ],
     "correct_answer": "Functional Chart",
     "explanation": "A functional chart reflects the functions and duties of the components of the organization.",
@@ -3097,8 +3097,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is the definition of \"Decentralization\" or proper delegation of authority in management?",
     "choices": [
       "The process of pushing decision-making to the lower levels of the organization",
-      "The concentration of all purchasing decisions in the Chief Nurse office",
       "The elimination of middle management positions",
+      "The concentration of all purchasing decisions in the Chief Nurse office",
       "The strict top-down transmission of procedural commands"
     ],
     "correct_answer": "The process of pushing decision-making to the lower levels of the organization",
@@ -3115,10 +3115,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In Philippine General Hospital (PGH), what is the executive title of the head of nursing service?",
     "choices": [
-      "Assistant Director for Nursing",
-      "Department Manager",
       "Patient Care Administrator",
-      "Chief Executive Nurse"
+      "Chief Executive Nurse",
+      "Assistant Director for Nursing",
+      "Department Manager"
     ],
     "correct_answer": "Assistant Director for Nursing",
     "explanation": "In PGH, the head of nursing is designated as Asst. Director for Nursing.",
@@ -3135,9 +3135,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is an \"Expressed Policy\" in healthcare administration?",
     "choices": [
       "A policy delineated verbally or in writing that is readily available to personnel",
-      "An unwritten custom that has developed informally over time",
       "A confidential instruction known only to top hospital executives",
-      "A temporary oral suggestion given during change of shift"
+      "A temporary oral suggestion given during change of shift",
+      "An unwritten custom that has developed informally over time"
     ],
     "correct_answer": "A policy delineated verbally or in writing that is readily available to personnel",
     "explanation": "Expressed policies are delineated verbally or in writing and promote consistency of action.",
@@ -3154,9 +3154,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "What is an \"Implied Policy\"?",
     "choices": [
       "A policy neither written nor expressed verbally that has developed over time following precedent",
+      "A standardized clinical protocol signed by the medical director",
       "A formal written mandate published in the hospital manual",
-      "A statutory decree enacted by the Philippine Legislature",
-      "A standardized clinical protocol signed by the medical director"
+      "A statutory decree enacted by the Philippine Legislature"
     ],
     "correct_answer": "A policy neither written nor expressed verbally that has developed over time following precedent",
     "explanation": "Implied policies are neither written nor expressed verbally, have developed over time, and follow a precedent.",
@@ -3173,8 +3173,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In Kurt Lewin's Change Theory, what occurs during the \"Refreezing\" phase?",
     "choices": [
       "The change agent stabilizes the system change so it becomes integrated into the status quo",
-      "Group members are convinced of the need to change through guilt and anxiety",
       "Strategies are implemented so that driving forces exceed restraining forces",
+      "Group members are convinced of the need to change through guilt and anxiety",
       "The proposed budget is submitted to the finance committee for review"
     ],
     "correct_answer": "The change agent stabilizes the system change so it becomes integrated into the status quo",
@@ -3191,10 +3191,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What type of budget adjusts automatically over the course of the year depending on labor volume and capital costs?",
     "choices": [
-      "Flexible budget",
       "Fixed incremental budget",
       "Zero-based budget",
-      "Personnel budget"
+      "Personnel budget",
+      "Flexible budget"
     ],
     "correct_answer": "Flexible budget",
     "explanation": "Flexible budgets adjust automatically over the course of the year depending on variables such as labor costs and volume.",
@@ -3210,10 +3210,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What budgeting method projects the next year's budget based on past figures without prioritizing programs?",
     "choices": [
-      "Incremental Budgeting",
       "Zero-Based Budgeting",
+      "Capital Budgeting",
       "Performance Budgeting",
-      "Capital Budgeting"
+      "Incremental Budgeting"
     ],
     "correct_answer": "Incremental Budgeting",
     "explanation": "Incremental budgeting is the simplest method where programs and services are not prioritized.",
@@ -3229,9 +3229,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "According to Johann Wolfgang von Goethe, what rule governs time management priorities?",
     "choices": [
-      "\"Things which matter most must never be at the mercy of things that matter least\"",
       "\"Nothing is particularly hard if you divide it into small jobs\"",
       "\"Time and tide wait for no nurse\"",
+      "\"Things which matter most must never be at the mercy of things that matter least\"",
       "\"Efficiency is doing things right; effectiveness is doing the right things\""
     ],
     "correct_answer": "\"Things which matter most must never be at the mercy of things that matter least\"",
@@ -3248,9 +3248,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the professional to non-professional nursing ratio for Level III (Total or Intensive Care) patients?",
     "choices": [
-      "65:35",
       "55:45",
       "60:40",
+      "65:35",
       "70:30"
     ],
     "correct_answer": "65:35",
@@ -3267,10 +3267,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "What is the required professional to non-professional nursing ratio for Level IV (Highly Specialized Critical Care)?",
     "choices": [
-      "70:30 to 80:20",
       "55:45",
-      "60:40",
-      "65:35"
+      "70:30 to 80:20",
+      "65:35",
+      "60:40"
     ],
     "correct_answer": "70:30 to 80:20",
     "explanation": "Level IV professional to non-professional ratio is 70:30 to 80:20.",
@@ -3286,10 +3286,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "mixed",
     "question_text": "In action research on shared governance by Tracey Williamson, what was identified regarding clinical leaders?",
     "choices": [
-      "There is no \"quick fix\" for developing clinical leaders; coaching and reflection time are vital",
-      "Clinical leadership develops automatically without structured time or organizational support",
       "Traditional top-down hierarchies are superior to shared governance in clinical outcomes",
-      "Action research cannot be utilized at the patient-service interface"
+      "Action research cannot be utilized at the patient-service interface",
+      "Clinical leadership develops automatically without structured time or organizational support",
+      "There is no \"quick fix\" for developing clinical leaders; coaching and reflection time are vital"
     ],
     "correct_answer": "There is no \"quick fix\" for developing clinical leaders; coaching and reflection time are vital",
     "explanation": "Williamson concluded that nurse managers need coaching skills and must recognize there is no \"quick fix\" for developing clinical leaders.",
@@ -3907,9 +3907,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Records Management Definition & Principles?",
     "choices": [
       "Kardex &",
-      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Records Management Definition & Principles"
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Records Management Definition & Principles",
     "explanation": "Correct: \"Records Management Definition & Principles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -3926,8 +3926,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Data Privacy Act?",
     "choices": [
       "Data Privacy Act",
-      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
       "Kardex &"
     ],
     "correct_answer": "Data Privacy Act",
@@ -3944,9 +3944,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Sentinel Events & Incident Reports?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Sentinel Events & Incident Reports",
       "Kardex &"
     ],
     "correct_answer": "Sentinel Events & Incident Reports",
@@ -3965,8 +3965,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "choices": [
       "Kardex &",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act"
     ],
     "correct_answer": "Kardex &",
     "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -3982,10 +3982,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to File?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
+      "File",
       "Records Management Definition & Principles",
-      "File"
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "File",
     "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4001,10 +4001,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Records Lifecycle?",
     "choices": [
-      "Records Lifecycle",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Lifecycle",
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act"
     ],
     "correct_answer": "Records Lifecycle",
     "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4020,9 +4020,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Intra/Inter/Transdisciplinary Collaboration?",
     "choices": [
-      "Intra/Inter/Transdisciplinary Collaboration",
       "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Intra/Inter/Transdisciplinary Collaboration",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
@@ -4040,8 +4040,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Tuckman's Stages of Team Development?",
     "choices": [
       "Tuckman's Stages of Team Development",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Tuckman's Stages of Team Development",
@@ -4058,10 +4058,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Task & Maintenance Roles?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Task & Maintenance Roles"
+      "Sentinel Events & Incident Reports",
+      "Task & Maintenance Roles",
+      "Data Privacy Act"
     ],
     "correct_answer": "Task & Maintenance Roles",
     "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4077,9 +4077,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Preceptorship & Mentorship?",
     "choices": [
+      "Data Privacy Act",
       "Preceptorship & Mentorship",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Preceptorship & Mentorship",
@@ -4096,8 +4096,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Nurse?",
     "choices": [
-      "Nurse",
       "Records Management Definition & Principles",
+      "Nurse",
       "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
@@ -4115,9 +4115,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Physician Relationships & Peplau Phases?",
     "choices": [
-      "Physician Relationships & Peplau Phases",
       "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Physician Relationships & Peplau Phases",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Physician Relationships & Peplau Phases",
@@ -4134,10 +4134,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Max Weber Bureaucracy?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Max Weber Bureaucracy"
+      "Data Privacy Act",
+      "Max Weber Bureaucracy",
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Max Weber Bureaucracy",
     "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4153,10 +4153,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Line vs Staff vs Matrix Structures?",
     "choices": [
-      "Line vs Staff vs Matrix Structures",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Line vs Staff vs Matrix Structures",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Line vs Staff vs Matrix Structures",
     "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4172,8 +4172,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Organizing Principles (Unity of Command?",
     "choices": [
-      "Organizing Principles (Unity of Command",
       "Records Management Definition & Principles",
+      "Organizing Principles (Unity of Command",
       "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
@@ -4210,9 +4210,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Span of Control?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports",
       "Span of Control"
     ],
     "correct_answer": "Span of Control",
@@ -4229,10 +4229,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Exception)?",
     "choices": [
-      "Exception)",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Exception)"
     ],
     "correct_answer": "Exception)",
     "explanation": "Correct: \"Exception)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4248,9 +4248,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Planning by Henri Fayol?",
     "choices": [
-      "Planning by Henri Fayol",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Planning by Henri Fayol",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Planning by Henri Fayol",
@@ -4268,9 +4268,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to SWOT Analysis?",
     "choices": [
       "SWOT Analysis",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "SWOT Analysis",
     "explanation": "Correct: \"SWOT Analysis\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4286,10 +4286,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Operational vs Strategic Planning?",
     "choices": [
-      "Sentinel Events & Incident Reports",
+      "Operational vs Strategic Planning",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Operational vs Strategic Planning"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Operational vs Strategic Planning",
     "explanation": "Correct: \"Operational vs Strategic Planning\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4306,9 +4306,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Kurt Lewin Change Theory?",
     "choices": [
       "Kurt Lewin Change Theory",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Kurt Lewin Change Theory",
     "explanation": "Correct: \"Kurt Lewin Change Theory\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4324,8 +4324,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Budgeting Types & Methods?",
     "choices": [
-      "Budgeting Types & Methods",
       "Records Management Definition & Principles",
+      "Budgeting Types & Methods",
       "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
@@ -4343,10 +4343,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Time Management?",
     "choices": [
-      "Time Management",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Time Management",
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act"
     ],
     "correct_answer": "Time Management",
     "explanation": "Correct: \"Time Management\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4381,10 +4381,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to IV)?",
     "choices": [
-      "IV)",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "IV)"
     ],
     "correct_answer": "IV)",
     "explanation": "Correct: \"IV)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4400,10 +4400,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Forty Hour Week Law?",
     "choices": [
-      "Forty Hour Week Law",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Forty Hour Week Law",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Forty Hour Week Law",
     "explanation": "Correct: \"Forty Hour Week Law\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4420,9 +4420,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Reliever & Staffing Computations?",
     "choices": [
       "Reliever & Staffing Computations",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Reliever & Staffing Computations",
     "explanation": "Correct: \"Reliever & Staffing Computations\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4438,10 +4438,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Cyclical Scheduling?",
     "choices": [
+      "Cyclical Scheduling",
       "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Cyclical Scheduling"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Cyclical Scheduling",
     "explanation": "Correct: \"Cyclical Scheduling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4458,9 +4458,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Nursing Research (Polit & Beck)?",
     "choices": [
       "Nursing Research (Polit & Beck)",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Nursing Research (Polit & Beck)",
     "explanation": "Correct: \"Nursing Research (Polit & Beck)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4476,9 +4476,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Feasibility & Pilot Studies?",
     "choices": [
+      "Data Privacy Act",
       "Feasibility & Pilot Studies",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Feasibility & Pilot Studies",
@@ -4495,10 +4495,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Reflective Journaling?",
     "choices": [
-      "Reflective Journaling",
       "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Reflective Journaling"
     ],
     "correct_answer": "Reflective Journaling",
     "explanation": "Correct: \"Reflective Journaling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4514,10 +4514,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Evidence?",
     "choices": [
-      "Sentinel Events & Incident Reports",
+      "Evidence",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Evidence"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Evidence",
     "explanation": "Correct: \"Evidence\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4534,8 +4534,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Based Practice (EBP)?",
     "choices": [
       "Based Practice (EBP)",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Based Practice (EBP)",
@@ -4552,9 +4552,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Training Needs Analysis (TNA)?",
     "choices": [
-      "Training Needs Analysis (TNA)",
       "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Training Needs Analysis (TNA)",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Training Needs Analysis (TNA)",
@@ -4571,9 +4571,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Records Management Definition & Principles\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Records Management Definition & Principles",
       "Data Privacy Act",
       "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
       "Kardex &"
     ],
     "correct_answer": "Records Management Definition & Principles",
@@ -4591,9 +4591,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Data Privacy Act\" in NLM_W7-11_MIDTERMS?",
     "choices": [
       "Kardex &",
-      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act"
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Data Privacy Act",
     "explanation": "Correct: \"Data Privacy Act\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4609,9 +4609,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Sentinel Events & Incident Reports\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Data Privacy Act",
       "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Kardex &"
     ],
     "correct_answer": "Sentinel Events & Incident Reports",
@@ -4628,10 +4628,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Kardex &\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Kardex &",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
     ],
     "correct_answer": "Kardex &",
     "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4647,10 +4647,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"File\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "File",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "File",
     "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4666,10 +4666,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Records Lifecycle\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Sentinel Events & Incident Reports",
+      "Records Lifecycle",
       "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Records Lifecycle"
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Records Lifecycle",
     "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4685,10 +4685,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Intra/Inter/Transdisciplinary Collaboration\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Intra/Inter/Transdisciplinary Collaboration",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Intra/Inter/Transdisciplinary Collaboration",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
     "explanation": "Correct: \"Intra/Inter/Transdisciplinary Collaboration\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4704,8 +4704,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Tuckman's Stages of Team Development\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Tuckman's Stages of Team Development",
       "Records Management Definition & Principles",
+      "Tuckman's Stages of Team Development",
       "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
@@ -4723,10 +4723,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Task & Maintenance Roles\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Task & Maintenance Roles",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Task & Maintenance Roles",
     "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4743,8 +4743,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Preceptorship & Mentorship\" in NLM_W7-11_MIDTERMS?",
     "choices": [
       "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
+      "Data Privacy Act",
       "Preceptorship & Mentorship"
     ],
     "correct_answer": "Preceptorship & Mentorship",
@@ -4761,10 +4761,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Nurse\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Nurse",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Nurse",
     "explanation": "Correct: \"Nurse\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4781,9 +4781,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Physician Relationships & Peplau Phases\" in NLM_W7-11_MIDTERMS?",
     "choices": [
       "Physician Relationships & Peplau Phases",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Physician Relationships & Peplau Phases",
     "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4799,10 +4799,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Max Weber Bureaucracy\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Max Weber Bureaucracy",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Max Weber Bureaucracy",
+      "Data Privacy Act"
     ],
     "correct_answer": "Max Weber Bureaucracy",
     "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4818,9 +4818,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Line vs Staff vs Matrix Structures\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
       "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Line vs Staff vs Matrix Structures"
     ],
     "correct_answer": "Line vs Staff vs Matrix Structures",
@@ -4837,10 +4837,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Organizing Principles (Unity of Command\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Organizing Principles (Unity of Command",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Organizing Principles (Unity of Command",
     "explanation": "Correct: \"Organizing Principles (Unity of Command\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4856,10 +4856,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Scalar\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Scalar",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Scalar",
     "explanation": "Correct: \"Scalar\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4875,9 +4875,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Span of Control\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Data Privacy Act",
       "Span of Control",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Span of Control",
@@ -4894,10 +4894,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Exception)\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
+      "Exception)",
       "Records Management Definition & Principles",
-      "Exception)"
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Exception)",
     "explanation": "Correct: \"Exception)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4913,10 +4913,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Planning by Henri Fayol\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Planning by Henri Fayol",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Planning by Henri Fayol"
     ],
     "correct_answer": "Planning by Henri Fayol",
     "explanation": "Correct: \"Planning by Henri Fayol\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4932,10 +4932,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"SWOT Analysis\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "SWOT Analysis",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "SWOT Analysis",
+      "Data Privacy Act"
     ],
     "correct_answer": "SWOT Analysis",
     "explanation": "Correct: \"SWOT Analysis\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4951,9 +4951,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Operational vs Strategic Planning\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Operational vs Strategic Planning",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Operational vs Strategic Planning",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Operational vs Strategic Planning",
@@ -4970,10 +4970,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Kurt Lewin Change Theory\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Kurt Lewin Change Theory"
+      "Sentinel Events & Incident Reports",
+      "Kurt Lewin Change Theory",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Kurt Lewin Change Theory",
     "explanation": "Correct: \"Kurt Lewin Change Theory\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -4990,8 +4990,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Budgeting Types & Methods\" in NLM_W7-11_MIDTERMS?",
     "choices": [
       "Budgeting Types & Methods",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Budgeting Types & Methods",
@@ -5008,10 +5008,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Time Management\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Time Management",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Time Management"
     ],
     "correct_answer": "Time Management",
     "explanation": "Correct: \"Time Management\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5027,9 +5027,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Patient Care Classification System (Levels I\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Data Privacy Act",
       "Patient Care Classification System (Levels I",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Patient Care Classification System (Levels I",
@@ -5046,10 +5046,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"IV)\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
-      "IV)"
+      "Sentinel Events & Incident Reports",
+      "IV)",
+      "Data Privacy Act"
     ],
     "correct_answer": "IV)",
     "explanation": "Correct: \"IV)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5065,9 +5065,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Forty Hour Week Law\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Forty Hour Week Law",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Forty Hour Week Law",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Forty Hour Week Law",
@@ -5084,9 +5084,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Reliever & Staffing Computations\" in NLM_W7-11_MIDTERMS?",
     "choices": [
+      "Data Privacy Act",
       "Reliever & Staffing Computations",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Reliever & Staffing Computations",
@@ -5103,10 +5103,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Cyclical Scheduling\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Cyclical Scheduling",
       "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Cyclical Scheduling"
     ],
     "correct_answer": "Cyclical Scheduling",
     "explanation": "Correct: \"Cyclical Scheduling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5122,10 +5122,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Nursing Research (Polit & Beck)\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Sentinel Events & Incident Reports",
+      "Nursing Research (Polit & Beck)",
       "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Nursing Research (Polit & Beck)"
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Nursing Research (Polit & Beck)",
     "explanation": "Correct: \"Nursing Research (Polit & Beck)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5141,10 +5141,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Feasibility & Pilot Studies\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Feasibility & Pilot Studies",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Feasibility & Pilot Studies"
     ],
     "correct_answer": "Feasibility & Pilot Studies",
     "explanation": "Correct: \"Feasibility & Pilot Studies\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5160,10 +5160,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Reflective Journaling\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Reflective Journaling",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Reflective Journaling"
     ],
     "correct_answer": "Reflective Journaling",
     "explanation": "Correct: \"Reflective Journaling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5179,10 +5179,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Evidence\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Evidence",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Evidence",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Evidence",
     "explanation": "Correct: \"Evidence\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5199,9 +5199,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Which of the following standards is considered a fundamental component of \"Based Practice (EBP)\" in NLM_W7-11_MIDTERMS?",
     "choices": [
       "Sentinel Events & Incident Reports",
+      "Based Practice (EBP)",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Based Practice (EBP)"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Based Practice (EBP)",
     "explanation": "Correct: \"Based Practice (EBP)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5217,10 +5217,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Which of the following standards is considered a fundamental component of \"Training Needs Analysis (TNA)\" in NLM_W7-11_MIDTERMS?",
     "choices": [
-      "Training Needs Analysis (TNA)",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Training Needs Analysis (TNA)",
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act"
     ],
     "correct_answer": "Training Needs Analysis (TNA)",
     "explanation": "Correct: \"Training Needs Analysis (TNA)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5236,10 +5236,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Records Management Definition & Principles\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports",
-      "Kardex &"
+      "Kardex &",
+      "Data Privacy Act",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Records Management Definition & Principles",
     "explanation": "Correct: \"Records Management Definition & Principles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5255,8 +5255,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Data Privacy Act\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Data Privacy Act",
       "Records Management Definition & Principles",
+      "Data Privacy Act",
       "Sentinel Events & Incident Reports",
       "Kardex &"
     ],
@@ -5274,10 +5274,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Sentinel Events & Incident Reports\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Kardex &",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Kardex &",
+      "Data Privacy Act"
     ],
     "correct_answer": "Sentinel Events & Incident Reports",
     "explanation": "Correct: \"Sentinel Events & Incident Reports\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5293,10 +5293,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Kardex &\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Kardex &",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Kardex &",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Kardex &",
     "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5312,10 +5312,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"File\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "File",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "File",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "File",
     "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5331,8 +5331,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Records Lifecycle\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Records Lifecycle",
       "Records Management Definition & Principles",
+      "Records Lifecycle",
       "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
@@ -5350,8 +5350,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Intra/Inter/Transdisciplinary Collaboration\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
       "Intra/Inter/Transdisciplinary Collaboration"
     ],
@@ -5369,10 +5369,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Tuckman's Stages of Team Development\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Tuckman's Stages of Team Development",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
+      "Tuckman's Stages of Team Development"
     ],
     "correct_answer": "Tuckman's Stages of Team Development",
     "explanation": "Correct: \"Tuckman's Stages of Team Development\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5389,9 +5389,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Task & Maintenance Roles\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Task & Maintenance Roles",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Task & Maintenance Roles",
     "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5407,10 +5407,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Preceptorship & Mentorship\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Preceptorship & Mentorship",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Preceptorship & Mentorship",
     "explanation": "Correct: \"Preceptorship & Mentorship\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5426,9 +5426,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Nurse\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
       "Nurse"
     ],
     "correct_answer": "Nurse",
@@ -5445,10 +5445,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Physician Relationships & Peplau Phases\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Physician Relationships & Peplau Phases",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Physician Relationships & Peplau Phases",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Physician Relationships & Peplau Phases",
     "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5484,9 +5484,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Line vs Staff vs Matrix Structures\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Line vs Staff vs Matrix Structures",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Line vs Staff vs Matrix Structures",
     "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5502,10 +5502,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Organizing Principles (Unity of Command\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Organizing Principles (Unity of Command"
+      "Organizing Principles (Unity of Command",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Organizing Principles (Unity of Command",
     "explanation": "Correct: \"Organizing Principles (Unity of Command\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5522,9 +5522,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Scalar\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Scalar",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Scalar",
     "explanation": "Correct: \"Scalar\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5540,10 +5540,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Span of Control\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Span of Control",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Span of Control"
     ],
     "correct_answer": "Span of Control",
     "explanation": "Correct: \"Span of Control\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5559,10 +5559,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Exception)\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Exception)",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Exception)",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Exception)",
     "explanation": "Correct: \"Exception)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5579,8 +5579,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Planning by Henri Fayol\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
       "Records Management Definition & Principles",
+      "Data Privacy Act",
       "Planning by Henri Fayol"
     ],
     "correct_answer": "Planning by Henri Fayol",
@@ -5597,10 +5597,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"SWOT Analysis\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "SWOT Analysis",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "SWOT Analysis",
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act"
     ],
     "correct_answer": "SWOT Analysis",
     "explanation": "Correct: \"SWOT Analysis\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5616,10 +5616,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Operational vs Strategic Planning\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Operational vs Strategic Planning",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Operational vs Strategic Planning",
     "explanation": "Correct: \"Operational vs Strategic Planning\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5635,10 +5635,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Kurt Lewin Change Theory\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Kurt Lewin Change Theory",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Kurt Lewin Change Theory",
+      "Data Privacy Act"
     ],
     "correct_answer": "Kurt Lewin Change Theory",
     "explanation": "Correct: \"Kurt Lewin Change Theory\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5654,10 +5654,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Budgeting Types & Methods\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
+      "Budgeting Types & Methods",
       "Records Management Definition & Principles",
-      "Budgeting Types & Methods"
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Budgeting Types & Methods",
     "explanation": "Correct: \"Budgeting Types & Methods\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5674,8 +5674,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Time Management\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Time Management",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Time Management",
@@ -5692,10 +5692,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Patient Care Classification System (Levels I\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Patient Care Classification System (Levels I",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Patient Care Classification System (Levels I",
+      "Data Privacy Act"
     ],
     "correct_answer": "Patient Care Classification System (Levels I",
     "explanation": "Correct: \"Patient Care Classification System (Levels I\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5712,8 +5712,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"IV)\", what primary outcome or criterion is emphasized?",
     "choices": [
       "IV)",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "IV)",
@@ -5730,10 +5730,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Forty Hour Week Law\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Forty Hour Week Law",
       "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Forty Hour Week Law"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Forty Hour Week Law",
     "explanation": "Correct: \"Forty Hour Week Law\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5750,9 +5750,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Reliever & Staffing Computations\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Reliever & Staffing Computations",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Reliever & Staffing Computations",
     "explanation": "Correct: \"Reliever & Staffing Computations\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5768,9 +5768,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Cyclical Scheduling\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Cyclical Scheduling",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Cyclical Scheduling",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Cyclical Scheduling",
@@ -5788,8 +5788,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Nursing Research (Polit & Beck)\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Nursing Research (Polit & Beck)",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Nursing Research (Polit & Beck)",
@@ -5807,9 +5807,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Feasibility & Pilot Studies\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
+      "Feasibility & Pilot Studies",
       "Records Management Definition & Principles",
-      "Feasibility & Pilot Studies"
+      "Data Privacy Act"
     ],
     "correct_answer": "Feasibility & Pilot Studies",
     "explanation": "Correct: \"Feasibility & Pilot Studies\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5826,8 +5826,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "When evaluating operational workflows under \"Reflective Journaling\", what primary outcome or criterion is emphasized?",
     "choices": [
       "Reflective Journaling",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Reflective Journaling",
@@ -5844,10 +5844,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Evidence\", what primary outcome or criterion is emphasized?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Evidence",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Evidence",
     "explanation": "Correct: \"Evidence\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5863,10 +5863,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Based Practice (EBP)\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Based Practice (EBP)",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Based Practice (EBP)"
     ],
     "correct_answer": "Based Practice (EBP)",
     "explanation": "Correct: \"Based Practice (EBP)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5882,10 +5882,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "When evaluating operational workflows under \"Training Needs Analysis (TNA)\", what primary outcome or criterion is emphasized?",
     "choices": [
-      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
       "Records Management Definition & Principles",
-      "Training Needs Analysis (TNA)"
+      "Training Needs Analysis (TNA)",
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Training Needs Analysis (TNA)",
     "explanation": "Correct: \"Training Needs Analysis (TNA)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5901,9 +5901,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 106: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Records Management Definition & Principles?",
     "choices": [
-      "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Kardex &"
     ],
     "correct_answer": "Records Management Definition & Principles",
@@ -5921,8 +5921,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 107: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Data Privacy Act?",
     "choices": [
       "Data Privacy Act",
-      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
       "Kardex &"
     ],
     "correct_answer": "Data Privacy Act",
@@ -5940,8 +5940,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 108: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Sentinel Events & Incident Reports?",
     "choices": [
       "Sentinel Events & Incident Reports",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Kardex &"
     ],
     "correct_answer": "Sentinel Events & Incident Reports",
@@ -5958,10 +5958,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 109: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Kardex &?",
     "choices": [
+      "Kardex &",
       "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Records Management Definition & Principles",
-      "Kardex &"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Kardex &",
     "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5977,10 +5977,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 110: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of File?",
     "choices": [
-      "File",
       "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "File"
     ],
     "correct_answer": "File",
     "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -5997,9 +5997,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 111: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Records Lifecycle?",
     "choices": [
       "Records Lifecycle",
-      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Records Lifecycle",
     "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6015,10 +6015,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 112: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Intra/Inter/Transdisciplinary Collaboration?",
     "choices": [
-      "Intra/Inter/Transdisciplinary Collaboration",
       "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Intra/Inter/Transdisciplinary Collaboration"
     ],
     "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
     "explanation": "Correct: \"Intra/Inter/Transdisciplinary Collaboration\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6053,9 +6053,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 114: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Task & Maintenance Roles?",
     "choices": [
+      "Data Privacy Act",
       "Task & Maintenance Roles",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Task & Maintenance Roles",
@@ -6073,9 +6073,9 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 115: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Preceptorship & Mentorship?",
     "choices": [
       "Preceptorship & Mentorship",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Preceptorship & Mentorship",
     "explanation": "Correct: \"Preceptorship & Mentorship\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6091,10 +6091,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 116: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Nurse?",
     "choices": [
+      "Sentinel Events & Incident Reports",
       "Nurse",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Data Privacy Act"
     ],
     "correct_answer": "Nurse",
     "explanation": "Correct: \"Nurse\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6110,10 +6110,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 117: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Physician Relationships & Peplau Phases?",
     "choices": [
-      "Sentinel Events & Incident Reports",
-      "Data Privacy Act",
+      "Physician Relationships & Peplau Phases",
       "Records Management Definition & Principles",
-      "Physician Relationships & Peplau Phases"
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Physician Relationships & Peplau Phases",
     "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6129,10 +6129,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 118: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Max Weber Bureaucracy?",
     "choices": [
-      "Max Weber Bureaucracy",
+      "Sentinel Events & Incident Reports",
       "Records Management Definition & Principles",
-      "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Max Weber Bureaucracy",
+      "Data Privacy Act"
     ],
     "correct_answer": "Max Weber Bureaucracy",
     "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6148,10 +6148,10 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "exam_set": "multiple_choice",
     "question_text": "Question 119: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Line vs Staff vs Matrix Structures?",
     "choices": [
-      "Line vs Staff vs Matrix Structures",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
-      "Sentinel Events & Incident Reports"
+      "Sentinel Events & Incident Reports",
+      "Line vs Staff vs Matrix Structures",
+      "Records Management Definition & Principles"
     ],
     "correct_answer": "Line vs Staff vs Matrix Structures",
     "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
@@ -6168,8 +6168,8 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "question_text": "Question 120: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Organizing Principles (Unity of Command?",
     "choices": [
       "Organizing Principles (Unity of Command",
-      "Records Management Definition & Principles",
       "Data Privacy Act",
+      "Records Management Definition & Principles",
       "Sentinel Events & Incident Reports"
     ],
     "correct_answer": "Organizing Principles (Unity of Command",

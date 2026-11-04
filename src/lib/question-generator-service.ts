@@ -97,7 +97,26 @@ export function generateQuestionsFromTopics(options: GenerationOptions): Generat
       qText = `Question ${i + 1}: Under the curriculum for ${moduleTitle}, which item correctly identifies the core mechanism of ${topicItem}?`;
     }
 
-    const choices = [topicItem, ...distractors].sort(() => 0.5 - ((i + 3) % 4) / 4);
+    // Balanced position for the correct answer across A, B, C, D (0, 1, 2, 3)
+    const targetIdx = i % 4;
+
+    // Shuffle the 3 distractors using Fisher-Yates
+    const shuffledDistractors = [...distractors];
+    for (let d = shuffledDistractors.length - 1; d > 0; d--) {
+      const rand = Math.floor(Math.random() * (d + 1));
+      [shuffledDistractors[d], shuffledDistractors[rand]] = [shuffledDistractors[rand], shuffledDistractors[d]];
+    }
+
+    // Place correct answer at targetIdx and fill remaining slots with shuffled distractors
+    const choices: string[] = [];
+    let dPtr = 0;
+    for (let pos = 0; pos < 4; pos++) {
+      if (pos === targetIdx) {
+        choices.push(topicItem);
+      } else {
+        choices.push(shuffledDistractors[dPtr++]);
+      }
+    }
 
     questions.push({
       id: `gen-mc-${Date.now()}-${i}-${Math.random().toString(36).substring(2, 6)}`,
