@@ -35,13 +35,13 @@ const STORAGE_KEYS = {
   SUBJECTS: 'studymate_subjects_v3',
   MODULES: 'studymate_modules_v3',
   REVIEWERS: 'studymate_reviewers_v3',
-  QUESTIONS: 'studymate_questions_v3',
+  QUESTIONS: 'studymate_questions_v4',
   FLASHCARDS: 'studymate_flashcards_v3',
   FLASHCARD_PROGRESS: 'studymate_fc_progress_v3',
   EXAM_ATTEMPTS: 'studymate_attempts_v3',
 };
 
-// One-time purge of obsolete v1/v2 storage data
+// One-time purge of obsolete v1/v2/v3 storage data
 if (typeof window !== 'undefined') {
   try {
     const legacyKeys = [
@@ -60,6 +60,7 @@ if (typeof window !== 'undefined') {
       'studymate_modules_v2',
       'studymate_reviewers_v2',
       'studymate_questions_v2',
+      'studymate_questions_v3',
       'studymate_flashcards_v2',
       'studymate_fc_progress_v2',
       'studymate_attempts_v2',
@@ -421,11 +422,11 @@ export class StudyMateStore {
     let needsUpdate = false;
 
     // Check if initial questions need refresh (e.g. upgraded to 200 items per mode = 600 total per module)
-    const cmpaCount = list.filter(q => q.module_id === 'mod-cmpa-midterms').length;
-    const nlmCount = list.filter(q => q.module_id === 'mod-nlm-midterms').length;
-    const msCount = list.filter(q => q.module_id === 'mod-ms-midterms').length;
+    const cmpaMC = list.filter(q => q.module_id === 'mod-cmpa-midterms' && q.question_type === 'multiple_choice' && q.approval_status === 'approved').length;
+    const nlmMC = list.filter(q => q.module_id === 'mod-nlm-midterms' && q.question_type === 'multiple_choice' && q.approval_status === 'approved').length;
+    const msMC = list.filter(q => q.module_id === 'mod-ms-midterms' && q.question_type === 'multiple_choice' && q.approval_status === 'approved').length;
 
-    if (cmpaCount < 600 || nlmCount < 600 || msCount < 600) {
+    if (cmpaMC < 200 || nlmMC < 200 || msMC < 200 || list.length < INITIAL_QUESTIONS.length) {
       const customQuestions = list.filter(q => !initialMap.has(q.id));
       list = [...INITIAL_QUESTIONS, ...customQuestions];
       needsUpdate = true;
