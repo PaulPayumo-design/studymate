@@ -163,13 +163,13 @@ export default function StudentSubjectsPage() {
                       {/* Week / Module Examination Card */}
                       <div className="bg-white rounded-3xl border border-[#DCEEFF] p-5 sm:p-6 shadow-xs hover:border-[#BFDBFE] hover:shadow-md transition-all flex flex-col justify-between space-y-4 h-full">
                         <div className="space-y-3">
-                          {/* Card Top Row: Stack icon on left, 60 Qs on right */}
+                          {/* Card Top Row: Stack icon on left, 200 Qs on right */}
                           <div className="flex items-center justify-between gap-2">
                             <div className="w-9 h-9 rounded-xl bg-[#EAF3FB] border border-[#BFDBFE]/60 flex items-center justify-center text-[#1685E8] shadow-2xs">
                               <Layers className="w-5 h-5 stroke-[2.2]" />
                             </div>
                             <span className="text-xs font-bold text-[#1685E8] bg-[#EAF3FB] px-2.5 py-0.5 rounded-full border border-[#BFDBFE]/70">
-                              {mod.exam_question_count || 60} Qs
+                              {mod.exam_question_count || 200} Qs
                             </span>
                           </div>
 

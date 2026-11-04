@@ -259,25 +259,25 @@ const EXAMINATION_MODES: ExamModeOption[] = [
   {
     id: 'multiple_choice',
     name: 'Multiple Choice Only',
-    questionCount: 60,
+    questionCount: 200,
     icon: ListChecks,
   },
   {
     id: 'identification',
     name: 'Identification Only',
-    questionCount: 60,
+    questionCount: 200,
     icon: Edit3,
   },
   {
     id: 'true_false',
     name: 'True or False Only',
-    questionCount: 60,
+    questionCount: 200,
     icon: CheckCircle2,
   },
   {
     id: 'mixed',
     name: 'Mixed Examination',
-    questionCount: 60,
+    questionCount: 200,
     icon: Sparkles,
   },
 ];
@@ -522,7 +522,7 @@ function ExamsEntranceContent() {
                 <span className="text-[#1685E8] font-bold">
                   {EXAMINATION_MODES.find(m => m.id === selectedMode)?.name}
                 </span>{' '}
-                • 60 Questions • Self-Paced (No Time Limit)
+                • 200 Questions • Self-Paced (No Time Limit)
               </span>
             )}
           </p>
@@ -542,7 +542,7 @@ function ExamsEntranceContent() {
             }`}
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>Start 60-Question Examination</span>
+            <span>Start 200-Question Examination</span>
           </button>
         </div>
       </div>

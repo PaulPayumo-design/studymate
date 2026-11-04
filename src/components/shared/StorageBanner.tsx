@@ -88,7 +88,7 @@ export function StorageBanner() {
             <p className={`text-xs mt-1 ${isAdmin ? 'text-[#94A3B8]' : 'text-[#64748B]'}`}>
               {isSupabaseActive
                 ? 'Your project is syncing with Supabase PostgreSQL and Row Level Security.'
-                : 'StudyMate is running with built-in persistent local storage. All features (PDF uploading, question generation, 4 exam modes, 60-item weekly exams, flashcard flips) work immediately.'}
+                : 'StudyMate is running with built-in persistent local storage. All features (PDF uploading, question generation, 4 exam modes, 200-item weekly exams, flashcard flips) work immediately.'}
             </p>
           </div>
 

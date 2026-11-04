@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'PAW STUDY - Private Flashcard & Examination System',
-  description: 'Private study and examination platform with strict PDF-sourced question banking, interactive flashcards, and 60-item weekly examination suites.',
+  description: 'Private study and examination platform with strict PDF-sourced question banking, interactive flashcards, and 200-item weekly examination suites.',
 };
 
 export const viewport = {

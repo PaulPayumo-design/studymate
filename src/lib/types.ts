@@ -42,7 +42,7 @@ export interface Module {
   topics?: string; // Curriculum topics assigned to this Week Title
   order_index: number;
   exam_time_limit_minutes: number;
-  exam_question_count: number; // 60 questions per examination mode
+  exam_question_count: number; // 200 questions per examination mode
   question_distribution: ModuleQuestionDistribution;
   pdf_reviewer?: UploadedReviewer | null;
   question_count?: number;
@@ -80,7 +80,7 @@ export interface Question {
   subject_id: string;
   module_id: string;
   question_type: QuestionType;
-  exam_set?: QuestionExamSet; // Which 60-item examination set this belongs to
+  exam_set?: QuestionExamSet; // Which 200-item examination set this belongs to
   question_text: string;
   choices?: string[]; // 4 choices for multiple_choice
   correct_answer: string;
@@ -114,7 +114,7 @@ export interface ExamModeReadiness {
   mode: ExamMode;
   title: string;
   description: string;
-  requiredItems: number; // strictly 60
+  requiredItems: number; // strictly 200
   approvedCount: number;
   isReady: boolean;
   breakdown?: {

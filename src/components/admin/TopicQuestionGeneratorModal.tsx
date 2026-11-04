@@ -53,8 +53,8 @@ export function TopicQuestionGeneratorModal({
   const [topicsText, setTopicsText] = useState<string>('');
   const [selectedExamMode, setSelectedExamMode] = useState<QuestionExamSet>(initialExamSet || 'multiple_choice');
 
-  // Counts / Distribution (Defaulting to 60 questions)
-  const [mcCount, setMcCount] = useState<number>(60);
+  // Counts / Distribution (Defaulting to 200 questions)
+  const [mcCount, setMcCount] = useState<number>(200);
   const [idCount, setIdCount] = useState<number>(0);
   const [tfCount, setTfCount] = useState<number>(0);
 
@@ -98,35 +98,35 @@ export function TopicQuestionGeneratorModal({
     // Set presets based on targetType
     if (targetType === 'multiple_choice') {
       setSelectedExamMode('multiple_choice');
-      setMcCount(60);
+      setMcCount(200);
       setIdCount(0);
       setTfCount(0);
     } else if (targetType === 'identification') {
       setSelectedExamMode('identification');
       setMcCount(0);
-      setIdCount(60);
+      setIdCount(200);
       setTfCount(0);
     } else if (targetType === 'true_false') {
       setSelectedExamMode('true_false');
       setMcCount(0);
       setIdCount(0);
-      setTfCount(60);
+      setTfCount(200);
     } else if (initialExamSet) {
       setSelectedExamMode(initialExamSet);
       if (initialExamSet === 'mixed') {
-        setMcCount(20);
-        setIdCount(20);
-        setTfCount(20);
+        setMcCount(67);
+        setIdCount(67);
+        setTfCount(66);
       } else if (initialExamSet === 'identification') {
         setMcCount(0);
-        setIdCount(60);
+        setIdCount(200);
         setTfCount(0);
       } else if (initialExamSet === 'true_false') {
         setMcCount(0);
         setIdCount(0);
-        setTfCount(60);
+        setTfCount(200);
       } else {
-        setMcCount(60);
+        setMcCount(200);
         setIdCount(0);
         setTfCount(0);
       }
@@ -159,21 +159,21 @@ export function TopicQuestionGeneratorModal({
   const handleApplyPreset = (mode: QuestionExamSet) => {
     setSelectedExamMode(mode);
     if (mode === 'multiple_choice') {
-      setMcCount(60);
+      setMcCount(200);
       setIdCount(0);
       setTfCount(0);
     } else if (mode === 'identification') {
       setMcCount(0);
-      setIdCount(60);
+      setIdCount(200);
       setTfCount(0);
     } else if (mode === 'true_false') {
       setMcCount(0);
       setIdCount(0);
-      setTfCount(60);
+      setTfCount(200);
     } else if (mode === 'mixed') {
-      setMcCount(20);
-      setIdCount(20);
-      setTfCount(20);
+      setMcCount(67);
+      setIdCount(67);
+      setTfCount(66);
     }
   };
 
@@ -487,13 +487,13 @@ export function TopicQuestionGeneratorModal({
             />
           </div>
 
-          {/* 60 Questions Per Examination Mode Presets */}
+          {/* 200 Questions Per Examination Mode Presets */}
           <div className="p-5 rounded-2xl bg-[#101A27] border border-[#26384D] space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div>
                 <h4 className="text-sm font-bold text-[#F8FAFC] flex items-center gap-2">
                   <FileCheck2 className="w-4 h-4 text-[#38BDF8]" />
-                  Examination Suite Mode (Target: 60 Items)
+                  Examination Suite Mode (Target: 200 Items)
                 </h4>
                 <p className="text-xs text-[#94A3B8] mt-0.5">
                   Select which examination mode question set to generate for this Week Title.
@@ -502,68 +502,68 @@ export function TopicQuestionGeneratorModal({
 
               <div className="text-left sm:text-right">
                 <span className="text-xs font-bold text-[#94A3B8] block">Total Items to Generate</span>
-                <span className={`text-xl font-black ${totalSelected === 60 ? 'text-[#10B981]' : 'text-[#38BDF8]'}`}>
-                  {totalSelected} / 60 Items
+                <span className={`text-xl font-black ${totalSelected === 200 ? 'text-[#10B981]' : 'text-[#38BDF8]'}`}>
+                  {totalSelected} / 200 Items
                 </span>
               </div>
             </div>
 
-            {/* Quick 60-Item Preset Buttons */}
+            {/* Quick 200-Item Preset Buttons */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
               <button
                 type="button"
                 onClick={() => handleApplyPreset('multiple_choice')}
                 className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
-                  selectedExamMode === 'multiple_choice' && mcCount === 60
+                  selectedExamMode === 'multiple_choice' && mcCount === 200
                     ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
                     : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 1</span>
                 <span className="block text-xs font-extrabold mt-0.5">Multiple Choice</span>
-                <span className="block text-[11px] mt-1 font-semibold opacity-90">60 Items</span>
+                <span className="block text-[11px] mt-1 font-semibold opacity-90">200 Items</span>
               </button>
 
               <button
                 type="button"
                 onClick={() => handleApplyPreset('identification')}
                 className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
-                  selectedExamMode === 'identification' && idCount === 60
+                  selectedExamMode === 'identification' && idCount === 200
                     ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
                     : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 2</span>
                 <span className="block text-xs font-extrabold mt-0.5">Identification</span>
-                <span className="block text-[11px] mt-1 font-semibold opacity-90">60 Items</span>
+                <span className="block text-[11px] mt-1 font-semibold opacity-90">200 Items</span>
               </button>
 
               <button
                 type="button"
                 onClick={() => handleApplyPreset('true_false')}
                 className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
-                  selectedExamMode === 'true_false' && tfCount === 60
+                  selectedExamMode === 'true_false' && tfCount === 200
                     ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
                     : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 3</span>
                 <span className="block text-xs font-extrabold mt-0.5">True or False</span>
-                <span className="block text-[11px] mt-1 font-semibold opacity-90">60 Items</span>
+                <span className="block text-[11px] mt-1 font-semibold opacity-90">200 Items</span>
               </button>
 
               <button
                 type="button"
                 onClick={() => handleApplyPreset('mixed')}
                 className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
-                  selectedExamMode === 'mixed' && mcCount === 20 && idCount === 20 && tfCount === 20
+                  selectedExamMode === 'mixed' && mcCount === 67 && idCount === 67 && tfCount === 66
                     ? 'bg-[#1685E8] text-white border-[#1685E8] shadow-sm'
                     : 'bg-[#111C2A] border-[#26384D] text-[#F8FAFC] hover:border-[#38BDF8]/60'
                 }`}
               >
                 <span className="block text-[10px] font-bold uppercase opacity-80">Mode 4 (Balanced)</span>
                 <span className="block text-xs font-extrabold mt-0.5">Mixed Examination</span>
-                <span className="block text-[11px] mt-1 font-semibold opacity-90">20 MC • 20 ID • 20 TF</span>
+                <span className="block text-[11px] mt-1 font-semibold opacity-90">67 MC • 67 ID • 66 TF</span>
               </button>
             </div>
 
@@ -574,7 +574,7 @@ export function TopicQuestionGeneratorModal({
                 <Input
                   type="number"
                   min={0}
-                  max={120}
+                  max={250}
                   value={mcCount}
                   onChange={e => setMcCount(Math.max(0, parseInt(e.target.value) || 0))}
                 />
@@ -586,7 +586,7 @@ export function TopicQuestionGeneratorModal({
                 <Input
                   type="number"
                   min={0}
-                  max={120}
+                  max={250}
                   value={idCount}
                   onChange={e => setIdCount(Math.max(0, parseInt(e.target.value) || 0))}
                 />
@@ -598,7 +598,7 @@ export function TopicQuestionGeneratorModal({
                 <Input
                   type="number"
                   min={0}
-                  max={120}
+                  max={250}
                   value={tfCount}
                   onChange={e => setTfCount(Math.max(0, parseInt(e.target.value) || 0))}
                 />

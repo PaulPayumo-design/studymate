@@ -58,7 +58,7 @@ function AdminResultsContent() {
             Student Examination Analytics & History
           </h1>
           <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
-            Review live scores, duration, weekly breakdowns, and answer logs for all authorized students across 60-item weekly tests.
+            Review live scores, duration, weekly breakdowns, and answer logs for all authorized students across 200-item weekly tests.
           </p>
         </div>
       </div>
@@ -95,7 +95,7 @@ function AdminResultsContent() {
                 onChange={e => setSelectedExamType(e.target.value)}
               >
                 <option value="all">All Examinations</option>
-                <option value="module">Weekly Examination Suites (60-Item)</option>
+                <option value="module">Weekly Examination Suites (200-Item)</option>
               </select>
             </div>
 

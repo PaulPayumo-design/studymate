@@ -66,12 +66,34 @@ function ExamRoomContent() {
     const sub = allSubjects.find(s => s.id === m.subject_id);
     setSubject(sub || null);
 
+    const readiness = StudyMateStore.getExamModeReadiness(m.id, examMode);
     const pool = StudyMateStore.getApprovedQuestionsForExam(m.id, examMode);
 
-    if (pool.length < 60) {
-      setErrorMessage(
-        `Insufficient approved questions in bank: Found ${pool.length} of 60 required approved questions for "${m.title}".`
-      );
+    if (pool.length < 200) {
+      if (examMode === 'mixed') {
+        const mcApproved = readiness.breakdown?.multiple_choice.approved || 0;
+        const idApproved = readiness.breakdown?.identification.approved || 0;
+        const tfApproved = readiness.breakdown?.true_false.approved || 0;
+        const missingParts: string[] = [];
+        if (mcApproved < 67) missingParts.push(`${67 - mcApproved} Multiple Choice`);
+        if (idApproved < 67) missingParts.push(`${67 - idApproved} Identification`);
+        if (tfApproved < 66) missingParts.push(`${66 - tfApproved} True or False`);
+
+        setErrorMessage(
+          `Insufficient approved questions in bank: Found ${pool.length} of 200 required approved questions for "${m.title}". Missing: ${missingParts.join(', ')} questions. To protect academic integrity, incomplete or duplicate examinations will not be generated.`
+        );
+      } else {
+        const modeLabel =
+          examMode === 'multiple_choice'
+            ? 'Multiple Choice'
+            : examMode === 'identification'
+            ? 'Identification'
+            : 'True or False';
+        const missingCount = 200 - pool.length;
+        setErrorMessage(
+          `Insufficient approved questions in bank: Found ${pool.length} of 200 required approved questions for "${m.title}". Missing: ${missingCount} ${modeLabel} questions. To protect academic integrity, incomplete or duplicate examinations will not be generated.`
+        );
+      }
       return;
     }
 

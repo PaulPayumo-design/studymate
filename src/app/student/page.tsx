@@ -374,7 +374,7 @@ export default function StudentDashboardPage() {
                             <Layers className="w-5 h-5 stroke-[2.2]" />
                           </div>
                           <span className="text-xs font-bold text-[#1685E8] bg-[#EAF3FB] px-2.5 py-0.5 rounded-full border border-[#BFDBFE]/70">
-                            {mod.exam_question_count || 60} Qs
+                            {mod.exam_question_count || 200} Qs
                           </span>
                         </div>
                         <h4 className="font-black text-sm sm:text-base text-[#142D4E] tracking-tight line-clamp-1 group-hover:text-[#1685E8] transition-colors">
@@ -476,7 +476,7 @@ export default function StudentDashboardPage() {
                       Mixed
                     </span>
                   </td>
-                  <td className="py-3.5 px-3 font-bold text-[#142D4E]">54 / 60</td>
+                  <td className="py-3.5 px-3 font-bold text-[#142D4E]">180 / 200</td>
                   <td className="py-3.5 px-3 font-black text-emerald-600">90%</td>
                   <td className="py-3.5 px-3 text-[#64748B] font-medium">45:00</td>
                   <td className="py-3.5 px-3 text-[#64748B]">Jan 18, 2026, 10:45 PM</td>

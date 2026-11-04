@@ -199,7 +199,7 @@ export default function StudentsManagerPage() {
             <p className="font-semibold text-[#F8FAFC]">Role Permissions:</p>
             <p>• Access assigned subjects and modules</p>
             <p>• Interactive flashcard flip study</p>
-            <p>• Sit for 60-item weekly module exams across 4 modes</p>
+            <p>• Sit for 200-item weekly module exams across 4 modes</p>
             <p>• No access to admin management console or question keys</p>
           </div>
 

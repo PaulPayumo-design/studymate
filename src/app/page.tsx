@@ -129,7 +129,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[#1685E8] text-[10px]">◆</span>
-                  <span>60-Item Weekly Exam Suites across 4 modes</span>
+                  <span>200-Item Weekly Exam Suites across 4 modes</span>
                 </li>
               </ul>
             </div>

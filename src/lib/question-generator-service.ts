@@ -43,13 +43,13 @@ export function generateQuestionsFromTopics(options: GenerationOptions): Generat
     idTarget = singleQuestion.questionType === 'identification' ? 1 : 0;
     tfTarget = singleQuestion.questionType === 'true_false' ? 1 : 0;
   } else if (!counts) {
-    if (examSet === 'multiple_choice') mcTarget = 60;
-    else if (examSet === 'identification') idTarget = 60;
-    else if (examSet === 'true_false') tfTarget = 60;
+    if (examSet === 'multiple_choice') mcTarget = 200;
+    else if (examSet === 'identification') idTarget = 200;
+    else if (examSet === 'true_false') tfTarget = 200;
     else if (examSet === 'mixed') {
-      mcTarget = 20;
-      idTarget = 20;
-      tfTarget = 20;
+      mcTarget = 67;
+      idTarget = 67;
+      tfTarget = 66;
     } else {
       mcTarget = 10;
       idTarget = 10;
@@ -59,7 +59,7 @@ export function generateQuestionsFromTopics(options: GenerationOptions): Generat
 
   const effectiveExamSet: QuestionExamSet =
     examSet ||
-    (mcTarget === 20 && idTarget === 20 && tfTarget === 20
+    ((mcTarget === 67 && idTarget === 67 && tfTarget === 66) || (mcTarget === 20 && idTarget === 20 && tfTarget === 20)
       ? 'mixed'
       : mcTarget > 0 && idTarget === 0 && tfTarget === 0
       ? 'multiple_choice'

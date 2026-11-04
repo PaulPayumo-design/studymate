@@ -196,7 +196,7 @@ export class StudyMateStore {
       description: `Study curriculum and reviewer topics for Week ${num} of ${newSubject.title}`,
       order_index: num,
       exam_time_limit_minutes: 30,
-      exam_question_count: 30,
+      exam_question_count: 200,
       question_distribution: {
         multiple_choice: 10,
         identification: 10,
@@ -272,6 +272,7 @@ export class StudyMateStore {
 
       return {
         ...m,
+        exam_question_count: 200,
         question_count: modQuestions.length,
         approved_question_count: modApproved.length,
         flashcard_count: modFlashcards.length,
@@ -316,7 +317,7 @@ export class StudyMateStore {
       description: description?.trim() || `Curriculum topics and review for Week ${nextNumber}`,
       order_index: nextNumber,
       exam_time_limit_minutes: 30,
-      exam_question_count: 30,
+      exam_question_count: 200,
       question_distribution: {
         multiple_choice: 10,
         identification: 10,
@@ -581,15 +582,13 @@ export class StudyMateStore {
 
   /**
    * Retrieves readiness status for an examination mode on a specific Week Title
-   * Strict 60-question requirement per examination mode
+   * Strict 200-question requirement per examination mode
    */
   static getExamModeReadiness(moduleId: string, mode: ExamMode): ExamModeReadiness {
     const allApproved = this.getQuestions({ moduleId, status: 'approved' });
 
     if (mode === 'multiple_choice') {
-      const mcApproved = allApproved.filter(
-        q => q.exam_set === 'multiple_choice' || (!q.exam_set && q.question_type === 'multiple_choice')
-      );
+      const mcApproved = allApproved.filter(q => q.question_type === 'multiple_choice');
       const seen = new Set<string>();
       const distinct = mcApproved.filter(q => {
         const norm = this.normalizeTextForDuplicateCheck(q.question_text);
@@ -601,17 +600,15 @@ export class StudyMateStore {
       return {
         mode: 'multiple_choice',
         title: 'Multiple Choice Examination',
-        description: 'Dedicated 60-item multiple choice examination with 4 options per question.',
-        requiredItems: 60,
+        description: 'Dedicated 200-item multiple choice examination with 4 options per question.',
+        requiredItems: 200,
         approvedCount: count,
-        isReady: count >= 60,
+        isReady: count >= 200,
       };
     }
 
     if (mode === 'identification') {
-      const idApproved = allApproved.filter(
-        q => q.exam_set === 'identification' || (!q.exam_set && q.question_type === 'identification')
-      );
+      const idApproved = allApproved.filter(q => q.question_type === 'identification');
       const seen = new Set<string>();
       const distinct = idApproved.filter(q => {
         const norm = this.normalizeTextForDuplicateCheck(q.question_text);
@@ -623,17 +620,15 @@ export class StudyMateStore {
       return {
         mode: 'identification',
         title: 'Identification Examination',
-        description: 'Dedicated 60-item identification examination with automated normalization.',
-        requiredItems: 60,
+        description: 'Dedicated 200-item identification examination with automated normalization.',
+        requiredItems: 200,
         approvedCount: count,
-        isReady: count >= 60,
+        isReady: count >= 200,
       };
     }
 
     if (mode === 'true_false') {
-      const tfApproved = allApproved.filter(
-        q => q.exam_set === 'true_false' || (!q.exam_set && q.question_type === 'true_false')
-      );
+      const tfApproved = allApproved.filter(q => q.question_type === 'true_false');
       const seen = new Set<string>();
       const distinct = tfApproved.filter(q => {
         const norm = this.normalizeTextForDuplicateCheck(q.question_text);
@@ -645,145 +640,127 @@ export class StudyMateStore {
       return {
         mode: 'true_false',
         title: 'True or False Examination',
-        description: 'Dedicated 60-item factual verification examination based directly on assigned topics.',
-        requiredItems: 60,
+        description: 'Dedicated 200-item factual verification examination based directly on assigned topics.',
+        requiredItems: 200,
         approvedCount: count,
-        isReady: count >= 60,
+        isReady: count >= 200,
       };
     }
 
-    // Mixed Examination (Mode 4: 20 MC, 20 ID, 20 TF = 60 items)
-    // Separate set from the single-mode question sets
-    const dedicatedMixed = allApproved.filter(q => q.exam_set === 'mixed');
-    let mcCount = dedicatedMixed.filter(q => q.question_type === 'multiple_choice').length;
-    let idCount = dedicatedMixed.filter(q => q.question_type === 'identification').length;
-    let tfCount = dedicatedMixed.filter(q => q.question_type === 'true_false').length;
+    // Mixed Examination (Mode 4: 67 MC, 67 ID, 66 TF = 200 items)
+    const mcDistinct = new Set<string>();
+    const idDistinct = new Set<string>();
+    const tfDistinct = new Set<string>();
 
-    // Fallback if not tagged with exam_set='mixed': count remaining non-duplicate questions
-    if (mcCount < 20) {
-      const otherMC = allApproved.filter(q => q.question_type === 'multiple_choice' && q.exam_set !== 'mixed');
-      mcCount += Math.max(0, Math.min(20 - mcCount, Math.max(0, otherMC.length - 60)));
-    }
-    if (idCount < 20) {
-      const otherID = allApproved.filter(q => q.question_type === 'identification' && q.exam_set !== 'mixed');
-      idCount += Math.max(0, Math.min(20 - idCount, Math.max(0, otherID.length - 60)));
-    }
-    if (tfCount < 20) {
-      const otherTF = allApproved.filter(q => q.question_type === 'true_false' && q.exam_set !== 'mixed');
-      tfCount += Math.max(0, Math.min(20 - tfCount, Math.max(0, otherTF.length - 60)));
+    for (const q of allApproved) {
+      const norm = this.normalizeTextForDuplicateCheck(q.question_text);
+      if (q.question_type === 'multiple_choice') mcDistinct.add(norm);
+      else if (q.question_type === 'identification') idDistinct.add(norm);
+      else if (q.question_type === 'true_false') tfDistinct.add(norm);
     }
 
-    const totalApproved = Math.min(20, mcCount) + Math.min(20, idCount) + Math.min(20, tfCount);
-    const isReady = mcCount >= 20 && idCount >= 20 && tfCount >= 20;
+    const mcCount = mcDistinct.size;
+    const idCount = idDistinct.size;
+    const tfCount = tfDistinct.size;
+
+    const totalApproved = Math.min(67, mcCount) + Math.min(67, idCount) + Math.min(66, tfCount);
+    const isReady = mcCount >= 67 && idCount >= 67 && tfCount >= 66;
 
     return {
       mode: 'mixed',
       title: 'Mixed Examination',
-      description: 'Balanced 60-item synthesis: exactly 20 Multiple Choice, 20 Identification, and 20 True or False questions.',
-      requiredItems: 60,
+      description: 'Balanced 200-item synthesis: exactly 67 Multiple Choice, 67 Identification, and 66 True or False questions.',
+      requiredItems: 200,
       approvedCount: totalApproved,
       isReady,
       breakdown: {
-        multiple_choice: { approved: mcCount, required: 20 },
-        identification: { approved: idCount, required: 20 },
-        true_false: { approved: tfCount, required: 20 },
+        multiple_choice: { approved: mcCount, required: 67 },
+        identification: { approved: idCount, required: 67 },
+        true_false: { approved: tfCount, required: 66 },
       },
     };
   }
 
   /**
-   * Retrieves exactly 60 distinct approved questions for the specified examination mode
-   * Adheres strictly to separate sets and avoids duplicates
+   * Retrieves exactly 200 distinct approved questions for the specified examination mode
+   * If fewer than 200 approved questions exist, returns available distinct items without fake duplicates.
    */
   static getApprovedQuestionsForExam(moduleId: string, mode: ExamMode): Question[] {
     const allApproved = this.getQuestions({ moduleId, status: 'approved' });
 
     if (mode === 'multiple_choice') {
-      const pool = allApproved.filter(
-        q => q.exam_set === 'multiple_choice' || (!q.exam_set && q.question_type === 'multiple_choice')
-      );
-      const filtered = pool.filter(q => q.exam_set !== 'mixed');
+      const pool = allApproved.filter(q => q.question_type === 'multiple_choice');
       const seen = new Set<string>();
       const distinct: Question[] = [];
-      for (const q of filtered) {
+      for (const q of pool) {
         const norm = this.normalizeTextForDuplicateCheck(q.question_text);
         if (!seen.has(norm)) {
           seen.add(norm);
           distinct.push(q);
         }
       }
-      return distinct.sort(() => Math.random() - 0.5).slice(0, 60);
+      return distinct.sort(() => Math.random() - 0.5).slice(0, 200);
     }
 
     if (mode === 'identification') {
-      const pool = allApproved.filter(
-        q => q.exam_set === 'identification' || (!q.exam_set && q.question_type === 'identification')
-      );
-      const filtered = pool.filter(q => q.exam_set !== 'mixed');
+      const pool = allApproved.filter(q => q.question_type === 'identification');
       const seen = new Set<string>();
       const distinct: Question[] = [];
-      for (const q of filtered) {
+      for (const q of pool) {
         const norm = this.normalizeTextForDuplicateCheck(q.question_text);
         if (!seen.has(norm)) {
           seen.add(norm);
           distinct.push(q);
         }
       }
-      return distinct.sort(() => Math.random() - 0.5).slice(0, 60);
+      return distinct.sort(() => Math.random() - 0.5).slice(0, 200);
     }
 
     if (mode === 'true_false') {
-      const pool = allApproved.filter(
-        q => q.exam_set === 'true_false' || (!q.exam_set && q.question_type === 'true_false')
-      );
-      const filtered = pool.filter(q => q.exam_set !== 'mixed');
+      const pool = allApproved.filter(q => q.question_type === 'true_false');
       const seen = new Set<string>();
       const distinct: Question[] = [];
-      for (const q of filtered) {
+      for (const q of pool) {
         const norm = this.normalizeTextForDuplicateCheck(q.question_text);
         if (!seen.has(norm)) {
           seen.add(norm);
           distinct.push(q);
         }
       }
-      return distinct.sort(() => Math.random() - 0.5).slice(0, 60);
+      return distinct.sort(() => Math.random() - 0.5).slice(0, 200);
     }
 
-    // Mixed Examination: 20 Multiple Choice + 20 Identification + 20 True or False = 60 items
-    // Must NOT simply reuse the same 60 questions from another examination mode
-    const dedicatedMixed = allApproved.filter(q => q.exam_set === 'mixed');
-    let mcCandidates = dedicatedMixed.filter(q => q.question_type === 'multiple_choice');
-    let idCandidates = dedicatedMixed.filter(q => q.question_type === 'identification');
-    let tfCandidates = dedicatedMixed.filter(q => q.question_type === 'true_false');
+    // Mixed Examination: 67 Multiple Choice + 67 Identification + 66 True or False = 200 items
+    const selectDistinctByType = (type: QuestionType, targetCount: number) => {
+      const dedicated = allApproved.filter(q => q.question_type === type && q.exam_set === 'mixed');
+      const others = allApproved.filter(q => q.question_type === type && q.exam_set !== 'mixed');
 
-    const usedTexts = new Set<string>([
-      ...mcCandidates.map(q => this.normalizeTextForDuplicateCheck(q.question_text)),
-      ...idCandidates.map(q => this.normalizeTextForDuplicateCheck(q.question_text)),
-      ...tfCandidates.map(q => this.normalizeTextForDuplicateCheck(q.question_text)),
-    ]);
+      const seen = new Set<string>();
+      const result: Question[] = [];
 
-    if (mcCandidates.length < 20) {
-      const extraMC = allApproved.filter(
-        q => q.question_type === 'multiple_choice' && !usedTexts.has(this.normalizeTextForDuplicateCheck(q.question_text))
-      );
-      mcCandidates = [...mcCandidates, ...extraMC];
-    }
-    if (idCandidates.length < 20) {
-      const extraID = allApproved.filter(
-        q => q.question_type === 'identification' && !usedTexts.has(this.normalizeTextForDuplicateCheck(q.question_text))
-      );
-      idCandidates = [...idCandidates, ...extraID];
-    }
-    if (tfCandidates.length < 20) {
-      const extraTF = allApproved.filter(
-        q => q.question_type === 'true_false' && !usedTexts.has(this.normalizeTextForDuplicateCheck(q.question_text))
-      );
-      tfCandidates = [...tfCandidates, ...extraTF];
-    }
+      for (const q of dedicated) {
+        const norm = this.normalizeTextForDuplicateCheck(q.question_text);
+        if (!seen.has(norm)) {
+          seen.add(norm);
+          result.push(q);
+        }
+      }
 
-    const selectedMC = mcCandidates.sort(() => Math.random() - 0.5).slice(0, 20);
-    const selectedID = idCandidates.sort(() => Math.random() - 0.5).slice(0, 20);
-    const selectedTF = tfCandidates.sort(() => Math.random() - 0.5).slice(0, 20);
+      for (const q of others) {
+        if (result.length >= targetCount) break;
+        const norm = this.normalizeTextForDuplicateCheck(q.question_text);
+        if (!seen.has(norm)) {
+          seen.add(norm);
+          result.push(q);
+        }
+      }
+
+      return result.sort(() => Math.random() - 0.5).slice(0, targetCount);
+    };
+
+    const selectedMC = selectDistinctByType('multiple_choice', 67);
+    const selectedID = selectDistinctByType('identification', 67);
+    const selectedTF = selectDistinctByType('true_false', 66);
 
     const combined = [...selectedMC, ...selectedID, ...selectedTF];
     return combined.sort(() => Math.random() - 0.5);

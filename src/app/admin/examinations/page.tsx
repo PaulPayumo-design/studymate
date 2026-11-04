@@ -68,7 +68,7 @@ export default function ExaminationsAdminPage() {
             Examination Suites & Question Bank Management
           </h1>
           <p className="text-xs sm:text-sm text-[#94A3B8] mt-1">
-            Configure 60 questions per examination mode across all custom Week Titles (Multiple Choice, Identification, True/False, Mixed Mode).
+            Configure 200 questions per examination mode across all custom Week Titles (Multiple Choice, Identification, True/False, Mixed Mode).
           </p>
         </div>
       </div>
@@ -97,15 +97,15 @@ export default function ExaminationsAdminPage() {
         </div>
       </div>
 
-      {/* 60 Questions Per Examination Mode Matrix */}
+      {/* 200 Questions Per Examination Mode Matrix */}
       <div className="space-y-4">
         <div>
           <h2 className="text-lg font-extrabold text-[#F8FAFC] flex items-center gap-2">
             <Layers className="w-5 h-5 text-[#38BDF8]" />
-            Independent Week Title Examination Sets (60 Items Per Mode)
+            Independent Week Title Examination Sets (200 Items Per Mode)
           </h2>
           <p className="text-xs text-[#94A3B8] mt-0.5">
-            Every Week Title requires four independent 60-question sets. All questions are generated from topics and must be admin-approved.
+            Every Week Title requires four independent 200-question sets. All questions are generated from topics and must be admin-approved.
           </p>
         </div>
 
@@ -173,7 +173,7 @@ export default function ExaminationsAdminPage() {
                         </div>
                         <h4 className="font-bold text-xs text-[#F8FAFC] mt-1">Multiple Choice Only</h4>
                         <div className="text-lg font-extrabold text-[#F8FAFC] mt-2">
-                          {mcStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 60 Items</span>
+                          {mcStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 200 Items</span>
                         </div>
                       </div>
 
@@ -184,7 +184,7 @@ export default function ExaminationsAdminPage() {
                           onClick={() => openGeneratorForMode(mod.id, 'multiple_choice')}
                           className="w-full text-[11px] py-1 h-auto border-[#26384D] text-[#38BDF8] hover:bg-[#1685E8]/10"
                         >
-                          Generate 60 Qs
+                          Generate 200 Qs
                         </Button>
                         <Link href={`/admin/questions?moduleId=${mod.id}&examSet=multiple_choice`} className="shrink-0">
                           <Button variant="ghost" size="sm" className="text-[11px] py-1 h-auto px-2 text-[#94A3B8] hover:text-[#F8FAFC]">
@@ -207,7 +207,7 @@ export default function ExaminationsAdminPage() {
                         </div>
                         <h4 className="font-bold text-xs text-[#F8FAFC] mt-1">Identification Only</h4>
                         <div className="text-lg font-extrabold text-[#F8FAFC] mt-2">
-                          {idStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 60 Items</span>
+                          {idStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 200 Items</span>
                         </div>
                       </div>
 
@@ -218,7 +218,7 @@ export default function ExaminationsAdminPage() {
                           onClick={() => openGeneratorForMode(mod.id, 'identification')}
                           className="w-full text-[11px] py-1 h-auto border-[#26384D] text-[#38BDF8] hover:bg-[#1685E8]/10"
                         >
-                          Generate 60 Qs
+                          Generate 200 Qs
                         </Button>
                         <Link href={`/admin/questions?moduleId=${mod.id}&examSet=identification`} className="shrink-0">
                           <Button variant="ghost" size="sm" className="text-[11px] py-1 h-auto px-2 text-[#94A3B8] hover:text-[#F8FAFC]">
@@ -241,7 +241,7 @@ export default function ExaminationsAdminPage() {
                         </div>
                         <h4 className="font-bold text-xs text-[#F8FAFC] mt-1">True or False Only</h4>
                         <div className="text-lg font-extrabold text-[#F8FAFC] mt-2">
-                          {tfStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 60 Items</span>
+                          {tfStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 200 Items</span>
                         </div>
                       </div>
 
@@ -252,7 +252,7 @@ export default function ExaminationsAdminPage() {
                           onClick={() => openGeneratorForMode(mod.id, 'true_false')}
                           className="w-full text-[11px] py-1 h-auto border-[#26384D] text-[#38BDF8] hover:bg-[#1685E8]/10"
                         >
-                          Generate 60 Qs
+                          Generate 200 Qs
                         </Button>
                         <Link href={`/admin/questions?moduleId=${mod.id}&examSet=true_false`} className="shrink-0">
                           <Button variant="ghost" size="sm" className="text-[11px] py-1 h-auto px-2 text-[#94A3B8] hover:text-[#F8FAFC]">
@@ -262,7 +262,7 @@ export default function ExaminationsAdminPage() {
                       </div>
                     </div>
 
-                    {/* Mode 4: Mixed Examination (20 MC, 20 ID, 20 TF) */}
+                    {/* Mode 4: Mixed Examination (67 MC, 67 ID, 66 TF) */}
                     <div className="p-4 rounded-2xl border bg-[#101A27] border-[#1685E8]/40 space-y-3 flex flex-col justify-between">
                       <div>
                         <div className="flex items-center justify-between">
@@ -275,15 +275,15 @@ export default function ExaminationsAdminPage() {
                         </div>
                         <h4 className="font-bold text-xs text-[#F8FAFC] mt-1">Balanced Synthesis</h4>
                         <div className="text-lg font-extrabold text-[#F8FAFC] mt-2">
-                          {mixStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 60 Items</span>
+                          {mixStatus.approvedCount} <span className="text-xs font-medium text-[#94A3B8]">/ 200 Items</span>
                         </div>
                         {mixStatus.breakdown && (
                           <div className="text-[10px] text-[#38BDF8] pt-1 space-x-1 font-semibold">
-                            <span>MC: {mixStatus.breakdown.multiple_choice.approved}/20</span>
+                            <span>MC: {mixStatus.breakdown.multiple_choice.approved}/67</span>
                             <span className="text-[#94A3B8]">•</span>
-                            <span>ID: {mixStatus.breakdown.identification.approved}/20</span>
+                            <span>ID: {mixStatus.breakdown.identification.approved}/67</span>
                             <span className="text-[#94A3B8]">•</span>
-                            <span>TF: {mixStatus.breakdown.true_false.approved}/20</span>
+                            <span>TF: {mixStatus.breakdown.true_false.approved}/66</span>
                           </div>
                         )}
                       </div>
@@ -295,7 +295,7 @@ export default function ExaminationsAdminPage() {
                           onClick={() => openGeneratorForMode(mod.id, 'mixed')}
                           className="w-full text-[11px] py-1 h-auto bg-[#1685E8] hover:bg-[#1170c4] text-white border-0"
                         >
-                          Generate Mixed (20/20/20)
+                          Generate Mixed (67/67/66)
                         </Button>
                         <Link href={`/admin/questions?moduleId=${mod.id}&examSet=mixed`} className="shrink-0">
                           <Button variant="ghost" size="sm" className="text-[11px] py-1 h-auto px-2 text-[#94A3B8] hover:text-[#F8FAFC]">
