@@ -24,7 +24,7 @@ import {
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge, QuestionTypeBadge } from '@/components/ui/Badge';
-import { formatDate, formatSeconds } from '@/lib/utils';
+import { formatDate, formatSeconds, formatQuestionTextForDisplay } from '@/lib/utils';
 import { CatMascot } from '@/components/shared/CatMascot';
 
 function DetailedResultReportContent() {
@@ -264,7 +264,7 @@ function DetailedResultReportContent() {
                 </div>
 
                 <p className="text-xs sm:text-sm font-bold text-[#142D4E]">
-                  {originalQuestion?.question_text || 'Question text unavailable'}
+                  {formatQuestionTextForDisplay(originalQuestion?.question_text || 'Question text unavailable')}
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">

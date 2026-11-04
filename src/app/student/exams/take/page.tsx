@@ -23,6 +23,7 @@ import { Badge, QuestionTypeBadge } from '@/components/ui/Badge';
 import { Modal } from '@/components/ui/Modal';
 import confetti from 'canvas-confetti';
 import { CatMascot } from '@/components/shared/CatMascot';
+import { formatQuestionTextForDisplay } from '@/lib/utils';
 
 interface ConfirmedAnswerState {
   isCorrect: boolean;
@@ -233,7 +234,7 @@ function ExamRoomContent() {
             </span>
           </div>
           <h2 className="text-sm sm:text-base font-black text-[#142D4E] truncate">
-            {moduleItem?.title || 'Weekly Examination'}
+            Weekly Examination
           </h2>
         </div>
 
@@ -299,7 +300,7 @@ function ExamRoomContent() {
           {/* Question Stem */}
           <div className="space-y-2">
             <h3 className="text-lg sm:text-xl font-black text-[#142D4E] leading-relaxed">
-              {currentQ.question_text}
+              {formatQuestionTextForDisplay(currentQ.question_text)}
             </h3>
           </div>
 
