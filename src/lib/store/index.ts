@@ -437,12 +437,25 @@ export class StudyMateStore {
         needsUpdate = true;
       }
 
-      // Sync balanced choices for initial questions if they differ from stored cache
+      // Sync updated situational question text and choices for initial questions
       for (let i = 0; i < list.length; i++) {
         const initQ = initialMap.get(list[i].id);
-        if (initQ && initQ.question_type === 'multiple_choice' && initQ.choices) {
-          if (JSON.stringify(list[i].choices) !== JSON.stringify(initQ.choices)) {
-            list[i] = { ...list[i], choices: initQ.choices, correct_answer: initQ.correct_answer };
+        if (initQ) {
+          const textChanged = list[i].question_text !== initQ.question_text;
+          const choicesChanged = JSON.stringify(list[i].choices) !== JSON.stringify(initQ.choices);
+          const ansChanged = list[i].correct_answer !== initQ.correct_answer;
+          const statusChanged = list[i].approval_status !== initQ.approval_status;
+          if (textChanged || choicesChanged || ansChanged || statusChanged) {
+            list[i] = {
+              ...list[i],
+              question_text: initQ.question_text,
+              choices: initQ.choices,
+              correct_answer: initQ.correct_answer,
+              explanation: initQ.explanation,
+              approval_status: initQ.approval_status,
+              alternative_answers: initQ.alternative_answers,
+              manual_verification_flag: initQ.manual_verification_flag,
+            };
             needsUpdate = true;
           }
         }
