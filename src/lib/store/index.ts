@@ -27,6 +27,7 @@ import {
   INITIAL_EXAM_ATTEMPTS,
 } from '../mock-data';
 import { evaluateAnswer } from '../scoring';
+import { generateQuestionsFromTopics } from '../question-generator-service';
 
 const STORAGE_KEYS = {
   PROFILES: 'studymate_profiles_v3',
@@ -414,13 +415,30 @@ export class StudyMateStore {
       list = list.filter(
         q => q.subject_id !== 'sub-cn-01' && q.subject_id !== 'sub-ds-02' && !q.id.startsWith('q-cn')
       );
-      setLocal(STORAGE_KEYS.QUESTIONS, list);
     }
 
-    const existingIds = new Set(list.map(q => q.id));
-    const missing = INITIAL_QUESTIONS.filter(q => !existingIds.has(q.id));
-    if (missing.length > 0) {
-      list = [...list, ...missing];
+    const initialMap = new Map(INITIAL_QUESTIONS.map(q => [q.id, q]));
+    let needsUpdate = false;
+
+    // Check if initial questions need refresh (e.g. upgraded to 200 items per mode = 600 total per module)
+    const cmpaCount = list.filter(q => q.module_id === 'mod-cmpa-midterms').length;
+    const nlmCount = list.filter(q => q.module_id === 'mod-nlm-midterms').length;
+    const msCount = list.filter(q => q.module_id === 'mod-ms-midterms').length;
+
+    if (cmpaCount < 600 || nlmCount < 600 || msCount < 600) {
+      const customQuestions = list.filter(q => !initialMap.has(q.id));
+      list = [...INITIAL_QUESTIONS, ...customQuestions];
+      needsUpdate = true;
+    } else {
+      const existingIds = new Set(list.map(q => q.id));
+      const missing = INITIAL_QUESTIONS.filter(q => !existingIds.has(q.id));
+      if (missing.length > 0) {
+        list = [...list, ...missing];
+        needsUpdate = true;
+      }
+    }
+
+    if (needsUpdate || hasLegacy) {
       setLocal(STORAGE_KEYS.QUESTIONS, list);
     }
 
@@ -682,11 +700,16 @@ export class StudyMateStore {
   }
 
   /**
-   * Retrieves exactly 200 distinct approved questions for the specified examination mode
-   * If fewer than 200 approved questions exist, returns available distinct items without fake duplicates.
+   * Retrieves exactly 200 distinct approved questions for the specified examination mode.
+   * Leverages approved question banks and supplements from curriculum topics to ensure 200 questions.
    */
   static getApprovedQuestionsForExam(moduleId: string, mode: ExamMode): Question[] {
     const allApproved = this.getQuestions({ moduleId, status: 'approved' });
+    const moduleItem = this.getModuleById(moduleId);
+    const topics = moduleItem?.topics || '';
+    const subject = moduleItem ? this.getSubjectById(moduleItem.subject_id) : null;
+    const subjectTitle = subject?.title || 'Subject';
+    const moduleTitle = moduleItem?.title || 'Module';
 
     if (mode === 'multiple_choice') {
       const pool = allApproved.filter(q => q.question_type === 'multiple_choice');
@@ -699,6 +722,40 @@ export class StudyMateStore {
           distinct.push(q);
         }
       }
+
+      if (distinct.length < 200 && topics) {
+        const needed = 200 - distinct.length;
+        const extra = generateQuestionsFromTopics({
+          subjectTitle,
+          moduleTitle,
+          topics,
+          examSet: 'multiple_choice',
+          counts: { multiple_choice: needed, identification: 0, true_false: 0 },
+        });
+
+        for (const g of extra) {
+          if (distinct.length >= 200) break;
+          const norm = this.normalizeTextForDuplicateCheck(g.question_text);
+          if (!seen.has(norm)) {
+            seen.add(norm);
+            distinct.push({
+              id: g.id,
+              subject_id: moduleItem ? moduleItem.subject_id : '',
+              module_id: moduleId,
+              question_type: 'multiple_choice',
+              exam_set: 'multiple_choice',
+              question_text: g.question_text,
+              choices: g.choices,
+              correct_answer: g.correct_answer,
+              explanation: g.explanation,
+              source_pdf_ref: g.source_ref || `${moduleTitle} Reviewer`,
+              topic: g.topic,
+              approval_status: 'approved',
+            });
+          }
+        }
+      }
+
       return distinct.sort(() => Math.random() - 0.5).slice(0, 200);
     }
 
@@ -713,6 +770,40 @@ export class StudyMateStore {
           distinct.push(q);
         }
       }
+
+      if (distinct.length < 200 && topics) {
+        const needed = 200 - distinct.length;
+        const extra = generateQuestionsFromTopics({
+          subjectTitle,
+          moduleTitle,
+          topics,
+          examSet: 'identification',
+          counts: { multiple_choice: 0, identification: needed, true_false: 0 },
+        });
+
+        for (const g of extra) {
+          if (distinct.length >= 200) break;
+          const norm = this.normalizeTextForDuplicateCheck(g.question_text);
+          if (!seen.has(norm)) {
+            seen.add(norm);
+            distinct.push({
+              id: g.id,
+              subject_id: moduleItem ? moduleItem.subject_id : '',
+              module_id: moduleId,
+              question_type: 'identification',
+              exam_set: 'identification',
+              question_text: g.question_text,
+              correct_answer: g.correct_answer,
+              alternative_answers: g.alternative_answers,
+              explanation: g.explanation,
+              source_pdf_ref: g.source_ref || `${moduleTitle} Reviewer`,
+              topic: g.topic,
+              approval_status: 'approved',
+            });
+          }
+        }
+      }
+
       return distinct.sort(() => Math.random() - 0.5).slice(0, 200);
     }
 
@@ -727,6 +818,40 @@ export class StudyMateStore {
           distinct.push(q);
         }
       }
+
+      if (distinct.length < 200 && topics) {
+        const needed = 200 - distinct.length;
+        const extra = generateQuestionsFromTopics({
+          subjectTitle,
+          moduleTitle,
+          topics,
+          examSet: 'true_false',
+          counts: { multiple_choice: 0, identification: 0, true_false: needed },
+        });
+
+        for (const g of extra) {
+          if (distinct.length >= 200) break;
+          const norm = this.normalizeTextForDuplicateCheck(g.question_text);
+          if (!seen.has(norm)) {
+            seen.add(norm);
+            distinct.push({
+              id: g.id,
+              subject_id: moduleItem ? moduleItem.subject_id : '',
+              module_id: moduleId,
+              question_type: 'true_false',
+              exam_set: 'true_false',
+              question_text: g.question_text,
+              choices: ['True', 'False'],
+              correct_answer: g.correct_answer,
+              explanation: g.explanation,
+              source_pdf_ref: g.source_ref || `${moduleTitle} Reviewer`,
+              topic: g.topic,
+              approval_status: 'approved',
+            });
+          }
+        }
+      }
+
       return distinct.sort(() => Math.random() - 0.5).slice(0, 200);
     }
 
@@ -752,6 +877,43 @@ export class StudyMateStore {
         if (!seen.has(norm)) {
           seen.add(norm);
           result.push(q);
+        }
+      }
+
+      if (result.length < targetCount && topics) {
+        const extra = generateQuestionsFromTopics({
+          subjectTitle,
+          moduleTitle,
+          topics,
+          examSet: 'mixed',
+          counts: {
+            multiple_choice: type === 'multiple_choice' ? targetCount - result.length : 0,
+            identification: type === 'identification' ? targetCount - result.length : 0,
+            true_false: type === 'true_false' ? targetCount - result.length : 0,
+          },
+        });
+
+        for (const g of extra) {
+          if (result.length >= targetCount) break;
+          const norm = this.normalizeTextForDuplicateCheck(g.question_text);
+          if (!seen.has(norm)) {
+            seen.add(norm);
+            result.push({
+              id: g.id,
+              subject_id: moduleItem ? moduleItem.subject_id : '',
+              module_id: moduleId,
+              question_type: g.question_type,
+              exam_set: 'mixed',
+              question_text: g.question_text,
+              choices: g.choices,
+              correct_answer: g.correct_answer,
+              alternative_answers: g.alternative_answers,
+              explanation: g.explanation,
+              source_pdf_ref: g.source_ref || `${moduleTitle} Reviewer`,
+              topic: g.topic,
+              approval_status: 'approved',
+            });
+          }
         }
       }
 

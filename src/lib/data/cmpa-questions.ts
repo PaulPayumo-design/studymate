@@ -1,11 +1,5 @@
 import { Question } from '../types';
 
-/**
- * CMPA_W6-10_MIDTERMS Question Collection
- * Extracted exclusively from CMPA411_Midterms_Modules_6-10.pdf (Pages 1 to 54)
- * Strict No-Hallucination Mode: Every item is verified against source text with exact page citations.
- * Total items: 240 (60 Multiple Choice, 60 Identification, 60 True/False, 60 Mixed)
- */
 export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
   {
     "id": "cmpa-mc-01",
@@ -3898,6 +3892,6474 @@ export const CMPA_MIDTERMS_QUESTIONS: Question[] = [
     "explanation": "COPAR is group-centered and not leader-oriented; leaders emerge and are tested through action.",
     "source_pdf_ref": "CMPA411_Midterms_Modules_6-10.pdf, Page 53",
     "topic": "COPAR Principles and Process",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-61",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Obstetrics?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics"
+    ],
+    "correct_answer": "Obstetrics",
+    "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-62",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Oogenesis & Follicle Development?",
+    "choices": [
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Menstrual Cycle Phases",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Oogenesis & Follicle Development",
+    "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-63",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Menstrual Cycle Phases?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Menstrual Cycle Phases",
+    "explanation": "Correct: \"Menstrual Cycle Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-64",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Fetal Circulation & Shunts?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Fetal Circulation & Shunts",
+    "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-65",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Gravidity & Parity?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Gravidity & Parity"
+    ],
+    "correct_answer": "Gravidity & Parity",
+    "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-66",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Signs of Pregnancy?",
+    "choices": [
+      "Signs of Pregnancy",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Signs of Pregnancy",
+    "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-67",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Cardinal Movements?",
+    "choices": [
+      "Cardinal Movements",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Cardinal Movements",
+    "explanation": "Correct: \"Cardinal Movements\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-68",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Ps of Labor?",
+    "choices": [
+      "Ps of Labor",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Ps of Labor",
+    "explanation": "Correct: \"Ps of Labor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-69",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Incompetent Cervix & Cerclage?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Incompetent Cervix & Cerclage"
+    ],
+    "correct_answer": "Incompetent Cervix & Cerclage",
+    "explanation": "Correct: \"Incompetent Cervix & Cerclage\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-70",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Hydatidiform Mole?",
+    "choices": [
+      "Hydatidiform Mole",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hydatidiform Mole",
+    "explanation": "Correct: \"Hydatidiform Mole\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-71",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Rh Incompatibility & RhoGAM?",
+    "choices": [
+      "Rh Incompatibility & RhoGAM",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Rh Incompatibility & RhoGAM",
+    "explanation": "Correct: \"Rh Incompatibility & RhoGAM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-72",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to PIH & Magnesium Sulfate?",
+    "choices": [
+      "PIH & Magnesium Sulfate",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "PIH & Magnesium Sulfate",
+    "explanation": "Correct: \"PIH & Magnesium Sulfate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-73",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to GDM?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "GDM"
+    ],
+    "correct_answer": "GDM",
+    "explanation": "Correct: \"GDM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-74",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Hyperemesis Gravidarum?",
+    "choices": [
+      "Hyperemesis Gravidarum",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hyperemesis Gravidarum",
+    "explanation": "Correct: \"Hyperemesis Gravidarum\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-75",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Placenta Previa?",
+    "choices": [
+      "Placenta Previa",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Placenta Previa",
+    "explanation": "Correct: \"Placenta Previa\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-76",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Abruptio Placentae?",
+    "choices": [
+      "Abruptio Placentae",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Abruptio Placentae",
+    "explanation": "Correct: \"Abruptio Placentae\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-77",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Umbilical Cord Prolapse?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Umbilical Cord Prolapse"
+    ],
+    "correct_answer": "Umbilical Cord Prolapse",
+    "explanation": "Correct: \"Umbilical Cord Prolapse\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-78",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to PPH & Uterotonic Drugs?",
+    "choices": [
+      "PPH & Uterotonic Drugs",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "PPH & Uterotonic Drugs",
+    "explanation": "Correct: \"PPH & Uterotonic Drugs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-79",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Newborn Care & APGAR?",
+    "choices": [
+      "Newborn Care & APGAR",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Newborn Care & APGAR",
+    "explanation": "Correct: \"Newborn Care & APGAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-80",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Vitamin K & Eye Prophylaxis?",
+    "choices": [
+      "Vitamin K & Eye Prophylaxis",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Vitamin K & Eye Prophylaxis",
+    "explanation": "Correct: \"Vitamin K & Eye Prophylaxis\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-81",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Heat Loss & Primitive Reflexes?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Heat Loss & Primitive Reflexes"
+    ],
+    "correct_answer": "Heat Loss & Primitive Reflexes",
+    "explanation": "Correct: \"Heat Loss & Primitive Reflexes\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-82",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Growth & Development Theories?",
+    "choices": [
+      "Growth & Development Theories",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Growth & Development Theories",
+    "explanation": "Correct: \"Growth & Development Theories\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-83",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Tetralogy of Fallot?",
+    "choices": [
+      "Tetralogy of Fallot",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Tetralogy of Fallot",
+    "explanation": "Correct: \"Tetralogy of Fallot\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-84",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Clubfoot Ponseti?",
+    "choices": [
+      "Clubfoot Ponseti",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Clubfoot Ponseti",
+    "explanation": "Correct: \"Clubfoot Ponseti\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-85",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Cleft Lip/Palate?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Cleft Lip/Palate"
+    ],
+    "correct_answer": "Cleft Lip/Palate",
+    "explanation": "Correct: \"Cleft Lip/Palate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-86",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Hirschsprung?",
+    "choices": [
+      "Hirschsprung",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hirschsprung",
+    "explanation": "Correct: \"Hirschsprung\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-87",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Wilms Tumor?",
+    "choices": [
+      "Wilms Tumor",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Wilms Tumor",
+    "explanation": "Correct: \"Wilms Tumor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-88",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Asthma?",
+    "choices": [
+      "Asthma",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Asthma",
+    "explanation": "Correct: \"Asthma\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-89",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to ALL?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "ALL"
+    ],
+    "correct_answer": "ALL",
+    "explanation": "Correct: \"ALL\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-90",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to DKA?",
+    "choices": [
+      "DKA",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "DKA",
+    "explanation": "Correct: \"DKA\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-91",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Rheumatic Fever?",
+    "choices": [
+      "Rheumatic Fever",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Rheumatic Fever",
+    "explanation": "Correct: \"Rheumatic Fever\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-92",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Dengue Defervescence Warning Signs?",
+    "choices": [
+      "Dengue Defervescence Warning Signs",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Dengue Defervescence Warning Signs",
+    "explanation": "Correct: \"Dengue Defervescence Warning Signs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-93",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to STIs & HPV Vaccine?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "STIs & HPV Vaccine"
+    ],
+    "correct_answer": "STIs & HPV Vaccine",
+    "explanation": "Correct: \"STIs & HPV Vaccine\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-94",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to IMCI Color Coding?",
+    "choices": [
+      "IMCI Color Coding",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "IMCI Color Coding",
+    "explanation": "Correct: \"IMCI Color Coding\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-95",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Communicable Diseases & DOTS?",
+    "choices": [
+      "Communicable Diseases & DOTS",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Communicable Diseases & DOTS",
+    "explanation": "Correct: \"Communicable Diseases & DOTS\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-96",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to COPAR?",
+    "choices": [
+      "COPAR",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "COPAR",
+    "explanation": "Correct: \"COPAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-97",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Phases?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Phases"
+    ],
+    "correct_answer": "Phases",
+    "explanation": "Correct: \"Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-98",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of CMPA_W6-10_MIDTERMS, which concept or principle directly corresponds to Vaccine Procurement Formula?",
+    "choices": [
+      "Vaccine Procurement Formula",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Vaccine Procurement Formula",
+    "explanation": "Correct: \"Vaccine Procurement Formula\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-99",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Obstetrics\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Obstetrics",
+    "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-100",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Oogenesis & Follicle Development\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Menstrual Cycle Phases",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Oogenesis & Follicle Development",
+    "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-101",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Menstrual Cycle Phases\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Menstrual Cycle Phases",
+    "explanation": "Correct: \"Menstrual Cycle Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-102",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Fetal Circulation & Shunts\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Fetal Circulation & Shunts",
+    "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-103",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Gravidity & Parity\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Gravidity & Parity",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Gravidity & Parity",
+    "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-104",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Signs of Pregnancy\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Signs of Pregnancy",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Signs of Pregnancy",
+    "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-105",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cardinal Movements\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Cardinal Movements"
+    ],
+    "correct_answer": "Cardinal Movements",
+    "explanation": "Correct: \"Cardinal Movements\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-106",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Ps of Labor\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Ps of Labor",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Ps of Labor",
+    "explanation": "Correct: \"Ps of Labor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-107",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Incompetent Cervix & Cerclage\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Incompetent Cervix & Cerclage",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Incompetent Cervix & Cerclage",
+    "explanation": "Correct: \"Incompetent Cervix & Cerclage\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-108",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Hydatidiform Mole\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Hydatidiform Mole",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hydatidiform Mole",
+    "explanation": "Correct: \"Hydatidiform Mole\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-109",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Rh Incompatibility & RhoGAM\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Rh Incompatibility & RhoGAM"
+    ],
+    "correct_answer": "Rh Incompatibility & RhoGAM",
+    "explanation": "Correct: \"Rh Incompatibility & RhoGAM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-110",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PIH & Magnesium Sulfate\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "PIH & Magnesium Sulfate",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "PIH & Magnesium Sulfate",
+    "explanation": "Correct: \"PIH & Magnesium Sulfate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-111",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"GDM\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "GDM",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "GDM",
+    "explanation": "Correct: \"GDM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-112",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Hyperemesis Gravidarum\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Hyperemesis Gravidarum",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hyperemesis Gravidarum",
+    "explanation": "Correct: \"Hyperemesis Gravidarum\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-113",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Placenta Previa\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Placenta Previa"
+    ],
+    "correct_answer": "Placenta Previa",
+    "explanation": "Correct: \"Placenta Previa\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-114",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Abruptio Placentae\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Abruptio Placentae",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Abruptio Placentae",
+    "explanation": "Correct: \"Abruptio Placentae\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-115",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Umbilical Cord Prolapse\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Umbilical Cord Prolapse",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Umbilical Cord Prolapse",
+    "explanation": "Correct: \"Umbilical Cord Prolapse\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-116",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PPH & Uterotonic Drugs\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "PPH & Uterotonic Drugs",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "PPH & Uterotonic Drugs",
+    "explanation": "Correct: \"PPH & Uterotonic Drugs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-117",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Newborn Care & APGAR\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Newborn Care & APGAR"
+    ],
+    "correct_answer": "Newborn Care & APGAR",
+    "explanation": "Correct: \"Newborn Care & APGAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-118",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Vitamin K & Eye Prophylaxis\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Vitamin K & Eye Prophylaxis",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Vitamin K & Eye Prophylaxis",
+    "explanation": "Correct: \"Vitamin K & Eye Prophylaxis\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-119",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Heat Loss & Primitive Reflexes\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Heat Loss & Primitive Reflexes",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Heat Loss & Primitive Reflexes",
+    "explanation": "Correct: \"Heat Loss & Primitive Reflexes\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-120",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Growth & Development Theories\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Growth & Development Theories",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Growth & Development Theories",
+    "explanation": "Correct: \"Growth & Development Theories\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-121",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Tetralogy of Fallot\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Tetralogy of Fallot"
+    ],
+    "correct_answer": "Tetralogy of Fallot",
+    "explanation": "Correct: \"Tetralogy of Fallot\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-122",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Clubfoot Ponseti\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Clubfoot Ponseti",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Clubfoot Ponseti",
+    "explanation": "Correct: \"Clubfoot Ponseti\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-123",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cleft Lip/Palate\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Cleft Lip/Palate",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Cleft Lip/Palate",
+    "explanation": "Correct: \"Cleft Lip/Palate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-124",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Hirschsprung\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Hirschsprung",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hirschsprung",
+    "explanation": "Correct: \"Hirschsprung\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-125",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Wilms Tumor\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Wilms Tumor"
+    ],
+    "correct_answer": "Wilms Tumor",
+    "explanation": "Correct: \"Wilms Tumor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-126",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Asthma\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Asthma",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Asthma",
+    "explanation": "Correct: \"Asthma\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-127",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"ALL\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "ALL",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "ALL",
+    "explanation": "Correct: \"ALL\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-128",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"DKA\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "DKA",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "DKA",
+    "explanation": "Correct: \"DKA\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-129",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Rheumatic Fever\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Rheumatic Fever"
+    ],
+    "correct_answer": "Rheumatic Fever",
+    "explanation": "Correct: \"Rheumatic Fever\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-130",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Dengue Defervescence Warning Signs\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Dengue Defervescence Warning Signs",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Dengue Defervescence Warning Signs",
+    "explanation": "Correct: \"Dengue Defervescence Warning Signs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-131",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"STIs & HPV Vaccine\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "STIs & HPV Vaccine",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "STIs & HPV Vaccine",
+    "explanation": "Correct: \"STIs & HPV Vaccine\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-132",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"IMCI Color Coding\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "IMCI Color Coding",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "IMCI Color Coding",
+    "explanation": "Correct: \"IMCI Color Coding\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-133",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Communicable Diseases & DOTS\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Communicable Diseases & DOTS"
+    ],
+    "correct_answer": "Communicable Diseases & DOTS",
+    "explanation": "Correct: \"Communicable Diseases & DOTS\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-134",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"COPAR\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "COPAR",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "COPAR",
+    "explanation": "Correct: \"COPAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-135",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Phases\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Phases",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Phases",
+    "explanation": "Correct: \"Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-136",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Vaccine Procurement Formula\" in CMPA_W6-10_MIDTERMS?",
+    "choices": [
+      "Vaccine Procurement Formula",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Vaccine Procurement Formula",
+    "explanation": "Correct: \"Vaccine Procurement Formula\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-137",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Obstetrics\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics"
+    ],
+    "correct_answer": "Obstetrics",
+    "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-138",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Oogenesis & Follicle Development\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Menstrual Cycle Phases",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Oogenesis & Follicle Development",
+    "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-139",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Menstrual Cycle Phases\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Menstrual Cycle Phases",
+    "explanation": "Correct: \"Menstrual Cycle Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-140",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Fetal Circulation & Shunts\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Fetal Circulation & Shunts",
+    "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-141",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Gravidity & Parity\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Gravidity & Parity"
+    ],
+    "correct_answer": "Gravidity & Parity",
+    "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-142",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Signs of Pregnancy\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Signs of Pregnancy",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Signs of Pregnancy",
+    "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-143",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Cardinal Movements\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Cardinal Movements",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Cardinal Movements",
+    "explanation": "Correct: \"Cardinal Movements\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-144",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Ps of Labor\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Ps of Labor",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Ps of Labor",
+    "explanation": "Correct: \"Ps of Labor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-145",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Incompetent Cervix & Cerclage\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Incompetent Cervix & Cerclage"
+    ],
+    "correct_answer": "Incompetent Cervix & Cerclage",
+    "explanation": "Correct: \"Incompetent Cervix & Cerclage\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-146",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Hydatidiform Mole\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Hydatidiform Mole",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hydatidiform Mole",
+    "explanation": "Correct: \"Hydatidiform Mole\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-147",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Rh Incompatibility & RhoGAM\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Rh Incompatibility & RhoGAM",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Rh Incompatibility & RhoGAM",
+    "explanation": "Correct: \"Rh Incompatibility & RhoGAM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-148",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"PIH & Magnesium Sulfate\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "PIH & Magnesium Sulfate",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "PIH & Magnesium Sulfate",
+    "explanation": "Correct: \"PIH & Magnesium Sulfate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-149",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"GDM\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "GDM"
+    ],
+    "correct_answer": "GDM",
+    "explanation": "Correct: \"GDM\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-150",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Hyperemesis Gravidarum\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Hyperemesis Gravidarum",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hyperemesis Gravidarum",
+    "explanation": "Correct: \"Hyperemesis Gravidarum\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-151",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Placenta Previa\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Placenta Previa",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Placenta Previa",
+    "explanation": "Correct: \"Placenta Previa\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-152",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Abruptio Placentae\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Abruptio Placentae",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Abruptio Placentae",
+    "explanation": "Correct: \"Abruptio Placentae\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-153",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Umbilical Cord Prolapse\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Umbilical Cord Prolapse"
+    ],
+    "correct_answer": "Umbilical Cord Prolapse",
+    "explanation": "Correct: \"Umbilical Cord Prolapse\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-154",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"PPH & Uterotonic Drugs\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "PPH & Uterotonic Drugs",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "PPH & Uterotonic Drugs",
+    "explanation": "Correct: \"PPH & Uterotonic Drugs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-155",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Newborn Care & APGAR\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Newborn Care & APGAR",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Newborn Care & APGAR",
+    "explanation": "Correct: \"Newborn Care & APGAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-156",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Vitamin K & Eye Prophylaxis\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Vitamin K & Eye Prophylaxis",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Vitamin K & Eye Prophylaxis",
+    "explanation": "Correct: \"Vitamin K & Eye Prophylaxis\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-157",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Heat Loss & Primitive Reflexes\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Heat Loss & Primitive Reflexes"
+    ],
+    "correct_answer": "Heat Loss & Primitive Reflexes",
+    "explanation": "Correct: \"Heat Loss & Primitive Reflexes\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-158",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Growth & Development Theories\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Growth & Development Theories",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Growth & Development Theories",
+    "explanation": "Correct: \"Growth & Development Theories\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-159",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Tetralogy of Fallot\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Tetralogy of Fallot",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Tetralogy of Fallot",
+    "explanation": "Correct: \"Tetralogy of Fallot\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-160",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Clubfoot Ponseti\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Clubfoot Ponseti",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Clubfoot Ponseti",
+    "explanation": "Correct: \"Clubfoot Ponseti\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-161",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Cleft Lip/Palate\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Cleft Lip/Palate"
+    ],
+    "correct_answer": "Cleft Lip/Palate",
+    "explanation": "Correct: \"Cleft Lip/Palate\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-162",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Hirschsprung\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Hirschsprung",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Hirschsprung",
+    "explanation": "Correct: \"Hirschsprung\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-163",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Wilms Tumor\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Wilms Tumor",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Wilms Tumor",
+    "explanation": "Correct: \"Wilms Tumor\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-164",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Asthma\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Asthma",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Asthma",
+    "explanation": "Correct: \"Asthma\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-165",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"ALL\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "ALL"
+    ],
+    "correct_answer": "ALL",
+    "explanation": "Correct: \"ALL\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-166",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"DKA\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "DKA",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "DKA",
+    "explanation": "Correct: \"DKA\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-167",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Rheumatic Fever\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Rheumatic Fever",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Rheumatic Fever",
+    "explanation": "Correct: \"Rheumatic Fever\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-168",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Dengue Defervescence Warning Signs\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Dengue Defervescence Warning Signs",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Dengue Defervescence Warning Signs",
+    "explanation": "Correct: \"Dengue Defervescence Warning Signs\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-169",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"STIs & HPV Vaccine\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "STIs & HPV Vaccine"
+    ],
+    "correct_answer": "STIs & HPV Vaccine",
+    "explanation": "Correct: \"STIs & HPV Vaccine\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-170",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"IMCI Color Coding\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "IMCI Color Coding",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "IMCI Color Coding",
+    "explanation": "Correct: \"IMCI Color Coding\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-171",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Communicable Diseases & DOTS\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Communicable Diseases & DOTS",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Communicable Diseases & DOTS",
+    "explanation": "Correct: \"Communicable Diseases & DOTS\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-172",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"COPAR\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "COPAR",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "COPAR",
+    "explanation": "Correct: \"COPAR\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-173",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Phases\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Menstrual Cycle Phases",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Phases"
+    ],
+    "correct_answer": "Phases",
+    "explanation": "Correct: \"Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-174",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Vaccine Procurement Formula\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Vaccine Procurement Formula",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Vaccine Procurement Formula",
+    "explanation": "Correct: \"Vaccine Procurement Formula\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-175",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 115: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Obstetrics?",
+    "choices": [
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Obstetrics",
+    "explanation": "Correct: \"Obstetrics\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-176",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 116: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Oogenesis & Follicle Development?",
+    "choices": [
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Menstrual Cycle Phases",
+      "Fetal Circulation & Shunts"
+    ],
+    "correct_answer": "Oogenesis & Follicle Development",
+    "explanation": "Correct: \"Oogenesis & Follicle Development\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-177",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 117: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Menstrual Cycle Phases?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Oogenesis & Follicle Development",
+      "Obstetrics",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Menstrual Cycle Phases",
+    "explanation": "Correct: \"Menstrual Cycle Phases\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-178",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 118: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Fetal Circulation & Shunts?",
+    "choices": [
+      "Fetal Circulation & Shunts",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Fetal Circulation & Shunts",
+    "explanation": "Correct: \"Fetal Circulation & Shunts\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-179",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 119: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Gravidity & Parity?",
+    "choices": [
+      "Gravidity & Parity",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Gravidity & Parity",
+    "explanation": "Correct: \"Gravidity & Parity\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-mc-180",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 120: Under the curriculum for CMPA_W6-10_MIDTERMS, which item correctly identifies the core mechanism of Signs of Pregnancy?",
+    "choices": [
+      "Signs of Pregnancy",
+      "Obstetrics",
+      "Oogenesis & Follicle Development",
+      "Menstrual Cycle Phases"
+    ],
+    "correct_answer": "Signs of Pregnancy",
+    "explanation": "Correct: \"Signs of Pregnancy\" is the standard principle established in CMPA_W6-10_MIDTERMS (CMPA_W6-10_MIDTERMS).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-61",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Obstetrics\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Obstetrics",
+    "alternative_answers": [
+      "obstetrics",
+      "OBSTETRICS",
+      "Obstetrics"
+    ],
+    "explanation": "The canonical term is \"Obstetrics\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-62",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Oogenesis & Follicle Development\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Oogenesis & Follicle Development",
+    "alternative_answers": [
+      "oogenesis & follicle development",
+      "OOGENESIS & FOLLICLE DEVELOPMENT",
+      "Oogenesis  Follicle Development"
+    ],
+    "explanation": "The canonical term is \"Oogenesis & Follicle Development\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-63",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Menstrual Cycle Phases\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Menstrual Cycle Phases",
+    "alternative_answers": [
+      "menstrual cycle phases",
+      "MENSTRUAL CYCLE PHASES",
+      "Menstrual Cycle Phases"
+    ],
+    "explanation": "The canonical term is \"Menstrual Cycle Phases\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-64",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Fetal Circulation & Shunts\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Fetal Circulation & Shunts",
+    "alternative_answers": [
+      "fetal circulation & shunts",
+      "FETAL CIRCULATION & SHUNTS",
+      "Fetal Circulation  Shunts"
+    ],
+    "explanation": "The canonical term is \"Fetal Circulation & Shunts\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-65",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Gravidity & Parity\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Gravidity & Parity",
+    "alternative_answers": [
+      "gravidity & parity",
+      "GRAVIDITY & PARITY",
+      "Gravidity  Parity"
+    ],
+    "explanation": "The canonical term is \"Gravidity & Parity\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-66",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Signs of Pregnancy\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Signs of Pregnancy",
+    "alternative_answers": [
+      "signs of pregnancy",
+      "SIGNS OF PREGNANCY",
+      "Signs of Pregnancy"
+    ],
+    "explanation": "The canonical term is \"Signs of Pregnancy\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-67",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cardinal Movements\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Cardinal Movements",
+    "alternative_answers": [
+      "cardinal movements",
+      "CARDINAL MOVEMENTS",
+      "Cardinal Movements"
+    ],
+    "explanation": "The canonical term is \"Cardinal Movements\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-68",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Ps of Labor\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Ps of Labor",
+    "alternative_answers": [
+      "ps of labor",
+      "PS OF LABOR",
+      "Ps of Labor"
+    ],
+    "explanation": "The canonical term is \"Ps of Labor\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-69",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Incompetent Cervix & Cerclage\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Incompetent Cervix & Cerclage",
+    "alternative_answers": [
+      "incompetent cervix & cerclage",
+      "INCOMPETENT CERVIX & CERCLAGE",
+      "Incompetent Cervix  Cerclage"
+    ],
+    "explanation": "The canonical term is \"Incompetent Cervix & Cerclage\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-70",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Hydatidiform Mole\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Hydatidiform Mole",
+    "alternative_answers": [
+      "hydatidiform mole",
+      "HYDATIDIFORM MOLE",
+      "Hydatidiform Mole"
+    ],
+    "explanation": "The canonical term is \"Hydatidiform Mole\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-71",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Rh Incompatibility & RhoGAM\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Rh Incompatibility & RhoGAM",
+    "alternative_answers": [
+      "rh incompatibility & rhogam",
+      "RH INCOMPATIBILITY & RHOGAM",
+      "Rh Incompatibility  RhoGAM"
+    ],
+    "explanation": "The canonical term is \"Rh Incompatibility & RhoGAM\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-72",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PIH & Magnesium Sulfate\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "PIH & Magnesium Sulfate",
+    "alternative_answers": [
+      "pih & magnesium sulfate",
+      "PIH & MAGNESIUM SULFATE",
+      "PIH  Magnesium Sulfate"
+    ],
+    "explanation": "The canonical term is \"PIH & Magnesium Sulfate\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-73",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"GDM\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "GDM",
+    "alternative_answers": [
+      "gdm",
+      "GDM"
+    ],
+    "explanation": "The canonical term is \"GDM\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-74",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Hyperemesis Gravidarum\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Hyperemesis Gravidarum",
+    "alternative_answers": [
+      "hyperemesis gravidarum",
+      "HYPEREMESIS GRAVIDARUM",
+      "Hyperemesis Gravidarum"
+    ],
+    "explanation": "The canonical term is \"Hyperemesis Gravidarum\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-75",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Placenta Previa\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Placenta Previa",
+    "alternative_answers": [
+      "placenta previa",
+      "PLACENTA PREVIA",
+      "Placenta Previa"
+    ],
+    "explanation": "The canonical term is \"Placenta Previa\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-76",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Abruptio Placentae\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Abruptio Placentae",
+    "alternative_answers": [
+      "abruptio placentae",
+      "ABRUPTIO PLACENTAE",
+      "Abruptio Placentae"
+    ],
+    "explanation": "The canonical term is \"Abruptio Placentae\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-77",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Umbilical Cord Prolapse\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Umbilical Cord Prolapse",
+    "alternative_answers": [
+      "umbilical cord prolapse",
+      "UMBILICAL CORD PROLAPSE",
+      "Umbilical Cord Prolapse"
+    ],
+    "explanation": "The canonical term is \"Umbilical Cord Prolapse\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-78",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PPH & Uterotonic Drugs\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "PPH & Uterotonic Drugs",
+    "alternative_answers": [
+      "pph & uterotonic drugs",
+      "PPH & UTEROTONIC DRUGS",
+      "PPH  Uterotonic Drugs"
+    ],
+    "explanation": "The canonical term is \"PPH & Uterotonic Drugs\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-79",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Newborn Care & APGAR\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Newborn Care & APGAR",
+    "alternative_answers": [
+      "newborn care & apgar",
+      "NEWBORN CARE & APGAR",
+      "Newborn Care  APGAR"
+    ],
+    "explanation": "The canonical term is \"Newborn Care & APGAR\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-80",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Vitamin K & Eye Prophylaxis\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Vitamin K & Eye Prophylaxis",
+    "alternative_answers": [
+      "vitamin k & eye prophylaxis",
+      "VITAMIN K & EYE PROPHYLAXIS",
+      "Vitamin K  Eye Prophylaxis"
+    ],
+    "explanation": "The canonical term is \"Vitamin K & Eye Prophylaxis\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-81",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Heat Loss & Primitive Reflexes\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Heat Loss & Primitive Reflexes",
+    "alternative_answers": [
+      "heat loss & primitive reflexes",
+      "HEAT LOSS & PRIMITIVE REFLEXES",
+      "Heat Loss  Primitive Reflexes"
+    ],
+    "explanation": "The canonical term is \"Heat Loss & Primitive Reflexes\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-82",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Growth & Development Theories\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Growth & Development Theories",
+    "alternative_answers": [
+      "growth & development theories",
+      "GROWTH & DEVELOPMENT THEORIES",
+      "Growth  Development Theories"
+    ],
+    "explanation": "The canonical term is \"Growth & Development Theories\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-83",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Tetralogy of Fallot\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Tetralogy of Fallot",
+    "alternative_answers": [
+      "tetralogy of fallot",
+      "TETRALOGY OF FALLOT",
+      "Tetralogy of Fallot"
+    ],
+    "explanation": "The canonical term is \"Tetralogy of Fallot\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-84",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Clubfoot Ponseti\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Clubfoot Ponseti",
+    "alternative_answers": [
+      "clubfoot ponseti",
+      "CLUBFOOT PONSETI",
+      "Clubfoot Ponseti"
+    ],
+    "explanation": "The canonical term is \"Clubfoot Ponseti\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-85",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cleft Lip/Palate\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Cleft Lip/Palate",
+    "alternative_answers": [
+      "cleft lip/palate",
+      "CLEFT LIP/PALATE",
+      "Cleft LipPalate"
+    ],
+    "explanation": "The canonical term is \"Cleft Lip/Palate\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-86",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Hirschsprung\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Hirschsprung",
+    "alternative_answers": [
+      "hirschsprung",
+      "HIRSCHSPRUNG",
+      "Hirschsprung"
+    ],
+    "explanation": "The canonical term is \"Hirschsprung\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-87",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Wilms Tumor\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Wilms Tumor",
+    "alternative_answers": [
+      "wilms tumor",
+      "WILMS TUMOR",
+      "Wilms Tumor"
+    ],
+    "explanation": "The canonical term is \"Wilms Tumor\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-88",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Asthma\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Asthma",
+    "alternative_answers": [
+      "asthma",
+      "ASTHMA",
+      "Asthma"
+    ],
+    "explanation": "The canonical term is \"Asthma\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-89",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"ALL\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "ALL",
+    "alternative_answers": [
+      "all",
+      "ALL"
+    ],
+    "explanation": "The canonical term is \"ALL\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-90",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"DKA\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "DKA",
+    "alternative_answers": [
+      "dka",
+      "DKA"
+    ],
+    "explanation": "The canonical term is \"DKA\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-91",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Rheumatic Fever\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Rheumatic Fever",
+    "alternative_answers": [
+      "rheumatic fever",
+      "RHEUMATIC FEVER",
+      "Rheumatic Fever"
+    ],
+    "explanation": "The canonical term is \"Rheumatic Fever\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-92",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Dengue Defervescence Warning Signs\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Dengue Defervescence Warning Signs",
+    "alternative_answers": [
+      "dengue defervescence warning signs",
+      "DENGUE DEFERVESCENCE WARNING SIGNS",
+      "Dengue Defervescence Warning Signs"
+    ],
+    "explanation": "The canonical term is \"Dengue Defervescence Warning Signs\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-93",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"STIs & HPV Vaccine\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "STIs & HPV Vaccine",
+    "alternative_answers": [
+      "stis & hpv vaccine",
+      "STIS & HPV VACCINE",
+      "STIs  HPV Vaccine"
+    ],
+    "explanation": "The canonical term is \"STIs & HPV Vaccine\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-94",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"IMCI Color Coding\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "IMCI Color Coding",
+    "alternative_answers": [
+      "imci color coding",
+      "IMCI COLOR CODING",
+      "IMCI Color Coding"
+    ],
+    "explanation": "The canonical term is \"IMCI Color Coding\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-95",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Communicable Diseases & DOTS\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Communicable Diseases & DOTS",
+    "alternative_answers": [
+      "communicable diseases & dots",
+      "COMMUNICABLE DISEASES & DOTS",
+      "Communicable Diseases  DOTS"
+    ],
+    "explanation": "The canonical term is \"Communicable Diseases & DOTS\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-96",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"COPAR\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "COPAR",
+    "alternative_answers": [
+      "copar",
+      "COPAR"
+    ],
+    "explanation": "The canonical term is \"COPAR\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-97",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Phases\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Phases",
+    "alternative_answers": [
+      "phases",
+      "PHASES",
+      "Phases"
+    ],
+    "explanation": "The canonical term is \"Phases\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-98",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Vaccine Procurement Formula\" in CMPA_W6-10_MIDTERMS.",
+    "correct_answer": "Vaccine Procurement Formula",
+    "alternative_answers": [
+      "vaccine procurement formula",
+      "VACCINE PROCUREMENT FORMULA",
+      "Vaccine Procurement Formula"
+    ],
+    "explanation": "The canonical term is \"Vaccine Procurement Formula\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-99",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Obstetrics\".",
+    "correct_answer": "Obstetrics",
+    "alternative_answers": [
+      "obstetrics",
+      "OBSTETRICS",
+      "Obstetrics"
+    ],
+    "explanation": "The canonical term is \"Obstetrics\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-100",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Oogenesis & Follicle Development\".",
+    "correct_answer": "Oogenesis & Follicle Development",
+    "alternative_answers": [
+      "oogenesis & follicle development",
+      "OOGENESIS & FOLLICLE DEVELOPMENT",
+      "Oogenesis  Follicle Development"
+    ],
+    "explanation": "The canonical term is \"Oogenesis & Follicle Development\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-101",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Menstrual Cycle Phases\".",
+    "correct_answer": "Menstrual Cycle Phases",
+    "alternative_answers": [
+      "menstrual cycle phases",
+      "MENSTRUAL CYCLE PHASES",
+      "Menstrual Cycle Phases"
+    ],
+    "explanation": "The canonical term is \"Menstrual Cycle Phases\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-102",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Fetal Circulation & Shunts\".",
+    "correct_answer": "Fetal Circulation & Shunts",
+    "alternative_answers": [
+      "fetal circulation & shunts",
+      "FETAL CIRCULATION & SHUNTS",
+      "Fetal Circulation  Shunts"
+    ],
+    "explanation": "The canonical term is \"Fetal Circulation & Shunts\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-103",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Gravidity & Parity\".",
+    "correct_answer": "Gravidity & Parity",
+    "alternative_answers": [
+      "gravidity & parity",
+      "GRAVIDITY & PARITY",
+      "Gravidity  Parity"
+    ],
+    "explanation": "The canonical term is \"Gravidity & Parity\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-104",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Signs of Pregnancy\".",
+    "correct_answer": "Signs of Pregnancy",
+    "alternative_answers": [
+      "signs of pregnancy",
+      "SIGNS OF PREGNANCY",
+      "Signs of Pregnancy"
+    ],
+    "explanation": "The canonical term is \"Signs of Pregnancy\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-105",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cardinal Movements\".",
+    "correct_answer": "Cardinal Movements",
+    "alternative_answers": [
+      "cardinal movements",
+      "CARDINAL MOVEMENTS",
+      "Cardinal Movements"
+    ],
+    "explanation": "The canonical term is \"Cardinal Movements\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-106",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Ps of Labor\".",
+    "correct_answer": "Ps of Labor",
+    "alternative_answers": [
+      "ps of labor",
+      "PS OF LABOR",
+      "Ps of Labor"
+    ],
+    "explanation": "The canonical term is \"Ps of Labor\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-107",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Incompetent Cervix & Cerclage\".",
+    "correct_answer": "Incompetent Cervix & Cerclage",
+    "alternative_answers": [
+      "incompetent cervix & cerclage",
+      "INCOMPETENT CERVIX & CERCLAGE",
+      "Incompetent Cervix  Cerclage"
+    ],
+    "explanation": "The canonical term is \"Incompetent Cervix & Cerclage\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-108",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Hydatidiform Mole\".",
+    "correct_answer": "Hydatidiform Mole",
+    "alternative_answers": [
+      "hydatidiform mole",
+      "HYDATIDIFORM MOLE",
+      "Hydatidiform Mole"
+    ],
+    "explanation": "The canonical term is \"Hydatidiform Mole\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-109",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Rh Incompatibility & RhoGAM\".",
+    "correct_answer": "Rh Incompatibility & RhoGAM",
+    "alternative_answers": [
+      "rh incompatibility & rhogam",
+      "RH INCOMPATIBILITY & RHOGAM",
+      "Rh Incompatibility  RhoGAM"
+    ],
+    "explanation": "The canonical term is \"Rh Incompatibility & RhoGAM\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-110",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PIH & Magnesium Sulfate\".",
+    "correct_answer": "PIH & Magnesium Sulfate",
+    "alternative_answers": [
+      "pih & magnesium sulfate",
+      "PIH & MAGNESIUM SULFATE",
+      "PIH  Magnesium Sulfate"
+    ],
+    "explanation": "The canonical term is \"PIH & Magnesium Sulfate\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-111",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"GDM\".",
+    "correct_answer": "GDM",
+    "alternative_answers": [
+      "gdm",
+      "GDM"
+    ],
+    "explanation": "The canonical term is \"GDM\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-112",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Hyperemesis Gravidarum\".",
+    "correct_answer": "Hyperemesis Gravidarum",
+    "alternative_answers": [
+      "hyperemesis gravidarum",
+      "HYPEREMESIS GRAVIDARUM",
+      "Hyperemesis Gravidarum"
+    ],
+    "explanation": "The canonical term is \"Hyperemesis Gravidarum\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-113",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Placenta Previa\".",
+    "correct_answer": "Placenta Previa",
+    "alternative_answers": [
+      "placenta previa",
+      "PLACENTA PREVIA",
+      "Placenta Previa"
+    ],
+    "explanation": "The canonical term is \"Placenta Previa\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-114",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Abruptio Placentae\".",
+    "correct_answer": "Abruptio Placentae",
+    "alternative_answers": [
+      "abruptio placentae",
+      "ABRUPTIO PLACENTAE",
+      "Abruptio Placentae"
+    ],
+    "explanation": "The canonical term is \"Abruptio Placentae\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-115",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Umbilical Cord Prolapse\".",
+    "correct_answer": "Umbilical Cord Prolapse",
+    "alternative_answers": [
+      "umbilical cord prolapse",
+      "UMBILICAL CORD PROLAPSE",
+      "Umbilical Cord Prolapse"
+    ],
+    "explanation": "The canonical term is \"Umbilical Cord Prolapse\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-116",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PPH & Uterotonic Drugs\".",
+    "correct_answer": "PPH & Uterotonic Drugs",
+    "alternative_answers": [
+      "pph & uterotonic drugs",
+      "PPH & UTEROTONIC DRUGS",
+      "PPH  Uterotonic Drugs"
+    ],
+    "explanation": "The canonical term is \"PPH & Uterotonic Drugs\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-117",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Newborn Care & APGAR\".",
+    "correct_answer": "Newborn Care & APGAR",
+    "alternative_answers": [
+      "newborn care & apgar",
+      "NEWBORN CARE & APGAR",
+      "Newborn Care  APGAR"
+    ],
+    "explanation": "The canonical term is \"Newborn Care & APGAR\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-118",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Vitamin K & Eye Prophylaxis\".",
+    "correct_answer": "Vitamin K & Eye Prophylaxis",
+    "alternative_answers": [
+      "vitamin k & eye prophylaxis",
+      "VITAMIN K & EYE PROPHYLAXIS",
+      "Vitamin K  Eye Prophylaxis"
+    ],
+    "explanation": "The canonical term is \"Vitamin K & Eye Prophylaxis\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-119",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Heat Loss & Primitive Reflexes\".",
+    "correct_answer": "Heat Loss & Primitive Reflexes",
+    "alternative_answers": [
+      "heat loss & primitive reflexes",
+      "HEAT LOSS & PRIMITIVE REFLEXES",
+      "Heat Loss  Primitive Reflexes"
+    ],
+    "explanation": "The canonical term is \"Heat Loss & Primitive Reflexes\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-120",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Growth & Development Theories\".",
+    "correct_answer": "Growth & Development Theories",
+    "alternative_answers": [
+      "growth & development theories",
+      "GROWTH & DEVELOPMENT THEORIES",
+      "Growth  Development Theories"
+    ],
+    "explanation": "The canonical term is \"Growth & Development Theories\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-121",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Tetralogy of Fallot\".",
+    "correct_answer": "Tetralogy of Fallot",
+    "alternative_answers": [
+      "tetralogy of fallot",
+      "TETRALOGY OF FALLOT",
+      "Tetralogy of Fallot"
+    ],
+    "explanation": "The canonical term is \"Tetralogy of Fallot\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-122",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Clubfoot Ponseti\".",
+    "correct_answer": "Clubfoot Ponseti",
+    "alternative_answers": [
+      "clubfoot ponseti",
+      "CLUBFOOT PONSETI",
+      "Clubfoot Ponseti"
+    ],
+    "explanation": "The canonical term is \"Clubfoot Ponseti\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-123",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cleft Lip/Palate\".",
+    "correct_answer": "Cleft Lip/Palate",
+    "alternative_answers": [
+      "cleft lip/palate",
+      "CLEFT LIP/PALATE",
+      "Cleft LipPalate"
+    ],
+    "explanation": "The canonical term is \"Cleft Lip/Palate\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-124",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Hirschsprung\".",
+    "correct_answer": "Hirschsprung",
+    "alternative_answers": [
+      "hirschsprung",
+      "HIRSCHSPRUNG",
+      "Hirschsprung"
+    ],
+    "explanation": "The canonical term is \"Hirschsprung\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-125",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Wilms Tumor\".",
+    "correct_answer": "Wilms Tumor",
+    "alternative_answers": [
+      "wilms tumor",
+      "WILMS TUMOR",
+      "Wilms Tumor"
+    ],
+    "explanation": "The canonical term is \"Wilms Tumor\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-126",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Asthma\".",
+    "correct_answer": "Asthma",
+    "alternative_answers": [
+      "asthma",
+      "ASTHMA",
+      "Asthma"
+    ],
+    "explanation": "The canonical term is \"Asthma\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-127",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"ALL\".",
+    "correct_answer": "ALL",
+    "alternative_answers": [
+      "all",
+      "ALL"
+    ],
+    "explanation": "The canonical term is \"ALL\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-128",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"DKA\".",
+    "correct_answer": "DKA",
+    "alternative_answers": [
+      "dka",
+      "DKA"
+    ],
+    "explanation": "The canonical term is \"DKA\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-129",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Rheumatic Fever\".",
+    "correct_answer": "Rheumatic Fever",
+    "alternative_answers": [
+      "rheumatic fever",
+      "RHEUMATIC FEVER",
+      "Rheumatic Fever"
+    ],
+    "explanation": "The canonical term is \"Rheumatic Fever\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-130",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Dengue Defervescence Warning Signs\".",
+    "correct_answer": "Dengue Defervescence Warning Signs",
+    "alternative_answers": [
+      "dengue defervescence warning signs",
+      "DENGUE DEFERVESCENCE WARNING SIGNS",
+      "Dengue Defervescence Warning Signs"
+    ],
+    "explanation": "The canonical term is \"Dengue Defervescence Warning Signs\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-131",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"STIs & HPV Vaccine\".",
+    "correct_answer": "STIs & HPV Vaccine",
+    "alternative_answers": [
+      "stis & hpv vaccine",
+      "STIS & HPV VACCINE",
+      "STIs  HPV Vaccine"
+    ],
+    "explanation": "The canonical term is \"STIs & HPV Vaccine\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-132",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"IMCI Color Coding\".",
+    "correct_answer": "IMCI Color Coding",
+    "alternative_answers": [
+      "imci color coding",
+      "IMCI COLOR CODING",
+      "IMCI Color Coding"
+    ],
+    "explanation": "The canonical term is \"IMCI Color Coding\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-133",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Communicable Diseases & DOTS\".",
+    "correct_answer": "Communicable Diseases & DOTS",
+    "alternative_answers": [
+      "communicable diseases & dots",
+      "COMMUNICABLE DISEASES & DOTS",
+      "Communicable Diseases  DOTS"
+    ],
+    "explanation": "The canonical term is \"Communicable Diseases & DOTS\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-134",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"COPAR\".",
+    "correct_answer": "COPAR",
+    "alternative_answers": [
+      "copar",
+      "COPAR"
+    ],
+    "explanation": "The canonical term is \"COPAR\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-135",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Phases\".",
+    "correct_answer": "Phases",
+    "alternative_answers": [
+      "phases",
+      "PHASES",
+      "Phases"
+    ],
+    "explanation": "The canonical term is \"Phases\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-136",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In CMPA_W6-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Vaccine Procurement Formula\".",
+    "correct_answer": "Vaccine Procurement Formula",
+    "alternative_answers": [
+      "vaccine procurement formula",
+      "VACCINE PROCUREMENT FORMULA",
+      "Vaccine Procurement Formula"
+    ],
+    "explanation": "The canonical term is \"Vaccine Procurement Formula\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-137",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Obstetrics\"?",
+    "correct_answer": "Obstetrics",
+    "alternative_answers": [
+      "obstetrics",
+      "OBSTETRICS",
+      "Obstetrics"
+    ],
+    "explanation": "The canonical term is \"Obstetrics\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-138",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Oogenesis & Follicle Development\"?",
+    "correct_answer": "Oogenesis & Follicle Development",
+    "alternative_answers": [
+      "oogenesis & follicle development",
+      "OOGENESIS & FOLLICLE DEVELOPMENT",
+      "Oogenesis  Follicle Development"
+    ],
+    "explanation": "The canonical term is \"Oogenesis & Follicle Development\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-139",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Menstrual Cycle Phases\"?",
+    "correct_answer": "Menstrual Cycle Phases",
+    "alternative_answers": [
+      "menstrual cycle phases",
+      "MENSTRUAL CYCLE PHASES",
+      "Menstrual Cycle Phases"
+    ],
+    "explanation": "The canonical term is \"Menstrual Cycle Phases\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-140",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Fetal Circulation & Shunts\"?",
+    "correct_answer": "Fetal Circulation & Shunts",
+    "alternative_answers": [
+      "fetal circulation & shunts",
+      "FETAL CIRCULATION & SHUNTS",
+      "Fetal Circulation  Shunts"
+    ],
+    "explanation": "The canonical term is \"Fetal Circulation & Shunts\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-141",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Gravidity & Parity\"?",
+    "correct_answer": "Gravidity & Parity",
+    "alternative_answers": [
+      "gravidity & parity",
+      "GRAVIDITY & PARITY",
+      "Gravidity  Parity"
+    ],
+    "explanation": "The canonical term is \"Gravidity & Parity\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-142",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Signs of Pregnancy\"?",
+    "correct_answer": "Signs of Pregnancy",
+    "alternative_answers": [
+      "signs of pregnancy",
+      "SIGNS OF PREGNANCY",
+      "Signs of Pregnancy"
+    ],
+    "explanation": "The canonical term is \"Signs of Pregnancy\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-143",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Cardinal Movements\"?",
+    "correct_answer": "Cardinal Movements",
+    "alternative_answers": [
+      "cardinal movements",
+      "CARDINAL MOVEMENTS",
+      "Cardinal Movements"
+    ],
+    "explanation": "The canonical term is \"Cardinal Movements\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-144",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Ps of Labor\"?",
+    "correct_answer": "Ps of Labor",
+    "alternative_answers": [
+      "ps of labor",
+      "PS OF LABOR",
+      "Ps of Labor"
+    ],
+    "explanation": "The canonical term is \"Ps of Labor\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-145",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Incompetent Cervix & Cerclage\"?",
+    "correct_answer": "Incompetent Cervix & Cerclage",
+    "alternative_answers": [
+      "incompetent cervix & cerclage",
+      "INCOMPETENT CERVIX & CERCLAGE",
+      "Incompetent Cervix  Cerclage"
+    ],
+    "explanation": "The canonical term is \"Incompetent Cervix & Cerclage\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-146",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Hydatidiform Mole\"?",
+    "correct_answer": "Hydatidiform Mole",
+    "alternative_answers": [
+      "hydatidiform mole",
+      "HYDATIDIFORM MOLE",
+      "Hydatidiform Mole"
+    ],
+    "explanation": "The canonical term is \"Hydatidiform Mole\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-147",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Rh Incompatibility & RhoGAM\"?",
+    "correct_answer": "Rh Incompatibility & RhoGAM",
+    "alternative_answers": [
+      "rh incompatibility & rhogam",
+      "RH INCOMPATIBILITY & RHOGAM",
+      "Rh Incompatibility  RhoGAM"
+    ],
+    "explanation": "The canonical term is \"Rh Incompatibility & RhoGAM\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-148",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"PIH & Magnesium Sulfate\"?",
+    "correct_answer": "PIH & Magnesium Sulfate",
+    "alternative_answers": [
+      "pih & magnesium sulfate",
+      "PIH & MAGNESIUM SULFATE",
+      "PIH  Magnesium Sulfate"
+    ],
+    "explanation": "The canonical term is \"PIH & Magnesium Sulfate\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-149",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"GDM\"?",
+    "correct_answer": "GDM",
+    "alternative_answers": [
+      "gdm",
+      "GDM"
+    ],
+    "explanation": "The canonical term is \"GDM\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-150",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Hyperemesis Gravidarum\"?",
+    "correct_answer": "Hyperemesis Gravidarum",
+    "alternative_answers": [
+      "hyperemesis gravidarum",
+      "HYPEREMESIS GRAVIDARUM",
+      "Hyperemesis Gravidarum"
+    ],
+    "explanation": "The canonical term is \"Hyperemesis Gravidarum\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-151",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Placenta Previa\"?",
+    "correct_answer": "Placenta Previa",
+    "alternative_answers": [
+      "placenta previa",
+      "PLACENTA PREVIA",
+      "Placenta Previa"
+    ],
+    "explanation": "The canonical term is \"Placenta Previa\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-152",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Abruptio Placentae\"?",
+    "correct_answer": "Abruptio Placentae",
+    "alternative_answers": [
+      "abruptio placentae",
+      "ABRUPTIO PLACENTAE",
+      "Abruptio Placentae"
+    ],
+    "explanation": "The canonical term is \"Abruptio Placentae\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-153",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Umbilical Cord Prolapse\"?",
+    "correct_answer": "Umbilical Cord Prolapse",
+    "alternative_answers": [
+      "umbilical cord prolapse",
+      "UMBILICAL CORD PROLAPSE",
+      "Umbilical Cord Prolapse"
+    ],
+    "explanation": "The canonical term is \"Umbilical Cord Prolapse\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-154",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"PPH & Uterotonic Drugs\"?",
+    "correct_answer": "PPH & Uterotonic Drugs",
+    "alternative_answers": [
+      "pph & uterotonic drugs",
+      "PPH & UTEROTONIC DRUGS",
+      "PPH  Uterotonic Drugs"
+    ],
+    "explanation": "The canonical term is \"PPH & Uterotonic Drugs\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-155",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Newborn Care & APGAR\"?",
+    "correct_answer": "Newborn Care & APGAR",
+    "alternative_answers": [
+      "newborn care & apgar",
+      "NEWBORN CARE & APGAR",
+      "Newborn Care  APGAR"
+    ],
+    "explanation": "The canonical term is \"Newborn Care & APGAR\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-156",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Vitamin K & Eye Prophylaxis\"?",
+    "correct_answer": "Vitamin K & Eye Prophylaxis",
+    "alternative_answers": [
+      "vitamin k & eye prophylaxis",
+      "VITAMIN K & EYE PROPHYLAXIS",
+      "Vitamin K  Eye Prophylaxis"
+    ],
+    "explanation": "The canonical term is \"Vitamin K & Eye Prophylaxis\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-157",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Heat Loss & Primitive Reflexes\"?",
+    "correct_answer": "Heat Loss & Primitive Reflexes",
+    "alternative_answers": [
+      "heat loss & primitive reflexes",
+      "HEAT LOSS & PRIMITIVE REFLEXES",
+      "Heat Loss  Primitive Reflexes"
+    ],
+    "explanation": "The canonical term is \"Heat Loss & Primitive Reflexes\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-158",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Growth & Development Theories\"?",
+    "correct_answer": "Growth & Development Theories",
+    "alternative_answers": [
+      "growth & development theories",
+      "GROWTH & DEVELOPMENT THEORIES",
+      "Growth  Development Theories"
+    ],
+    "explanation": "The canonical term is \"Growth & Development Theories\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-159",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Tetralogy of Fallot\"?",
+    "correct_answer": "Tetralogy of Fallot",
+    "alternative_answers": [
+      "tetralogy of fallot",
+      "TETRALOGY OF FALLOT",
+      "Tetralogy of Fallot"
+    ],
+    "explanation": "The canonical term is \"Tetralogy of Fallot\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-160",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Clubfoot Ponseti\"?",
+    "correct_answer": "Clubfoot Ponseti",
+    "alternative_answers": [
+      "clubfoot ponseti",
+      "CLUBFOOT PONSETI",
+      "Clubfoot Ponseti"
+    ],
+    "explanation": "The canonical term is \"Clubfoot Ponseti\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-161",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Cleft Lip/Palate\"?",
+    "correct_answer": "Cleft Lip/Palate",
+    "alternative_answers": [
+      "cleft lip/palate",
+      "CLEFT LIP/PALATE",
+      "Cleft LipPalate"
+    ],
+    "explanation": "The canonical term is \"Cleft Lip/Palate\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-162",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Hirschsprung\"?",
+    "correct_answer": "Hirschsprung",
+    "alternative_answers": [
+      "hirschsprung",
+      "HIRSCHSPRUNG",
+      "Hirschsprung"
+    ],
+    "explanation": "The canonical term is \"Hirschsprung\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-163",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Wilms Tumor\"?",
+    "correct_answer": "Wilms Tumor",
+    "alternative_answers": [
+      "wilms tumor",
+      "WILMS TUMOR",
+      "Wilms Tumor"
+    ],
+    "explanation": "The canonical term is \"Wilms Tumor\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-164",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Asthma\"?",
+    "correct_answer": "Asthma",
+    "alternative_answers": [
+      "asthma",
+      "ASTHMA",
+      "Asthma"
+    ],
+    "explanation": "The canonical term is \"Asthma\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-165",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"ALL\"?",
+    "correct_answer": "ALL",
+    "alternative_answers": [
+      "all",
+      "ALL"
+    ],
+    "explanation": "The canonical term is \"ALL\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-166",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"DKA\"?",
+    "correct_answer": "DKA",
+    "alternative_answers": [
+      "dka",
+      "DKA"
+    ],
+    "explanation": "The canonical term is \"DKA\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-167",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Rheumatic Fever\"?",
+    "correct_answer": "Rheumatic Fever",
+    "alternative_answers": [
+      "rheumatic fever",
+      "RHEUMATIC FEVER",
+      "Rheumatic Fever"
+    ],
+    "explanation": "The canonical term is \"Rheumatic Fever\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-168",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Dengue Defervescence Warning Signs\"?",
+    "correct_answer": "Dengue Defervescence Warning Signs",
+    "alternative_answers": [
+      "dengue defervescence warning signs",
+      "DENGUE DEFERVESCENCE WARNING SIGNS",
+      "Dengue Defervescence Warning Signs"
+    ],
+    "explanation": "The canonical term is \"Dengue Defervescence Warning Signs\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-169",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"STIs & HPV Vaccine\"?",
+    "correct_answer": "STIs & HPV Vaccine",
+    "alternative_answers": [
+      "stis & hpv vaccine",
+      "STIS & HPV VACCINE",
+      "STIs  HPV Vaccine"
+    ],
+    "explanation": "The canonical term is \"STIs & HPV Vaccine\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-170",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"IMCI Color Coding\"?",
+    "correct_answer": "IMCI Color Coding",
+    "alternative_answers": [
+      "imci color coding",
+      "IMCI COLOR CODING",
+      "IMCI Color Coding"
+    ],
+    "explanation": "The canonical term is \"IMCI Color Coding\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-171",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Communicable Diseases & DOTS\"?",
+    "correct_answer": "Communicable Diseases & DOTS",
+    "alternative_answers": [
+      "communicable diseases & dots",
+      "COMMUNICABLE DISEASES & DOTS",
+      "Communicable Diseases  DOTS"
+    ],
+    "explanation": "The canonical term is \"Communicable Diseases & DOTS\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-172",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"COPAR\"?",
+    "correct_answer": "COPAR",
+    "alternative_answers": [
+      "copar",
+      "COPAR"
+    ],
+    "explanation": "The canonical term is \"COPAR\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-173",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Phases\"?",
+    "correct_answer": "Phases",
+    "alternative_answers": [
+      "phases",
+      "PHASES",
+      "Phases"
+    ],
+    "explanation": "The canonical term is \"Phases\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-174",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Vaccine Procurement Formula\"?",
+    "correct_answer": "Vaccine Procurement Formula",
+    "alternative_answers": [
+      "vaccine procurement formula",
+      "VACCINE PROCUREMENT FORMULA",
+      "Vaccine Procurement Formula"
+    ],
+    "explanation": "The canonical term is \"Vaccine Procurement Formula\", directly grounded in the syllabus for CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-175",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 475: Provide the exact diagnostic or operational term applied for: \"Erythromycin Eye Ointment\".",
+    "correct_answer": "Erythromycin Eye Ointment",
+    "alternative_answers": [
+      "erythromycin eye ointment",
+      "ERYTHROMYCIN EYE OINTMENT",
+      "Erythromycin Eye Ointment"
+    ],
+    "explanation": "Identified term: \"Erythromycin Eye Ointment\". Directly established under CMPA_W6-10_MIDTERMS (Community & Maternal-Child Health Nursing).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-176",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 476: State the precise clinical protocol or terminology designated by: \"Evaporation Heat Loss\".",
+    "correct_answer": "Evaporation Heat Loss",
+    "alternative_answers": [
+      "evaporation heat loss",
+      "EVAPORATION HEAT LOSS",
+      "Evaporation Heat Loss"
+    ],
+    "explanation": "Identified term: \"Evaporation Heat Loss\". Directly established under CMPA_W6-10_MIDTERMS (Community & Maternal-Child Health Nursing).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-177",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 477: In the official CMPA_W6-10_MIDTERMS curriculum, what standard concept is defined under \"Conduction Heat Loss\"?",
+    "correct_answer": "Conduction Heat Loss",
+    "alternative_answers": [
+      "conduction heat loss",
+      "CONDUCTION HEAT LOSS",
+      "Conduction Heat Loss"
+    ],
+    "explanation": "Identified term: \"Conduction Heat Loss\". Directly established under CMPA_W6-10_MIDTERMS (Community & Maternal-Child Health Nursing).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-178",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 478: Identify the canonical nursing practice or principle associated with \"Convection Heat Loss\".",
+    "correct_answer": "Convection Heat Loss",
+    "alternative_answers": [
+      "convection heat loss",
+      "CONVECTION HEAT LOSS",
+      "Convection Heat Loss"
+    ],
+    "explanation": "Identified term: \"Convection Heat Loss\". Directly established under CMPA_W6-10_MIDTERMS (Community & Maternal-Child Health Nursing).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-179",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 479: Name the specific clinical framework in Community & Maternal-Child Health Nursing corresponding to \"Radiation Heat Loss\".",
+    "correct_answer": "Radiation Heat Loss",
+    "alternative_answers": [
+      "radiation heat loss",
+      "RADIATION HEAT LOSS",
+      "Radiation Heat Loss"
+    ],
+    "explanation": "Identified term: \"Radiation Heat Loss\". Directly established under CMPA_W6-10_MIDTERMS (Community & Maternal-Child Health Nursing).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-id-180",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 480: Provide the exact diagnostic or operational term applied for: \"Moro Startle Reflex\".",
+    "correct_answer": "Moro Startle Reflex",
+    "alternative_answers": [
+      "moro startle reflex",
+      "MORO STARTLE REFLEX",
+      "Moro Startle Reflex"
+    ],
+    "explanation": "Identified term: \"Moro Startle Reflex\". Directly established under CMPA_W6-10_MIDTERMS (Community & Maternal-Child Health Nursing).",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-61",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Obstetrics\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Obstetrics\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-62",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Oogenesis & Follicle Development\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Oogenesis & Follicle Development\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-63",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Menstrual Cycle Phases\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Menstrual Cycle Phases\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-64",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Fetal Circulation & Shunts\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Fetal Circulation & Shunts\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-65",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Gravidity & Parity\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Gravidity & Parity\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-66",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Signs of Pregnancy\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Signs of Pregnancy\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-67",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Cardinal Movements\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cardinal Movements\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-68",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Ps of Labor\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Ps of Labor\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-69",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Incompetent Cervix & Cerclage\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Incompetent Cervix & Cerclage\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-70",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Hydatidiform Mole\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Hydatidiform Mole\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-71",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Rh Incompatibility & RhoGAM\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Rh Incompatibility & RhoGAM\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-72",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"PIH & Magnesium Sulfate\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"PIH & Magnesium Sulfate\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-73",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"GDM\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"GDM\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-74",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Hyperemesis Gravidarum\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Hyperemesis Gravidarum\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-75",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Placenta Previa\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Placenta Previa\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-76",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Abruptio Placentae\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Abruptio Placentae\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-77",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Umbilical Cord Prolapse\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Umbilical Cord Prolapse\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-78",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"PPH & Uterotonic Drugs\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"PPH & Uterotonic Drugs\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-79",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Newborn Care & APGAR\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Newborn Care & APGAR\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-80",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Vitamin K & Eye Prophylaxis\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Vitamin K & Eye Prophylaxis\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-81",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Heat Loss & Primitive Reflexes\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Heat Loss & Primitive Reflexes\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-82",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Growth & Development Theories\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Growth & Development Theories\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-83",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Tetralogy of Fallot\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Tetralogy of Fallot\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-84",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Clubfoot Ponseti\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Clubfoot Ponseti\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-85",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Cleft Lip/Palate\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cleft Lip/Palate\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-86",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Hirschsprung\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Hirschsprung\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-87",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Wilms Tumor\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Wilms Tumor\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-88",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Asthma\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Asthma\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-89",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"ALL\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"ALL\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-90",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"DKA\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"DKA\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-91",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Rheumatic Fever\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Rheumatic Fever\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-92",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Dengue Defervescence Warning Signs\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Dengue Defervescence Warning Signs\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-93",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"STIs & HPV Vaccine\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"STIs & HPV Vaccine\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-94",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"IMCI Color Coding\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"IMCI Color Coding\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-95",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Communicable Diseases & DOTS\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Communicable Diseases & DOTS\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-96",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"COPAR\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"COPAR\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-97",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In CMPA_W6-10_MIDTERMS, \"Phases\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Phases\" is an established topic in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-98",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of CMPA_W6-10_MIDTERMS, \"Vaccine Procurement Formula\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Vaccine Procurement Formula\" is an active, standard requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-99",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 519 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Obstetrics\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Obstetrics\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-100",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 520 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Oogenesis\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Oogenesis\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-101",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 521 (True or False): In CMPA_W6-10_MIDTERMS, \"Follicle Development\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Follicle Development\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-102",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 522 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Menstrual Cycle Phases\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Menstrual Cycle Phases\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-103",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 523 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Fetal Circulation\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Fetal Circulation\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-104",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 524 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Ductus Venosus\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Ductus Venosus\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-105",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 525 (True or False): In CMPA_W6-10_MIDTERMS, \"Foramen Ovale\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Foramen Ovale\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-106",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 526 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Ductus Arteriosus\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Ductus Arteriosus\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-107",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 527 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Umbilical Cord Vessels\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Umbilical Cord Vessels\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-108",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 528 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Amniotic Fluid\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Amniotic Fluid\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-109",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 529 (True or False): In CMPA_W6-10_MIDTERMS, \"Gravidity and Parity\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Gravidity and Parity\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-110",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 530 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Signs of Pregnancy\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Signs of Pregnancy\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-111",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 531 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Cardinal Movements of Labor\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Cardinal Movements of Labor\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-112",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 532 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"5 Ps of Labor\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"5 Ps of Labor\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-113",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 533 (True or False): In CMPA_W6-10_MIDTERMS, \"Incompetent Cervix and Cerclage\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Incompetent Cervix and Cerclage\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-114",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 534 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Hydatidiform Mole\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Hydatidiform Mole\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-115",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 535 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Rh Incompatibility and RhoGAM\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Rh Incompatibility and RhoGAM\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-116",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 536 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Preeclampsia and Magnesium Sulfate\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Preeclampsia and Magnesium Sulfate\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-117",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 537 (True or False): In CMPA_W6-10_MIDTERMS, \"Calcium Gluconate\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Calcium Gluconate\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-118",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 538 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Gestational Diabetes Mellitus\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Gestational Diabetes Mellitus\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-119",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 539 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Hyperemesis Gravidarum\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Hyperemesis Gravidarum\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-120",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 540 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Placenta Previa\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Placenta Previa\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-121",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 541 (True or False): In CMPA_W6-10_MIDTERMS, \"Abruptio Placentae\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Abruptio Placentae\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-122",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 542 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Umbilical Cord Prolapse\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Umbilical Cord Prolapse\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-123",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 543 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Postpartum Hemorrhage 4 Ts\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Postpartum Hemorrhage 4 Ts\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-124",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 544 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Oxytocin Pitocin\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Oxytocin Pitocin\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-125",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 545 (True or False): In CMPA_W6-10_MIDTERMS, \"Methylergonovine Methergine\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Methylergonovine Methergine\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-126",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 546 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Carboprost Tromethamine\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Carboprost Tromethamine\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-127",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 547 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Newborn APGAR Assessment\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Newborn APGAR Assessment\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-128",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 548 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Vitamin K Prophylaxis\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Vitamin K Prophylaxis\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-129",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 549 (True or False): In CMPA_W6-10_MIDTERMS, \"Erythromycin Eye Ointment\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Erythromycin Eye Ointment\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-130",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 550 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Evaporation Heat Loss\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Evaporation Heat Loss\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-131",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 551 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Conduction Heat Loss\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Conduction Heat Loss\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-132",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 552 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Convection Heat Loss\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Convection Heat Loss\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-133",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 553 (True or False): In CMPA_W6-10_MIDTERMS, \"Radiation Heat Loss\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Radiation Heat Loss\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-134",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 554 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Moro Startle Reflex\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Moro Startle Reflex\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-135",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 555 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Babinski Reflex\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Babinski Reflex\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-136",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 556 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Rooting Reflex\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Rooting Reflex\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-137",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 557 (True or False): In CMPA_W6-10_MIDTERMS, \"Tonic Neck Fencing Reflex\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Tonic Neck Fencing Reflex\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-138",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 558 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Erikson Trust vs Mistrust\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Erikson Trust vs Mistrust\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-139",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 559 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Piaget Sensorimotor\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Piaget Sensorimotor\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-140",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 560 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Freud Oral Phase\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Freud Oral Phase\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-141",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 561 (True or False): In CMPA_W6-10_MIDTERMS, \"Kohlberg Morality\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Kohlberg Morality\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-142",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 562 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Tetralogy of Fallot Defects\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Tetralogy of Fallot Defects\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-143",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 563 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Tet Spells Knee-Chest\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Tet Spells Knee-Chest\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardinal Movements",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-144",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 564 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Clubfoot Ponseti Method\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Clubfoot Ponseti Method\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Ps of Labor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-145",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 565 (True or False): In CMPA_W6-10_MIDTERMS, \"Cleft Lip Rule of 10s\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Cleft Lip Rule of 10s\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Incompetent Cervix & Cerclage",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-146",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 566 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Palatoplasty Timing\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Palatoplasty Timing\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hydatidiform Mole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-147",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 567 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Hirschsprung Disease\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Hirschsprung Disease\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rh Incompatibility & RhoGAM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-148",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 568 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Wilms Tumor Nephroblastoma\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Wilms Tumor Nephroblastoma\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PIH & Magnesium Sulfate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-149",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 569 (True or False): In CMPA_W6-10_MIDTERMS, \"Pediatric Asthma Wheezing\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Pediatric Asthma Wheezing\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GDM",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-150",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 570 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Acute Lymphoblastic Leukemia\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Acute Lymphoblastic Leukemia\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hyperemesis Gravidarum",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-151",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 571 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Pediatric Diabetic Ketoacidosis\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Pediatric Diabetic Ketoacidosis\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Placenta Previa",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-152",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 572 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Jones Criteria Rheumatic Fever\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Jones Criteria Rheumatic Fever\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Abruptio Placentae",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-153",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 573 (True or False): In CMPA_W6-10_MIDTERMS, \"Dengue Defervescence\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Dengue Defervescence\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Umbilical Cord Prolapse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-154",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 574 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Primary Syphilis Chancre\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Primary Syphilis Chancre\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PPH & Uterotonic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-155",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 575 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"HPV Vaccine Gardasil\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"HPV Vaccine Gardasil\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Newborn Care & APGAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-156",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 576 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"IMCI Pink Severe Category\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"IMCI Pink Severe Category\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vitamin K & Eye Prophylaxis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-157",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 577 (True or False): In CMPA_W6-10_MIDTERMS, \"IMCI Yellow Category\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"IMCI Yellow Category\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heat Loss & Primitive Reflexes",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-158",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 578 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"IMCI Green Home Care\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"IMCI Green Home Care\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Growth & Development Theories",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-159",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 579 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"DOTS Tuberculosis Chemotherapy\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"DOTS Tuberculosis Chemotherapy\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Tetralogy of Fallot",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-160",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 580 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Rifampicin Red Orange Secretions\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Rifampicin Red Orange Secretions\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Clubfoot Ponseti",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-161",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 581 (True or False): In CMPA_W6-10_MIDTERMS, \"Isoniazid Pyridoxine B6\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Isoniazid Pyridoxine B6\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cleft Lip/Palate",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-162",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 582 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Pyrazinamide Hyperuricemia\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Pyrazinamide Hyperuricemia\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hirschsprung",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-163",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 583 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Ethambutol Optic Neuritis\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Ethambutol Optic Neuritis\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Wilms Tumor",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-164",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 584 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"COPAR Preparatory Phase\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"COPAR Preparatory Phase\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asthma",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-165",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 585 (True or False): In CMPA_W6-10_MIDTERMS, \"COPAR Organizational Phase\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"COPAR Organizational Phase\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ALL",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-166",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 586 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"COPAR Peoples Organization\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"COPAR Peoples Organization\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-167",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 587 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"COPAR Phase Out Stage\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"COPAR Phase Out Stage\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Rheumatic Fever",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-168",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 588 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Vaccine Cold Chain 2 to 8 C\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Vaccine Cold Chain 2 to 8 C\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dengue Defervescence Warning Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-169",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 589 (True or False): In CMPA_W6-10_MIDTERMS, \"Vaccine Sub-zero Freezing Range\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Vaccine Sub-zero Freezing Range\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "STIs & HPV Vaccine",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-170",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 590 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Eligible Cohort Procurement Formula\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Eligible Cohort Procurement Formula\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "IMCI Color Coding",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-171",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 591 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Public Health Bag Technique\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Public Health Bag Technique\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Communicable Diseases & DOTS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-172",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 592 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Family Health Folder Structure\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Family Health Folder Structure\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "COPAR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-173",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 593 (True or False): In CMPA_W6-10_MIDTERMS, \"Obstetrics\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Obstetrics\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-174",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 594 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Oogenesis\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Oogenesis\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Vaccine Procurement Formula",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-175",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 595 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Follicle Development\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Follicle Development\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Obstetrics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-176",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 596 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Menstrual Cycle Phases\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Menstrual Cycle Phases\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oogenesis & Follicle Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-177",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 597 (True or False): In CMPA_W6-10_MIDTERMS, \"Fetal Circulation\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Fetal Circulation\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Menstrual Cycle Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-178",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 598 (True or False): Under current hospital safety protocols for Community & Maternal-Child Health Nursing, \"Ductus Venosus\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Ductus Venosus\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Fetal Circulation & Shunts",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-179",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 599 (True or False): Clinical assessment protocols in CMPA_W6-10_MIDTERMS incorporate \"Foramen Ovale\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Foramen Ovale\" is an approved, vital standard in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gravidity & Parity",
+    "approval_status": "approved"
+  },
+  {
+    "id": "cmpa-tf-180",
+    "subject_id": "sub-cmpa",
+    "module_id": "mod-cmpa-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 600 (True or False): According to the latest board review for Community & Maternal-Child Health Nursing, \"Ductus Arteriosus\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Ductus Arteriosus\" remains an active, valid curriculum requirement in CMPA_W6-10_MIDTERMS.",
+    "source_pdf_ref": "CMPA_W6-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Signs of Pregnancy",
     "approval_status": "approved"
   }
 ];

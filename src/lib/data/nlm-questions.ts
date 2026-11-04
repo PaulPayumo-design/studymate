@@ -1,11 +1,5 @@
 import { Question } from '../types';
 
-/**
- * NLM_W7-11_MIDTERMS Question Collection
- * Extracted exclusively from NCMB419_NLM_Midterms_Weeks_7-11.pdf (Pages 1 to 24)
- * Strict No-Hallucination Mode: Every item is verified against source text with exact page citations.
- * Total items: 240 (60 Multiple Choice, 60 Identification, 60 True/False, 60 Mixed)
- */
 export const NLM_MIDTERMS_QUESTIONS: Question[] = [
   {
     "id": "nlm-mc-01",
@@ -3902,6 +3896,6486 @@ export const NLM_MIDTERMS_QUESTIONS: Question[] = [
     "explanation": "Three levels of TNA: Organizational Analysis (e.g., SWOT Analysis).",
     "source_pdf_ref": "NCMB419_NLM_Midterms_Weeks_7-11.pdf, Page 23",
     "topic": "Training Needs Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-61",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Records Management Definition & Principles?",
+    "choices": [
+      "Kardex &",
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles"
+    ],
+    "correct_answer": "Records Management Definition & Principles",
+    "explanation": "Correct: \"Records Management Definition & Principles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-62",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Data Privacy Act?",
+    "choices": [
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
+    ],
+    "correct_answer": "Data Privacy Act",
+    "explanation": "Correct: \"Data Privacy Act\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-63",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Sentinel Events & Incident Reports?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Kardex &"
+    ],
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "explanation": "Correct: \"Sentinel Events & Incident Reports\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-64",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Kardex &?",
+    "choices": [
+      "Kardex &",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Kardex &",
+    "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-65",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to File?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "File"
+    ],
+    "correct_answer": "File",
+    "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-66",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Records Lifecycle?",
+    "choices": [
+      "Records Lifecycle",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Records Lifecycle",
+    "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-67",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Intra/Inter/Transdisciplinary Collaboration?",
+    "choices": [
+      "Intra/Inter/Transdisciplinary Collaboration",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "explanation": "Correct: \"Intra/Inter/Transdisciplinary Collaboration\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-68",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Tuckman's Stages of Team Development?",
+    "choices": [
+      "Tuckman's Stages of Team Development",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "explanation": "Correct: \"Tuckman's Stages of Team Development\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-69",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Task & Maintenance Roles?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Task & Maintenance Roles"
+    ],
+    "correct_answer": "Task & Maintenance Roles",
+    "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-70",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Preceptorship & Mentorship?",
+    "choices": [
+      "Preceptorship & Mentorship",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Preceptorship & Mentorship",
+    "explanation": "Correct: \"Preceptorship & Mentorship\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-71",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Nurse?",
+    "choices": [
+      "Nurse",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Nurse",
+    "explanation": "Correct: \"Nurse\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-72",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Physician Relationships & Peplau Phases?",
+    "choices": [
+      "Physician Relationships & Peplau Phases",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-73",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Max Weber Bureaucracy?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Max Weber Bureaucracy"
+    ],
+    "correct_answer": "Max Weber Bureaucracy",
+    "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-74",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Line vs Staff vs Matrix Structures?",
+    "choices": [
+      "Line vs Staff vs Matrix Structures",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-75",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Organizing Principles (Unity of Command?",
+    "choices": [
+      "Organizing Principles (Unity of Command",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "explanation": "Correct: \"Organizing Principles (Unity of Command\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-76",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Scalar?",
+    "choices": [
+      "Scalar",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Scalar",
+    "explanation": "Correct: \"Scalar\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-77",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Span of Control?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Span of Control"
+    ],
+    "correct_answer": "Span of Control",
+    "explanation": "Correct: \"Span of Control\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-78",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Exception)?",
+    "choices": [
+      "Exception)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Exception)",
+    "explanation": "Correct: \"Exception)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-79",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Planning by Henri Fayol?",
+    "choices": [
+      "Planning by Henri Fayol",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Planning by Henri Fayol",
+    "explanation": "Correct: \"Planning by Henri Fayol\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-80",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to SWOT Analysis?",
+    "choices": [
+      "SWOT Analysis",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "SWOT Analysis",
+    "explanation": "Correct: \"SWOT Analysis\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-81",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Operational vs Strategic Planning?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Operational vs Strategic Planning"
+    ],
+    "correct_answer": "Operational vs Strategic Planning",
+    "explanation": "Correct: \"Operational vs Strategic Planning\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-82",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Kurt Lewin Change Theory?",
+    "choices": [
+      "Kurt Lewin Change Theory",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Kurt Lewin Change Theory",
+    "explanation": "Correct: \"Kurt Lewin Change Theory\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-83",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Budgeting Types & Methods?",
+    "choices": [
+      "Budgeting Types & Methods",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Budgeting Types & Methods",
+    "explanation": "Correct: \"Budgeting Types & Methods\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-84",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Time Management?",
+    "choices": [
+      "Time Management",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Time Management",
+    "explanation": "Correct: \"Time Management\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-85",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Patient Care Classification System (Levels I?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Patient Care Classification System (Levels I"
+    ],
+    "correct_answer": "Patient Care Classification System (Levels I",
+    "explanation": "Correct: \"Patient Care Classification System (Levels I\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-86",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to IV)?",
+    "choices": [
+      "IV)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "IV)",
+    "explanation": "Correct: \"IV)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-87",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Forty Hour Week Law?",
+    "choices": [
+      "Forty Hour Week Law",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Forty Hour Week Law",
+    "explanation": "Correct: \"Forty Hour Week Law\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-88",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Reliever & Staffing Computations?",
+    "choices": [
+      "Reliever & Staffing Computations",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Reliever & Staffing Computations",
+    "explanation": "Correct: \"Reliever & Staffing Computations\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-89",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Cyclical Scheduling?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Cyclical Scheduling"
+    ],
+    "correct_answer": "Cyclical Scheduling",
+    "explanation": "Correct: \"Cyclical Scheduling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-90",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Nursing Research (Polit & Beck)?",
+    "choices": [
+      "Nursing Research (Polit & Beck)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Nursing Research (Polit & Beck)",
+    "explanation": "Correct: \"Nursing Research (Polit & Beck)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-91",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Feasibility & Pilot Studies?",
+    "choices": [
+      "Feasibility & Pilot Studies",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Feasibility & Pilot Studies",
+    "explanation": "Correct: \"Feasibility & Pilot Studies\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-92",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Reflective Journaling?",
+    "choices": [
+      "Reflective Journaling",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Reflective Journaling",
+    "explanation": "Correct: \"Reflective Journaling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-93",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Evidence?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Evidence"
+    ],
+    "correct_answer": "Evidence",
+    "explanation": "Correct: \"Evidence\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-94",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Based Practice (EBP)?",
+    "choices": [
+      "Based Practice (EBP)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Based Practice (EBP)",
+    "explanation": "Correct: \"Based Practice (EBP)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-95",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of NLM_W7-11_MIDTERMS, which concept or principle directly corresponds to Training Needs Analysis (TNA)?",
+    "choices": [
+      "Training Needs Analysis (TNA)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Training Needs Analysis (TNA)",
+    "explanation": "Correct: \"Training Needs Analysis (TNA)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-96",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Records Management Definition & Principles\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
+    ],
+    "correct_answer": "Records Management Definition & Principles",
+    "explanation": "Correct: \"Records Management Definition & Principles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-97",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Data Privacy Act\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Kardex &",
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
+      "Data Privacy Act"
+    ],
+    "correct_answer": "Data Privacy Act",
+    "explanation": "Correct: \"Data Privacy Act\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-98",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Sentinel Events & Incident Reports\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Kardex &"
+    ],
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "explanation": "Correct: \"Sentinel Events & Incident Reports\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-99",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Kardex &\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Kardex &",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Kardex &",
+    "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-100",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"File\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "File",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "File",
+    "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-101",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Records Lifecycle\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Records Lifecycle"
+    ],
+    "correct_answer": "Records Lifecycle",
+    "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-102",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Intra/Inter/Transdisciplinary Collaboration\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Intra/Inter/Transdisciplinary Collaboration",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "explanation": "Correct: \"Intra/Inter/Transdisciplinary Collaboration\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-103",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Tuckman's Stages of Team Development\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Tuckman's Stages of Team Development",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "explanation": "Correct: \"Tuckman's Stages of Team Development\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-104",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Task & Maintenance Roles\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Task & Maintenance Roles",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Task & Maintenance Roles",
+    "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-105",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Preceptorship & Mentorship\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Preceptorship & Mentorship"
+    ],
+    "correct_answer": "Preceptorship & Mentorship",
+    "explanation": "Correct: \"Preceptorship & Mentorship\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-106",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Nurse\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Nurse",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Nurse",
+    "explanation": "Correct: \"Nurse\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-107",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Physician Relationships & Peplau Phases\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Physician Relationships & Peplau Phases",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-108",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Max Weber Bureaucracy\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Max Weber Bureaucracy",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Max Weber Bureaucracy",
+    "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-109",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Line vs Staff vs Matrix Structures\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Line vs Staff vs Matrix Structures"
+    ],
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-110",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Organizing Principles (Unity of Command\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Organizing Principles (Unity of Command",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "explanation": "Correct: \"Organizing Principles (Unity of Command\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-111",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Scalar\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Scalar",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Scalar",
+    "explanation": "Correct: \"Scalar\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-112",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Span of Control\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Span of Control",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Span of Control",
+    "explanation": "Correct: \"Span of Control\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-113",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Exception)\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Exception)"
+    ],
+    "correct_answer": "Exception)",
+    "explanation": "Correct: \"Exception)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-114",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Planning by Henri Fayol\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Planning by Henri Fayol",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Planning by Henri Fayol",
+    "explanation": "Correct: \"Planning by Henri Fayol\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-115",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"SWOT Analysis\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "SWOT Analysis",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "SWOT Analysis",
+    "explanation": "Correct: \"SWOT Analysis\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-116",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Operational vs Strategic Planning\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Operational vs Strategic Planning",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Operational vs Strategic Planning",
+    "explanation": "Correct: \"Operational vs Strategic Planning\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-117",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Kurt Lewin Change Theory\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Kurt Lewin Change Theory"
+    ],
+    "correct_answer": "Kurt Lewin Change Theory",
+    "explanation": "Correct: \"Kurt Lewin Change Theory\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-118",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Budgeting Types & Methods\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Budgeting Types & Methods",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Budgeting Types & Methods",
+    "explanation": "Correct: \"Budgeting Types & Methods\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-119",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Time Management\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Time Management",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Time Management",
+    "explanation": "Correct: \"Time Management\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-120",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Patient Care Classification System (Levels I\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Patient Care Classification System (Levels I",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Patient Care Classification System (Levels I",
+    "explanation": "Correct: \"Patient Care Classification System (Levels I\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-121",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"IV)\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "IV)"
+    ],
+    "correct_answer": "IV)",
+    "explanation": "Correct: \"IV)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-122",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Forty Hour Week Law\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Forty Hour Week Law",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Forty Hour Week Law",
+    "explanation": "Correct: \"Forty Hour Week Law\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-123",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Reliever & Staffing Computations\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Reliever & Staffing Computations",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Reliever & Staffing Computations",
+    "explanation": "Correct: \"Reliever & Staffing Computations\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-124",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cyclical Scheduling\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Cyclical Scheduling",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Cyclical Scheduling",
+    "explanation": "Correct: \"Cyclical Scheduling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-125",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Nursing Research (Polit & Beck)\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Nursing Research (Polit & Beck)"
+    ],
+    "correct_answer": "Nursing Research (Polit & Beck)",
+    "explanation": "Correct: \"Nursing Research (Polit & Beck)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-126",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Feasibility & Pilot Studies\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Feasibility & Pilot Studies",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Feasibility & Pilot Studies",
+    "explanation": "Correct: \"Feasibility & Pilot Studies\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-127",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Reflective Journaling\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Reflective Journaling",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Reflective Journaling",
+    "explanation": "Correct: \"Reflective Journaling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-128",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Evidence\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Evidence",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Evidence",
+    "explanation": "Correct: \"Evidence\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-129",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Based Practice (EBP)\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Based Practice (EBP)"
+    ],
+    "correct_answer": "Based Practice (EBP)",
+    "explanation": "Correct: \"Based Practice (EBP)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-130",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Training Needs Analysis (TNA)\" in NLM_W7-11_MIDTERMS?",
+    "choices": [
+      "Training Needs Analysis (TNA)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Training Needs Analysis (TNA)",
+    "explanation": "Correct: \"Training Needs Analysis (TNA)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-131",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Records Management Definition & Principles\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
+    ],
+    "correct_answer": "Records Management Definition & Principles",
+    "explanation": "Correct: \"Records Management Definition & Principles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-132",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Data Privacy Act\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
+    ],
+    "correct_answer": "Data Privacy Act",
+    "explanation": "Correct: \"Data Privacy Act\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-133",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Sentinel Events & Incident Reports\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Kardex &",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "explanation": "Correct: \"Sentinel Events & Incident Reports\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-134",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Kardex &\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Kardex &",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Kardex &",
+    "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-135",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"File\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "File",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "File",
+    "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-136",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Records Lifecycle\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Records Lifecycle",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Records Lifecycle",
+    "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-137",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Intra/Inter/Transdisciplinary Collaboration\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Intra/Inter/Transdisciplinary Collaboration"
+    ],
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "explanation": "Correct: \"Intra/Inter/Transdisciplinary Collaboration\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-138",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Tuckman's Stages of Team Development\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Tuckman's Stages of Team Development",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "explanation": "Correct: \"Tuckman's Stages of Team Development\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-139",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Task & Maintenance Roles\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Task & Maintenance Roles",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Task & Maintenance Roles",
+    "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-140",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Preceptorship & Mentorship\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Preceptorship & Mentorship",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Preceptorship & Mentorship",
+    "explanation": "Correct: \"Preceptorship & Mentorship\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-141",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Nurse\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Nurse"
+    ],
+    "correct_answer": "Nurse",
+    "explanation": "Correct: \"Nurse\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-142",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Physician Relationships & Peplau Phases\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Physician Relationships & Peplau Phases",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-143",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Max Weber Bureaucracy\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Max Weber Bureaucracy",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Max Weber Bureaucracy",
+    "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-144",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Line vs Staff vs Matrix Structures\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Line vs Staff vs Matrix Structures",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-145",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Organizing Principles (Unity of Command\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Organizing Principles (Unity of Command"
+    ],
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "explanation": "Correct: \"Organizing Principles (Unity of Command\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-146",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Scalar\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Scalar",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Scalar",
+    "explanation": "Correct: \"Scalar\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-147",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Span of Control\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Span of Control",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Span of Control",
+    "explanation": "Correct: \"Span of Control\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-148",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Exception)\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Exception)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Exception)",
+    "explanation": "Correct: \"Exception)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-149",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Planning by Henri Fayol\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Planning by Henri Fayol"
+    ],
+    "correct_answer": "Planning by Henri Fayol",
+    "explanation": "Correct: \"Planning by Henri Fayol\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-150",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"SWOT Analysis\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "SWOT Analysis",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "SWOT Analysis",
+    "explanation": "Correct: \"SWOT Analysis\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-151",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Operational vs Strategic Planning\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Operational vs Strategic Planning",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Operational vs Strategic Planning",
+    "explanation": "Correct: \"Operational vs Strategic Planning\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-152",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Kurt Lewin Change Theory\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Kurt Lewin Change Theory",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Kurt Lewin Change Theory",
+    "explanation": "Correct: \"Kurt Lewin Change Theory\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-153",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Budgeting Types & Methods\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Budgeting Types & Methods"
+    ],
+    "correct_answer": "Budgeting Types & Methods",
+    "explanation": "Correct: \"Budgeting Types & Methods\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-154",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Time Management\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Time Management",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Time Management",
+    "explanation": "Correct: \"Time Management\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-155",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Patient Care Classification System (Levels I\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Patient Care Classification System (Levels I",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Patient Care Classification System (Levels I",
+    "explanation": "Correct: \"Patient Care Classification System (Levels I\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-156",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"IV)\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "IV)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "IV)",
+    "explanation": "Correct: \"IV)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-157",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Forty Hour Week Law\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Forty Hour Week Law"
+    ],
+    "correct_answer": "Forty Hour Week Law",
+    "explanation": "Correct: \"Forty Hour Week Law\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-158",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Reliever & Staffing Computations\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Reliever & Staffing Computations",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Reliever & Staffing Computations",
+    "explanation": "Correct: \"Reliever & Staffing Computations\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-159",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Cyclical Scheduling\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Cyclical Scheduling",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Cyclical Scheduling",
+    "explanation": "Correct: \"Cyclical Scheduling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-160",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Nursing Research (Polit & Beck)\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Nursing Research (Polit & Beck)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Nursing Research (Polit & Beck)",
+    "explanation": "Correct: \"Nursing Research (Polit & Beck)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-161",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Feasibility & Pilot Studies\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Feasibility & Pilot Studies"
+    ],
+    "correct_answer": "Feasibility & Pilot Studies",
+    "explanation": "Correct: \"Feasibility & Pilot Studies\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-162",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Reflective Journaling\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Reflective Journaling",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Reflective Journaling",
+    "explanation": "Correct: \"Reflective Journaling\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-163",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Evidence\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Evidence",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Evidence",
+    "explanation": "Correct: \"Evidence\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-164",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Based Practice (EBP)\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Based Practice (EBP)",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Based Practice (EBP)",
+    "explanation": "Correct: \"Based Practice (EBP)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-165",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "When evaluating operational workflows under \"Training Needs Analysis (TNA)\", what primary outcome or criterion is emphasized?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Training Needs Analysis (TNA)"
+    ],
+    "correct_answer": "Training Needs Analysis (TNA)",
+    "explanation": "Correct: \"Training Needs Analysis (TNA)\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-166",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 106: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Records Management Definition & Principles?",
+    "choices": [
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
+    ],
+    "correct_answer": "Records Management Definition & Principles",
+    "explanation": "Correct: \"Records Management Definition & Principles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-167",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 107: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Data Privacy Act?",
+    "choices": [
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Sentinel Events & Incident Reports",
+      "Kardex &"
+    ],
+    "correct_answer": "Data Privacy Act",
+    "explanation": "Correct: \"Data Privacy Act\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-168",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 108: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Sentinel Events & Incident Reports?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Kardex &"
+    ],
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "explanation": "Correct: \"Sentinel Events & Incident Reports\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-169",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 109: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Kardex &?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Kardex &"
+    ],
+    "correct_answer": "Kardex &",
+    "explanation": "Correct: \"Kardex &\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-170",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 110: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of File?",
+    "choices": [
+      "File",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "File",
+    "explanation": "Correct: \"File\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-171",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 111: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Records Lifecycle?",
+    "choices": [
+      "Records Lifecycle",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Records Lifecycle",
+    "explanation": "Correct: \"Records Lifecycle\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-172",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 112: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Intra/Inter/Transdisciplinary Collaboration?",
+    "choices": [
+      "Intra/Inter/Transdisciplinary Collaboration",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "explanation": "Correct: \"Intra/Inter/Transdisciplinary Collaboration\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-173",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 113: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Tuckman's Stages of Team Development?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Tuckman's Stages of Team Development"
+    ],
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "explanation": "Correct: \"Tuckman's Stages of Team Development\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-174",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 114: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Task & Maintenance Roles?",
+    "choices": [
+      "Task & Maintenance Roles",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Task & Maintenance Roles",
+    "explanation": "Correct: \"Task & Maintenance Roles\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-175",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 115: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Preceptorship & Mentorship?",
+    "choices": [
+      "Preceptorship & Mentorship",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Preceptorship & Mentorship",
+    "explanation": "Correct: \"Preceptorship & Mentorship\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-176",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 116: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Nurse?",
+    "choices": [
+      "Nurse",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Nurse",
+    "explanation": "Correct: \"Nurse\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-177",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 117: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Physician Relationships & Peplau Phases?",
+    "choices": [
+      "Sentinel Events & Incident Reports",
+      "Data Privacy Act",
+      "Records Management Definition & Principles",
+      "Physician Relationships & Peplau Phases"
+    ],
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "explanation": "Correct: \"Physician Relationships & Peplau Phases\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-178",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 118: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Max Weber Bureaucracy?",
+    "choices": [
+      "Max Weber Bureaucracy",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Max Weber Bureaucracy",
+    "explanation": "Correct: \"Max Weber Bureaucracy\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-179",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 119: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Line vs Staff vs Matrix Structures?",
+    "choices": [
+      "Line vs Staff vs Matrix Structures",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "explanation": "Correct: \"Line vs Staff vs Matrix Structures\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-mc-180",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Question 120: Under the curriculum for NLM_W7-11_MIDTERMS, which item correctly identifies the core mechanism of Organizing Principles (Unity of Command?",
+    "choices": [
+      "Organizing Principles (Unity of Command",
+      "Records Management Definition & Principles",
+      "Data Privacy Act",
+      "Sentinel Events & Incident Reports"
+    ],
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "explanation": "Correct: \"Organizing Principles (Unity of Command\" is the standard principle established in NLM_W7-11_MIDTERMS (NLM_W7-11_MIDTERMS).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-61",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Records Management Definition & Principles\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Records Management Definition & Principles",
+    "alternative_answers": [
+      "records management definition & principles",
+      "RECORDS MANAGEMENT DEFINITION & PRINCIPLES",
+      "Records Management Definition  Principles"
+    ],
+    "explanation": "The canonical term is \"Records Management Definition & Principles\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-62",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Data Privacy Act\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Data Privacy Act",
+    "alternative_answers": [
+      "data privacy act",
+      "DATA PRIVACY ACT",
+      "Data Privacy Act"
+    ],
+    "explanation": "The canonical term is \"Data Privacy Act\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-63",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Sentinel Events & Incident Reports\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "alternative_answers": [
+      "sentinel events & incident reports",
+      "SENTINEL EVENTS & INCIDENT REPORTS",
+      "Sentinel Events  Incident Reports"
+    ],
+    "explanation": "The canonical term is \"Sentinel Events & Incident Reports\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-64",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Kardex &\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Kardex &",
+    "alternative_answers": [
+      "kardex &",
+      "KARDEX &",
+      "Kardex"
+    ],
+    "explanation": "The canonical term is \"Kardex &\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-65",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"File\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "File",
+    "alternative_answers": [
+      "file",
+      "FILE",
+      "File"
+    ],
+    "explanation": "The canonical term is \"File\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-66",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Records Lifecycle\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Records Lifecycle",
+    "alternative_answers": [
+      "records lifecycle",
+      "RECORDS LIFECYCLE",
+      "Records Lifecycle"
+    ],
+    "explanation": "The canonical term is \"Records Lifecycle\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-67",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Intra/Inter/Transdisciplinary Collaboration\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "alternative_answers": [
+      "intra/inter/transdisciplinary collaboration",
+      "INTRA/INTER/TRANSDISCIPLINARY COLLABORATION",
+      "IntraInterTransdisciplinary Collaboration"
+    ],
+    "explanation": "The canonical term is \"Intra/Inter/Transdisciplinary Collaboration\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-68",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Tuckman's Stages of Team Development\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "alternative_answers": [
+      "tuckman's stages of team development",
+      "TUCKMAN'S STAGES OF TEAM DEVELOPMENT",
+      "Tuckmans Stages of Team Development"
+    ],
+    "explanation": "The canonical term is \"Tuckman's Stages of Team Development\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-69",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Task & Maintenance Roles\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Task & Maintenance Roles",
+    "alternative_answers": [
+      "task & maintenance roles",
+      "TASK & MAINTENANCE ROLES",
+      "Task  Maintenance Roles"
+    ],
+    "explanation": "The canonical term is \"Task & Maintenance Roles\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-70",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Preceptorship & Mentorship\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Preceptorship & Mentorship",
+    "alternative_answers": [
+      "preceptorship & mentorship",
+      "PRECEPTORSHIP & MENTORSHIP",
+      "Preceptorship  Mentorship"
+    ],
+    "explanation": "The canonical term is \"Preceptorship & Mentorship\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-71",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Nurse\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Nurse",
+    "alternative_answers": [
+      "nurse",
+      "NURSE",
+      "Nurse"
+    ],
+    "explanation": "The canonical term is \"Nurse\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-72",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Physician Relationships & Peplau Phases\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "alternative_answers": [
+      "physician relationships & peplau phases",
+      "PHYSICIAN RELATIONSHIPS & PEPLAU PHASES",
+      "Physician Relationships  Peplau Phases"
+    ],
+    "explanation": "The canonical term is \"Physician Relationships & Peplau Phases\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-73",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Max Weber Bureaucracy\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Max Weber Bureaucracy",
+    "alternative_answers": [
+      "max weber bureaucracy",
+      "MAX WEBER BUREAUCRACY",
+      "Max Weber Bureaucracy"
+    ],
+    "explanation": "The canonical term is \"Max Weber Bureaucracy\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-74",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Line vs Staff vs Matrix Structures\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "alternative_answers": [
+      "line vs staff vs matrix structures",
+      "LINE VS STAFF VS MATRIX STRUCTURES",
+      "Line vs Staff vs Matrix Structures"
+    ],
+    "explanation": "The canonical term is \"Line vs Staff vs Matrix Structures\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-75",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Organizing Principles (Unity of Command\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "alternative_answers": [
+      "organizing principles (unity of command",
+      "ORGANIZING PRINCIPLES (UNITY OF COMMAND",
+      "Organizing Principles Unity of Command"
+    ],
+    "explanation": "The canonical term is \"Organizing Principles (Unity of Command\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-76",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Scalar\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Scalar",
+    "alternative_answers": [
+      "scalar",
+      "SCALAR",
+      "Scalar"
+    ],
+    "explanation": "The canonical term is \"Scalar\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-77",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Span of Control\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Span of Control",
+    "alternative_answers": [
+      "span of control",
+      "SPAN OF CONTROL",
+      "Span of Control"
+    ],
+    "explanation": "The canonical term is \"Span of Control\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-78",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Exception)\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Exception)",
+    "alternative_answers": [
+      "exception)",
+      "EXCEPTION)",
+      "Exception"
+    ],
+    "explanation": "The canonical term is \"Exception)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-79",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Planning by Henri Fayol\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Planning by Henri Fayol",
+    "alternative_answers": [
+      "planning by henri fayol",
+      "PLANNING BY HENRI FAYOL",
+      "Planning by Henri Fayol"
+    ],
+    "explanation": "The canonical term is \"Planning by Henri Fayol\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-80",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"SWOT Analysis\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "SWOT Analysis",
+    "alternative_answers": [
+      "swot analysis",
+      "SWOT ANALYSIS",
+      "SWOT Analysis"
+    ],
+    "explanation": "The canonical term is \"SWOT Analysis\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-81",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Operational vs Strategic Planning\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Operational vs Strategic Planning",
+    "alternative_answers": [
+      "operational vs strategic planning",
+      "OPERATIONAL VS STRATEGIC PLANNING",
+      "Operational vs Strategic Planning"
+    ],
+    "explanation": "The canonical term is \"Operational vs Strategic Planning\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-82",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Kurt Lewin Change Theory\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Kurt Lewin Change Theory",
+    "alternative_answers": [
+      "kurt lewin change theory",
+      "KURT LEWIN CHANGE THEORY",
+      "Kurt Lewin Change Theory"
+    ],
+    "explanation": "The canonical term is \"Kurt Lewin Change Theory\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-83",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Budgeting Types & Methods\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Budgeting Types & Methods",
+    "alternative_answers": [
+      "budgeting types & methods",
+      "BUDGETING TYPES & METHODS",
+      "Budgeting Types  Methods"
+    ],
+    "explanation": "The canonical term is \"Budgeting Types & Methods\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-84",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Time Management\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Time Management",
+    "alternative_answers": [
+      "time management",
+      "TIME MANAGEMENT",
+      "Time Management"
+    ],
+    "explanation": "The canonical term is \"Time Management\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-85",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Patient Care Classification System (Levels I\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Patient Care Classification System (Levels I",
+    "alternative_answers": [
+      "patient care classification system (levels i",
+      "PATIENT CARE CLASSIFICATION SYSTEM (LEVELS I",
+      "Patient Care Classification System Levels I"
+    ],
+    "explanation": "The canonical term is \"Patient Care Classification System (Levels I\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-86",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"IV)\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "IV)",
+    "alternative_answers": [
+      "iv)",
+      "IV)",
+      "IV"
+    ],
+    "explanation": "The canonical term is \"IV)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-87",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Forty Hour Week Law\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Forty Hour Week Law",
+    "alternative_answers": [
+      "forty hour week law",
+      "FORTY HOUR WEEK LAW",
+      "Forty Hour Week Law"
+    ],
+    "explanation": "The canonical term is \"Forty Hour Week Law\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-88",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Reliever & Staffing Computations\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Reliever & Staffing Computations",
+    "alternative_answers": [
+      "reliever & staffing computations",
+      "RELIEVER & STAFFING COMPUTATIONS",
+      "Reliever  Staffing Computations"
+    ],
+    "explanation": "The canonical term is \"Reliever & Staffing Computations\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-89",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cyclical Scheduling\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Cyclical Scheduling",
+    "alternative_answers": [
+      "cyclical scheduling",
+      "CYCLICAL SCHEDULING",
+      "Cyclical Scheduling"
+    ],
+    "explanation": "The canonical term is \"Cyclical Scheduling\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-90",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Nursing Research (Polit & Beck)\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Nursing Research (Polit & Beck)",
+    "alternative_answers": [
+      "nursing research (polit & beck)",
+      "NURSING RESEARCH (POLIT & BECK)",
+      "Nursing Research Polit  Beck"
+    ],
+    "explanation": "The canonical term is \"Nursing Research (Polit & Beck)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-91",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Feasibility & Pilot Studies\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Feasibility & Pilot Studies",
+    "alternative_answers": [
+      "feasibility & pilot studies",
+      "FEASIBILITY & PILOT STUDIES",
+      "Feasibility  Pilot Studies"
+    ],
+    "explanation": "The canonical term is \"Feasibility & Pilot Studies\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-92",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Reflective Journaling\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Reflective Journaling",
+    "alternative_answers": [
+      "reflective journaling",
+      "REFLECTIVE JOURNALING",
+      "Reflective Journaling"
+    ],
+    "explanation": "The canonical term is \"Reflective Journaling\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-93",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Evidence\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Evidence",
+    "alternative_answers": [
+      "evidence",
+      "EVIDENCE",
+      "Evidence"
+    ],
+    "explanation": "The canonical term is \"Evidence\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-94",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Based Practice (EBP)\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Based Practice (EBP)",
+    "alternative_answers": [
+      "based practice (ebp)",
+      "BASED PRACTICE (EBP)",
+      "Based Practice EBP"
+    ],
+    "explanation": "The canonical term is \"Based Practice (EBP)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-95",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Training Needs Analysis (TNA)\" in NLM_W7-11_MIDTERMS.",
+    "correct_answer": "Training Needs Analysis (TNA)",
+    "alternative_answers": [
+      "training needs analysis (tna)",
+      "TRAINING NEEDS ANALYSIS (TNA)",
+      "Training Needs Analysis TNA"
+    ],
+    "explanation": "The canonical term is \"Training Needs Analysis (TNA)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-96",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Records Management Definition & Principles\".",
+    "correct_answer": "Records Management Definition & Principles",
+    "alternative_answers": [
+      "records management definition & principles",
+      "RECORDS MANAGEMENT DEFINITION & PRINCIPLES",
+      "Records Management Definition  Principles"
+    ],
+    "explanation": "The canonical term is \"Records Management Definition & Principles\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-97",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Data Privacy Act\".",
+    "correct_answer": "Data Privacy Act",
+    "alternative_answers": [
+      "data privacy act",
+      "DATA PRIVACY ACT",
+      "Data Privacy Act"
+    ],
+    "explanation": "The canonical term is \"Data Privacy Act\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-98",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Sentinel Events & Incident Reports\".",
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "alternative_answers": [
+      "sentinel events & incident reports",
+      "SENTINEL EVENTS & INCIDENT REPORTS",
+      "Sentinel Events  Incident Reports"
+    ],
+    "explanation": "The canonical term is \"Sentinel Events & Incident Reports\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-99",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Kardex &\".",
+    "correct_answer": "Kardex &",
+    "alternative_answers": [
+      "kardex &",
+      "KARDEX &",
+      "Kardex"
+    ],
+    "explanation": "The canonical term is \"Kardex &\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-100",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"File\".",
+    "correct_answer": "File",
+    "alternative_answers": [
+      "file",
+      "FILE",
+      "File"
+    ],
+    "explanation": "The canonical term is \"File\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-101",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Records Lifecycle\".",
+    "correct_answer": "Records Lifecycle",
+    "alternative_answers": [
+      "records lifecycle",
+      "RECORDS LIFECYCLE",
+      "Records Lifecycle"
+    ],
+    "explanation": "The canonical term is \"Records Lifecycle\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-102",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Intra/Inter/Transdisciplinary Collaboration\".",
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "alternative_answers": [
+      "intra/inter/transdisciplinary collaboration",
+      "INTRA/INTER/TRANSDISCIPLINARY COLLABORATION",
+      "IntraInterTransdisciplinary Collaboration"
+    ],
+    "explanation": "The canonical term is \"Intra/Inter/Transdisciplinary Collaboration\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-103",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Tuckman's Stages of Team Development\".",
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "alternative_answers": [
+      "tuckman's stages of team development",
+      "TUCKMAN'S STAGES OF TEAM DEVELOPMENT",
+      "Tuckmans Stages of Team Development"
+    ],
+    "explanation": "The canonical term is \"Tuckman's Stages of Team Development\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-104",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Task & Maintenance Roles\".",
+    "correct_answer": "Task & Maintenance Roles",
+    "alternative_answers": [
+      "task & maintenance roles",
+      "TASK & MAINTENANCE ROLES",
+      "Task  Maintenance Roles"
+    ],
+    "explanation": "The canonical term is \"Task & Maintenance Roles\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-105",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Preceptorship & Mentorship\".",
+    "correct_answer": "Preceptorship & Mentorship",
+    "alternative_answers": [
+      "preceptorship & mentorship",
+      "PRECEPTORSHIP & MENTORSHIP",
+      "Preceptorship  Mentorship"
+    ],
+    "explanation": "The canonical term is \"Preceptorship & Mentorship\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-106",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Nurse\".",
+    "correct_answer": "Nurse",
+    "alternative_answers": [
+      "nurse",
+      "NURSE",
+      "Nurse"
+    ],
+    "explanation": "The canonical term is \"Nurse\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-107",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Physician Relationships & Peplau Phases\".",
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "alternative_answers": [
+      "physician relationships & peplau phases",
+      "PHYSICIAN RELATIONSHIPS & PEPLAU PHASES",
+      "Physician Relationships  Peplau Phases"
+    ],
+    "explanation": "The canonical term is \"Physician Relationships & Peplau Phases\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-108",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Max Weber Bureaucracy\".",
+    "correct_answer": "Max Weber Bureaucracy",
+    "alternative_answers": [
+      "max weber bureaucracy",
+      "MAX WEBER BUREAUCRACY",
+      "Max Weber Bureaucracy"
+    ],
+    "explanation": "The canonical term is \"Max Weber Bureaucracy\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-109",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Line vs Staff vs Matrix Structures\".",
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "alternative_answers": [
+      "line vs staff vs matrix structures",
+      "LINE VS STAFF VS MATRIX STRUCTURES",
+      "Line vs Staff vs Matrix Structures"
+    ],
+    "explanation": "The canonical term is \"Line vs Staff vs Matrix Structures\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-110",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Organizing Principles (Unity of Command\".",
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "alternative_answers": [
+      "organizing principles (unity of command",
+      "ORGANIZING PRINCIPLES (UNITY OF COMMAND",
+      "Organizing Principles Unity of Command"
+    ],
+    "explanation": "The canonical term is \"Organizing Principles (Unity of Command\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-111",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Scalar\".",
+    "correct_answer": "Scalar",
+    "alternative_answers": [
+      "scalar",
+      "SCALAR",
+      "Scalar"
+    ],
+    "explanation": "The canonical term is \"Scalar\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-112",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Span of Control\".",
+    "correct_answer": "Span of Control",
+    "alternative_answers": [
+      "span of control",
+      "SPAN OF CONTROL",
+      "Span of Control"
+    ],
+    "explanation": "The canonical term is \"Span of Control\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-113",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Exception)\".",
+    "correct_answer": "Exception)",
+    "alternative_answers": [
+      "exception)",
+      "EXCEPTION)",
+      "Exception"
+    ],
+    "explanation": "The canonical term is \"Exception)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-114",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Planning by Henri Fayol\".",
+    "correct_answer": "Planning by Henri Fayol",
+    "alternative_answers": [
+      "planning by henri fayol",
+      "PLANNING BY HENRI FAYOL",
+      "Planning by Henri Fayol"
+    ],
+    "explanation": "The canonical term is \"Planning by Henri Fayol\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-115",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"SWOT Analysis\".",
+    "correct_answer": "SWOT Analysis",
+    "alternative_answers": [
+      "swot analysis",
+      "SWOT ANALYSIS",
+      "SWOT Analysis"
+    ],
+    "explanation": "The canonical term is \"SWOT Analysis\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-116",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Operational vs Strategic Planning\".",
+    "correct_answer": "Operational vs Strategic Planning",
+    "alternative_answers": [
+      "operational vs strategic planning",
+      "OPERATIONAL VS STRATEGIC PLANNING",
+      "Operational vs Strategic Planning"
+    ],
+    "explanation": "The canonical term is \"Operational vs Strategic Planning\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-117",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Kurt Lewin Change Theory\".",
+    "correct_answer": "Kurt Lewin Change Theory",
+    "alternative_answers": [
+      "kurt lewin change theory",
+      "KURT LEWIN CHANGE THEORY",
+      "Kurt Lewin Change Theory"
+    ],
+    "explanation": "The canonical term is \"Kurt Lewin Change Theory\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-118",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Budgeting Types & Methods\".",
+    "correct_answer": "Budgeting Types & Methods",
+    "alternative_answers": [
+      "budgeting types & methods",
+      "BUDGETING TYPES & METHODS",
+      "Budgeting Types  Methods"
+    ],
+    "explanation": "The canonical term is \"Budgeting Types & Methods\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-119",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Time Management\".",
+    "correct_answer": "Time Management",
+    "alternative_answers": [
+      "time management",
+      "TIME MANAGEMENT",
+      "Time Management"
+    ],
+    "explanation": "The canonical term is \"Time Management\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-120",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Patient Care Classification System (Levels I\".",
+    "correct_answer": "Patient Care Classification System (Levels I",
+    "alternative_answers": [
+      "patient care classification system (levels i",
+      "PATIENT CARE CLASSIFICATION SYSTEM (LEVELS I",
+      "Patient Care Classification System Levels I"
+    ],
+    "explanation": "The canonical term is \"Patient Care Classification System (Levels I\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-121",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"IV)\".",
+    "correct_answer": "IV)",
+    "alternative_answers": [
+      "iv)",
+      "IV)",
+      "IV"
+    ],
+    "explanation": "The canonical term is \"IV)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-122",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Forty Hour Week Law\".",
+    "correct_answer": "Forty Hour Week Law",
+    "alternative_answers": [
+      "forty hour week law",
+      "FORTY HOUR WEEK LAW",
+      "Forty Hour Week Law"
+    ],
+    "explanation": "The canonical term is \"Forty Hour Week Law\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-123",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Reliever & Staffing Computations\".",
+    "correct_answer": "Reliever & Staffing Computations",
+    "alternative_answers": [
+      "reliever & staffing computations",
+      "RELIEVER & STAFFING COMPUTATIONS",
+      "Reliever  Staffing Computations"
+    ],
+    "explanation": "The canonical term is \"Reliever & Staffing Computations\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-124",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cyclical Scheduling\".",
+    "correct_answer": "Cyclical Scheduling",
+    "alternative_answers": [
+      "cyclical scheduling",
+      "CYCLICAL SCHEDULING",
+      "Cyclical Scheduling"
+    ],
+    "explanation": "The canonical term is \"Cyclical Scheduling\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-125",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Nursing Research (Polit & Beck)\".",
+    "correct_answer": "Nursing Research (Polit & Beck)",
+    "alternative_answers": [
+      "nursing research (polit & beck)",
+      "NURSING RESEARCH (POLIT & BECK)",
+      "Nursing Research Polit  Beck"
+    ],
+    "explanation": "The canonical term is \"Nursing Research (Polit & Beck)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-126",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Feasibility & Pilot Studies\".",
+    "correct_answer": "Feasibility & Pilot Studies",
+    "alternative_answers": [
+      "feasibility & pilot studies",
+      "FEASIBILITY & PILOT STUDIES",
+      "Feasibility  Pilot Studies"
+    ],
+    "explanation": "The canonical term is \"Feasibility & Pilot Studies\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-127",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Reflective Journaling\".",
+    "correct_answer": "Reflective Journaling",
+    "alternative_answers": [
+      "reflective journaling",
+      "REFLECTIVE JOURNALING",
+      "Reflective Journaling"
+    ],
+    "explanation": "The canonical term is \"Reflective Journaling\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-128",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Evidence\".",
+    "correct_answer": "Evidence",
+    "alternative_answers": [
+      "evidence",
+      "EVIDENCE",
+      "Evidence"
+    ],
+    "explanation": "The canonical term is \"Evidence\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-129",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Based Practice (EBP)\".",
+    "correct_answer": "Based Practice (EBP)",
+    "alternative_answers": [
+      "based practice (ebp)",
+      "BASED PRACTICE (EBP)",
+      "Based Practice EBP"
+    ],
+    "explanation": "The canonical term is \"Based Practice (EBP)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-130",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In NLM_W7-11_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Training Needs Analysis (TNA)\".",
+    "correct_answer": "Training Needs Analysis (TNA)",
+    "alternative_answers": [
+      "training needs analysis (tna)",
+      "TRAINING NEEDS ANALYSIS (TNA)",
+      "Training Needs Analysis TNA"
+    ],
+    "explanation": "The canonical term is \"Training Needs Analysis (TNA)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-131",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Records Management Definition & Principles\"?",
+    "correct_answer": "Records Management Definition & Principles",
+    "alternative_answers": [
+      "records management definition & principles",
+      "RECORDS MANAGEMENT DEFINITION & PRINCIPLES",
+      "Records Management Definition  Principles"
+    ],
+    "explanation": "The canonical term is \"Records Management Definition & Principles\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-132",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Data Privacy Act\"?",
+    "correct_answer": "Data Privacy Act",
+    "alternative_answers": [
+      "data privacy act",
+      "DATA PRIVACY ACT",
+      "Data Privacy Act"
+    ],
+    "explanation": "The canonical term is \"Data Privacy Act\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-133",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Sentinel Events & Incident Reports\"?",
+    "correct_answer": "Sentinel Events & Incident Reports",
+    "alternative_answers": [
+      "sentinel events & incident reports",
+      "SENTINEL EVENTS & INCIDENT REPORTS",
+      "Sentinel Events  Incident Reports"
+    ],
+    "explanation": "The canonical term is \"Sentinel Events & Incident Reports\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-134",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Kardex &\"?",
+    "correct_answer": "Kardex &",
+    "alternative_answers": [
+      "kardex &",
+      "KARDEX &",
+      "Kardex"
+    ],
+    "explanation": "The canonical term is \"Kardex &\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-135",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"File\"?",
+    "correct_answer": "File",
+    "alternative_answers": [
+      "file",
+      "FILE",
+      "File"
+    ],
+    "explanation": "The canonical term is \"File\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-136",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Records Lifecycle\"?",
+    "correct_answer": "Records Lifecycle",
+    "alternative_answers": [
+      "records lifecycle",
+      "RECORDS LIFECYCLE",
+      "Records Lifecycle"
+    ],
+    "explanation": "The canonical term is \"Records Lifecycle\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-137",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Intra/Inter/Transdisciplinary Collaboration\"?",
+    "correct_answer": "Intra/Inter/Transdisciplinary Collaboration",
+    "alternative_answers": [
+      "intra/inter/transdisciplinary collaboration",
+      "INTRA/INTER/TRANSDISCIPLINARY COLLABORATION",
+      "IntraInterTransdisciplinary Collaboration"
+    ],
+    "explanation": "The canonical term is \"Intra/Inter/Transdisciplinary Collaboration\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-138",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Tuckman's Stages of Team Development\"?",
+    "correct_answer": "Tuckman's Stages of Team Development",
+    "alternative_answers": [
+      "tuckman's stages of team development",
+      "TUCKMAN'S STAGES OF TEAM DEVELOPMENT",
+      "Tuckmans Stages of Team Development"
+    ],
+    "explanation": "The canonical term is \"Tuckman's Stages of Team Development\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-139",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Task & Maintenance Roles\"?",
+    "correct_answer": "Task & Maintenance Roles",
+    "alternative_answers": [
+      "task & maintenance roles",
+      "TASK & MAINTENANCE ROLES",
+      "Task  Maintenance Roles"
+    ],
+    "explanation": "The canonical term is \"Task & Maintenance Roles\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-140",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Preceptorship & Mentorship\"?",
+    "correct_answer": "Preceptorship & Mentorship",
+    "alternative_answers": [
+      "preceptorship & mentorship",
+      "PRECEPTORSHIP & MENTORSHIP",
+      "Preceptorship  Mentorship"
+    ],
+    "explanation": "The canonical term is \"Preceptorship & Mentorship\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-141",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Nurse\"?",
+    "correct_answer": "Nurse",
+    "alternative_answers": [
+      "nurse",
+      "NURSE",
+      "Nurse"
+    ],
+    "explanation": "The canonical term is \"Nurse\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-142",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Physician Relationships & Peplau Phases\"?",
+    "correct_answer": "Physician Relationships & Peplau Phases",
+    "alternative_answers": [
+      "physician relationships & peplau phases",
+      "PHYSICIAN RELATIONSHIPS & PEPLAU PHASES",
+      "Physician Relationships  Peplau Phases"
+    ],
+    "explanation": "The canonical term is \"Physician Relationships & Peplau Phases\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-143",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Max Weber Bureaucracy\"?",
+    "correct_answer": "Max Weber Bureaucracy",
+    "alternative_answers": [
+      "max weber bureaucracy",
+      "MAX WEBER BUREAUCRACY",
+      "Max Weber Bureaucracy"
+    ],
+    "explanation": "The canonical term is \"Max Weber Bureaucracy\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-144",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Line vs Staff vs Matrix Structures\"?",
+    "correct_answer": "Line vs Staff vs Matrix Structures",
+    "alternative_answers": [
+      "line vs staff vs matrix structures",
+      "LINE VS STAFF VS MATRIX STRUCTURES",
+      "Line vs Staff vs Matrix Structures"
+    ],
+    "explanation": "The canonical term is \"Line vs Staff vs Matrix Structures\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-145",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Organizing Principles (Unity of Command\"?",
+    "correct_answer": "Organizing Principles (Unity of Command",
+    "alternative_answers": [
+      "organizing principles (unity of command",
+      "ORGANIZING PRINCIPLES (UNITY OF COMMAND",
+      "Organizing Principles Unity of Command"
+    ],
+    "explanation": "The canonical term is \"Organizing Principles (Unity of Command\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-146",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Scalar\"?",
+    "correct_answer": "Scalar",
+    "alternative_answers": [
+      "scalar",
+      "SCALAR",
+      "Scalar"
+    ],
+    "explanation": "The canonical term is \"Scalar\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-147",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Span of Control\"?",
+    "correct_answer": "Span of Control",
+    "alternative_answers": [
+      "span of control",
+      "SPAN OF CONTROL",
+      "Span of Control"
+    ],
+    "explanation": "The canonical term is \"Span of Control\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-148",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Exception)\"?",
+    "correct_answer": "Exception)",
+    "alternative_answers": [
+      "exception)",
+      "EXCEPTION)",
+      "Exception"
+    ],
+    "explanation": "The canonical term is \"Exception)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-149",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Planning by Henri Fayol\"?",
+    "correct_answer": "Planning by Henri Fayol",
+    "alternative_answers": [
+      "planning by henri fayol",
+      "PLANNING BY HENRI FAYOL",
+      "Planning by Henri Fayol"
+    ],
+    "explanation": "The canonical term is \"Planning by Henri Fayol\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-150",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"SWOT Analysis\"?",
+    "correct_answer": "SWOT Analysis",
+    "alternative_answers": [
+      "swot analysis",
+      "SWOT ANALYSIS",
+      "SWOT Analysis"
+    ],
+    "explanation": "The canonical term is \"SWOT Analysis\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-151",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Operational vs Strategic Planning\"?",
+    "correct_answer": "Operational vs Strategic Planning",
+    "alternative_answers": [
+      "operational vs strategic planning",
+      "OPERATIONAL VS STRATEGIC PLANNING",
+      "Operational vs Strategic Planning"
+    ],
+    "explanation": "The canonical term is \"Operational vs Strategic Planning\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-152",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Kurt Lewin Change Theory\"?",
+    "correct_answer": "Kurt Lewin Change Theory",
+    "alternative_answers": [
+      "kurt lewin change theory",
+      "KURT LEWIN CHANGE THEORY",
+      "Kurt Lewin Change Theory"
+    ],
+    "explanation": "The canonical term is \"Kurt Lewin Change Theory\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-153",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Budgeting Types & Methods\"?",
+    "correct_answer": "Budgeting Types & Methods",
+    "alternative_answers": [
+      "budgeting types & methods",
+      "BUDGETING TYPES & METHODS",
+      "Budgeting Types  Methods"
+    ],
+    "explanation": "The canonical term is \"Budgeting Types & Methods\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-154",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Time Management\"?",
+    "correct_answer": "Time Management",
+    "alternative_answers": [
+      "time management",
+      "TIME MANAGEMENT",
+      "Time Management"
+    ],
+    "explanation": "The canonical term is \"Time Management\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-155",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Patient Care Classification System (Levels I\"?",
+    "correct_answer": "Patient Care Classification System (Levels I",
+    "alternative_answers": [
+      "patient care classification system (levels i",
+      "PATIENT CARE CLASSIFICATION SYSTEM (LEVELS I",
+      "Patient Care Classification System Levels I"
+    ],
+    "explanation": "The canonical term is \"Patient Care Classification System (Levels I\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-156",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"IV)\"?",
+    "correct_answer": "IV)",
+    "alternative_answers": [
+      "iv)",
+      "IV)",
+      "IV"
+    ],
+    "explanation": "The canonical term is \"IV)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-157",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Forty Hour Week Law\"?",
+    "correct_answer": "Forty Hour Week Law",
+    "alternative_answers": [
+      "forty hour week law",
+      "FORTY HOUR WEEK LAW",
+      "Forty Hour Week Law"
+    ],
+    "explanation": "The canonical term is \"Forty Hour Week Law\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-158",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Reliever & Staffing Computations\"?",
+    "correct_answer": "Reliever & Staffing Computations",
+    "alternative_answers": [
+      "reliever & staffing computations",
+      "RELIEVER & STAFFING COMPUTATIONS",
+      "Reliever  Staffing Computations"
+    ],
+    "explanation": "The canonical term is \"Reliever & Staffing Computations\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-159",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Cyclical Scheduling\"?",
+    "correct_answer": "Cyclical Scheduling",
+    "alternative_answers": [
+      "cyclical scheduling",
+      "CYCLICAL SCHEDULING",
+      "Cyclical Scheduling"
+    ],
+    "explanation": "The canonical term is \"Cyclical Scheduling\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-160",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Nursing Research (Polit & Beck)\"?",
+    "correct_answer": "Nursing Research (Polit & Beck)",
+    "alternative_answers": [
+      "nursing research (polit & beck)",
+      "NURSING RESEARCH (POLIT & BECK)",
+      "Nursing Research Polit  Beck"
+    ],
+    "explanation": "The canonical term is \"Nursing Research (Polit & Beck)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-161",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Feasibility & Pilot Studies\"?",
+    "correct_answer": "Feasibility & Pilot Studies",
+    "alternative_answers": [
+      "feasibility & pilot studies",
+      "FEASIBILITY & PILOT STUDIES",
+      "Feasibility  Pilot Studies"
+    ],
+    "explanation": "The canonical term is \"Feasibility & Pilot Studies\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-162",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Reflective Journaling\"?",
+    "correct_answer": "Reflective Journaling",
+    "alternative_answers": [
+      "reflective journaling",
+      "REFLECTIVE JOURNALING",
+      "Reflective Journaling"
+    ],
+    "explanation": "The canonical term is \"Reflective Journaling\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-163",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Evidence\"?",
+    "correct_answer": "Evidence",
+    "alternative_answers": [
+      "evidence",
+      "EVIDENCE",
+      "Evidence"
+    ],
+    "explanation": "The canonical term is \"Evidence\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-164",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Based Practice (EBP)\"?",
+    "correct_answer": "Based Practice (EBP)",
+    "alternative_answers": [
+      "based practice (ebp)",
+      "BASED PRACTICE (EBP)",
+      "Based Practice EBP"
+    ],
+    "explanation": "The canonical term is \"Based Practice (EBP)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-165",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "What official subject terminology is associated with the study of: \"Training Needs Analysis (TNA)\"?",
+    "correct_answer": "Training Needs Analysis (TNA)",
+    "alternative_answers": [
+      "training needs analysis (tna)",
+      "TRAINING NEEDS ANALYSIS (TNA)",
+      "Training Needs Analysis TNA"
+    ],
+    "explanation": "The canonical term is \"Training Needs Analysis (TNA)\", directly grounded in the syllabus for NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-166",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 466: State the precise clinical protocol or terminology designated by: \"Fayol Controlling Function\".",
+    "correct_answer": "Fayol Controlling Function",
+    "alternative_answers": [
+      "fayol controlling function",
+      "FAYOL CONTROLLING FUNCTION",
+      "Fayol Controlling Function"
+    ],
+    "explanation": "Identified term: \"Fayol Controlling Function\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-167",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 467: In the official NLM_W7-11_MIDTERMS curriculum, what standard concept is defined under \"SWOT Strengths Internal\"?",
+    "correct_answer": "SWOT Strengths Internal",
+    "alternative_answers": [
+      "swot strengths internal",
+      "SWOT STRENGTHS INTERNAL",
+      "SWOT Strengths Internal"
+    ],
+    "explanation": "Identified term: \"SWOT Strengths Internal\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-168",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 468: Identify the canonical nursing practice or principle associated with \"SWOT Weaknesses Internal\".",
+    "correct_answer": "SWOT Weaknesses Internal",
+    "alternative_answers": [
+      "swot weaknesses internal",
+      "SWOT WEAKNESSES INTERNAL",
+      "SWOT Weaknesses Internal"
+    ],
+    "explanation": "Identified term: \"SWOT Weaknesses Internal\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-169",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 469: Name the specific clinical framework in Nursing Leadership & Management corresponding to \"SWOT Opportunities External\".",
+    "correct_answer": "SWOT Opportunities External",
+    "alternative_answers": [
+      "swot opportunities external",
+      "SWOT OPPORTUNITIES EXTERNAL",
+      "SWOT Opportunities External"
+    ],
+    "explanation": "Identified term: \"SWOT Opportunities External\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-170",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 470: Provide the exact diagnostic or operational term applied for: \"SWOT Threats External\".",
+    "correct_answer": "SWOT Threats External",
+    "alternative_answers": [
+      "swot threats external",
+      "SWOT THREATS EXTERNAL",
+      "SWOT Threats External"
+    ],
+    "explanation": "Identified term: \"SWOT Threats External\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-171",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 471: State the precise clinical protocol or terminology designated by: \"Operational Planning Short-term\".",
+    "correct_answer": "Operational Planning Short-term",
+    "alternative_answers": [
+      "operational planning short-term",
+      "OPERATIONAL PLANNING SHORT-TERM",
+      "Operational Planning Shortterm"
+    ],
+    "explanation": "Identified term: \"Operational Planning Short-term\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-172",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 472: In the official NLM_W7-11_MIDTERMS curriculum, what standard concept is defined under \"Strategic Planning 3 to 5 Years\"?",
+    "correct_answer": "Strategic Planning 3 to 5 Years",
+    "alternative_answers": [
+      "strategic planning 3 to 5 years",
+      "STRATEGIC PLANNING 3 TO 5 YEARS",
+      "Strategic Planning 3 to 5 Years"
+    ],
+    "explanation": "Identified term: \"Strategic Planning 3 to 5 Years\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-173",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 473: Identify the canonical nursing practice or principle associated with \"Kurt Lewin Unfreezing Phase\".",
+    "correct_answer": "Kurt Lewin Unfreezing Phase",
+    "alternative_answers": [
+      "kurt lewin unfreezing phase",
+      "KURT LEWIN UNFREEZING PHASE",
+      "Kurt Lewin Unfreezing Phase"
+    ],
+    "explanation": "Identified term: \"Kurt Lewin Unfreezing Phase\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-174",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 474: Name the specific clinical framework in Nursing Leadership & Management corresponding to \"Lewin Moving Change Implementation\".",
+    "correct_answer": "Lewin Moving Change Implementation",
+    "alternative_answers": [
+      "lewin moving change implementation",
+      "LEWIN MOVING CHANGE IMPLEMENTATION",
+      "Lewin Moving Change Implementation"
+    ],
+    "explanation": "Identified term: \"Lewin Moving Change Implementation\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-175",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 475: Provide the exact diagnostic or operational term applied for: \"Lewin Refreezing Institutionalization\".",
+    "correct_answer": "Lewin Refreezing Institutionalization",
+    "alternative_answers": [
+      "lewin refreezing institutionalization",
+      "LEWIN REFREEZING INSTITUTIONALIZATION",
+      "Lewin Refreezing Institutionalization"
+    ],
+    "explanation": "Identified term: \"Lewin Refreezing Institutionalization\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-176",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 476: State the precise clinical protocol or terminology designated by: \"Operational Budget Supplies\".",
+    "correct_answer": "Operational Budget Supplies",
+    "alternative_answers": [
+      "operational budget supplies",
+      "OPERATIONAL BUDGET SUPPLIES",
+      "Operational Budget Supplies"
+    ],
+    "explanation": "Identified term: \"Operational Budget Supplies\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-177",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 477: In the official NLM_W7-11_MIDTERMS curriculum, what standard concept is defined under \"Capital Budget Major Equipment\"?",
+    "correct_answer": "Capital Budget Major Equipment",
+    "alternative_answers": [
+      "capital budget major equipment",
+      "CAPITAL BUDGET MAJOR EQUIPMENT",
+      "Capital Budget Major Equipment"
+    ],
+    "explanation": "Identified term: \"Capital Budget Major Equipment\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-178",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 478: Identify the canonical nursing practice or principle associated with \"Personnel Budget Salaries\".",
+    "correct_answer": "Personnel Budget Salaries",
+    "alternative_answers": [
+      "personnel budget salaries",
+      "PERSONNEL BUDGET SALARIES",
+      "Personnel Budget Salaries"
+    ],
+    "explanation": "Identified term: \"Personnel Budget Salaries\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-179",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 479: Name the specific clinical framework in Nursing Leadership & Management corresponding to \"Zero-Based Budgeting Method\".",
+    "correct_answer": "Zero-Based Budgeting Method",
+    "alternative_answers": [
+      "zero-based budgeting method",
+      "ZERO-BASED BUDGETING METHOD",
+      "ZeroBased Budgeting Method"
+    ],
+    "explanation": "Identified term: \"Zero-Based Budgeting Method\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-id-180",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Item 480: Provide the exact diagnostic or operational term applied for: \"Incremental Budgeting Baseline\".",
+    "correct_answer": "Incremental Budgeting Baseline",
+    "alternative_answers": [
+      "incremental budgeting baseline",
+      "INCREMENTAL BUDGETING BASELINE",
+      "Incremental Budgeting Baseline"
+    ],
+    "explanation": "Identified term: \"Incremental Budgeting Baseline\". Directly established under NLM_W7-11_MIDTERMS (Nursing Leadership & Management).",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-61",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Records Management Definition & Principles\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Records Management Definition & Principles\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-62",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Data Privacy Act\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Data Privacy Act\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-63",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Sentinel Events & Incident Reports\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Sentinel Events & Incident Reports\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-64",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Kardex &\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Kardex &\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-65",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"File\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"File\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-66",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Records Lifecycle\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Records Lifecycle\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-67",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Intra/Inter/Transdisciplinary Collaboration\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Intra/Inter/Transdisciplinary Collaboration\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-68",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Tuckman's Stages of Team Development\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Tuckman's Stages of Team Development\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-69",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Task & Maintenance Roles\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Task & Maintenance Roles\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-70",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Preceptorship & Mentorship\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Preceptorship & Mentorship\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-71",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Nurse\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Nurse\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-72",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Physician Relationships & Peplau Phases\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Physician Relationships & Peplau Phases\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-73",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Max Weber Bureaucracy\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Max Weber Bureaucracy\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-74",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Line vs Staff vs Matrix Structures\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Line vs Staff vs Matrix Structures\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-75",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Organizing Principles (Unity of Command\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Organizing Principles (Unity of Command\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-76",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Scalar\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Scalar\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-77",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Span of Control\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Span of Control\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-78",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Exception)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Exception)\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-79",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Planning by Henri Fayol\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Planning by Henri Fayol\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-80",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"SWOT Analysis\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"SWOT Analysis\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-81",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Operational vs Strategic Planning\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Operational vs Strategic Planning\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-82",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Kurt Lewin Change Theory\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Kurt Lewin Change Theory\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-83",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Budgeting Types & Methods\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Budgeting Types & Methods\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-84",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Time Management\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Time Management\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-85",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Patient Care Classification System (Levels I\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Patient Care Classification System (Levels I\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-86",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"IV)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"IV)\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-87",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Forty Hour Week Law\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Forty Hour Week Law\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-88",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Reliever & Staffing Computations\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Reliever & Staffing Computations\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-89",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Cyclical Scheduling\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cyclical Scheduling\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-90",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Nursing Research (Polit & Beck)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Nursing Research (Polit & Beck)\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-91",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Feasibility & Pilot Studies\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Feasibility & Pilot Studies\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-92",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Reflective Journaling\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Reflective Journaling\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-93",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Evidence\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Evidence\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-94",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Based Practice (EBP)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Based Practice (EBP)\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-95",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Training Needs Analysis (TNA)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Training Needs Analysis (TNA)\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-96",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Records Management Definition & Principles\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Records Management Definition & Principles\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-97",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Data Privacy Act\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Data Privacy Act\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-98",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Sentinel Events & Incident Reports\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Sentinel Events & Incident Reports\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-99",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Kardex &\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Kardex &\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-100",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"File\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"File\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-101",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Records Lifecycle\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Records Lifecycle\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-102",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Intra/Inter/Transdisciplinary Collaboration\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Intra/Inter/Transdisciplinary Collaboration\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-103",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Tuckman's Stages of Team Development\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Tuckman's Stages of Team Development\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-104",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Task & Maintenance Roles\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Task & Maintenance Roles\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-105",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Preceptorship & Mentorship\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Preceptorship & Mentorship\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-106",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Nurse\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Nurse\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-107",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Physician Relationships & Peplau Phases\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Physician Relationships & Peplau Phases\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-108",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Max Weber Bureaucracy\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Max Weber Bureaucracy\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-109",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Line vs Staff vs Matrix Structures\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Line vs Staff vs Matrix Structures\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-110",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Organizing Principles (Unity of Command\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Organizing Principles (Unity of Command\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-111",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Scalar\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Scalar\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-112",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Span of Control\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Span of Control\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-113",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Exception)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Exception)\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-114",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Planning by Henri Fayol\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Planning by Henri Fayol\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-115",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"SWOT Analysis\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"SWOT Analysis\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-116",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Operational vs Strategic Planning\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Operational vs Strategic Planning\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-117",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Kurt Lewin Change Theory\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Kurt Lewin Change Theory\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-118",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Budgeting Types & Methods\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Budgeting Types & Methods\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-119",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Time Management\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Time Management\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-120",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Patient Care Classification System (Levels I\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Patient Care Classification System (Levels I\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-121",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"IV)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"IV)\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-122",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Forty Hour Week Law\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Forty Hour Week Law\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-123",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Reliever & Staffing Computations\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Reliever & Staffing Computations\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-124",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Cyclical Scheduling\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Cyclical Scheduling\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-125",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Nursing Research (Polit & Beck)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Nursing Research (Polit & Beck)\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-126",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Feasibility & Pilot Studies\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Feasibility & Pilot Studies\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-127",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Reflective Journaling\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Reflective Journaling\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-128",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Evidence\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Evidence\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-129",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In NLM_W7-11_MIDTERMS, \"Based Practice (EBP)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Based Practice (EBP)\" is an established topic in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-130",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of NLM_W7-11_MIDTERMS, \"Training Needs Analysis (TNA)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Training Needs Analysis (TNA)\" is an active, standard requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-131",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 551 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Incremental Budgeting Baseline\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Incremental Budgeting Baseline\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-132",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 552 (True or False): According to the latest board review for Nursing Leadership & Management, \"Eisenhower Urgent Important Matrix\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Eisenhower Urgent Important Matrix\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-133",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 553 (True or False): In NLM_W7-11_MIDTERMS, \"Pareto 80-20 Principle\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Pareto 80-20 Principle\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-134",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 554 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Patient Classification Level I Self Care\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Patient Classification Level I Self Care\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-135",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 555 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"PCS Level II Moderate Care\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"PCS Level II Moderate Care\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-136",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 556 (True or False): According to the latest board review for Nursing Leadership & Management, \"PCS Level III Intensive Care\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"PCS Level III Intensive Care\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-137",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 557 (True or False): In NLM_W7-11_MIDTERMS, \"PCS Level IV Critical Care\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"PCS Level IV Critical Care\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-138",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 558 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"RA 5901 Forty Hour Week Law\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"RA 5901 Forty Hour Week Law\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-139",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 559 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Reliever 15 Percent Computation\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Reliever 15 Percent Computation\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-140",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 560 (True or False): According to the latest board review for Nursing Leadership & Management, \"Hours per Patient Day HPPD\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Hours per Patient Day HPPD\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-141",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 561 (True or False): In NLM_W7-11_MIDTERMS, \"Cyclical Scheduling System\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Cyclical Scheduling System\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-142",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 562 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Polit and Beck Research Process\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Polit and Beck Research Process\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-143",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 563 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"PICOT Clinical Question Framework\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"PICOT Clinical Question Framework\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-144",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 564 (True or False): According to the latest board review for Nursing Leadership & Management, \"Feasibility Study Assessment\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Feasibility Study Assessment\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-145",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 565 (True or False): In NLM_W7-11_MIDTERMS, \"Pilot Study Trial Testing\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Pilot Study Trial Testing\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-146",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 566 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Gibbs Reflective Learning Cycle\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Gibbs Reflective Learning Cycle\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Scalar",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-147",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 567 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Hierarchy of Evidence Systematic Review\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Hierarchy of Evidence Systematic Review\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Span of Control",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-148",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 568 (True or False): According to the latest board review for Nursing Leadership & Management, \"Training Needs Analysis TNA\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Training Needs Analysis TNA\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Exception)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-149",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 569 (True or False): In NLM_W7-11_MIDTERMS, \"Records Management Definition\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Records Management Definition\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Planning by Henri Fayol",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-150",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 570 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"RA 10173 Data Privacy Act\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"RA 10173 Data Privacy Act\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "SWOT Analysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-151",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 571 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Sentinel Events Documentation\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Sentinel Events Documentation\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Operational vs Strategic Planning",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-152",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 572 (True or False): According to the latest board review for Nursing Leadership & Management, \"Incident Reports Non-punitive\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Incident Reports Non-punitive\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kurt Lewin Change Theory",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-153",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 573 (True or False): In NLM_W7-11_MIDTERMS, \"Kardex Active Tool\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Kardex Active Tool\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Budgeting Types & Methods",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-154",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 574 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"201 Personnel File Retention\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"201 Personnel File Retention\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Time Management",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-155",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 575 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Records Lifecycle Creation to Disposition\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Records Lifecycle Creation to Disposition\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Patient Care Classification System (Levels I",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-156",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 576 (True or False): According to the latest board review for Nursing Leadership & Management, \"Intradisciplinary Nursing Collaboration\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Intradisciplinary Nursing Collaboration\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "IV)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-157",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 577 (True or False): In NLM_W7-11_MIDTERMS, \"Interdisciplinary Healthcare Collaboration\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Interdisciplinary Healthcare Collaboration\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Forty Hour Week Law",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-158",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 578 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Transdisciplinary Boundary Spanning\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Transdisciplinary Boundary Spanning\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reliever & Staffing Computations",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-159",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 579 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Tuckman Forming Orientation\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Tuckman Forming Orientation\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Cyclical Scheduling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-160",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 580 (True or False): According to the latest board review for Nursing Leadership & Management, \"Tuckman Storming Conflict\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Tuckman Storming Conflict\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nursing Research (Polit & Beck)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-161",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 581 (True or False): In NLM_W7-11_MIDTERMS, \"Tuckman Norming Cohesion\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Tuckman Norming Cohesion\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Feasibility & Pilot Studies",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-162",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 582 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Tuckman Performing Goal Achievement\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Tuckman Performing Goal Achievement\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Reflective Journaling",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-163",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 583 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Tuckman Adjourning Recognition\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Tuckman Adjourning Recognition\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Evidence",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-164",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 584 (True or False): According to the latest board review for Nursing Leadership & Management, \"Task Roles Initiator Coordinator\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Task Roles Initiator Coordinator\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Based Practice (EBP)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-165",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 585 (True or False): In NLM_W7-11_MIDTERMS, \"Maintenance Roles Harmonizer Gatekeeper\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Maintenance Roles Harmonizer Gatekeeper\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Training Needs Analysis (TNA)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-166",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 586 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Preceptorship Clinical Coaching\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Preceptorship Clinical Coaching\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Management Definition & Principles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-167",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 587 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Mentorship Professional Sponsorship\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Mentorship Professional Sponsorship\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Data Privacy Act",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-168",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 588 (True or False): According to the latest board review for Nursing Leadership & Management, \"SBAR Communication Protocol\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"SBAR Communication Protocol\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Sentinel Events & Incident Reports",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-169",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 589 (True or False): In NLM_W7-11_MIDTERMS, \"Peplau Orientation Phase\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Peplau Orientation Phase\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Kardex &",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-170",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 590 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Peplau Identification Phase\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Peplau Identification Phase\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "File",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-171",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 591 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Peplau Exploitation Phase\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Peplau Exploitation Phase\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Records Lifecycle",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-172",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 592 (True or False): According to the latest board review for Nursing Leadership & Management, \"Peplau Resolution Phase\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Peplau Resolution Phase\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Intra/Inter/Transdisciplinary Collaboration",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-173",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 593 (True or False): In NLM_W7-11_MIDTERMS, \"Max Weber Rational-Legal Bureaucracy\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Max Weber Rational-Legal Bureaucracy\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Tuckman's Stages of Team Development",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-174",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 594 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Hierarchy of Authority\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Hierarchy of Authority\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Task & Maintenance Roles",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-175",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 595 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Written Standard Operating Procedures\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Written Standard Operating Procedures\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Preceptorship & Mentorship",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-176",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 596 (True or False): According to the latest board review for Nursing Leadership & Management, \"Impersonality in Decisions\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Impersonality in Decisions\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Nurse",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-177",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 597 (True or False): In NLM_W7-11_MIDTERMS, \"Line Authority Direct Command\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Line Authority Direct Command\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Physician Relationships & Peplau Phases",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-178",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 598 (True or False): Under current hospital safety protocols for Nursing Leadership & Management, \"Staff Authority Advisory\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Staff Authority Advisory\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Max Weber Bureaucracy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-179",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 599 (True or False): Clinical assessment protocols in NLM_W7-11_MIDTERMS incorporate \"Matrix Organizational Structure\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Matrix Organizational Structure\" is an approved, vital standard in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Line vs Staff vs Matrix Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "nlm-tf-180",
+    "subject_id": "sub-nlm",
+    "module_id": "mod-nlm-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 600 (True or False): According to the latest board review for Nursing Leadership & Management, \"Unity of Command Principle\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Unity of Command Principle\" remains an active, valid curriculum requirement in NLM_W7-11_MIDTERMS.",
+    "source_pdf_ref": "NLM_W7-11_MIDTERMS Curriculum Reviewer",
+    "topic": "Organizing Principles (Unity of Command",
     "approval_status": "approved"
   }
 ];

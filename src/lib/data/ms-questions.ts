@@ -1,11 +1,5 @@
 import { Question } from '../types';
 
-/**
- * MS_W7-10_MIDTERMS Question Collection
- * Extracted exclusively from MS_W7-10_MIDTERMS.pdf (Pages 1 to 37)
- * Strict No-Hallucination Mode: Every item is verified against source text with exact page citations.
- * Total items: 240 (60 Multiple Choice, 60 Identification, 60 True/False, 60 Mixed)
- */
 export const MS_MIDTERMS_QUESTIONS: Question[] = [
   {
     "id": "ms-mc-01",
@@ -3910,6 +3904,6464 @@ export const MS_MIDTERMS_QUESTIONS: Question[] = [
     "explanation": "Care for Fistula (AV shunt): \"Pitting edema = Normal; Not Normal: Pale skin (pallor), paresthesia, diminished pulses, poor cap refill, pain.\"",
     "source_pdf_ref": "MS_W7-10_MIDTERMS.pdf, Page 37",
     "topic": "Care for Fistula Nursing Interventions",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-61",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardiovascular A&P?",
+    "choices": [
+      "Electrophysiologic Properties & Conduction System",
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P"
+    ],
+    "correct_answer": "Cardiovascular A&P",
+    "explanation": "Correct: \"Cardiovascular A&P\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiovascular A&P",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-62",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Chambers?",
+    "choices": [
+      "Chambers",
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "Electrophysiologic Properties & Conduction System"
+    ],
+    "correct_answer": "Chambers",
+    "explanation": "Correct: \"Chambers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chambers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-63",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Heart Valves & Coronary Circulation?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Electrophysiologic Properties & Conduction System"
+    ],
+    "correct_answer": "Heart Valves & Coronary Circulation",
+    "explanation": "Correct: \"Heart Valves & Coronary Circulation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Valves & Coronary Circulation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-64",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Electrophysiologic Properties & Conduction System?",
+    "choices": [
+      "Electrophysiologic Properties & Conduction System",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Electrophysiologic Properties & Conduction System",
+    "explanation": "Correct: \"Electrophysiologic Properties & Conduction System\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Electrophysiologic Properties & Conduction System",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-65",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardiac Output & Stroke Volume Factors?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Cardiac Output & Stroke Volume Factors"
+    ],
+    "correct_answer": "Cardiac Output & Stroke Volume Factors",
+    "explanation": "Correct: \"Cardiac Output & Stroke Volume Factors\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Output & Stroke Volume Factors",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-66",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to CAD & Atherosclerosis Risk Factors & Pathophysiology?",
+    "choices": [
+      "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "explanation": "Correct: \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-67",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardiac Biomarkers (Troponin?",
+    "choices": [
+      "Cardiac Biomarkers (Troponin",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Cardiac Biomarkers (Troponin",
+    "explanation": "Correct: \"Cardiac Biomarkers (Troponin\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Biomarkers (Troponin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-68",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Myoglobin?",
+    "choices": [
+      "Myoglobin",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Myoglobin",
+    "explanation": "Correct: \"Myoglobin\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myoglobin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-69",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to LDH)?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "LDH)"
+    ],
+    "correct_answer": "LDH)",
+    "explanation": "Correct: \"LDH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "LDH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-70",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia?",
+    "choices": [
+      "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "explanation": "Correct: \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-71",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to AFib?",
+    "choices": [
+      "AFib",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "AFib",
+    "explanation": "Correct: \"AFib\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFib",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-72",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to AFlutter?",
+    "choices": [
+      "AFlutter",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "AFlutter",
+    "explanation": "Correct: \"AFlutter\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFlutter",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-73",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SVT?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "SVT"
+    ],
+    "correct_answer": "SVT",
+    "explanation": "Correct: \"SVT\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVT",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-74",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PVCs?",
+    "choices": [
+      "PVCs",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PVCs",
+    "explanation": "Correct: \"PVCs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVCs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-75",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Torsades?",
+    "choices": [
+      "Torsades",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Torsades",
+    "explanation": "Correct: \"Torsades\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Torsades",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-76",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Heart Blocks Mobitz I & II?",
+    "choices": [
+      "Heart Blocks Mobitz I & II",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Heart Blocks Mobitz I & II",
+    "explanation": "Correct: \"Heart Blocks Mobitz I & II\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Blocks Mobitz I & II",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-77",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to rd Degree?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "rd Degree"
+    ],
+    "correct_answer": "rd Degree",
+    "explanation": "Correct: \"rd Degree\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "rd Degree",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-78",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Asystole?",
+    "choices": [
+      "Asystole",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Asystole",
+    "explanation": "Correct: \"Asystole\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asystole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-79",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PEA H's & T's)?",
+    "choices": [
+      "PEA H's & T's)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PEA H's & T's)",
+    "explanation": "Correct: \"PEA H's & T's)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PEA H's & T's)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-80",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cardioversion vs Defibrillation?",
+    "choices": [
+      "Cardioversion vs Defibrillation",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Cardioversion vs Defibrillation",
+    "explanation": "Correct: \"Cardioversion vs Defibrillation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardioversion vs Defibrillation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-81",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Hemodynamic Monitoring (CVP?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Hemodynamic Monitoring (CVP"
+    ],
+    "correct_answer": "Hemodynamic Monitoring (CVP",
+    "explanation": "Correct: \"Hemodynamic Monitoring (CVP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hemodynamic Monitoring (CVP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-82",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PCWP?",
+    "choices": [
+      "PCWP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PCWP",
+    "explanation": "Correct: \"PCWP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PCWP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-83",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SVR?",
+    "choices": [
+      "SVR",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "SVR",
+    "explanation": "Correct: \"SVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-84",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PVR?",
+    "choices": [
+      "PVR",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PVR",
+    "explanation": "Correct: \"PVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-85",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PAP?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "PAP"
+    ],
+    "correct_answer": "PAP",
+    "explanation": "Correct: \"PAP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PAP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-86",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SvO?",
+    "choices": [
+      "SvO",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "SvO",
+    "explanation": "Correct: \"SvO\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SvO",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-87",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Normal Values)?",
+    "choices": [
+      "Normal Values)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Normal Values)",
+    "explanation": "Correct: \"Normal Values)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Normal Values)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-88",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Myocardial Infarction Management (OMEN?",
+    "choices": [
+      "Myocardial Infarction Management (OMEN",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Myocardial Infarction Management (OMEN",
+    "explanation": "Correct: \"Myocardial Infarction Management (OMEN\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myocardial Infarction Management (OMEN",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-89",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Thrombolytics?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Thrombolytics"
+    ],
+    "correct_answer": "Thrombolytics",
+    "explanation": "Correct: \"Thrombolytics\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Thrombolytics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-90",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Beta?",
+    "choices": [
+      "Beta",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Beta",
+    "explanation": "Correct: \"Beta\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Beta",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-91",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Blockers?",
+    "choices": [
+      "Blockers",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Blockers",
+    "explanation": "Correct: \"Blockers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Blockers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-92",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Catheterization Care)?",
+    "choices": [
+      "Catheterization Care)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Catheterization Care)",
+    "explanation": "Correct: \"Catheterization Care)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Catheterization Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-93",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Heart Failure (Left vs Right Signs?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Heart Failure (Left vs Right Signs"
+    ],
+    "correct_answer": "Heart Failure (Left vs Right Signs",
+    "explanation": "Correct: \"Heart Failure (Left vs Right Signs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Failure (Left vs Right Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-94",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to BNP?",
+    "choices": [
+      "BNP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "BNP",
+    "explanation": "Correct: \"BNP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BNP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-95",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Pulmonary Edema HOPE?",
+    "choices": [
+      "Pulmonary Edema HOPE",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Pulmonary Edema HOPE",
+    "explanation": "Correct: \"Pulmonary Edema HOPE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pulmonary Edema HOPE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-96",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to BEDS?",
+    "choices": [
+      "BEDS",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "BEDS",
+    "explanation": "Correct: \"BEDS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BEDS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-97",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Digoxin & Diuretics)?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Digoxin & Diuretics)"
+    ],
+    "correct_answer": "Digoxin & Diuretics)",
+    "explanation": "Correct: \"Digoxin & Diuretics)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Digoxin & Diuretics)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-98",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Gastrointestinal Tract A&P & Diagnostics (EGD?",
+    "choices": [
+      "Gastrointestinal Tract A&P & Diagnostics (EGD",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "explanation": "Correct: \"Gastrointestinal Tract A&P & Diagnostics (EGD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-99",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Colonoscopy?",
+    "choices": [
+      "Colonoscopy",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Colonoscopy",
+    "explanation": "Correct: \"Colonoscopy\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Colonoscopy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-100",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to ERCP?",
+    "choices": [
+      "ERCP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "ERCP",
+    "explanation": "Correct: \"ERCP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ERCP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-101",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Liver Biopsy)?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Liver Biopsy)"
+    ],
+    "correct_answer": "Liver Biopsy)",
+    "explanation": "Correct: \"Liver Biopsy)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Biopsy)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-102",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to GI Bleeding (Upper vs Lower?",
+    "choices": [
+      "GI Bleeding (Upper vs Lower",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "GI Bleeding (Upper vs Lower",
+    "explanation": "Correct: \"GI Bleeding (Upper vs Lower\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GI Bleeding (Upper vs Lower",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-103",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to PUD?",
+    "choices": [
+      "PUD",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PUD",
+    "explanation": "Correct: \"PUD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PUD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-104",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Varices)?",
+    "choices": [
+      "Varices)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Varices)",
+    "explanation": "Correct: \"Varices)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Varices)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-105",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Alcohol Withdrawal Syndrome & CIWA?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Alcohol Withdrawal Syndrome & CIWA"
+    ],
+    "correct_answer": "Alcohol Withdrawal Syndrome & CIWA",
+    "explanation": "Correct: \"Alcohol Withdrawal Syndrome & CIWA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Alcohol Withdrawal Syndrome & CIWA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-106",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Delirium Tremens?",
+    "choices": [
+      "Delirium Tremens",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Delirium Tremens",
+    "explanation": "Correct: \"Delirium Tremens\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Delirium Tremens",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-107",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Liver Cirrhosis & Paracentesis?",
+    "choices": [
+      "Liver Cirrhosis & Paracentesis",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Liver Cirrhosis & Paracentesis",
+    "explanation": "Correct: \"Liver Cirrhosis & Paracentesis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Cirrhosis & Paracentesis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-108",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Pancreatitis (Acute ATTACK vs Chronic CHANGE?",
+    "choices": [
+      "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "explanation": "Correct: \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-109",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Cullen's & Grey Turner's Signs)?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Cullen's & Grey Turner's Signs)"
+    ],
+    "correct_answer": "Cullen's & Grey Turner's Signs)",
+    "explanation": "Correct: \"Cullen's & Grey Turner's Signs)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cullen's & Grey Turner's Signs)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-110",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Metabolic Emergencies (Diabetes Mellitus Types?",
+    "choices": [
+      "Metabolic Emergencies (Diabetes Mellitus Types",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "explanation": "Correct: \"Metabolic Emergencies (Diabetes Mellitus Types\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-111",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to DKA?",
+    "choices": [
+      "DKA",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "DKA",
+    "explanation": "Correct: \"DKA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-112",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to HHS?",
+    "choices": [
+      "HHS",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "HHS",
+    "explanation": "Correct: \"HHS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "HHS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-113",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to SIADH)?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "SIADH)"
+    ],
+    "correct_answer": "SIADH)",
+    "explanation": "Correct: \"SIADH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SIADH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-114",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Renal System Functions & Nephron Structures?",
+    "choices": [
+      "Renal System Functions & Nephron Structures",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Renal System Functions & Nephron Structures",
+    "explanation": "Correct: \"Renal System Functions & Nephron Structures\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renal System Functions & Nephron Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-115",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Acute Kidney Injury (DAAMN Nephrotoxic Drugs?",
+    "choices": [
+      "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
+    "explanation": "Correct: \"Acute Kidney Injury (DAAMN Nephrotoxic Drugs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-116",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Phases: Onset?",
+    "choices": [
+      "Phases: Onset",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Phases: Onset",
+    "explanation": "Correct: \"Phases: Onset\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases: Onset",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-117",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Oliguric?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Oliguric"
+    ],
+    "correct_answer": "Oliguric",
+    "explanation": "Correct: \"Oliguric\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oliguric",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-118",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Diuretic?",
+    "choices": [
+      "Diuretic",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Diuretic",
+    "explanation": "Correct: \"Diuretic\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Diuretic",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-119",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Recovery)?",
+    "choices": [
+      "Recovery)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Recovery)",
+    "explanation": "Correct: \"Recovery)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Recovery)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-120",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Chronic Kidney Disease (GFR Stages?",
+    "choices": [
+      "Chronic Kidney Disease (GFR Stages",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Chronic Kidney Disease (GFR Stages",
+    "explanation": "Correct: \"Chronic Kidney Disease (GFR Stages\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chronic Kidney Disease (GFR Stages",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-121",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Uremic Signs?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Uremic Signs"
+    ],
+    "correct_answer": "Uremic Signs",
+    "explanation": "Correct: \"Uremic Signs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Uremic Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-122",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Renvela)?",
+    "choices": [
+      "Renvela)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Renvela)",
+    "explanation": "Correct: \"Renvela)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renvela)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-123",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Dialysis (Hemodialysis vs Peritoneal Dialysis?",
+    "choices": [
+      "Dialysis (Hemodialysis vs Peritoneal Dialysis",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Dialysis (Hemodialysis vs Peritoneal Dialysis",
+    "explanation": "Correct: \"Dialysis (Hemodialysis vs Peritoneal Dialysis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dialysis (Hemodialysis vs Peritoneal Dialysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-124",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Peritonitis?",
+    "choices": [
+      "Peritonitis",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Peritonitis",
+    "explanation": "Correct: \"Peritonitis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Peritonitis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-125",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to Dialysis Disequilibrium Syndrome?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Dialysis Disequilibrium Syndrome"
+    ],
+    "correct_answer": "Dialysis Disequilibrium Syndrome",
+    "explanation": "Correct: \"Dialysis Disequilibrium Syndrome\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dialysis Disequilibrium Syndrome",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-126",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "In the study of MS_W7-10_MIDTERMS, which concept or principle directly corresponds to AV Fistula Care)?",
+    "choices": [
+      "AV Fistula Care)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "AV Fistula Care)",
+    "explanation": "Correct: \"AV Fistula Care)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AV Fistula Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-127",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cardiovascular A&P\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation",
+      "Electrophysiologic Properties & Conduction System"
+    ],
+    "correct_answer": "Cardiovascular A&P",
+    "explanation": "Correct: \"Cardiovascular A&P\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiovascular A&P",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-128",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Chambers\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Chambers",
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation",
+      "Electrophysiologic Properties & Conduction System"
+    ],
+    "correct_answer": "Chambers",
+    "explanation": "Correct: \"Chambers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chambers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-129",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Heart Valves & Coronary Circulation\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Electrophysiologic Properties & Conduction System",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Heart Valves & Coronary Circulation",
+    "explanation": "Correct: \"Heart Valves & Coronary Circulation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Valves & Coronary Circulation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-130",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Electrophysiologic Properties & Conduction System\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Electrophysiologic Properties & Conduction System",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Electrophysiologic Properties & Conduction System",
+    "explanation": "Correct: \"Electrophysiologic Properties & Conduction System\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Electrophysiologic Properties & Conduction System",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-131",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cardiac Output & Stroke Volume Factors\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Cardiac Output & Stroke Volume Factors",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Cardiac Output & Stroke Volume Factors",
+    "explanation": "Correct: \"Cardiac Output & Stroke Volume Factors\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Output & Stroke Volume Factors",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-132",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "explanation": "Correct: \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-133",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cardiac Biomarkers (Troponin\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Cardiac Biomarkers (Troponin"
+    ],
+    "correct_answer": "Cardiac Biomarkers (Troponin",
+    "explanation": "Correct: \"Cardiac Biomarkers (Troponin\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Biomarkers (Troponin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-134",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Myoglobin\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Myoglobin",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Myoglobin",
+    "explanation": "Correct: \"Myoglobin\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myoglobin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-135",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"LDH)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "LDH)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "LDH)",
+    "explanation": "Correct: \"LDH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "LDH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-136",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "explanation": "Correct: \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-137",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"AFib\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "AFib"
+    ],
+    "correct_answer": "AFib",
+    "explanation": "Correct: \"AFib\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFib",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-138",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"AFlutter\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "AFlutter",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "AFlutter",
+    "explanation": "Correct: \"AFlutter\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFlutter",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-139",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"SVT\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "SVT",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "SVT",
+    "explanation": "Correct: \"SVT\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVT",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-140",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PVCs\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "PVCs",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PVCs",
+    "explanation": "Correct: \"PVCs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVCs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-141",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Torsades\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Torsades"
+    ],
+    "correct_answer": "Torsades",
+    "explanation": "Correct: \"Torsades\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Torsades",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-142",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Heart Blocks Mobitz I & II\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Blocks Mobitz I & II",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Heart Blocks Mobitz I & II",
+    "explanation": "Correct: \"Heart Blocks Mobitz I & II\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Blocks Mobitz I & II",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-143",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"rd Degree\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "rd Degree",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "rd Degree",
+    "explanation": "Correct: \"rd Degree\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "rd Degree",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-144",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Asystole\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Asystole",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Asystole",
+    "explanation": "Correct: \"Asystole\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asystole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-145",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PEA H's & T's)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "PEA H's & T's)"
+    ],
+    "correct_answer": "PEA H's & T's)",
+    "explanation": "Correct: \"PEA H's & T's)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PEA H's & T's)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-146",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cardioversion vs Defibrillation\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Cardioversion vs Defibrillation",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Cardioversion vs Defibrillation",
+    "explanation": "Correct: \"Cardioversion vs Defibrillation\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardioversion vs Defibrillation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-147",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Hemodynamic Monitoring (CVP\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Hemodynamic Monitoring (CVP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Hemodynamic Monitoring (CVP",
+    "explanation": "Correct: \"Hemodynamic Monitoring (CVP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hemodynamic Monitoring (CVP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-148",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PCWP\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "PCWP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PCWP",
+    "explanation": "Correct: \"PCWP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PCWP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-149",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"SVR\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "SVR"
+    ],
+    "correct_answer": "SVR",
+    "explanation": "Correct: \"SVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-150",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PVR\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "PVR",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PVR",
+    "explanation": "Correct: \"PVR\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-151",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PAP\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "PAP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "PAP",
+    "explanation": "Correct: \"PAP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PAP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-152",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"SvO\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "SvO",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "SvO",
+    "explanation": "Correct: \"SvO\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SvO",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-153",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Normal Values)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Normal Values)"
+    ],
+    "correct_answer": "Normal Values)",
+    "explanation": "Correct: \"Normal Values)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Normal Values)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-154",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Myocardial Infarction Management (OMEN\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Myocardial Infarction Management (OMEN",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Myocardial Infarction Management (OMEN",
+    "explanation": "Correct: \"Myocardial Infarction Management (OMEN\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myocardial Infarction Management (OMEN",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-155",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Thrombolytics\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Thrombolytics",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Thrombolytics",
+    "explanation": "Correct: \"Thrombolytics\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Thrombolytics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-156",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Beta\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Beta",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Beta",
+    "explanation": "Correct: \"Beta\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Beta",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-157",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Blockers\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Blockers"
+    ],
+    "correct_answer": "Blockers",
+    "explanation": "Correct: \"Blockers\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Blockers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-158",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Catheterization Care)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Catheterization Care)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Catheterization Care)",
+    "explanation": "Correct: \"Catheterization Care)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Catheterization Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-159",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Heart Failure (Left vs Right Signs\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Failure (Left vs Right Signs",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Heart Failure (Left vs Right Signs",
+    "explanation": "Correct: \"Heart Failure (Left vs Right Signs\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Failure (Left vs Right Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-160",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"BNP\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "BNP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "BNP",
+    "explanation": "Correct: \"BNP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BNP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-161",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Pulmonary Edema HOPE\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Pulmonary Edema HOPE"
+    ],
+    "correct_answer": "Pulmonary Edema HOPE",
+    "explanation": "Correct: \"Pulmonary Edema HOPE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pulmonary Edema HOPE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-162",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"BEDS\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "BEDS",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "BEDS",
+    "explanation": "Correct: \"BEDS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BEDS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-163",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Digoxin & Diuretics)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Digoxin & Diuretics)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Digoxin & Diuretics)",
+    "explanation": "Correct: \"Digoxin & Diuretics)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Digoxin & Diuretics)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-164",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Gastrointestinal Tract A&P & Diagnostics (EGD\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Gastrointestinal Tract A&P & Diagnostics (EGD",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "explanation": "Correct: \"Gastrointestinal Tract A&P & Diagnostics (EGD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-165",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Colonoscopy\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Colonoscopy"
+    ],
+    "correct_answer": "Colonoscopy",
+    "explanation": "Correct: \"Colonoscopy\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Colonoscopy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-166",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"ERCP\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "ERCP",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "ERCP",
+    "explanation": "Correct: \"ERCP\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ERCP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-167",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Liver Biopsy)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Liver Biopsy)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Liver Biopsy)",
+    "explanation": "Correct: \"Liver Biopsy)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Biopsy)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-168",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"GI Bleeding (Upper vs Lower\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "GI Bleeding (Upper vs Lower",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "GI Bleeding (Upper vs Lower",
+    "explanation": "Correct: \"GI Bleeding (Upper vs Lower\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GI Bleeding (Upper vs Lower",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-169",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"PUD\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "PUD"
+    ],
+    "correct_answer": "PUD",
+    "explanation": "Correct: \"PUD\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PUD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-170",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Varices)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Varices)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Varices)",
+    "explanation": "Correct: \"Varices)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Varices)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-171",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Alcohol Withdrawal Syndrome & CIWA\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Alcohol Withdrawal Syndrome & CIWA",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Alcohol Withdrawal Syndrome & CIWA",
+    "explanation": "Correct: \"Alcohol Withdrawal Syndrome & CIWA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Alcohol Withdrawal Syndrome & CIWA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-172",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Delirium Tremens\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Delirium Tremens",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Delirium Tremens",
+    "explanation": "Correct: \"Delirium Tremens\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Delirium Tremens",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-173",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Liver Cirrhosis & Paracentesis\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "Liver Cirrhosis & Paracentesis"
+    ],
+    "correct_answer": "Liver Cirrhosis & Paracentesis",
+    "explanation": "Correct: \"Liver Cirrhosis & Paracentesis\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Cirrhosis & Paracentesis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-174",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "explanation": "Correct: \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-175",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Cullen's & Grey Turner's Signs)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Cullen's & Grey Turner's Signs)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Cullen's & Grey Turner's Signs)",
+    "explanation": "Correct: \"Cullen's & Grey Turner's Signs)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cullen's & Grey Turner's Signs)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-176",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Metabolic Emergencies (Diabetes Mellitus Types\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Metabolic Emergencies (Diabetes Mellitus Types",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "explanation": "Correct: \"Metabolic Emergencies (Diabetes Mellitus Types\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-177",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"DKA\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Heart Valves & Coronary Circulation",
+      "Chambers",
+      "Cardiovascular A&P",
+      "DKA"
+    ],
+    "correct_answer": "DKA",
+    "explanation": "Correct: \"DKA\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-178",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"HHS\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "HHS",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "HHS",
+    "explanation": "Correct: \"HHS\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "HHS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-179",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"SIADH)\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "SIADH)",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "SIADH)",
+    "explanation": "Correct: \"SIADH)\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SIADH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-mc-180",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "multiple_choice",
+    "exam_set": "multiple_choice",
+    "question_text": "Which of the following standards is considered a fundamental component of \"Renal System Functions & Nephron Structures\" in MS_W7-10_MIDTERMS?",
+    "choices": [
+      "Renal System Functions & Nephron Structures",
+      "Cardiovascular A&P",
+      "Chambers",
+      "Heart Valves & Coronary Circulation"
+    ],
+    "correct_answer": "Renal System Functions & Nephron Structures",
+    "explanation": "Correct: \"Renal System Functions & Nephron Structures\" is the standard principle established in MS_W7-10_MIDTERMS (MS_W7-10_MIDTERMS).",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renal System Functions & Nephron Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-61",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cardiovascular A&P\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Cardiovascular A&P",
+    "alternative_answers": [
+      "cardiovascular a&p",
+      "CARDIOVASCULAR A&P",
+      "Cardiovascular AP"
+    ],
+    "explanation": "The canonical term is \"Cardiovascular A&P\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiovascular A&P",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-62",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Chambers\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Chambers",
+    "alternative_answers": [
+      "chambers",
+      "CHAMBERS",
+      "Chambers"
+    ],
+    "explanation": "The canonical term is \"Chambers\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chambers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-63",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Heart Valves & Coronary Circulation\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Heart Valves & Coronary Circulation",
+    "alternative_answers": [
+      "heart valves & coronary circulation",
+      "HEART VALVES & CORONARY CIRCULATION",
+      "Heart Valves  Coronary Circulation"
+    ],
+    "explanation": "The canonical term is \"Heart Valves & Coronary Circulation\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Valves & Coronary Circulation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-64",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Electrophysiologic Properties & Conduction System\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Electrophysiologic Properties & Conduction System",
+    "alternative_answers": [
+      "electrophysiologic properties & conduction system",
+      "ELECTROPHYSIOLOGIC PROPERTIES & CONDUCTION SYSTEM",
+      "Electrophysiologic Properties  Conduction System"
+    ],
+    "explanation": "The canonical term is \"Electrophysiologic Properties & Conduction System\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Electrophysiologic Properties & Conduction System",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-65",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cardiac Output & Stroke Volume Factors\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Cardiac Output & Stroke Volume Factors",
+    "alternative_answers": [
+      "cardiac output & stroke volume factors",
+      "CARDIAC OUTPUT & STROKE VOLUME FACTORS",
+      "Cardiac Output  Stroke Volume Factors"
+    ],
+    "explanation": "The canonical term is \"Cardiac Output & Stroke Volume Factors\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Output & Stroke Volume Factors",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-66",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "alternative_answers": [
+      "cad & atherosclerosis risk factors & pathophysiology",
+      "CAD & ATHEROSCLEROSIS RISK FACTORS & PATHOPHYSIOLOGY",
+      "CAD  Atherosclerosis Risk Factors  Pathophysiology"
+    ],
+    "explanation": "The canonical term is \"CAD & Atherosclerosis Risk Factors & Pathophysiology\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-67",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cardiac Biomarkers (Troponin\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Cardiac Biomarkers (Troponin",
+    "alternative_answers": [
+      "cardiac biomarkers (troponin",
+      "CARDIAC BIOMARKERS (TROPONIN",
+      "Cardiac Biomarkers Troponin"
+    ],
+    "explanation": "The canonical term is \"Cardiac Biomarkers (Troponin\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Biomarkers (Troponin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-68",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Myoglobin\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Myoglobin",
+    "alternative_answers": [
+      "myoglobin",
+      "MYOGLOBIN",
+      "Myoglobin"
+    ],
+    "explanation": "The canonical term is \"Myoglobin\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myoglobin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-69",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"LDH)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "LDH)",
+    "alternative_answers": [
+      "ldh)",
+      "LDH)",
+      "LDH"
+    ],
+    "explanation": "The canonical term is \"LDH)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "LDH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-70",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "alternative_answers": [
+      "ecg findings & arrhythmias (sinus bradycardia/tachycardia",
+      "ECG FINDINGS & ARRHYTHMIAS (SINUS BRADYCARDIA/TACHYCARDIA",
+      "ECG Findings  Arrhythmias Sinus BradycardiaTachycardia"
+    ],
+    "explanation": "The canonical term is \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-71",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"AFib\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "AFib",
+    "alternative_answers": [
+      "afib",
+      "AFIB",
+      "AFib"
+    ],
+    "explanation": "The canonical term is \"AFib\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFib",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-72",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"AFlutter\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "AFlutter",
+    "alternative_answers": [
+      "aflutter",
+      "AFLUTTER",
+      "AFlutter"
+    ],
+    "explanation": "The canonical term is \"AFlutter\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFlutter",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-73",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"SVT\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "SVT",
+    "alternative_answers": [
+      "svt",
+      "SVT"
+    ],
+    "explanation": "The canonical term is \"SVT\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVT",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-74",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PVCs\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "PVCs",
+    "alternative_answers": [
+      "pvcs",
+      "PVCS",
+      "PVCs"
+    ],
+    "explanation": "The canonical term is \"PVCs\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVCs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-75",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Torsades\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Torsades",
+    "alternative_answers": [
+      "torsades",
+      "TORSADES",
+      "Torsades"
+    ],
+    "explanation": "The canonical term is \"Torsades\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Torsades",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-76",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Heart Blocks Mobitz I & II\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Heart Blocks Mobitz I & II",
+    "alternative_answers": [
+      "heart blocks mobitz i & ii",
+      "HEART BLOCKS MOBITZ I & II",
+      "Heart Blocks Mobitz I  II"
+    ],
+    "explanation": "The canonical term is \"Heart Blocks Mobitz I & II\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Blocks Mobitz I & II",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-77",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"rd Degree\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "rd Degree",
+    "alternative_answers": [
+      "rd degree",
+      "RD DEGREE",
+      "rd Degree"
+    ],
+    "explanation": "The canonical term is \"rd Degree\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "rd Degree",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-78",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Asystole\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Asystole",
+    "alternative_answers": [
+      "asystole",
+      "ASYSTOLE",
+      "Asystole"
+    ],
+    "explanation": "The canonical term is \"Asystole\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asystole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-79",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PEA H's & T's)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "PEA H's & T's)",
+    "alternative_answers": [
+      "pea h's & t's)",
+      "PEA H'S & T'S)",
+      "PEA Hs  Ts"
+    ],
+    "explanation": "The canonical term is \"PEA H's & T's)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PEA H's & T's)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-80",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cardioversion vs Defibrillation\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Cardioversion vs Defibrillation",
+    "alternative_answers": [
+      "cardioversion vs defibrillation",
+      "CARDIOVERSION VS DEFIBRILLATION",
+      "Cardioversion vs Defibrillation"
+    ],
+    "explanation": "The canonical term is \"Cardioversion vs Defibrillation\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardioversion vs Defibrillation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-81",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Hemodynamic Monitoring (CVP\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Hemodynamic Monitoring (CVP",
+    "alternative_answers": [
+      "hemodynamic monitoring (cvp",
+      "HEMODYNAMIC MONITORING (CVP",
+      "Hemodynamic Monitoring CVP"
+    ],
+    "explanation": "The canonical term is \"Hemodynamic Monitoring (CVP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hemodynamic Monitoring (CVP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-82",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PCWP\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "PCWP",
+    "alternative_answers": [
+      "pcwp",
+      "PCWP"
+    ],
+    "explanation": "The canonical term is \"PCWP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PCWP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-83",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"SVR\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "SVR",
+    "alternative_answers": [
+      "svr",
+      "SVR"
+    ],
+    "explanation": "The canonical term is \"SVR\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-84",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PVR\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "PVR",
+    "alternative_answers": [
+      "pvr",
+      "PVR"
+    ],
+    "explanation": "The canonical term is \"PVR\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-85",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PAP\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "PAP",
+    "alternative_answers": [
+      "pap",
+      "PAP"
+    ],
+    "explanation": "The canonical term is \"PAP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PAP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-86",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"SvO\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "SvO",
+    "alternative_answers": [
+      "svo",
+      "SVO",
+      "SvO"
+    ],
+    "explanation": "The canonical term is \"SvO\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SvO",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-87",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Normal Values)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Normal Values)",
+    "alternative_answers": [
+      "normal values)",
+      "NORMAL VALUES)",
+      "Normal Values"
+    ],
+    "explanation": "The canonical term is \"Normal Values)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Normal Values)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-88",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Myocardial Infarction Management (OMEN\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Myocardial Infarction Management (OMEN",
+    "alternative_answers": [
+      "myocardial infarction management (omen",
+      "MYOCARDIAL INFARCTION MANAGEMENT (OMEN",
+      "Myocardial Infarction Management OMEN"
+    ],
+    "explanation": "The canonical term is \"Myocardial Infarction Management (OMEN\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myocardial Infarction Management (OMEN",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-89",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Thrombolytics\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Thrombolytics",
+    "alternative_answers": [
+      "thrombolytics",
+      "THROMBOLYTICS",
+      "Thrombolytics"
+    ],
+    "explanation": "The canonical term is \"Thrombolytics\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Thrombolytics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-90",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Beta\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Beta",
+    "alternative_answers": [
+      "beta",
+      "BETA",
+      "Beta"
+    ],
+    "explanation": "The canonical term is \"Beta\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Beta",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-91",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Blockers\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Blockers",
+    "alternative_answers": [
+      "blockers",
+      "BLOCKERS",
+      "Blockers"
+    ],
+    "explanation": "The canonical term is \"Blockers\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Blockers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-92",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Catheterization Care)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Catheterization Care)",
+    "alternative_answers": [
+      "catheterization care)",
+      "CATHETERIZATION CARE)",
+      "Catheterization Care"
+    ],
+    "explanation": "The canonical term is \"Catheterization Care)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Catheterization Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-93",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Heart Failure (Left vs Right Signs\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Heart Failure (Left vs Right Signs",
+    "alternative_answers": [
+      "heart failure (left vs right signs",
+      "HEART FAILURE (LEFT VS RIGHT SIGNS",
+      "Heart Failure Left vs Right Signs"
+    ],
+    "explanation": "The canonical term is \"Heart Failure (Left vs Right Signs\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Failure (Left vs Right Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-94",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"BNP\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "BNP",
+    "alternative_answers": [
+      "bnp",
+      "BNP"
+    ],
+    "explanation": "The canonical term is \"BNP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BNP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-95",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Pulmonary Edema HOPE\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Pulmonary Edema HOPE",
+    "alternative_answers": [
+      "pulmonary edema hope",
+      "PULMONARY EDEMA HOPE",
+      "Pulmonary Edema HOPE"
+    ],
+    "explanation": "The canonical term is \"Pulmonary Edema HOPE\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pulmonary Edema HOPE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-96",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"BEDS\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "BEDS",
+    "alternative_answers": [
+      "beds",
+      "BEDS"
+    ],
+    "explanation": "The canonical term is \"BEDS\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BEDS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-97",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Digoxin & Diuretics)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Digoxin & Diuretics)",
+    "alternative_answers": [
+      "digoxin & diuretics)",
+      "DIGOXIN & DIURETICS)",
+      "Digoxin  Diuretics"
+    ],
+    "explanation": "The canonical term is \"Digoxin & Diuretics)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Digoxin & Diuretics)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-98",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Gastrointestinal Tract A&P & Diagnostics (EGD\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "alternative_answers": [
+      "gastrointestinal tract a&p & diagnostics (egd",
+      "GASTROINTESTINAL TRACT A&P & DIAGNOSTICS (EGD",
+      "Gastrointestinal Tract AP  Diagnostics EGD"
+    ],
+    "explanation": "The canonical term is \"Gastrointestinal Tract A&P & Diagnostics (EGD\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-99",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Colonoscopy\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Colonoscopy",
+    "alternative_answers": [
+      "colonoscopy",
+      "COLONOSCOPY",
+      "Colonoscopy"
+    ],
+    "explanation": "The canonical term is \"Colonoscopy\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Colonoscopy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-100",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"ERCP\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "ERCP",
+    "alternative_answers": [
+      "ercp",
+      "ERCP"
+    ],
+    "explanation": "The canonical term is \"ERCP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ERCP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-101",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Liver Biopsy)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Liver Biopsy)",
+    "alternative_answers": [
+      "liver biopsy)",
+      "LIVER BIOPSY)",
+      "Liver Biopsy"
+    ],
+    "explanation": "The canonical term is \"Liver Biopsy)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Biopsy)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-102",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"GI Bleeding (Upper vs Lower\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "GI Bleeding (Upper vs Lower",
+    "alternative_answers": [
+      "gi bleeding (upper vs lower",
+      "GI BLEEDING (UPPER VS LOWER",
+      "GI Bleeding Upper vs Lower"
+    ],
+    "explanation": "The canonical term is \"GI Bleeding (Upper vs Lower\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GI Bleeding (Upper vs Lower",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-103",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"PUD\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "PUD",
+    "alternative_answers": [
+      "pud",
+      "PUD"
+    ],
+    "explanation": "The canonical term is \"PUD\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PUD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-104",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Varices)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Varices)",
+    "alternative_answers": [
+      "varices)",
+      "VARICES)",
+      "Varices"
+    ],
+    "explanation": "The canonical term is \"Varices)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Varices)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-105",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Alcohol Withdrawal Syndrome & CIWA\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Alcohol Withdrawal Syndrome & CIWA",
+    "alternative_answers": [
+      "alcohol withdrawal syndrome & ciwa",
+      "ALCOHOL WITHDRAWAL SYNDROME & CIWA",
+      "Alcohol Withdrawal Syndrome  CIWA"
+    ],
+    "explanation": "The canonical term is \"Alcohol Withdrawal Syndrome & CIWA\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Alcohol Withdrawal Syndrome & CIWA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-106",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Delirium Tremens\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Delirium Tremens",
+    "alternative_answers": [
+      "delirium tremens",
+      "DELIRIUM TREMENS",
+      "Delirium Tremens"
+    ],
+    "explanation": "The canonical term is \"Delirium Tremens\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Delirium Tremens",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-107",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Liver Cirrhosis & Paracentesis\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Liver Cirrhosis & Paracentesis",
+    "alternative_answers": [
+      "liver cirrhosis & paracentesis",
+      "LIVER CIRRHOSIS & PARACENTESIS",
+      "Liver Cirrhosis  Paracentesis"
+    ],
+    "explanation": "The canonical term is \"Liver Cirrhosis & Paracentesis\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Cirrhosis & Paracentesis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-108",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "alternative_answers": [
+      "pancreatitis (acute attack vs chronic change",
+      "PANCREATITIS (ACUTE ATTACK VS CHRONIC CHANGE",
+      "Pancreatitis Acute ATTACK vs Chronic CHANGE"
+    ],
+    "explanation": "The canonical term is \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-109",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Cullen's & Grey Turner's Signs)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Cullen's & Grey Turner's Signs)",
+    "alternative_answers": [
+      "cullen's & grey turner's signs)",
+      "CULLEN'S & GREY TURNER'S SIGNS)",
+      "Cullens  Grey Turners Signs"
+    ],
+    "explanation": "The canonical term is \"Cullen's & Grey Turner's Signs)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cullen's & Grey Turner's Signs)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-110",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Metabolic Emergencies (Diabetes Mellitus Types\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "alternative_answers": [
+      "metabolic emergencies (diabetes mellitus types",
+      "METABOLIC EMERGENCIES (DIABETES MELLITUS TYPES",
+      "Metabolic Emergencies Diabetes Mellitus Types"
+    ],
+    "explanation": "The canonical term is \"Metabolic Emergencies (Diabetes Mellitus Types\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-111",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"DKA\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "DKA",
+    "alternative_answers": [
+      "dka",
+      "DKA"
+    ],
+    "explanation": "The canonical term is \"DKA\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-112",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"HHS\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "HHS",
+    "alternative_answers": [
+      "hhs",
+      "HHS"
+    ],
+    "explanation": "The canonical term is \"HHS\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "HHS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-113",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"SIADH)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "SIADH)",
+    "alternative_answers": [
+      "siadh)",
+      "SIADH)",
+      "SIADH"
+    ],
+    "explanation": "The canonical term is \"SIADH)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SIADH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-114",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Renal System Functions & Nephron Structures\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Renal System Functions & Nephron Structures",
+    "alternative_answers": [
+      "renal system functions & nephron structures",
+      "RENAL SYSTEM FUNCTIONS & NEPHRON STRUCTURES",
+      "Renal System Functions  Nephron Structures"
+    ],
+    "explanation": "The canonical term is \"Renal System Functions & Nephron Structures\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renal System Functions & Nephron Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-115",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Acute Kidney Injury (DAAMN Nephrotoxic Drugs\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
+    "alternative_answers": [
+      "acute kidney injury (daamn nephrotoxic drugs",
+      "ACUTE KIDNEY INJURY (DAAMN NEPHROTOXIC DRUGS",
+      "Acute Kidney Injury DAAMN Nephrotoxic Drugs"
+    ],
+    "explanation": "The canonical term is \"Acute Kidney Injury (DAAMN Nephrotoxic Drugs\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-116",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Phases: Onset\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Phases: Onset",
+    "alternative_answers": [
+      "phases: onset",
+      "PHASES: ONSET",
+      "Phases Onset"
+    ],
+    "explanation": "The canonical term is \"Phases: Onset\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases: Onset",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-117",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Oliguric\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Oliguric",
+    "alternative_answers": [
+      "oliguric",
+      "OLIGURIC",
+      "Oliguric"
+    ],
+    "explanation": "The canonical term is \"Oliguric\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oliguric",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-118",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Diuretic\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Diuretic",
+    "alternative_answers": [
+      "diuretic",
+      "DIURETIC",
+      "Diuretic"
+    ],
+    "explanation": "The canonical term is \"Diuretic\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Diuretic",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-119",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Recovery)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Recovery)",
+    "alternative_answers": [
+      "recovery)",
+      "RECOVERY)",
+      "Recovery"
+    ],
+    "explanation": "The canonical term is \"Recovery)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Recovery)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-120",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Chronic Kidney Disease (GFR Stages\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Chronic Kidney Disease (GFR Stages",
+    "alternative_answers": [
+      "chronic kidney disease (gfr stages",
+      "CHRONIC KIDNEY DISEASE (GFR STAGES",
+      "Chronic Kidney Disease GFR Stages"
+    ],
+    "explanation": "The canonical term is \"Chronic Kidney Disease (GFR Stages\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chronic Kidney Disease (GFR Stages",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-121",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Uremic Signs\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Uremic Signs",
+    "alternative_answers": [
+      "uremic signs",
+      "UREMIC SIGNS",
+      "Uremic Signs"
+    ],
+    "explanation": "The canonical term is \"Uremic Signs\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Uremic Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-122",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Renvela)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Renvela)",
+    "alternative_answers": [
+      "renvela)",
+      "RENVELA)",
+      "Renvela"
+    ],
+    "explanation": "The canonical term is \"Renvela)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renvela)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-123",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Dialysis (Hemodialysis vs Peritoneal Dialysis\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Dialysis (Hemodialysis vs Peritoneal Dialysis",
+    "alternative_answers": [
+      "dialysis (hemodialysis vs peritoneal dialysis",
+      "DIALYSIS (HEMODIALYSIS VS PERITONEAL DIALYSIS",
+      "Dialysis Hemodialysis vs Peritoneal Dialysis"
+    ],
+    "explanation": "The canonical term is \"Dialysis (Hemodialysis vs Peritoneal Dialysis\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dialysis (Hemodialysis vs Peritoneal Dialysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-124",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Peritonitis\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Peritonitis",
+    "alternative_answers": [
+      "peritonitis",
+      "PERITONITIS",
+      "Peritonitis"
+    ],
+    "explanation": "The canonical term is \"Peritonitis\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Peritonitis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-125",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"Dialysis Disequilibrium Syndrome\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "Dialysis Disequilibrium Syndrome",
+    "alternative_answers": [
+      "dialysis disequilibrium syndrome",
+      "DIALYSIS DISEQUILIBRIUM SYNDROME",
+      "Dialysis Disequilibrium Syndrome"
+    ],
+    "explanation": "The canonical term is \"Dialysis Disequilibrium Syndrome\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dialysis Disequilibrium Syndrome",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-126",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "Identify the core term or protocol associated with: \"AV Fistula Care)\" in MS_W7-10_MIDTERMS.",
+    "correct_answer": "AV Fistula Care)",
+    "alternative_answers": [
+      "av fistula care)",
+      "AV FISTULA CARE)",
+      "AV Fistula Care"
+    ],
+    "explanation": "The canonical term is \"AV Fistula Care)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AV Fistula Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-127",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cardiovascular A&P\".",
+    "correct_answer": "Cardiovascular A&P",
+    "alternative_answers": [
+      "cardiovascular a&p",
+      "CARDIOVASCULAR A&P",
+      "Cardiovascular AP"
+    ],
+    "explanation": "The canonical term is \"Cardiovascular A&P\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiovascular A&P",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-128",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Chambers\".",
+    "correct_answer": "Chambers",
+    "alternative_answers": [
+      "chambers",
+      "CHAMBERS",
+      "Chambers"
+    ],
+    "explanation": "The canonical term is \"Chambers\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chambers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-129",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Heart Valves & Coronary Circulation\".",
+    "correct_answer": "Heart Valves & Coronary Circulation",
+    "alternative_answers": [
+      "heart valves & coronary circulation",
+      "HEART VALVES & CORONARY CIRCULATION",
+      "Heart Valves  Coronary Circulation"
+    ],
+    "explanation": "The canonical term is \"Heart Valves & Coronary Circulation\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Valves & Coronary Circulation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-130",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Electrophysiologic Properties & Conduction System\".",
+    "correct_answer": "Electrophysiologic Properties & Conduction System",
+    "alternative_answers": [
+      "electrophysiologic properties & conduction system",
+      "ELECTROPHYSIOLOGIC PROPERTIES & CONDUCTION SYSTEM",
+      "Electrophysiologic Properties  Conduction System"
+    ],
+    "explanation": "The canonical term is \"Electrophysiologic Properties & Conduction System\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Electrophysiologic Properties & Conduction System",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-131",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cardiac Output & Stroke Volume Factors\".",
+    "correct_answer": "Cardiac Output & Stroke Volume Factors",
+    "alternative_answers": [
+      "cardiac output & stroke volume factors",
+      "CARDIAC OUTPUT & STROKE VOLUME FACTORS",
+      "Cardiac Output  Stroke Volume Factors"
+    ],
+    "explanation": "The canonical term is \"Cardiac Output & Stroke Volume Factors\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Output & Stroke Volume Factors",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-132",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"CAD & Atherosclerosis Risk Factors & Pathophysiology\".",
+    "correct_answer": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "alternative_answers": [
+      "cad & atherosclerosis risk factors & pathophysiology",
+      "CAD & ATHEROSCLEROSIS RISK FACTORS & PATHOPHYSIOLOGY",
+      "CAD  Atherosclerosis Risk Factors  Pathophysiology"
+    ],
+    "explanation": "The canonical term is \"CAD & Atherosclerosis Risk Factors & Pathophysiology\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-133",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cardiac Biomarkers (Troponin\".",
+    "correct_answer": "Cardiac Biomarkers (Troponin",
+    "alternative_answers": [
+      "cardiac biomarkers (troponin",
+      "CARDIAC BIOMARKERS (TROPONIN",
+      "Cardiac Biomarkers Troponin"
+    ],
+    "explanation": "The canonical term is \"Cardiac Biomarkers (Troponin\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Biomarkers (Troponin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-134",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Myoglobin\".",
+    "correct_answer": "Myoglobin",
+    "alternative_answers": [
+      "myoglobin",
+      "MYOGLOBIN",
+      "Myoglobin"
+    ],
+    "explanation": "The canonical term is \"Myoglobin\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myoglobin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-135",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"LDH)\".",
+    "correct_answer": "LDH)",
+    "alternative_answers": [
+      "ldh)",
+      "LDH)",
+      "LDH"
+    ],
+    "explanation": "The canonical term is \"LDH)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "LDH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-136",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\".",
+    "correct_answer": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "alternative_answers": [
+      "ecg findings & arrhythmias (sinus bradycardia/tachycardia",
+      "ECG FINDINGS & ARRHYTHMIAS (SINUS BRADYCARDIA/TACHYCARDIA",
+      "ECG Findings  Arrhythmias Sinus BradycardiaTachycardia"
+    ],
+    "explanation": "The canonical term is \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-137",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"AFib\".",
+    "correct_answer": "AFib",
+    "alternative_answers": [
+      "afib",
+      "AFIB",
+      "AFib"
+    ],
+    "explanation": "The canonical term is \"AFib\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFib",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-138",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"AFlutter\".",
+    "correct_answer": "AFlutter",
+    "alternative_answers": [
+      "aflutter",
+      "AFLUTTER",
+      "AFlutter"
+    ],
+    "explanation": "The canonical term is \"AFlutter\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFlutter",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-139",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"SVT\".",
+    "correct_answer": "SVT",
+    "alternative_answers": [
+      "svt",
+      "SVT"
+    ],
+    "explanation": "The canonical term is \"SVT\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVT",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-140",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PVCs\".",
+    "correct_answer": "PVCs",
+    "alternative_answers": [
+      "pvcs",
+      "PVCS",
+      "PVCs"
+    ],
+    "explanation": "The canonical term is \"PVCs\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVCs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-141",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Torsades\".",
+    "correct_answer": "Torsades",
+    "alternative_answers": [
+      "torsades",
+      "TORSADES",
+      "Torsades"
+    ],
+    "explanation": "The canonical term is \"Torsades\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Torsades",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-142",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Heart Blocks Mobitz I & II\".",
+    "correct_answer": "Heart Blocks Mobitz I & II",
+    "alternative_answers": [
+      "heart blocks mobitz i & ii",
+      "HEART BLOCKS MOBITZ I & II",
+      "Heart Blocks Mobitz I  II"
+    ],
+    "explanation": "The canonical term is \"Heart Blocks Mobitz I & II\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Blocks Mobitz I & II",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-143",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"rd Degree\".",
+    "correct_answer": "rd Degree",
+    "alternative_answers": [
+      "rd degree",
+      "RD DEGREE",
+      "rd Degree"
+    ],
+    "explanation": "The canonical term is \"rd Degree\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "rd Degree",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-144",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Asystole\".",
+    "correct_answer": "Asystole",
+    "alternative_answers": [
+      "asystole",
+      "ASYSTOLE",
+      "Asystole"
+    ],
+    "explanation": "The canonical term is \"Asystole\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asystole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-145",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PEA H's & T's)\".",
+    "correct_answer": "PEA H's & T's)",
+    "alternative_answers": [
+      "pea h's & t's)",
+      "PEA H'S & T'S)",
+      "PEA Hs  Ts"
+    ],
+    "explanation": "The canonical term is \"PEA H's & T's)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PEA H's & T's)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-146",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cardioversion vs Defibrillation\".",
+    "correct_answer": "Cardioversion vs Defibrillation",
+    "alternative_answers": [
+      "cardioversion vs defibrillation",
+      "CARDIOVERSION VS DEFIBRILLATION",
+      "Cardioversion vs Defibrillation"
+    ],
+    "explanation": "The canonical term is \"Cardioversion vs Defibrillation\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardioversion vs Defibrillation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-147",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Hemodynamic Monitoring (CVP\".",
+    "correct_answer": "Hemodynamic Monitoring (CVP",
+    "alternative_answers": [
+      "hemodynamic monitoring (cvp",
+      "HEMODYNAMIC MONITORING (CVP",
+      "Hemodynamic Monitoring CVP"
+    ],
+    "explanation": "The canonical term is \"Hemodynamic Monitoring (CVP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hemodynamic Monitoring (CVP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-148",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PCWP\".",
+    "correct_answer": "PCWP",
+    "alternative_answers": [
+      "pcwp",
+      "PCWP"
+    ],
+    "explanation": "The canonical term is \"PCWP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PCWP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-149",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"SVR\".",
+    "correct_answer": "SVR",
+    "alternative_answers": [
+      "svr",
+      "SVR"
+    ],
+    "explanation": "The canonical term is \"SVR\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-150",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PVR\".",
+    "correct_answer": "PVR",
+    "alternative_answers": [
+      "pvr",
+      "PVR"
+    ],
+    "explanation": "The canonical term is \"PVR\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-151",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PAP\".",
+    "correct_answer": "PAP",
+    "alternative_answers": [
+      "pap",
+      "PAP"
+    ],
+    "explanation": "The canonical term is \"PAP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PAP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-152",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"SvO\".",
+    "correct_answer": "SvO",
+    "alternative_answers": [
+      "svo",
+      "SVO",
+      "SvO"
+    ],
+    "explanation": "The canonical term is \"SvO\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SvO",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-153",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Normal Values)\".",
+    "correct_answer": "Normal Values)",
+    "alternative_answers": [
+      "normal values)",
+      "NORMAL VALUES)",
+      "Normal Values"
+    ],
+    "explanation": "The canonical term is \"Normal Values)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Normal Values)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-154",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Myocardial Infarction Management (OMEN\".",
+    "correct_answer": "Myocardial Infarction Management (OMEN",
+    "alternative_answers": [
+      "myocardial infarction management (omen",
+      "MYOCARDIAL INFARCTION MANAGEMENT (OMEN",
+      "Myocardial Infarction Management OMEN"
+    ],
+    "explanation": "The canonical term is \"Myocardial Infarction Management (OMEN\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myocardial Infarction Management (OMEN",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-155",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Thrombolytics\".",
+    "correct_answer": "Thrombolytics",
+    "alternative_answers": [
+      "thrombolytics",
+      "THROMBOLYTICS",
+      "Thrombolytics"
+    ],
+    "explanation": "The canonical term is \"Thrombolytics\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Thrombolytics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-156",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Beta\".",
+    "correct_answer": "Beta",
+    "alternative_answers": [
+      "beta",
+      "BETA",
+      "Beta"
+    ],
+    "explanation": "The canonical term is \"Beta\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Beta",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-157",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Blockers\".",
+    "correct_answer": "Blockers",
+    "alternative_answers": [
+      "blockers",
+      "BLOCKERS",
+      "Blockers"
+    ],
+    "explanation": "The canonical term is \"Blockers\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Blockers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-158",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Catheterization Care)\".",
+    "correct_answer": "Catheterization Care)",
+    "alternative_answers": [
+      "catheterization care)",
+      "CATHETERIZATION CARE)",
+      "Catheterization Care"
+    ],
+    "explanation": "The canonical term is \"Catheterization Care)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Catheterization Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-159",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Heart Failure (Left vs Right Signs\".",
+    "correct_answer": "Heart Failure (Left vs Right Signs",
+    "alternative_answers": [
+      "heart failure (left vs right signs",
+      "HEART FAILURE (LEFT VS RIGHT SIGNS",
+      "Heart Failure Left vs Right Signs"
+    ],
+    "explanation": "The canonical term is \"Heart Failure (Left vs Right Signs\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Failure (Left vs Right Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-160",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"BNP\".",
+    "correct_answer": "BNP",
+    "alternative_answers": [
+      "bnp",
+      "BNP"
+    ],
+    "explanation": "The canonical term is \"BNP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BNP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-161",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Pulmonary Edema HOPE\".",
+    "correct_answer": "Pulmonary Edema HOPE",
+    "alternative_answers": [
+      "pulmonary edema hope",
+      "PULMONARY EDEMA HOPE",
+      "Pulmonary Edema HOPE"
+    ],
+    "explanation": "The canonical term is \"Pulmonary Edema HOPE\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pulmonary Edema HOPE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-162",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"BEDS\".",
+    "correct_answer": "BEDS",
+    "alternative_answers": [
+      "beds",
+      "BEDS"
+    ],
+    "explanation": "The canonical term is \"BEDS\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BEDS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-163",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Digoxin & Diuretics)\".",
+    "correct_answer": "Digoxin & Diuretics)",
+    "alternative_answers": [
+      "digoxin & diuretics)",
+      "DIGOXIN & DIURETICS)",
+      "Digoxin  Diuretics"
+    ],
+    "explanation": "The canonical term is \"Digoxin & Diuretics)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Digoxin & Diuretics)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-164",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Gastrointestinal Tract A&P & Diagnostics (EGD\".",
+    "correct_answer": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "alternative_answers": [
+      "gastrointestinal tract a&p & diagnostics (egd",
+      "GASTROINTESTINAL TRACT A&P & DIAGNOSTICS (EGD",
+      "Gastrointestinal Tract AP  Diagnostics EGD"
+    ],
+    "explanation": "The canonical term is \"Gastrointestinal Tract A&P & Diagnostics (EGD\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-165",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Colonoscopy\".",
+    "correct_answer": "Colonoscopy",
+    "alternative_answers": [
+      "colonoscopy",
+      "COLONOSCOPY",
+      "Colonoscopy"
+    ],
+    "explanation": "The canonical term is \"Colonoscopy\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Colonoscopy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-166",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"ERCP\".",
+    "correct_answer": "ERCP",
+    "alternative_answers": [
+      "ercp",
+      "ERCP"
+    ],
+    "explanation": "The canonical term is \"ERCP\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ERCP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-167",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Liver Biopsy)\".",
+    "correct_answer": "Liver Biopsy)",
+    "alternative_answers": [
+      "liver biopsy)",
+      "LIVER BIOPSY)",
+      "Liver Biopsy"
+    ],
+    "explanation": "The canonical term is \"Liver Biopsy)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Biopsy)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-168",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"GI Bleeding (Upper vs Lower\".",
+    "correct_answer": "GI Bleeding (Upper vs Lower",
+    "alternative_answers": [
+      "gi bleeding (upper vs lower",
+      "GI BLEEDING (UPPER VS LOWER",
+      "GI Bleeding Upper vs Lower"
+    ],
+    "explanation": "The canonical term is \"GI Bleeding (Upper vs Lower\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GI Bleeding (Upper vs Lower",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-169",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"PUD\".",
+    "correct_answer": "PUD",
+    "alternative_answers": [
+      "pud",
+      "PUD"
+    ],
+    "explanation": "The canonical term is \"PUD\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PUD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-170",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Varices)\".",
+    "correct_answer": "Varices)",
+    "alternative_answers": [
+      "varices)",
+      "VARICES)",
+      "Varices"
+    ],
+    "explanation": "The canonical term is \"Varices)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Varices)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-171",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Alcohol Withdrawal Syndrome & CIWA\".",
+    "correct_answer": "Alcohol Withdrawal Syndrome & CIWA",
+    "alternative_answers": [
+      "alcohol withdrawal syndrome & ciwa",
+      "ALCOHOL WITHDRAWAL SYNDROME & CIWA",
+      "Alcohol Withdrawal Syndrome  CIWA"
+    ],
+    "explanation": "The canonical term is \"Alcohol Withdrawal Syndrome & CIWA\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Alcohol Withdrawal Syndrome & CIWA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-172",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Delirium Tremens\".",
+    "correct_answer": "Delirium Tremens",
+    "alternative_answers": [
+      "delirium tremens",
+      "DELIRIUM TREMENS",
+      "Delirium Tremens"
+    ],
+    "explanation": "The canonical term is \"Delirium Tremens\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Delirium Tremens",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-173",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Liver Cirrhosis & Paracentesis\".",
+    "correct_answer": "Liver Cirrhosis & Paracentesis",
+    "alternative_answers": [
+      "liver cirrhosis & paracentesis",
+      "LIVER CIRRHOSIS & PARACENTESIS",
+      "Liver Cirrhosis  Paracentesis"
+    ],
+    "explanation": "The canonical term is \"Liver Cirrhosis & Paracentesis\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Cirrhosis & Paracentesis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-174",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\".",
+    "correct_answer": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "alternative_answers": [
+      "pancreatitis (acute attack vs chronic change",
+      "PANCREATITIS (ACUTE ATTACK VS CHRONIC CHANGE",
+      "Pancreatitis Acute ATTACK vs Chronic CHANGE"
+    ],
+    "explanation": "The canonical term is \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-175",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Cullen's & Grey Turner's Signs)\".",
+    "correct_answer": "Cullen's & Grey Turner's Signs)",
+    "alternative_answers": [
+      "cullen's & grey turner's signs)",
+      "CULLEN'S & GREY TURNER'S SIGNS)",
+      "Cullens  Grey Turners Signs"
+    ],
+    "explanation": "The canonical term is \"Cullen's & Grey Turner's Signs)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cullen's & Grey Turner's Signs)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-176",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Metabolic Emergencies (Diabetes Mellitus Types\".",
+    "correct_answer": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "alternative_answers": [
+      "metabolic emergencies (diabetes mellitus types",
+      "METABOLIC EMERGENCIES (DIABETES MELLITUS TYPES",
+      "Metabolic Emergencies Diabetes Mellitus Types"
+    ],
+    "explanation": "The canonical term is \"Metabolic Emergencies (Diabetes Mellitus Types\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-177",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"DKA\".",
+    "correct_answer": "DKA",
+    "alternative_answers": [
+      "dka",
+      "DKA"
+    ],
+    "explanation": "The canonical term is \"DKA\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-178",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"HHS\".",
+    "correct_answer": "HHS",
+    "alternative_answers": [
+      "hhs",
+      "HHS"
+    ],
+    "explanation": "The canonical term is \"HHS\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "HHS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-179",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"SIADH)\".",
+    "correct_answer": "SIADH)",
+    "alternative_answers": [
+      "siadh)",
+      "SIADH)",
+      "SIADH"
+    ],
+    "explanation": "The canonical term is \"SIADH)\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SIADH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-id-180",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "identification",
+    "exam_set": "identification",
+    "question_text": "In MS_W7-10_MIDTERMS, specify the designated concept defined by the curriculum topic: \"Renal System Functions & Nephron Structures\".",
+    "correct_answer": "Renal System Functions & Nephron Structures",
+    "alternative_answers": [
+      "renal system functions & nephron structures",
+      "RENAL SYSTEM FUNCTIONS & NEPHRON STRUCTURES",
+      "Renal System Functions  Nephron Structures"
+    ],
+    "explanation": "The canonical term is \"Renal System Functions & Nephron Structures\", directly grounded in the syllabus for MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renal System Functions & Nephron Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-61",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Cardiovascular A&P\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cardiovascular A&P\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiovascular A&P",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-62",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Chambers\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Chambers\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chambers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-63",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Heart Valves & Coronary Circulation\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Heart Valves & Coronary Circulation\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Valves & Coronary Circulation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-64",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Electrophysiologic Properties & Conduction System\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Electrophysiologic Properties & Conduction System\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Electrophysiologic Properties & Conduction System",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-65",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Cardiac Output & Stroke Volume Factors\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cardiac Output & Stroke Volume Factors\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Output & Stroke Volume Factors",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-66",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"CAD & Atherosclerosis Risk Factors & Pathophysiology\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-67",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Cardiac Biomarkers (Troponin\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cardiac Biomarkers (Troponin\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Biomarkers (Troponin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-68",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Myoglobin\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Myoglobin\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myoglobin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-69",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"LDH)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"LDH)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "LDH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-70",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-71",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"AFib\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"AFib\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFib",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-72",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"AFlutter\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"AFlutter\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFlutter",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-73",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"SVT\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"SVT\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVT",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-74",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"PVCs\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"PVCs\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVCs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-75",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Torsades\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Torsades\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Torsades",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-76",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Heart Blocks Mobitz I & II\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Heart Blocks Mobitz I & II\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Blocks Mobitz I & II",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-77",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"rd Degree\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"rd Degree\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "rd Degree",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-78",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Asystole\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Asystole\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asystole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-79",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"PEA H's & T's)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"PEA H's & T's)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PEA H's & T's)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-80",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Cardioversion vs Defibrillation\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Cardioversion vs Defibrillation\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardioversion vs Defibrillation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-81",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Hemodynamic Monitoring (CVP\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Hemodynamic Monitoring (CVP\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hemodynamic Monitoring (CVP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-82",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"PCWP\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"PCWP\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PCWP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-83",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"SVR\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"SVR\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-84",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"PVR\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"PVR\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-85",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"PAP\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"PAP\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PAP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-86",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"SvO\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"SvO\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SvO",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-87",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Normal Values)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Normal Values)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Normal Values)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-88",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Myocardial Infarction Management (OMEN\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Myocardial Infarction Management (OMEN\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myocardial Infarction Management (OMEN",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-89",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Thrombolytics\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Thrombolytics\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Thrombolytics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-90",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Beta\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Beta\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Beta",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-91",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Blockers\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Blockers\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Blockers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-92",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Catheterization Care)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Catheterization Care)\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Catheterization Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-93",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Heart Failure (Left vs Right Signs\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Heart Failure (Left vs Right Signs\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Failure (Left vs Right Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-94",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"BNP\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"BNP\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BNP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-95",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Pulmonary Edema HOPE\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Pulmonary Edema HOPE\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pulmonary Edema HOPE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-96",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"BEDS\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"BEDS\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BEDS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-97",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Digoxin & Diuretics)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Digoxin & Diuretics)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Digoxin & Diuretics)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-98",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Gastrointestinal Tract A&P & Diagnostics (EGD\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Gastrointestinal Tract A&P & Diagnostics (EGD\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-99",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Colonoscopy\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Colonoscopy\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Colonoscopy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-100",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"ERCP\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"ERCP\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ERCP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-101",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Liver Biopsy)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Liver Biopsy)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Biopsy)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-102",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"GI Bleeding (Upper vs Lower\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"GI Bleeding (Upper vs Lower\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GI Bleeding (Upper vs Lower",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-103",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"PUD\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"PUD\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PUD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-104",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Varices)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Varices)\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Varices)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-105",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Alcohol Withdrawal Syndrome & CIWA\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Alcohol Withdrawal Syndrome & CIWA\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Alcohol Withdrawal Syndrome & CIWA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-106",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Delirium Tremens\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Delirium Tremens\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Delirium Tremens",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-107",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Liver Cirrhosis & Paracentesis\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Liver Cirrhosis & Paracentesis\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Cirrhosis & Paracentesis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-108",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Pancreatitis (Acute ATTACK vs Chronic CHANGE\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-109",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Cullen's & Grey Turner's Signs)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Cullen's & Grey Turner's Signs)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cullen's & Grey Turner's Signs)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-110",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Metabolic Emergencies (Diabetes Mellitus Types\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Metabolic Emergencies (Diabetes Mellitus Types\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-111",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"DKA\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"DKA\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-112",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"HHS\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"HHS\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "HHS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-113",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"SIADH)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"SIADH)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SIADH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-114",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Renal System Functions & Nephron Structures\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Renal System Functions & Nephron Structures\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renal System Functions & Nephron Structures",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-115",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Acute Kidney Injury (DAAMN Nephrotoxic Drugs\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Acute Kidney Injury (DAAMN Nephrotoxic Drugs\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Acute Kidney Injury (DAAMN Nephrotoxic Drugs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-116",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Phases: Onset\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Phases: Onset\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Phases: Onset",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-117",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Oliguric\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Oliguric\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Oliguric",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-118",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Diuretic\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Diuretic\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Diuretic",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-119",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Recovery)\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Recovery)\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Recovery)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-120",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Chronic Kidney Disease (GFR Stages\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Chronic Kidney Disease (GFR Stages\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chronic Kidney Disease (GFR Stages",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-121",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Uremic Signs\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Uremic Signs\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Uremic Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-122",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Renvela)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Renvela)\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renvela)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-123",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Dialysis (Hemodialysis vs Peritoneal Dialysis\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Dialysis (Hemodialysis vs Peritoneal Dialysis\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dialysis (Hemodialysis vs Peritoneal Dialysis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-124",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"Peritonitis\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"Peritonitis\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Peritonitis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-125",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: In MS_W7-10_MIDTERMS, \"Dialysis Disequilibrium Syndrome\" is recognized as an approved core component of the study curriculum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE as \"Dialysis Disequilibrium Syndrome\" is an established topic in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Dialysis Disequilibrium Syndrome",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-126",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "True or False: Under the principles of MS_W7-10_MIDTERMS, \"AV Fistula Care)\" is strictly contraindicated and considered obsolete in standard practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE. \"AV Fistula Care)\" is an active, standard requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AV Fistula Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-127",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 547 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Afterload Systemic Vascular Resistance\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Afterload Systemic Vascular Resistance\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiovascular A&P",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-128",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 548 (True or False): According to the latest board review for Medical-Surgical Nursing, \"CAD Modifiable and Non-modifiable Risks\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"CAD Modifiable and Non-modifiable Risks\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Chambers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-129",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 549 (True or False): In MS_W7-10_MIDTERMS, \"Atherosclerosis Plaque Rupture\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Atherosclerosis Plaque Rupture\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Valves & Coronary Circulation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-130",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 550 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Troponin I and T High Sensitivity Gold Standard\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Troponin I and T High Sensitivity Gold Standard\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Electrophysiologic Properties & Conduction System",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-131",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 551 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"CK-MB Isoenzyme 24-Hour Peak\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"CK-MB Isoenzyme 24-Hour Peak\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Output & Stroke Volume Factors",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-132",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 552 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Myoglobin Early 2-Hour Elevation\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Myoglobin Early 2-Hour Elevation\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "CAD & Atherosclerosis Risk Factors & Pathophysiology",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-133",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 553 (True or False): In MS_W7-10_MIDTERMS, \"LDH Flipped Pattern\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"LDH Flipped Pattern\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardiac Biomarkers (Troponin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-134",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 554 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Sinus Bradycardia Atropine\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Sinus Bradycardia Atropine\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myoglobin",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-135",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 555 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Sinus Tachycardia Vagal Maneuver\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Sinus Tachycardia Vagal Maneuver\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "LDH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-136",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 556 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Atrial Fibrillation Irregular R-R\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Atrial Fibrillation Irregular R-R\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ECG Findings & Arrhythmias (Sinus Bradycardia/Tachycardia",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-137",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 557 (True or False): In MS_W7-10_MIDTERMS, \"AFib Anticoagulation Stroke Prevention\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"AFib Anticoagulation Stroke Prevention\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFib",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-138",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 558 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Atrial Flutter Sawtooth F-waves\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Atrial Flutter Sawtooth F-waves\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "AFlutter",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-139",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 559 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Supraventricular Tachycardia Adenosine Rapid IV\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Supraventricular Tachycardia Adenosine Rapid IV\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVT",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-140",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 560 (True or False): According to the latest board review for Medical-Surgical Nursing, \"PVCs Bigeminy and Trigeminy\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"PVCs Bigeminy and Trigeminy\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVCs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-141",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 561 (True or False): In MS_W7-10_MIDTERMS, \"Ventricular Tachycardia Amiodarone\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Ventricular Tachycardia Amiodarone\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Torsades",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-142",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 562 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Torsades de Pointes Magnesium Sulfate\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Torsades de Pointes Magnesium Sulfate\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Blocks Mobitz I & II",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-143",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 563 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Ventricular Fibrillation Immediate Defibrillation\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Ventricular Fibrillation Immediate Defibrillation\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "rd Degree",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-144",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 564 (True or False): According to the latest board review for Medical-Surgical Nursing, \"First Degree AV Block PR > 0.20s\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"First Degree AV Block PR > 0.20s\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Asystole",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-145",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 565 (True or False): In MS_W7-10_MIDTERMS, \"Mobitz Type I Wenckebach PR Lengthening\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Mobitz Type I Wenckebach PR Lengthening\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PEA H's & T's)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-146",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 566 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Mobitz Type II Constant Prolonged PR\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Mobitz Type II Constant Prolonged PR\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cardioversion vs Defibrillation",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-147",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 567 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Third Degree Complete Heart Block Pacemaker\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Third Degree Complete Heart Block Pacemaker\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Hemodynamic Monitoring (CVP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-148",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 568 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Asystole Flatline CPR Epinephrine\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Asystole Flatline CPR Epinephrine\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PCWP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-149",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 569 (True or False): In MS_W7-10_MIDTERMS, \"PEA Pulseless Electrical Activity Reversible Causes\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"PEA Pulseless Electrical Activity Reversible Causes\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-150",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 570 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"PEA Hs Hypovolemia Hypoxia Hydrogen Ion\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"PEA Hs Hypovolemia Hypoxia Hydrogen Ion\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PVR",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-151",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 571 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"PEA Ts Tension Pneumothorax Tamponade Toxins\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"PEA Ts Tension Pneumothorax Tamponade Toxins\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PAP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-152",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 572 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Synchronized Cardioversion R-wave Timed\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Synchronized Cardioversion R-wave Timed\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SvO",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-153",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 573 (True or False): In MS_W7-10_MIDTERMS, \"Central Venous Pressure CVP 2-8 mmHg\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Central Venous Pressure CVP 2-8 mmHg\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Normal Values)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-154",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 574 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Pulmonary Capillary Wedge Pressure PCWP 4-12 mmHg\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Pulmonary Capillary Wedge Pressure PCWP 4-12 mmHg\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Myocardial Infarction Management (OMEN",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-155",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 575 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Systemic Vascular Resistance SVR 800-1200 dynes\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Systemic Vascular Resistance SVR 800-1200 dynes\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Thrombolytics",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-156",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 576 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Pulmonary Artery Pressure PAP Systolic 15-25\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Pulmonary Artery Pressure PAP Systolic 15-25\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Beta",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-157",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 577 (True or False): In MS_W7-10_MIDTERMS, \"Mixed Venous Oxygen Saturation SvO2 60-80%\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Mixed Venous Oxygen Saturation SvO2 60-80%\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Blockers",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-158",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 578 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Acute Myocardial Infarction STEMI vs NSTEMI\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Acute Myocardial Infarction STEMI vs NSTEMI\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Catheterization Care)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-159",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 579 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"OMEN Oxygen Morphine Nitroglycerin Aspirin\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"OMEN Oxygen Morphine Nitroglycerin Aspirin\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Heart Failure (Left vs Right Signs",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-160",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 580 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Thrombolytic Therapy 30-Minute Door-to-Needle\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Thrombolytic Therapy 30-Minute Door-to-Needle\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BNP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-161",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 581 (True or False): In MS_W7-10_MIDTERMS, \"Percutaneous Coronary Intervention 90-Minute Door-to-Balloon\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Percutaneous Coronary Intervention 90-Minute Door-to-Balloon\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pulmonary Edema HOPE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-162",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 582 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Post-Cath Femoral Site Compression\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Post-Cath Femoral Site Compression\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "BEDS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-163",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 583 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Left-Sided Heart Failure Pulmonary Crackles Orthopnea\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Left-Sided Heart Failure Pulmonary Crackles Orthopnea\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Digoxin & Diuretics)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-164",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 584 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Right-Sided Heart Failure JVD Hepatomegaly Edema\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Right-Sided Heart Failure JVD Hepatomegaly Edema\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Gastrointestinal Tract A&P & Diagnostics (EGD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-165",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 585 (True or False): In MS_W7-10_MIDTERMS, \"B-type Natriuretic Peptide BNP > 100 pg/mL\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"B-type Natriuretic Peptide BNP > 100 pg/mL\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Colonoscopy",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-166",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 586 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Acute Pulmonary Edema Pink Frothy Sputum High Fowler\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Acute Pulmonary Edema Pink Frothy Sputum High Fowler\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "ERCP",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-167",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 587 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Digoxin Toxicity Halos Hypokalemia\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Digoxin Toxicity Halos Hypokalemia\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Biopsy)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-168",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 588 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Furosemide Lasix Potassium Wasting Ototoxicity\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Furosemide Lasix Potassium Wasting Ototoxicity\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "GI Bleeding (Upper vs Lower",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-169",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 589 (True or False): In MS_W7-10_MIDTERMS, \"Spironolactone Potassium Sparing\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Spironolactone Potassium Sparing\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "PUD",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-170",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 590 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"EGD Post-Procedure Gag Reflex Assessment\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"EGD Post-Procedure Gag Reflex Assessment\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Varices)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-171",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 591 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Colonoscopy Bowel Prep Polyethylene Glycol Perforation\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Colonoscopy Bowel Prep Polyethylene Glycol Perforation\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Alcohol Withdrawal Syndrome & CIWA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-172",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 592 (True or False): According to the latest board review for Medical-Surgical Nursing, \"ERCP Post-Procedure Pancreatitis Risk\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"ERCP Post-Procedure Pancreatitis Risk\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Delirium Tremens",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-173",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 593 (True or False): In MS_W7-10_MIDTERMS, \"Liver Biopsy Right Side-lying Post-Procedure\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Liver Biopsy Right Side-lying Post-Procedure\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Liver Cirrhosis & Paracentesis",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-174",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 594 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Upper GI Bleeding Hematemesis Melena Coffee-Ground\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Upper GI Bleeding Hematemesis Melena Coffee-Ground\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Pancreatitis (Acute ATTACK vs Chronic CHANGE",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-175",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 595 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Peptic Ulcer Disease Gastric vs Duodenal\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Peptic Ulcer Disease Gastric vs Duodenal\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Cullen's & Grey Turner's Signs)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-176",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 596 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Esophageal Varices Sengstaken-Blakemore Tube\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Esophageal Varices Sengstaken-Blakemore Tube\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Metabolic Emergencies (Diabetes Mellitus Types",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-177",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 597 (True or False): In MS_W7-10_MIDTERMS, \"Octreotide Splanchnic Vasoconstriction\" constitutes an approved core component of clinical nursing practice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Octreotide Splanchnic Vasoconstriction\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "DKA",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-178",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 598 (True or False): Under current hospital safety protocols for Medical-Surgical Nursing, \"Alcohol Withdrawal Syndrome CIWA-AR Tremors\" has been eliminated and permanently forbidden.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Alcohol Withdrawal Syndrome CIWA-AR Tremors\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "HHS",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-179",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 599 (True or False): Clinical assessment protocols in MS_W7-10_MIDTERMS incorporate \"Delirium Tremens DTs Benzodiazepine Chlordiazepoxide\" as an essential curriculum standard.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "Correct. The statement is TRUE: \"Delirium Tremens DTs Benzodiazepine Chlordiazepoxide\" is an approved, vital standard in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "SIADH)",
+    "approval_status": "approved"
+  },
+  {
+    "id": "ms-tf-180",
+    "subject_id": "sub-ms",
+    "module_id": "mod-ms-midterms",
+    "question_type": "true_false",
+    "exam_set": "true_false",
+    "question_text": "Item 600 (True or False): According to the latest board review for Medical-Surgical Nursing, \"Liver Cirrhosis Portal HTN Ascites Hypoalbuminemia\" is an invalid concept rejected by nursing boards.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "Correct. The statement is FALSE: \"Liver Cirrhosis Portal HTN Ascites Hypoalbuminemia\" remains an active, valid curriculum requirement in MS_W7-10_MIDTERMS.",
+    "source_pdf_ref": "MS_W7-10_MIDTERMS Curriculum Reviewer",
+    "topic": "Renal System Functions & Nephron Structures",
     "approval_status": "approved"
   }
 ];
