@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef, useCallback, Suspense } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { useAuth } from '@/lib/auth-context';
 import { StudyMateStore } from '@/lib/store';
@@ -13,13 +13,12 @@ import {
   CheckCircle2,
   XCircle,
   Send,
-  HelpCircle,
   Check,
   X,
   Lightbulb,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { Badge, QuestionTypeBadge } from '@/components/ui/Badge';
+import { QuestionTypeBadge } from '@/components/ui/Badge';
 import { Modal } from '@/components/ui/Modal';
 import confetti from 'canvas-confetti';
 import { CatMascot } from '@/components/shared/CatMascot';
@@ -32,13 +31,15 @@ interface ConfirmedAnswerState {
   correctAnswer: string;
 }
 
-function ExamRoomContent() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const { user } = useAuth();
+interface ExamRoomContentProps {
+  sessionKey: string;
+  moduleId: string | null;
+  examMode: ExamMode;
+}
 
-  const moduleId = searchParams.get('moduleId');
-  const examMode = (searchParams.get('mode') as ExamMode) || 'mixed';
+function ExamRoomContent({ sessionKey, moduleId, examMode }: ExamRoomContentProps) {
+  const router = useRouter();
+  const { user } = useAuth();
 
   const [subject, setSubject] = useState<Subject | null>(null);
   const [moduleItem, setModuleItem] = useState<Module | null>(null);
@@ -55,6 +56,14 @@ function ExamRoomContent() {
 
   // 1. Prepare Question Pool for Weekly Examination
   useEffect(() => {
+    // Strictly reset examination state on new examination session
+    setCurrentIdx(0);
+    setAnswers({});
+    setConfirmedAnswers({});
+    setIsSubmitting(false);
+    setIsSubmitModalOpen(false);
+    setErrorMessage(null);
+
     const allSubjects = StudyMateStore.getSubjects();
     const allModules = StudyMateStore.getModules();
 
@@ -101,7 +110,7 @@ function ExamRoomContent() {
     const randomizedQuestions = [...pool].sort(() => Math.random() - 0.5);
     setExamQuestions(randomizedQuestions);
     startTimeRef.current = Date.now();
-  }, [moduleId, examMode]);
+  }, [moduleId, examMode, sessionKey]);
 
   // Final submission logic
   const handleFinalSubmit = useCallback(() => {
@@ -110,6 +119,14 @@ function ExamRoomContent() {
 
     const timeSpent = Math.max(1, Math.round((Date.now() - (startTimeRef.current ?? Date.now())) / 1000));
 
+    // Filter answers strictly to this session's questions
+    const sessionAnswers: Record<string, string> = {};
+    for (const q of examQuestions) {
+      if (answers[q.id] !== undefined) {
+        sessionAnswers[q.id] = answers[q.id];
+      }
+    }
+
     const attempt = StudyMateStore.submitExamAttempt({
       studentId: user.id,
       subjectId: subject?.id || '',
@@ -117,9 +134,18 @@ function ExamRoomContent() {
       isComprehensive: false,
       examMode,
       questions: examQuestions,
-      rawAnswers: answers,
+      rawAnswers: sessionAnswers,
       timeSpentSeconds: timeSpent,
     });
+
+    // Clear active examination session token from storage
+    if (typeof window !== 'undefined') {
+      try {
+        sessionStorage.removeItem('studymate_active_exam_session');
+      } catch {
+        // ignore
+      }
+    }
 
     try {
       confetti({
@@ -134,7 +160,17 @@ function ExamRoomContent() {
     router.replace(`/student/results/${attempt.id}`);
   }, [answers, examMode, examQuestions, isSubmitting, moduleItem, router, subject?.id, user]);
 
-  const currentQ = examQuestions[currentIdx];
+  const totalQuestions = examQuestions.length;
+  // Strictly clamp safeIdx to valid bounds [0, totalQuestions - 1]
+  const safeIdx = totalQuestions > 0 ? Math.min(Math.max(0, currentIdx), totalQuestions - 1) : 0;
+  const currentQ = totalQuestions > 0 ? examQuestions[safeIdx] : undefined;
+
+  // Filter confirmed count strictly for questions belonging to this examination
+  const confirmedCount = useMemo(() => {
+    if (totalQuestions === 0) return 0;
+    return examQuestions.filter(q => confirmedAnswers[q.id] !== undefined).length;
+  }, [examQuestions, confirmedAnswers, totalQuestions]);
+
   const currentAnswer = currentQ ? answers[currentQ.id] || '' : '';
   const currentConfirmed = currentQ ? confirmedAnswers[currentQ.id] : undefined;
   const isCurrentConfirmed = Boolean(currentConfirmed);
@@ -192,9 +228,6 @@ function ExamRoomContent() {
     }));
   };
 
-  const confirmedCount = Object.keys(confirmedAnswers).length;
-  const totalQuestions = examQuestions.length;
-
   if (errorMessage) {
     return (
       <div className="max-w-2xl mx-auto p-8 bg-white rounded-3xl border border-rose-200 space-y-4 shadow-sm text-center my-auto">
@@ -212,7 +245,7 @@ function ExamRoomContent() {
     );
   }
 
-  if (examQuestions.length === 0) {
+  if (examQuestions.length === 0 || !currentQ) {
     return (
       <div className="flex-1 flex items-center justify-center p-12 text-xs text-[#64748B]">
         Preparing examination session...
@@ -240,7 +273,7 @@ function ExamRoomContent() {
 
         {/* Right: Answered counter & Submit Button */}
         <div className="flex items-center gap-3 shrink-0">
-          <div className="hidden sm:block text-right text-xs">
+          <div className="text-right text-xs shrink-0">
             <div className="font-black text-[#142D4E]">
               {confirmedCount} / {totalQuestions}
             </div>
@@ -262,7 +295,7 @@ function ExamRoomContent() {
       <div className="w-full bg-[#EAF3FB] rounded-full h-2 overflow-hidden shadow-2xs">
         <div
           className="bg-[#1685E8] h-2 rounded-full transition-all duration-300"
-          style={{ width: `${(confirmedCount / totalQuestions) * 100}%` }}
+          style={{ width: `${totalQuestions > 0 ? (confirmedCount / totalQuestions) * 100 : 0}%` }}
         />
       </div>
 
@@ -273,9 +306,9 @@ function ExamRoomContent() {
           <div className="flex items-center justify-between flex-wrap gap-2 border-b border-[#F0F6FD] pb-4">
             <div className="flex items-center gap-2.5">
               <span className="text-xs font-black text-[#1685E8] bg-[#EAF3FB] px-3.5 py-1.5 rounded-xl border border-[#BFDBFE]">
-                Question {currentIdx + 1} of {totalQuestions}
+                Question {safeIdx + 1} of {totalQuestions}
               </span>
-              <QuestionTypeBadge type={currentQ.question_type} />
+              {currentQ && <QuestionTypeBadge type={currentQ.question_type} />}
             </div>
 
             <span className="text-xs font-semibold text-[#64748B]">
@@ -289,7 +322,7 @@ function ExamRoomContent() {
                     <XCircle className="w-3.5 h-3.5 text-rose-600" /> Incorrect!
                   </span>
                 )
-              ) : currentQ.question_type === 'identification' ? (
+              ) : currentQ?.question_type === 'identification' ? (
                 <span className="text-[#64748B] text-xs">Type your answer & submit</span>
               ) : (
                 <span className="text-[#3B82C4] font-medium text-xs">Select an answer</span>
@@ -300,7 +333,7 @@ function ExamRoomContent() {
           {/* Question Stem */}
           <div className="space-y-2">
             <h3 className="text-lg sm:text-xl font-black text-[#142D4E] leading-relaxed">
-              {formatQuestionTextForDisplay(currentQ.question_text)}
+              {currentQ ? formatQuestionTextForDisplay(currentQ.question_text) : ''}
             </h3>
           </div>
 
@@ -409,8 +442,8 @@ function ExamRoomContent() {
                       if (e.key === 'Enter') {
                         if (!isCurrentConfirmed && currentAnswer.trim()) {
                           handleSubmitIdentification();
-                        } else if (isCurrentConfirmed && currentIdx < totalQuestions - 1) {
-                          setCurrentIdx(prev => prev + 1);
+                        } else if (isCurrentConfirmed && safeIdx < totalQuestions - 1) {
+                          setCurrentIdx(prev => Math.min(totalQuestions - 1, prev + 1));
                         }
                       }
                     }}
@@ -532,7 +565,7 @@ function ExamRoomContent() {
             variant="outline"
             size="md"
             onClick={() => setCurrentIdx(prev => Math.max(0, prev - 1))}
-            disabled={currentIdx === 0}
+            disabled={safeIdx === 0}
             className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold border-[#BFDBFE] text-[#142D4E] hover:bg-[#EAF3FB] px-3 sm:px-4 shrink-0 transition-all duration-150 active:scale-[0.98]"
           >
             <ChevronLeft className="w-4 h-4" />
@@ -557,7 +590,7 @@ function ExamRoomContent() {
 
             {/* Action Button: Submit Answer (Identification before checking) OR Next Question / Finish Examination (after checking) */}
             {!isCurrentConfirmed ? (
-              currentQ.question_type === 'identification' ? (
+              currentQ?.question_type === 'identification' ? (
                 <Button
                   variant="primary"
                   size="md"
@@ -575,11 +608,11 @@ function ExamRoomContent() {
                   <span className="sm:hidden">Select answer</span>
                 </div>
               )
-            ) : currentIdx < totalQuestions - 1 ? (
+            ) : safeIdx < totalQuestions - 1 ? (
               <Button
                 variant="primary"
                 size="md"
-                onClick={() => setCurrentIdx(prev => prev + 1)}
+                onClick={() => setCurrentIdx(prev => Math.min(totalQuestions - 1, prev + 1))}
                 className="gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-bold bg-[#1685E8] hover:bg-[#126ec2] px-3.5 sm:px-6 py-2.5 rounded-xl shadow-sm shadow-[#1685E8]/20 shrink-0 transition-all duration-150 active:scale-[0.98]"
               >
                 <span className="hidden sm:inline">Next Question</span>
@@ -655,10 +688,63 @@ function ExamRoomContent() {
   );
 }
 
+function ExamRoomContainer() {
+  const searchParams = useSearchParams();
+  const moduleId = searchParams.get('moduleId');
+  const examMode = (searchParams.get('mode') as ExamMode) || 'mixed';
+
+  // Read or generate session key
+  const [sessionKey, setSessionKey] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const stored = sessionStorage.getItem('studymate_active_exam_session');
+        if (stored && stored.startsWith(`session_${moduleId}_${examMode}_`)) {
+          return stored;
+        }
+        const fresh = `session_${moduleId}_${examMode}_${Date.now()}`;
+        sessionStorage.setItem('studymate_active_exam_session', fresh);
+        return fresh;
+      } catch {
+        // fallback
+      }
+    }
+    return `session_${moduleId}_${examMode}_${Date.now()}`;
+  });
+
+  // Update session key whenever moduleId or examMode changes in URL
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const stored = sessionStorage.getItem('studymate_active_exam_session');
+        if (stored && stored.startsWith(`session_${moduleId}_${examMode}_`)) {
+          setSessionKey(stored);
+          return;
+        }
+        const fresh = `session_${moduleId}_${examMode}_${Date.now()}`;
+        sessionStorage.setItem('studymate_active_exam_session', fresh);
+        setSessionKey(fresh);
+        return;
+      } catch {
+        // fallback
+      }
+    }
+    setSessionKey(`session_${moduleId}_${examMode}_${Date.now()}`);
+  }, [moduleId, examMode]);
+
+  return (
+    <ExamRoomContent
+      key={sessionKey}
+      sessionKey={sessionKey}
+      moduleId={moduleId}
+      examMode={examMode}
+    />
+  );
+}
+
 export default function ExamRoomPage() {
   return (
     <Suspense fallback={<div className="p-12 text-center text-xs text-[#64748B]">Initializing exam room...</div>}>
-      <ExamRoomContent />
+      <ExamRoomContainer />
     </Suspense>
   );
 }

@@ -335,6 +335,14 @@ function ExamsEntranceContent() {
 
   const handleStartExam = () => {
     if (!selectedModuleId || !selectedMode) return;
+    if (typeof window !== 'undefined') {
+      try {
+        const sessionToken = `session_${selectedModuleId}_${selectedMode}_${Date.now()}`;
+        sessionStorage.setItem('studymate_active_exam_session', sessionToken);
+      } catch {
+        // ignore
+      }
+    }
     router.push(`/student/exams/take?moduleId=${selectedModuleId}&mode=${selectedMode}`);
   };
 
